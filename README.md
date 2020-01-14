@@ -10,6 +10,6 @@ This figure span tagger takes clauses from biomedical paragraphs and tags each c
 * [sklearn_crfsuite](https://sklearn-crfsuite.readthedocs.io/en/latest/)
 
 ## Note
-* The tagger is in figureSpanTagger.ipynb, which should be self-explanatory.
-* util.py includes many utility functions.
-* figureSpanExtractor includes functions for extracting direct mentions of figure numbers. It is useful for the actual inference time. The only function you need to call is `extractFigureSpan(sentence)`.
+* The tagger is in `figureSpanTagger.ipynb`, which should be self-explanatory.
+* `util.py` includes many utility functions.
+* `figureSpanExtractor.py` includes functions for extracting direct mentions of figure numbers. It is useful for the actual inference time. The only function you need to call is `extractFigureSpan(sentence)`.
