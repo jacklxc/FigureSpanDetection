@@ -24,7 +24,7 @@ def _extractFigureMention(sentence):
         for token in tokens:
             if token==")":
                 break
-            elif len(token)==1 or "-" in token or "fig" in token or "Fig" in token or "and" in token:
+            elif len(token)==1 or token[0].isdigit() or "-" in token or "fig" in token or "Fig" in token or "and" in token:
                 filtered.append(token)
             else:
                 break
