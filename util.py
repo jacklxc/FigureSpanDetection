@@ -125,7 +125,7 @@ def readAllSeqLabelFigure(folderpath):
     str_seq_lens = []
     for file_name in file_paths:
         str_seqs, label_seqs, figure_spans, figure_appearances, sentenceNums = readSeqLabelFigure(file_name)
-        #str_seqs, label_seqs, figure_spans, figure_appearances = clause2sentence(str_seqs, label_seqs, figure_spans, figure_appearances, sentenceNums)
+        str_seqs, label_seqs, figure_spans, figure_appearances = clause2sentence(str_seqs, label_seqs, figure_spans, figure_appearances, sentenceNums)
         all_texts.extend(str_seqs)
         all_labels.extend(label_seqs)
         all_figures.extend(figure_spans)
@@ -441,7 +441,10 @@ def BIO2FigureLabel(all_BIO, figure_appearances, placeholder="NaN"):
                     buffer_count = 0
                     prev_appeared = processed_appeared
                     appeared = []
-                para_figure.append([placeholder]) # If appearance is not NaN, should put whatever appeared
+                if appearance != [placeholder]:
+                    para_figure.append(appearance)
+                else:
+                    para_figure.append([placeholder])
             elif BIO=="B":
                 if buffer_count > 0:
                     processed_appeared = sorted(list(set(appeared)))

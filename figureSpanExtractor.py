@@ -128,10 +128,17 @@ def extractFigureSpan(sentence):
     Wrapper of the rule-based figure span extractor.
     """
     figureMentions = extractFigureMention(sentence)
-        
-    #print(figureMentions)
     figure_span = extractRawFigSpan(figureMentions)
     #print(raw_figure_span)
     #figure_span = refineFigureSpan(raw_figure_span)
-    return figure_span
+    return "|".join(sorted(figure_span)) if len(figure_span) > 0 else 0
+
+def extractDocumentFigureSpan(str_seqs):
+    all_figure_spans = []
+    for para in str_seqs:
+        para_figure_spans = []
+        for sentence in para:
+            para_figure_spans.append(extractFigureSpan(sentence))
+        all_figure_spans.append(para_figure_spans)
+    return all_figure_spans
 
