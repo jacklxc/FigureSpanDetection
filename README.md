@@ -11,5 +11,6 @@ This figure span tagger takes clauses from biomedical paragraphs and tags each c
 
 ## Note
 * The tagger is in `figureSpanTagger.ipynb`, which should be self-explanatory.
+* `figureSpanTaggerApplication.ipynb` shows an example of predicting real-world figure spans.
 * `util.py` includes many utility functions.
 * `figureSpanExtractor.py` includes functions for extracting direct mentions of figure numbers. It is useful for the actual inference time. The only function you need to call is `extractFigureSpan(sentence)`.
