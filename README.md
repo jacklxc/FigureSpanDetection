@@ -1,5 +1,5 @@
 # FigureSpanDetection
-Implementation of feature-based CRF for figure span detection described in "Scientific Discourse Tagging and Applications"
+Implementation of feature-based CRF for figure span detection described in "Scientific Discourse Tagging for Evidence Extraction"
 
 This figure span tagger takes clauses from biomedical paragraphs and tags each clause with BIO tags. Under certain block based assumptions described in the paper, all sub figures semantically referred by each clause can be recovered. Based on these sub figure references, "evidence fragments", which are description of the experimental figures in the texts can be extracted easily.
 
