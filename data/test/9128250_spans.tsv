@@ -1,0 +1,383 @@
+	SentenceId	Clause Text	Codes	ExperimentValues	Paragraph	Headings	FloatingBox?	Discourse Type	Offset_Begin	Offset_End	fig_spans
+0	s1	"Regulated Membrane Localization of Tiam1 , Mediated by the NH2-terminal Pleckstrin Homology Domain , Is Required for Rac-dependent Membrane Ruffling and C-Jun NH2-terminal Kinase Activation"	[]		-		FALSE	fact	117	304	
+1	s2	"Rho-like GTPases , including Cdc42 , Rac , and Rho , regulate"	[]		p0		FALSE	fact	607	664	
+2	s2	signaling pathways that control actin cytoskeletal structures and transcriptional activation .	[]		p0		FALSE	fact	665	758	
+3	s3	"The Tiam1 gene encodes an activator of Rac1 , and similarly to constitutively activated ( V12 ) Rac1"	[]		p0		FALSE	fact	759	855	
+4	s3	overexpression of Tiam1 in fibroblasts induces the formation of membrane ruffles .	[]		p0		FALSE	fact	856	938	
+5	s4	"Tiam1 contains a Dbl homology ( DH ) domain and adjacent pleckstrin homology ( PH ) domain , hallmarks for activators of Rho-like GTPases ."	[]		p0		FALSE	fact	939	1072	
+6	s5	Unique for Tiam1 are an additional PH domain and a Discs-large homology region in the NH2-terminal part of the protein .	[]		p0		FALSE	fact	1073	1192	
+7	s6	Here we show	[]		p0		FALSE	result	1193	1205	
+8	s6	"that both in fibroblasts and COS cells , membrane localization of Tiam1 is required for the induction of membrane ruffling ."	[]		p0		FALSE	result	1206	1328	
+9	s7	"A detailed mutational analysis , in combination with confocal laser scanning microscopy and immunoelectron microscopy , demonstrates"	[]		p0		FALSE	method	1329	1459	
+10	s7	"that the NH2-terminal PH domain of Tiam1 , but not the DH-adjacent PH domain , is essential for membrane association ."	[]		p0		FALSE	result	1460	1575	
+11	s8	"This NH2-terminal PH domain of Tiam1 can be functionally replaced by the myristoylated membrane localization domain of c-Src ,"	[]		p0		FALSE	result	1576	1701	
+12	s8	indicating that the primary function of this PH domain is to localize the protein at the membrane .	[]		p0		FALSE	implication	1702	1800	
+13	s9	"After serum starvation , both membrane association of Tiam1 and ruffling can be induced by serum ,"	[]		p0		FALSE	result	1801	1897	
+14	s9	suggesting that receptor stimulation induces membrane translocation of Tiam1 .	[]		p0		FALSE	implication	1898	1975	
+15	s10	Similar to V12Rac1	[]		p0		FALSE	result	1976	1994	
+16	s10	Tiam1 stimulates the activity of the c-Jun NH2-terminal kinase ( JNK ) .	[]		p0		FALSE	result	1995	2065	
+17	s11	This Rac-dependent stimulation of JNK also requires membrane association of Tiam1 .	[]		p0		FALSE	result	2066	2148	
+18	s12	We conclude	[]		p0		FALSE	implication	2149	2160	
+19	s12	that the regulated membrane localization of Tiam1 through its NH2-terminal PH domain determines the activation of distinct Rac-mediated signaling pathways .	[]		p0		FALSE	implication	2161	2316	
+20	s13	"Rho-like GTPases , which include Cdc42 , Rac1 , and RhoA , control distinct signal transduction pathways"	[]		p1		FALSE	fact	2317	2417	
+21	s13	that determine the organization of the actin cytoskeleton in response to various extracellular stimuli .	[]		p1		FALSE	fact	2418	2521	
+22	s14	"In fibroblast cells , activation of Cdc42 and Rac results in the formation of focal complexes and filopodia or lamellipodia , respectively ,"	[]		p1		FALSE	fact	2522	2659	
+23	s14	"while Rho is involved in the formation of stress fibers and focal contacts ( Ridley and Hall , 1992 ; Ridley et al. , 1992 ; Kozma et al. , 1995 ; Nobes and Hall , 1995a ) ."	[exLink]		p1		FALSE	fact	2660	2823	
+24	s15	"Each of these GTPases can be activated by specific growth factors , and"	[]		p1		FALSE	fact	2824	2894	
+25	s15	"they may also constitute a hierarchical signaling cascade ( Kozma et al. , 1995 ; Nobes and Hall , 1995a ) ."	[exLink]		p1		FALSE	fact	2895	2997	
+26	s16	"The resulting cytoskeletal rearrangements influence both adhesion and motility of cells ,"	[]		p1		FALSE	fact	2998	3086	
+27	s16	"implicating Rholike GTPases as key regulators of these processes ( Nobes and Hall , 1995b ) ."	[exLink]		p1		FALSE	fact	3087	3176	
+28	s17	"Apart from their effects on the cytoskeleton , both Cdc42 and Rac1 can activate the c-Jun NH2-terminal kinase ( JNK ) 1 pathway , while"	[]		p2		FALSE	fact	3177	3307	
+29	s17	"all three Rho-like GTPases activate serum response factor ( Coso et al. , 1995 ; Hill et al. , 1995 ; Minden et al. , 1995 ; Olson et al. , 1995 ) ."	[exLink]		p2		FALSE	fact	3308	3446	
+30	s18	Rho-like proteins thus may also play a role in transcriptional activation of genes .	[]		p2		FALSE	implication	3447	3530	
+31	s19	"Moreover , both Rac1 and RhoA are involved in the transformation of cells by Ras ( Khosravi-Far et al. , 1995 ; Qiu et al. , 1995a , b ) , and"	[exLink]		p2		FALSE	fact	3531	3664	
+32	s19	"constitutively active mutants of Rac1 ( V12Rac1 ) and RhoA ( V14RhoA ) can induce an oncogenic phenotype in NIH3T3 cells ( Perona et al. , 1993 ; Qiu et al. , 1995a ; Van Leeuwen et al. , 1995 ) ."	[exLink]		p2		FALSE	fact	3665	3849	
+33	s20	"Rho-like GTPases are activated by guanine nucleotide dissociation stimulators ( GDSs ) , also known as guanine nucleotide exchange factors ."	[]		p3		FALSE	fact	3850	3986	
+34	s21	"Inactivation occurs by hydrolysis of bound GTP ,"	[]		p3		FALSE	fact	3987	4034	
+35	s21	"which is stimulated by interaction with GTPase activating proteins , while guanine nucleotide dissociation inhibitors ( GDIs ) lock the GTPases either in the active or in the inactive state ( Boguski and McCormick , 1993 ) ."	[exLink]		p3		FALSE	fact	4035	4252	
+36	s22	The role of these regulators in the diverse signaling pathways mediated by Rho-like proteins is largely unknown .	[]		p3		FALSE	problem	4253	4365	
+37	s23	"Tiam1 was originally identified in T-lymphoma cells as an invasion - and metastasis-inducing gene ( Habets et al. , 1994 ) ."	[exLink]		p4		FALSE	result	4366	4485	
+38	s24	"The predicted Tiam1 protein consists of 1,591 amino acids and contains a Dbl homology ( DH ) domain ."	[]		p4		FALSE	fact	4486	4584	
+39	s25	This domain is present in GDS proteins for Rho-like GTPases and is considered	[]		p4		FALSE	fact	4585	4662	
+40	s25	"to be the catalytic domain ( Hart et al. , 1994 ) ."	[exLink]		p4		FALSE	fact	4663	4710	
+41	s26	"DH domains are found in a rapidly expanding group of proteins ,"	[]		p4		FALSE	result	4711	4773	
+42	s26	"many of which are encoded by transforming genes that were identified after transfection of genomic DNA or cDNA libraries into NIH3T3 cells ( Cerione and Zheng , 1996 ; Collard , 1996 ) ."	[exLink]		p4		FALSE	method	4774	4954	
+43	s27	"A number of these proteins , like Dbl , Ost , Cdc24 , Lbc , and Vav were shown to activate Rho-like GTPases ( Hart et al. , 1991 ; Horii et al. , 1994 ; Zheng et al. , 1994 , 1995 ; Olson et al. , 1996 ) ."	[exLink]		p4		FALSE	result	4955	5144	
+44	s28	Tiam1 is the only GDS protein identified	[]		p4		FALSE	result	5145	5185	
+45	s28	"that specifically activates Rac in vitro as well as in vivo ( Michiels et al. , 1995 ) ."	[exLink]		p4		FALSE	result	5186	5270	
+46	s29	"In fibroblasts , Tiam1 induces the formation of membrane ruffles , similarly to constitutively activated V12Rac1 ( Michiels et al. , 1995 ) ."	[exLink]		p4		FALSE	result	5271	5406	
+47	s30	"The Tiam1-induced phenotype is inhibited by coexpression of dominant-negative mutant ( N17 ) Rac1 , but not by coexpression of ( N17 ) Cdc42 or by inactivation of RhoA with C3 transferase ( Michiels et al. , 1995 ; Collard , 1996 ) ."	[exLink]		p4		FALSE	result	5407	5627	
+48	s31	This indicates	[]		p4		FALSE	implication	5628	5642	
+49	s31	that the Tiam1-induced membrane ruffling is primarily caused by activation of Rac and that other Rho-like GTPases are not involved .	[]		p4		FALSE	implication	5643	5774	
+50	s32	"Moreover , V12Rac1 , but not V14RhoA , induces an invasive phenotype in"	[]		p4		FALSE	implication	5775	5843	
+51	s32	"T-lymphoma cells , similar to Tiam1 , suggesting that Tiam1-induced invasiveness is also caused by activation of Rac ( Michiels et al. , 1995 ) ."	[exLink]		p4		FALSE	implication	5844	5983	
+52	s33	"Apart from the DH domain , Tiam1 contains several other conserved motifs , including a consensus myristoylation sequence at the NH2 terminus , a Discs-large homology region ( DHR ) , and two pleckstrin homology ( PH ) domains"	[]		p5		FALSE	fact	5984	6202	
+53	s33	"Habets et al. , 1994 ; Collard , 1996 ; see Fig. 1 A ) ."	"[inLink, exLink]"	1a	p5		FALSE	none	6203	6253	
+54	s34	"One of the PH domains is present COOH-terminally adjacent to the DH domain ,"	[]		p5		FALSE	fact	6254	6329	
+55	s34	"as found in all other GDS proteins for Rho-like GTPases ( Collard , 1996 ) , while a second PH domain is located in the NH2-terminal part of Tiam1 ."	[exLink]		p5		FALSE	result	6330	6473	
+56	s35	"DHR domains have been implicated as protein-protein interaction motifs ( Ponting and Phillips , 1995 ) ."	[exLink]		p5		FALSE	result	6474	6574	
+57	s36	"PH domains , primarily found in signaling molecules , are thought"	[]		p5		FALSE	hypothesis	6575	6638	
+58	s36	"to determine the cellular localization and/or activity of these proteins by interacting with proteins or phospholipids ( for review see Lemmon et al. , 1996 ) ."	[exLink]		p5		FALSE	hypothesis	6639	6795	
+59	s37	Since little is known of the intracellular localization and requirements of GDS proteins to stimulate Rho-like GTPases	[]		p6		FALSE	problem	6796	6914	
+60	s37	we analyzed the conditions for Tiam1 to stimulate Racdependent membrane ruffling and JNK activity .	[]		p6		FALSE	method	6915	7014	
+61	s38	"For this , truncated Tiam1 proteins , or proteins that contain small deletions in each of the conserved domains , were expressed in fibroblast cells and COS cells , and"	[]		p6		FALSE	method	7015	7179	
+62	s38	"their intracellular localization and biological activity were analyzed by confocal microscopy , immunoelectron microscopy , and analysis of JNK activity ."	[]		p6		FALSE	method	7180	7331	
+63	s39	We demonstrate	[]		p6		FALSE	implication	7332	7346	
+64	s39	that membrane association of Tiam1 is absolutely required for Rac-dependent induction of membrane ruffling and stimulation of JNK activity .	[]		p6		FALSE	implication	7347	7486	
+65	s40	"Membrane association of Tiam1 is accomplished through the NH2-terminal PH domain , but not the COOH-terminal PH domain or the DHR domain ."	[]		p6		FALSE	result	7487	7623	
+66	s41	"Moreover , PH domain - dependent membrane association of Tiam1 could be induced by serum ."	[]		p6		FALSE	result	7624	7711	
+67	s42	These results suggest	[]		p6		FALSE	implication	7712	7733	
+68	s42	that the controlled membrane association of Tiam1 is an important factor in the activation of distinct Rac-mediated signaling pathways .	[]		p6		FALSE	implication	7734	7869	
+69	s43	Materials and Methods	[header-0]		title7	Materials and Methods	FALSE	none	7870	7891	
+70	s44	Transfection Constructs	[header-1]		title8	Materials and Methods	FALSE	none	7892	7915	
+71	s45	"Full-length mouse Tiam1 ( FL1591 ) and the NH2-terminally truncated C1199 and C580 Tiam1 constructs ( nomenclature refers to the number of COOH-terminal amino acids [ aa ] of the encoded Tiam1 proteins ) contain artificial SpeI and SalI restriction sites in front of the first ATG and a hemagglutinin tag ( HA-tag ) , followed by a SalI restriction site , at their 3 ' ends ."	[]		p9	Materials and Methods	FALSE	method	7916	8279	
+72	s46	"They were cloned as SpeI-SalI fragments into the eukaryotic expression vector pUTSV1 ( Eurogentec S.A. , Belgium ) ,"	[]		p9	Materials and Methods	FALSE	method	8280	8392	
+73	s46	which was linearized by SpeIXhoI .	[]		p9	Materials and Methods	FALSE	method	8393	8426	
+74	s47	C1199-DeltaPHc carries a small internal PstI ( aa 1377 ) to BsmI ( aa 1390 ) deletion in the conserved COOH-terminal part of the DH-adjacent PH domain .	[]		p9	Materials and Methods	FALSE	method	8427	8574	
+75	s48	C1199-DeltaDH1 carries a BamHI ( aa 1103 ) to XbaI ( aa 1130 ) deletion in a nonconserved part of the DH domain .	[]		p9	Materials and Methods	FALSE	fact	8575	8683	
+76	s49	C1199-DeltaDHR carries a large NotI ( aa 853 ) to Asp718 ( aa 905 ) deletion in the DHR region that	[]		p9	Materials and Methods	FALSE	fact	8684	8779	
+77	s49	eliminates most of the DHR region .	[]		p9	Materials and Methods	FALSE	fact	8780	8814	
+78	s50	"C1199-DeltaPHn carries a small internal Asp700 ( aa 513 ) to EarI ( aa 528 ) deletion in the conserved COOH-terminal part of the NH2-terminal PH domain , which"	[]		p9	Materials and Methods	FALSE	fact	8815	8969	
+79	s50	is quite similar to the deletion made in the COOH-terminal PH domain ( C1199-DeltaPHc ) .	[]		p9	Materials and Methods	FALSE	fact	8970	9056	
+80	s51	"Overhangs were blunted by either Klenow end filling reactions ( Boehringer Mannheim Corp. , Indianapolis , IN ) or with T4 DNA polymerase ( Boehringer Mannheim Corp. ) before ligation ."	[]		p9	Materials and Methods	FALSE	method	9057	9235	
+81	s52	"The myristoylation sequence of c-Src ,"	[]		p9	Materials and Methods	FALSE	method	9236	9273	
+82	s52	"encoding the NH2-terminal 20 amino acids , was amplified with SpeISalI adaptors by PCR with Pfu polymerase ( Stratagene , La Jolla , CA ) and cloned between the SpeI and SalI sites at the 5 ' ends of the FL1591-DeltaPHn , C1191-DeltaPHn , and C580 Tiam1 constructs ."	[]		p9	Materials and Methods	FALSE	method	9274	9531	
+83	s53	"Fragments containing the COOHterminal PH domain of Tiam1 , the PH domain of Dbl , or the PH domain of beta-Ark were amplified by PCR with SmaI and PvuII adapters and used"	[]		p9	Materials and Methods	FALSE	method	9532	9700	
+84	s53	to replace the region containing the NH2-terminal PH domain of Tiam1 in the C1199 construct .	[]		p9	Materials and Methods	FALSE	method	9701	9793	
+85	s54	"The exchanged regions contain 17 additional aa at the NH2-terminal end and 36 additional aa ( 33 aa for beta-Ark ) at the COOHterminal end , in comparison to the consensus PH domain ( Gibson et al. , 1994 ) ."	[exLink]		p9	Materials and Methods	FALSE	fact	9794	9995	
+86	s55	To analyze whether the NH2-terminal PH domain is sufficient for membrane targeting	[]		p9	Materials and Methods	FALSE	goal	9996	10078	
+87	s55	"a region containing the NH2-terminal PH domain , from SalI ( aa 393 ) to BstX1 ( aa 647 ) , was fused to the Bsu36I site ( aa 1022 ) at the NH2 terminus of the C580 Tiam1 protein ."	[]		p9	Materials and Methods	FALSE	method	10079	10251	
+88	s56	"All amplified fragments were sequenced with the T7 polymerase sequencing kit ( Pharmacia LKB Biotechnology Inc. , Uppsala , Sweden ) ."	[]		p9	Materials and Methods	FALSE	method	10252	10381	
+89	s57	Cells and Transfection Experiments	[header-1]		title10	Materials and Methods	FALSE	none	10382	10416	
+90	s58	"NIH3T3 cells , stably expressing the C1199 Tiam1 protein and C682 Tiam1 protein , have been described previously ( Van Leeuwen et al. , 1995 ) ."	[]		p11	Materials and Methods	FALSE	method	10417	10555	
+91	s59	"NIH3T3 cells and COS-7 cells were cultured in a humidified CO2 incubator in DME supplemented with 10 % newborn calf serum or 10 % fetal calf serum , respectively ."	[]		p11	Materials and Methods	FALSE	method	10556	10715	
+92	s60	"For transient expression assays , NIH3T3 cells were seeded in dishes with or without coverslips ( 8,000 cells/cm2 ) ."	[]		p11	Materials and Methods	FALSE	method	10716	10829	
+93	s61	18 h after	[]		p11	Materials and Methods	FALSE	method	10830	10840	
+94	s61	"seeding , cells were transfected with lipofectamin ( Life Technologies , Inc. , Grand Island , NY ) ."	[]		p11	Materials and Methods	FALSE	method	10841	10935	
+95	s62	COS-7 cells were seeded in dishes with or without coverslips and transfected	[]		p11	Materials and Methods	FALSE	method	10936	11012	
+96	s62	"using DEAE dextran ( Seed and Aruffo , 1987 ) ."	[exLink]		p11	Materials and Methods	FALSE	method	11013	11056	
+97	s63	"16 h after transfection ,"	[]		p11	Materials and Methods	FALSE	method	11057	11081	
+98	s63	"the medium was either replaced and cells were incubated for an additional 30 h before washing and fixation , or cells were incubated for 24 h in serum-free medium , followed by the addition of serum for 2 h ."	[]		p11	Materials and Methods	FALSE	method	11082	11287	
+99	s64	Western blot analyses were performed	[]		p11	Materials and Methods	FALSE	method	11288	11324	
+100	s64	"to monitor the size and expression levels of the mutant proteins , using either polyclonal antibodies directed against the COOH-terminal part of Tiam1 ( Habets et al. , 1994 ) or monoclonal antibodies against the HA-tag ( 12CA5 ; Boehringer Mannheim Corp. ) at the COOH terminus of all mutant Tiam1 proteins ."	[exLink]		p11	Materials and Methods	FALSE	method	11325	11626	
+101	s65	Proteins were visualized	[]		p11	Materials and Methods	FALSE	method	11627	11651	
+102	s65	"using the enhanced chemiluminescence protocol ( Amersham Corp. , Arlingtin Heights , IL ) ."	[]		p11	Materials and Methods	FALSE	method	11652	11738	
+103	s66	Immunocytochemistry	[header-1]		title12	Materials and Methods	FALSE	none	11739	11758	
+104	s67	Cells on coverslips were washed and fixed in 3.7 % formaldehyde in PBS .	[]		p13	Materials and Methods	FALSE	method	11759	11829	
+105	s68	Cells were subsequently stained	[]		p13	Materials and Methods	FALSE	method	11830	11861	
+106	s68	"as described ( Michiels et al. , 1995 ) with a polyclonal rabbit antiserum against Tiam1 ( Habets et al. , 1994 ) ."	[exLink]		p13	Materials and Methods	FALSE	method	11862	11970	
+107	s69	"Antibodies were visualized with FITC-labeled secondary antibodies ( Zymed Labs Inc. , S. San Fransisco , CA ) ."	[]		p13	Materials and Methods	FALSE	method	11971	12077	
+108	s70	"Cells were stained simultaneously for F-actin with TRITC-labeled phalloidin ( Molecular Probes , Eugene , OR ) at a concentration of 2 U/ml ."	[]		p13	Materials and Methods	FALSE	method	12078	12214	
+109	s71	At least 100 positive cells were analyzed by fluorescence microscopy and confocal laser scanning microscopy .	[]		p13	Materials and Methods	FALSE	method	12215	12323	
+110	s72	Optical sections were taken through the apical part of the cells	[]		p13	Materials and Methods	FALSE	method	12324	12388	
+111	s72	to show the presence or absence of membrane ruffles .	[]		p13	Materials and Methods	FALSE	method	12389	12441	
+112	s73	Confocal images were recorded separately and subsequently merged .	[]		p13	Materials and Methods	FALSE	method	12442	12507	
+113	s74	Colocalization of green ( FITC ) and red ( TRITC ) fluorescence appears in yellow in the merged images .	[]		p13	Materials and Methods	FALSE	result	12508	12607	
+114	s75	Immunoelectron Microscopy	[header-1]		title14	Materials and Methods	FALSE	none	12608	12633	
+115	s76	"48 h after transfection , cells were fixed for 1 h on the dish with a mixture of 4 % paraformaldehyde and 0.5 % glutaraldehyde in 0.1 M phosphate buffer ."	[]		p15	Materials and Methods	FALSE	method	12634	12784	
+116	s77	"Fixed cells were scraped with a rubber policeman , washed , embedded in 10 % gelatin , and infiltrated overnight with 1 M sucrose ."	[]		p15	Materials and Methods	FALSE	method	12785	12911	
+117	s78	"After a further infiltration ( 2 h ) with 1.8 M sucrose with 20 % polyvinylpyrolidone , the samples were frozen in liquid nitrogen ."	[]		p15	Materials and Methods	FALSE	method	12912	13039	
+118	s79	"Frozen thin sections were collected on formvar/carbon-coated grids , preincubated with 0.15 % glycine in PBS , followed by immunoincubations with antibodies for 45 min at 25degreesC ."	[]		p15	Materials and Methods	FALSE	method	13040	13219	
+119	s80	"Subsequently , the sections were incubated with 10-nm gold-labeled secondary antibodies for 30 min at 25degreesC ."	[]		p15	Materials and Methods	FALSE	method	13220	13332	
+120	s81	Antibody dilutions were made in phosphate buffer with 1 % BSA and	[]		p15	Materials and Methods	FALSE	method	13333	13397	
+121	s81	"sections were washed in the same buffer , before and in between the incubation steps ."	[]		p15	Materials and Methods	FALSE	method	13398	13482	
+122	s82	"Finally , sections were embedded and stained with 1.5 % methylcellulose containing 0.3 % uranyl acetate and examined in an electron microscope ( model CM10 ; Philips Electronic Instrs. , Mahwah , NJ ) ."	[]		p15	Materials and Methods	FALSE	method	13483	13676	
+123	s83	Where appropriate	[]		p15	Materials and Methods	FALSE	method	13677	13694	
+124	s83	the distribution of immunogold particles in at least 40 cross sections of cells was analyzed .	[]		p15	Materials and Methods	FALSE	method	13695	13789	
+125	s84	JNK Assay	[header-1]		title16	Materials and Methods	FALSE	none	13790	13799	
+126	s85	Semiconfluent COS-7 cells or NIH3T3 cells were transfected with pCMVFlag-JNK1 and pcDNA-neo-Rac1 - or Tiam1-expression vectors	[]		p17	Materials and Methods	FALSE	method	13800	13925	
+127	s85	as described above .	[]		p17	Materials and Methods	FALSE	method	13926	13945	
+128	s86	"48 h after transfection , cells were washed with ice-cold PBS and lysed on ice in a buffer containing 50 mM Tris-HCl , pH 7.5 , 1 % NP40 , 100 mM NaCl , 5 mM EDTA , 100 muM sodium orthovanadate , 1 mM sodium fluoride , 20 muM aprotonin , 20 muM leupeptin , and 1 mM Pefabloc ."	[]		p17	Materials and Methods	FALSE	method	13946	14210	
+129	s87	"After centrifugation ( 10 min , 10,000 g ) , flag-tagged c-Jun kinase was immunoprecipitated"	[]		p17	Materials and Methods	FALSE	method	14211	14299	
+130	s87	"using 2 mug/ml of M2 monoclonal antibody ( Kodak , Rochester , NY ) for 1 h ( 4degreesC ) ."	[]		p17	Materials and Methods	FALSE	method	14300	14384	
+131	s88	Immune complexes were captured	[]		p17	Materials and Methods	FALSE	method	14385	14415	
+132	s88	"using protein A-Sepharose beads ( Pharmacia LKB Biotechnology Inc. ) coated with rabbit anti-mouse immunoglobulins ( Nordic Immunological Labs , Capistrano Beach , CA ) ."	[]		p17	Materials and Methods	FALSE	method	14416	14579	
+133	s89	"Beads were washed three times in lysis buffer and once in kinase buffer ( 20 mM Hepes , 10 mM MgCl2 ) ."	[]		p17	Materials and Methods	FALSE	method	14580	14679	
+134	s90	"Dried beads were incubated for 20 min at 30degreesC with 5 mug bacterially expressed glutathione S-transferase ( GST ) -c-Jun ( amino acids 1-135 ) in 40 mul kinase buffer containing 1 mM DTT , 20 muM ATP , 5 muCi [ gamma-32P ] ATP ( 5,000 Ci/mmol )"	[]		p17	Materials and Methods	FALSE	method	14680	14917	
+135	s90	"and 0.5 mM para-nitrophenylphosphate. Reactions were stopped with SDSsample buffer , and the amount of radioactive GST-c-Jun was quantified after SDS-PAGE by phosphorimaging ."	[]		p17	Materials and Methods	FALSE	method	14918	15092	
+136	s91	"The level of expression of Tiam1 , mutant Rac , and tagged JNK in the NIH3T3 or COS-7 cells was monitored by Western blotting ."	[]		p17	Materials and Methods	FALSE	method	15093	15217	
+137	s92	Results	[header-0]		title18	Results	FALSE	none	15218	15225	
+138	s93	Membrane Association of Tiam1 Is Required for Membrane Ruffling	[header-1]		title19	Results	FALSE	none	15226	15289	
+139	s94	We have shown previously	[]		p20	Results	FALSE	result	15290	15314	
+140	s94	"that full-length Tiam1 ( FL1591 ) or a large COOH-terminal fragment of the Tiam1 protein ( C1199 ) causes Rac1-dependent induction of membrane ruffling in NIH3T3 fibroblast cells ( Michiels et al. , 1995 ) ."	[exLink]		p20	Results	FALSE	result	15315	15514	
+141	s95	"Established NIH3T3 cell lines expressing either of these proteins are flat and epithelial-like and contain many membrane ruffles ( Fig. 1 B ) , a phenotype"	[inLink]	1b	p20	Results	FALSE	result	15515	15667	1b
+142	s95	"that is also induced by transfection or microinjection of constitutively activated ( V12 ) Rac1 ( Ridley et al. , 1992 ; Michiels et al. , 1995 ; Van Leeuwen et al. , 1995 ) ."	[exLink]		p20	Results	FALSE	result	15668	15832	1b
+143	s96	"In contrast , a smaller COOH-terminal part of the Tiam1 protein ( C682 ) ,"	[]		p20	Results	FALSE	result	15833	15903	1c|1b
+144	s96	"which contains only the DH domain and the adjacent PH domain , did not induce this phenotype ( Fig. 1 C ) ."	[inLink]	1c	p20	Results	FALSE	result	15904	16007	1c|1b
+145	s97	As shown by confocal laser scanning immunofluorescence microscopy	[]		p20	Results	FALSE	method	16008	16073	1c|1b
+146	s97	the truncated large C1199 Tiam1 protein was present in the cytoplasm and colocalized with F-actin in membrane ruffles ( Fig. 1 B ) .	[inLink]	1b	p20	Results	FALSE	result	16074	16204	1c|1b
+147	s98	"In contrast , the short C682 Tiam1 protein seemed"	[]		p20	Results	FALSE	result	16205	16253	1c|1b
+148	s98	to be restricted to the cytoplasm ( Fig. 1 C ) .	[inLink]	1c	p20	Results	FALSE	result	16254	16299	1c|1b
+149	s99	"Western blot analyses ( see Fig. 4 , lanes 1-3 ) indicated"	[inLink]	4	p20	Results	FALSE	result	16300	16355	2|4
+150	s99	that both proteins were intact and equally expressed .	[]		p20	Results	FALSE	result	16356	16409	2|4
+151	s100	This suggested	[]		p20	Results	FALSE	result	16410	16424	2|4
+152	s100	"that the difference in phenotypes induced by these truncated proteins is probably caused by a different intracellular localization , and not by differences in stability ."	[]		p20	Results	FALSE	implication	16425	16593	2|4
+153	s101	Immunoelectron microscopy ( immuno-EM ) indeed confirmed	[]		p20	Results	FALSE	method	16594	16648	2|4
+154	s101	"that the C1199 Tiam1 protein is present in the cytoplasm as well as at the cell membrane and particularly in the membrane ruffles , whereas the C682 Tiam1 protein is almost exclusively located in the cytoplasm ( Fig. 2 ) ."	[inLink]	2	p20	Results	FALSE	result	16649	16867	2|4
+155	s102	"We hypothesized , therefore ,"	[]		p20	Results	FALSE	hypothesis	16868	16895	2
+156	s102	"that membrane localization of Tiam1 is required for morphological transformation of NIH3T3 cells , including the formation of membrane ruffles ."	[]		p20	Results	FALSE	hypothesis	16896	17038	2
+157	s103	The NH2-terminal PH Domain Is Essential for Membrane Localization of Tiam1	[header-1]		title21	Results	FALSE	fact	17039	17113	3
+158	s104	To investigate which of the conserved domains in Tiam1 determines the intracellular localization	[]		p22	Results	FALSE	goal	17114	17210	3
+159	s104	small deletions were made in each of these domains within the C1199 construct ( see Fig. 3 and Materials and Methods ) .	[inLink]	3	p22	Results	FALSE	method	17211	17329	3
+160	s105	These mutant proteins were transiently expressed in COS-7 cells	[]		p22	Results	FALSE	method	17330	17393	3
+161	s105	to analyze their intracellular localization and ability to induce membrane ruffling .	[]		p22	Results	FALSE	goal	17394	17478	3
+162	s106	Transfection of these mutant Tiam1 constructs in NIH3T3 cells resulted in the same phenotypic changes ( not shown ) .	[]		p22	Results	FALSE	result	17479	17593	3
+163	s107	Although Tiam1 is endogenously expressed in COS-7 cells and NIH3T3 cells	[]		p22	Results	FALSE	result	17594	17666	3
+164	s107	the levels are too low to be visualized by immunocytochemistry or Western blotting .	[]		p22	Results	FALSE	result	17667	17751	3
+165	s108	If phenotypic changes were induced by the transfection of Tiam1 mutants	[]		p22	Results	FALSE	result	17752	17823	3
+166	s108	they were found in > 80 % of the transfected cells .	[]		p22	Results	FALSE	result	17824	17874	3
+167	s109	"As shown in Fig. 3 B , the C1199 Tiam1 protein carrying a small internal deletion in the conserved COOH-terminal part of the DH-adjacent PH domain ( C1199-DeltaPHc ) was still able"	[inLink]	3b	p23	Results	FALSE	result	17875	18052	3c|3b
+168	s109	to induce membrane ruffling .	[]		p23	Results	FALSE	result	18053	18081	3c|3b
+169	s110	This was an unexpected finding	[]		p23	Results	FALSE	implication	18082	18112	3c|3b
+170	s110	"since deletions in the DH-adjacent PH domain of other GDS proteins interfered with their proper functioning ( Hart et al. , 1994 ; Whitehead et al. , 1995b ) , and mutations in this region of the PH domain of beta-Ark abolished interactions with both Gbetagamma proteins and phospholipids ( Touhara et al. , 1995 ) ."	[exLink]		p23	Results	FALSE	implication	18113	18419	3c|3b
+171	s111	"In contrast , a C1199 Tiam1 protein with a deletion in the DH domain ( C1199DeltaDH ) did not induce membrane ruffling ( Fig. 3 C ) , corroborating a previously proposed catalytic function for the DH domain ( Hart et al. , 1994 ) ."	"[inLink, exLink]"	3c	p23	Results	FALSE	result	18420	18641	3c|3d
+172	s112	"Deletion of most of the DHR region ( C1199-DeltaDHR ) did not affect ruffling ( Fig. 3 D ) , indicating"	[inLink]	3d	p23	Results	FALSE	result	18642	18740	3e|3d
+173	s112	that the DHR domain is not required for the induction of membrane ruffles .	[]		p23	Results	FALSE	implication	18741	18815	3e|3d
+174	s113	"However , a small deletion in the NH2-terminal PH domain ( C1199-DeltaPHn ) , comparable to the deletion made in the COOH-terminal PH domain , completely abolished membrane ruffling ( Fig. 3 E ) ."	[inLink]	3e	p23	Results	FALSE	result	18816	19004	3e
+175	s114	Western blot analyses showed	[]		p23	Results	FALSE	result	19005	19033	4|3e
+176	s114	"that all mutant proteins were of the predicted size and expressed at similar levels ( see Fig. 4 , lanes 4-9 ) , although somewhat less than the C1199 Tiam1 protein ."	[inLink]	4	p23	Results	FALSE	result	19034	19195	4|3e
+177	s115	This excludes the possibility	[]		p23	Results	FALSE	implication	19196	19225	4
+178	s115	that these results were due to major differences in protein stability .	[]		p23	Results	FALSE	implication	19226	19296	4
+179	s116	We conclude	[]		p23	Results	FALSE	implication	19297	19308	4
+180	s116	that both the catalytic DH domain and the NH2-terminal PH domain are essential for Tiam1-induced membrane ruffling .	[]		p23	Results	FALSE	implication	19309	19424	4
+181	s117	Immuno-EM analyses of transfected COS cells showed	[]		p24	Results	FALSE	result	19425	19475	5
+182	s117	"that all mutant proteins were equally present in the cytoplasm and at the plasma membrane ( Fig. 5 ) , except for mutant C1199 Tiam1 , which contains a deletion in the NH2terminal PH domain ( C1199-DeltaPHn ) ."	[inLink]	5	p24	Results	FALSE	result	19476	19679	5
+183	s118	"This protein was almost exclusively localized in the cytoplasm ( Fig. 5 D ) , similar to the C682 Tiam1 protein ( Fig. 2 B ) ."	[inLink]	2b|5d	p24	Results	FALSE	result	19680	19800	5d|2b
+184	s119	"The C1199-DeltaDH Tiam1 protein ,"	[]		p24	Results	FALSE	result	19801	19833	5d|2b|5b
+185	s119	"which carries a deletion in the catalytic DH domain and does not induce membrane ruffling , was still capable of associating with the plasma membrane ( Fig. 5 B ) ."	[inLink]	5b	p24	Results	FALSE	result	19834	19994	5d|2b|5b
+186	s120	This clearly shows	[]		p24	Results	FALSE	implication	19995	20013	5b
+187	s120	that membrane localization of Tiam1 is not a consequence of the induction of membrane ruffling .	[]		p24	Results	FALSE	implication	20014	20109	5b
+188	s121	"Therefore , it can be concluded"	[]		p24	Results	FALSE	implication	20110	20140	5b
+189	s121	that the NH2-terminal PH domain is essential for the membrane localization of C1199 Tiam1 and that this membrane localization is required for the formation of membrane ruffles .	[]		p24	Results	FALSE	implication	20141	20317	5b
+190	s122	"The NH2-terminal PH Domain of Tiam1 Can Be Functionally Replaced by the c-Src Membrane Localization Domain , but Not by Other PH Domains"	[header-1]		title25	Results	FALSE	result	20318	20453	6a
+191	s123	"To determine whether membrane localization is the only function of the NH2-terminal PH domain , we fused the NH2terminal 20 amino acids of c-Src ,"	[]		p26	Results	FALSE	goal	20454	20598	6a
+192	s123	"containing the myristoylation site and a basic region , in front of a C580 Tiam1 protein , resulting in MS-C580 Tiam1 ( see Materials and Methods ) ."	[]		p26	Results	FALSE	method	20599	20743	6a
+193	s124	C580 Tiam1 encompasses the COOH-terminal 580 amino acids and encodes the DH domain and adjacent PH domain ( Fig. 6 A ) .	[inLink]	6a	p26	Results	FALSE	result	20744	20861	6a
+194	s125	Similar to the C682 Tiam1 protein ( see Fig. 2 B )	[inLink]	2b	p26	Results	FALSE	result	20862	20910	6a|7a|2b
+195	s125	the C580 Tiam1 protein did not induce membrane ruffling and was not localized at the plasma membrane ( Figs .	[]		p26	Results	FALSE	result	20911	21019	6a|7a|2b
+196	s126	6 A and 7 A ) .	[inLink]	6a|7a	p26	Results	FALSE	result	21020	21033	6a|7a|2b
+197	s127	"In contrast , the MS-C580 Tiam1 protein induced"	[]		p26	Results	FALSE	result	21034	21080	3a|6a|6b|7a
+198	s127	"ruffling in both NIH3T3 cells and COS-7 cells ( Fig. 6 B ) , albeit less extensively than C1199 Tiam1 ( Fig. 3 A ) ."	[inLink]	3a|6b	p26	Results	FALSE	result	21081	21191	3a|6a|6b|7a
+199	s128	"No differences were observed in the expression levels of these proteins ( Fig. 4 , lanes 10-12 ) ."	[inLink]	4	p26	Results	FALSE	result	21192	21286	4|5|7a|7b
+200	s129	Immuno-EM showed	[]		p26	Results	FALSE	result	21287	21303	4|5|7a|7b
+201	s129	"that MS-C580 Tiam1 was able to associate with the plasma membrane ( Fig. 7 B ) , although this protein seemed to be more interiorly located than the mutant C1199 Tiam1 proteins ( compare Figs. 5 and 7 B ) ."	[inLink]	5|7b	p26	Results	FALSE	result	21304	21504	4|5|7a|7b
+202	s130	"Furthermore , part of the expressed MS-C580 Tiam1 protein was present around vesicle-like structures in the cytoplasm , similar to other MS-containing Tiam1 fusion proteins"	[]		p26	Results	FALSE	result	21505	21676	5|7b|7a|6e
+203	s130	"see for example Fig. 6 E , inset ) ."	[inLink]	6e	p26	Results	FALSE	result	21677	21710	5|7b|7a|6e
+204	s131	A fusion protein containing the NH2-terminal Src domain in front of the C1199-DeltaPHn Tiam1 protein was also able	[]		p26	Results	FALSE	result	21711	21825	6e
+205	s131	to localize at the plasma membrane and to cause ruffling ( data not shown ) .	[]		p26	Results	FALSE	result	21826	21900	6e
+206	s132	The Src membrane localization domain thus enables C580 Tiam1 and C1199-DeltaPHn	[]		p26	Results	FALSE	implication	21901	21980	6e
+207	s132	to induce membrane ruffling by tethering these proteins to the plasma membrane .	[]		p26	Results	FALSE	implication	21981	22060	6e
+208	s133	To test whether the NH2-terminal PH domain of Tiam1 is sufficient for membrane localization	[]		p27	Results	FALSE	goal	22061	22152	
+209	s133	we fused a region containing this PH domain to the C580 Tiam1 protein ( see Materials and Methods ) .	[]		p27	Results	FALSE	method	22153	22252	
+210	s134	"The resulting protein , however , did not induce membrane ruffling and was not associated with the plasma membrane ( Michiels , F. , and J.C. Stam , unpublished results ) ."	[]		p27	Results	FALSE	result	22253	22417	
+211	s135	This might argue	[]		p27	Results	FALSE	implication	22418	22434	
+212	s135	that additional sequences are required to ensure membrane localization .	[]		p27	Results	FALSE	implication	22435	22506	
+213	s136	"Alternatively , the juxtaposition of the PH domain to the DH domain might interfere with the proper folding of these domains ."	[]		p27	Results	FALSE	implication	22507	22631	
+214	s137	A construct expressing solely the region	[]		p27	Results	FALSE	result	22632	22672	
+215	s137	containing the NH2-terminal PH domain did not function as a dominant-negative Tiam1 mutant .	[]		p27	Results	FALSE	result	22673	22764	
+216	s138	"However , C1199-DeltaDH ,"	[]		p27	Results	FALSE	result	22765	22788	
+217	s138	"which contains a deletion in the catalytic DH domain , also does not interfere with the induction of membrane ruffling by Tiam1 ."	[]		p27	Results	FALSE	result	22789	22916	
+218	s139	The reason for this is not clear at the moment .	[]		p27	Results	FALSE	implication	22917	22964	
+219	s140	To analyze the specificity of the NH2-terminal PH domain of Tiam1	[]		p28	Results	FALSE	goal	22965	23030	
+220	s140	"a region containing this PH domain was exchanged for the corresponding regions containing the PH domain of DbL , the PH domain of beta-ARK , or the COOHterminal PH domain of Tiam1 ( see Materials and Methods ) ."	[]		p28	Results	FALSE	method	23031	23238	
+221	s141	"However , none of these mutant Tiam1 proteins localized at the plasma membrane and induced membrane ruffling ( data not shown ) ."	[]		p28	Results	FALSE	result	23239	23364	
+222	s142	This means either	[]		p28	Results	FALSE	implication	23365	23382	
+223	s142	"that additional sequences are required for correct functioning of these PH domains or that the primary function of the NH2terminal PH domain , namely to localize Tiam1 through specific interactions with components of the plasma membrane , can not be substituted for by other PH domains ."	[]		p28	Results	FALSE	implication	23383	23666	
+224	s143	The NH2-terminal PH Domain Is Required for the Induction of Membrane Ruffles by the Full-Length Tiam1 Protein	[header-1]		title29	Results	FALSE	implication	23667	23776	6c|6d
+225	s144	The full-length Tiam1 protein ( FL1591 ) carries a consensus myristoylation sequence at the NH2 terminus .	[]		p30	Results	FALSE	fact	23777	23880	6c|6d
+226	s145	"By labeling with [ 3H ] myristate , we have confirmed"	[]		p30	Results	FALSE	method	23881	23930	6c|6d
+227	s145	that the NH2 terminus of Tiam1 is myristoylated ( not shown ) .	[]		p30	Results	FALSE	result	23931	23991	6c|6d
+228	s146	To test whether the myristoylation is sufficient for the membrane association of full-length Tiam1	[]		p30	Results	FALSE	goal	23992	24090	6c|6d
+229	s146	a small deletion was also made in the NH2-terminal PH domain of full-length FL1591 Tiam1 .	[]		p30	Results	FALSE	method	24091	24181	6c|6d
+230	s147	"However ,"	[]		p30	Results	FALSE	result	24182	24190	6c|6d
+231	s147	"similar to C1199-DeltaPHn , mutant fulllength Tiam1 ( FL1591-DeltaPHn ) was unable to induce membrane ruffling in NIH3T3 cells or COS cells ( Fig. 6 , C and D ) , and immuno-EM showed that the protein was not localized at the plasma membrane ( data not shown ) ."	[inLink]	6c|6d	p30	Results	FALSE	result	24191	24443	6c|6d
+232	s148	"Apparently , the NH2-terminal myristoylation of full-length Tiam1 alone is not sufficient for membrane localization ."	[]		p30	Results	FALSE	implication	24444	24559	6c|6d
+233	s149	To further substantiate this	[]		p30	Results	FALSE	goal	24560	24588	6c|6d
+234	s149	the NH2-terminal c-Src sequences were fused in front of the FL1591-DeltaPHn1 Tiam1 protein .	[]		p30	Results	FALSE	method	24589	24681	6c|6d
+235	s150	"This region of Src contains a basic region that is required for optimal membrane translocation in addition to the myristoylation sequence ,"	[]		p30	Results	FALSE	fact	24682	24820	6c|6d
+236	s150	"whereas other Src-like tyrosine kinases contain a palmitoylated cysteine in this region ( Superti-Furga and Courtneidge , 1995 ) ."	[exLink]		p30	Results	FALSE	fact	24821	24947	6c|6d
+237	s151	Both additional sequences are absent in Tiam1 .	[]		p30	Results	FALSE	fact	24948	24994	6c|6d
+238	s152	"Cells expressing the MS-FL1591-DeltaPHn1 Tiam1 protein again showed membrane ruffling , although less extensive than cells expressing FL1591 Tiam1 ( Fig. 6 , C-E ) ."	[inLink]	6c|6d|6e	p30	Results	FALSE	result	24995	25155	6c|6d|6e
+239	s153	"Again , no main differences in expression levels were observed between these proteins ( data not shown ) ."	[]		p30	Results	FALSE	result	25156	25258	6c|6d|6e
+240	s154	Immuno-EM confirmed	[]		p30	Results	FALSE	result	25259	25278	6c|6d|6e
+241	s154	"that the MS-FL1591-DeltaPHn1 Tiam1 protein was present at and close to the plasma membrane , as found for MS-C580 Tiam1 ( data not shown ) ."	[]		p30	Results	FALSE	result	25279	25415	6c|6d|6e
+242	s155	"Apparently , the accessory basic region of c-Src also functions"	[]		p30	Results	FALSE	fact	25416	25478	6c|6d|6e
+243	s155	to properly localize MS-FL1591DeltaPHn1 Tiam1 .	[]		p30	Results	FALSE	fact	25479	25525	6c|6d|6e
+244	s156	"Similar to MS-C580 , the expression of MSFL1591-DeltaPHn Tiam1 led to the formation of small cytoplasmic vesicle-like structures"	[]		p30	Results	FALSE	result	25526	25653	6e
+245	s156	and the protein was also located around these structures ( Fig. 6 E ) .	[inLink]	6e	p30	Results	FALSE	result	25654	25723	6e
+246	s157	These observations indicate	[]		p30	Results	FALSE	implication	25724	25751	6e
+247	s157	"that the NH2-terminal PH domain also serves as an essential membrane tag , or perhaps membrane anchor , for full-length Tiam1 ."	[]		p30	Results	FALSE	implication	25752	25876	6e
+248	s158	Controlled Cellular Localization of Tiam1	[header-1]		title31	Results	FALSE	none	25877	25918	
+249	s159	PH domains have been identified in other signaling molecules as protein-protein and/or protein-phospholipid interaction motifs	[]		p32	Results	FALSE	result	25919	26045	
+250	s159	"that are required for the controlled targeting of these proteins to the plasma membrane ( Lemmon et al. , 1996 ) ."	[exLink]		p32	Results	FALSE	result	26046	26156	
+251	s160	"In tissue sections of skin and certain carcinomas , endogenous Tiam1 is predominantly present in the cytoplasm ."	[]		p32	Results	FALSE	result	26157	26267	
+252	s161	"Also in some cell lines ,"	[]		p32	Results	FALSE	result	26268	26292	
+253	s161	"where we can envision endogenous Tiam1 by Western blotting , including T-lymphoma cells and neuronal cells , it is mainly localized in the cytoplasmic fraction ( data not shown ) , suggesting that Tiam1 may translocate to the plasma membrane after receptor stimulation ."	[]		p32	Results	FALSE	result	26293	26557	
+254	s162	"So far , however , we have not been able"	[]		p32	Results	FALSE	result	26558	26596	
+255	s162	to identify a receptor-mediated signaling pathway involving Tiam1 activation .	[]		p32	Results	FALSE	result	26597	26674	
+256	s163	To investigate whether membrane translocation of exogenous Tiam1 could be visualized in NIH3T3 cells	[]		p32	Results	FALSE	goal	26675	26775	
+257	s163	we analyzed whether serum could affect the localization and capacity of Tiam1 to induce membrane ruffling .	[]		p32	Results	FALSE	method	26776	26883	
+258	s164	As shown in Fig. 8 A	[inLink]	8a	p32	Results	FALSE	result	26884	26904	8a|8f|8d
+259	s164	NIH3T3 cells transiently expressing the C1199 Tiam1 protein showed no membrane ruffling after serum starvation for 24 h .	[]		p32	Results	FALSE	result	26905	27026	8a|8f|8d
+260	s165	"Almost no Tiam1 protein was present at the plasma membrane , and"	[]		p32	Results	FALSE	result	27027	27090	8a|8f|8d
+261	s165	F-actin was mostly concentrated in lamellipodia in the Tiam1-expressing cells .	[]		p32	Results	FALSE	result	27091	27169	8a|8f|8d
+262	s166	Since these optical sections were taken at the basal site of the cells to illustrate the lamellipodia	[]		p32	Results	FALSE	result	27170	27271	8a|8f|8d
+263	s166	stress fibers are also visible .	[]		p32	Results	FALSE	result	27272	27304	8a|8f|8d
+264	s167	Note	[]		p32	Results	FALSE	none	27305	27309	8a|8f|8d
+265	s167	"that after serum starvation for 24 h , NIH3T3 cells still contain some stress fibers , in contrast to Swiss 3T3 cells ."	[]		p32	Results	FALSE	result	27310	27426	8a|8f|8d
+266	s168	Immuno-EM confirmed	[]		p32	Results	FALSE	result	27427	27446	8a|8f|8d
+267	s168	"that most of the cells contained significantly less Tiam1 at the plasma membrane after serum starvation ( Fig. 8 , D and F ) ."	[inLink]	8d|8f	p32	Results	FALSE	result	27447	27569	8a|8f|8d
+268	s169	The residual membrane-associated Tiam1 might be sufficient for the presence of lamellipodia under these conditions .	[]		p32	Results	FALSE	result	27570	27685	8b|8f|8d|8e
+269	s170	"Addition of serum induced membrane localization and subsequent ruffling of C1199 Tiam1-expressing cells after 2 h ( Fig. 8 , B and E ) ,"	[inLink]	8b|8e	p32	Results	FALSE	result	27686	27818	8b|8e
+270	s170	at which time point seruminduced stress fibers have already decreased .	[]		p32	Results	FALSE	result	27819	27889	8b|8e
+271	s171	A quantification of these results is presented in Fig.	[]		p32	Results	FALSE	result	27890	27944	8f
+272	s171	"8 F. Similar results were obtained with FL1591 Tiam1 , C1199-DeltaPHc , and C1199DeltaDHR Tiam1 ( data not shown ) ."	[inLink]	8f	p32	Results	FALSE	result	27945	28056	8f
+273	s172	"In contrast ,"	[]		p32	Results	FALSE	result	28057	28069	8c|8f
+274	s172	after 24 h of serum starvation the MS-C580 Tiam1 protein remained at the plasma membrane and still induced membrane ruffling ( Fig. 8 C ) .	[inLink]	8c	p32	Results	FALSE	result	28070	28206	8c|8f
+275	s173	This suggests	[]		p32	Results	FALSE	implication	28207	28220	8c
+276	s173	that the serum-induced membrane translocation of Tiam1 is mediated by the NH2-terminal PH domain .	[]		p32	Results	FALSE	implication	28221	28318	8c
+277	s174	"Unexpectedly , neither PDGF nor insulin could substitute for serum in the induction of membrane ruffling ( data not shown ) ."	[]		p33	Results	FALSE	result	28319	28440	
+278	s175	"Both growth factors induce lamellipodia formation in NIH3T3 cells within 5 min ,"	[]		p33	Results	FALSE	result	28441	28520	
+279	s175	which can easily be discriminated from the Tiam1-induced ruffling .	[]		p33	Results	FALSE	result	28521	28587	
+280	s176	This might indicate	[]		p33	Results	FALSE	implication	28588	28607	
+281	s176	that Tiam1 is not activated by PDGF or insulin .	[]		p33	Results	FALSE	implication	28608	28655	
+282	s177	Membrane-associated Tiam1 Activates JNK	[header-1]		title34	Results	FALSE	fact	28656	28695	9a
+283	s178	To investigate whether membrane association of Tiam1 is also required for the induction of other Rac-mediated signaling pathways besides membrane ruffling	[]		p35	Results	FALSE	goal	28696	28850	9a
+284	s178	the activity of JNK was determined after cotransfection with different Tiam1 mutants ( see Materials and Methods ) .	[]		p35	Results	FALSE	method	28851	28965	9a
+285	s179	"Both in COS-7 cells and NIH3T3 cells , cotransfection of fulllength Tiam1 led to an almost sevenfold stimulation of JNK activity , similar to constitutively activated ( V12 ) Rac1 ( Fig. 9 A ) ."	[inLink]	9a	p35	Results	FALSE	result	28966	29152	9a
+286	s180	Cotransfection of tagged mitogen-activated protein kinase ( MAPK ) with full-length or mutant Tiam1 or ( V12 ) Rac did not result in activation of MAPK ( not shown ) .	[]		p35	Results	FALSE	result	29153	29312	9a
+287	s181	"The stimulation of JNK by Tiam1 was dependent on the activation of Rac ,"	[]		p35	Results	FALSE	result	29313	29384	9a
+288	s181	since cotransfection of dominantnegative ( N17 ) Rac1 partly blocked the activation of JNK by Tiam1 ( Fig. 9 A ) .	[inLink]	9a	p35	Results	FALSE	result	29385	29493	9a
+289	s182	Higher amounts of ( N17 ) Rac interfered with the expression of JNK .	[]		p35	Results	FALSE	result	29494	29559	9a|9b
+290	s183	"Furthermore , a deletion in the catalytic DH domain of Tiam1 prevented JNK activation ( not shown ) ."	[]		p35	Results	FALSE	result	29560	29657	9a|9b
+291	s184	Cotransfection of dominant-negative ( N17 ) Cdc42 did not interfere with the activation of JNK by Tiam1 ( data not shown ) .	[]		p35	Results	FALSE	result	29658	29776	9a|9b
+292	s185	Transfection of C1199 Tiam1 stimulated JNK activity to a similar extent as FL1591 ( Fig. 9 B ) .	[inLink]	9b	p35	Results	FALSE	result	29777	29870	9b
+293	s186	"However , shorter COOH-terminal Tiam1 fragments such as C682 and C580 Tiam1 ,"	[]		p35	Results	FALSE	result	29871	29946	9b
+294	s186	"which did not localize to the plasma membrane , were not able to activate JNK above background levels ."	[]		p35	Results	FALSE	result	29947	30048	9b
+295	s187	"Also , mutant C1199-DeltaPHn Tiam1 ,"	[]		p35	Results	FALSE	result	30049	30083	9b
+296	s187	"which did not localize to the plasma membrane because of the deletion in the NH2-terminal PH domain , was unable to activate JNK ( Fig. 9 B ) ."	[inLink]	9b	p35	Results	FALSE	result	30084	30223	9b
+297	s188	"MS-C580 Tiam1 caused no stimulation of JNK activity ( Fig. 9 B ) , and"	[inLink]	9b	p35	Results	FALSE	result	30224	30291	9b|6
+298	s188	neither did MS-C1199-DeltaPHn or MS-FL1591-DeltaPHn Tiam1 proteins ( data not shown ) .	[]		p35	Results	FALSE	result	30292	30376	9b|6
+299	s189	"These proteins , however , induced membrane ruffling and were present at the plasma membrane ( Fig. 6 ) ."	[inLink]	6	p35	Results	FALSE	result	30377	30477	6
+300	s190	A possible explanation for this somewhat unexpected result is	[]		p35	Results	FALSE	implication	30478	30539	7|6
+301	s190	that activation of endogenous Rac by MS-containing Tiam1 proteins is sufficient for induction of membrane ruffling but not for stimulation of JNK .	[]		p35	Results	FALSE	implication	30540	30686	7|6
+302	s191	"Alternatively , the lack of induction of JNK activity is caused by the different ultrastructural localization of the MS-C580 Tiam1 protein"	[]		p35	Results	FALSE	hypothesis	30687	30825	7|6
+303	s191	compare Figs. 5 and 7 ) or may reflect the need for an intact NH2-terminal PH domain .	[inLink]	7	p35	Results	FALSE	hypothesis	30826	30910	7|6
+304	s192	"Interestingly , similar results were obtained with membrane-targeted p110 phosphoinositide-3-kinase"	[]		p35	Results	FALSE	result	30911	31009	
+305	s192	"which was able to stimulate membrane ruffling but not gene transcription from the Jun-inducible Fos promoter ( Reif et al. , 1996 ) ."	[exLink]		p35	Results	FALSE	result	31010	31139	
+306	s193	"Whatever the mechanism , these results indicate"	[]		p35	Results	FALSE	implication	31140	31186	
+307	s193	that the localization of Tiam1 at the plasma membrane is also required for Rac-mediated stimulation of JNK activity .	[]		p35	Results	FALSE	implication	31187	31303	
+308	s194	Discussion	[header-0]		title36	Discussion	FALSE	none	31304	31314	
+309	s195	The data presented here demonstrate	[]		p37	Discussion	FALSE	implication	31315	31350	
+310	s195	that Tiam1 is a cytoplasmic protein that is capable of associating with the plasma membrane .	[]		p37	Discussion	FALSE	implication	31351	31443	
+311	s196	"The NH2-terminal PH domain is essential for membrane association of Tiam1 , and"	[]		p37	Discussion	FALSE	implication	31444	31522	
+312	s196	this membrane association is required for Rac-mediated induction of membrane ruffling and stimulation of JNK activity .	[]		p37	Discussion	FALSE	implication	31523	31641	
+313	s197	"A short COOH-terminal fragment of Tiam1 , C682 Tiam1 , which lacks the NH2-terminal PH domain , did not associate with the plasma membrane in NIH3T3 cells or COS-7 cells and was unable"	[]		p38	Discussion	FALSE	result	31642	31823	
+314	s197	to induce membrane ruffling ( see Figs. 1 and 2 ) .	[inLink]	2	p38	Discussion	FALSE	result	31824	31872	
+315	s198	"Similar to C1199 Tiam1 and ( V12 ) Rac1 , the C682 Tiam1 protein induces a tumorigenic phenotype in NIH3T3 cells ( Van Leeuwen et al. , 1995 ) ."	[]		p38	Discussion	FALSE	result	31873	32009	
+316	s199	This indicates	[]		p38	Discussion	FALSE	implication	32010	32024	
+317	s199	that the Tiam1-induced formation of membrane ruffles and induction of a tumorigenic phenotype are triggered by two distinct signaling pathways .	[]		p38	Discussion	FALSE	implication	32025	32168	
+318	s200	Since JNK activity could not be stimulated by C682 Tiam1 and none of the truncated or mutant Tiam1 proteins activated MAPK	[]		p38	Discussion	FALSE	result	32169	32291	
+319	s200	it is unlikely that the induction of a tumorigenic phenotype is due to activation of JNK or MAPK .	[]		p38	Discussion	FALSE	implication	32292	32390	
+320	s201	An explanation could be	[]		p38	Discussion	FALSE	hypothesis	32391	32414	
+321	s201	"that tumorigenicity is caused by activation of cytoplasmic Rac , although we can not exclude that cytoplasmic Tiam1 activates another , yet unknown GTPase ."	[]		p38	Discussion	FALSE	hypothesis	32415	32567	
+322	s202	Both the C1199 and C682 Tiam1 proteins were also able	[]		p38	Discussion	FALSE	result	32568	32621	
+323	s202	"to induce an invasive phenotype in T-lymphoma cells ( Habets et al. , 1994 ) ."	[exLink]		p38	Discussion	FALSE	result	32622	32696	
+324	s203	As the localization of Tiam1 might be differently regulated in lymphoid cells compared to adherent COS and fibroblast cells	[]		p38	Discussion	FALSE	hypothesis	32697	32820	
+325	s203	we are currently testing whether or not JNK is involved in the Tiam1/Rac-mediated induction of an invasive phenotype in T-lymphoma cells .	[]		p38	Discussion	FALSE	method	32821	32959	
+326	s204	A detailed structural analysis showed	[]		p39	Discussion	FALSE	result	32960	32997	
+327	s204	"that a small deletion in the NH2-terminal PH domain , but not the DHadjacent COOH-terminal PH domain , abolished the membrane localization of Tiam1 and the subsequent induction of membrane ruffling ."	[]		p39	Discussion	FALSE	result	32998	33194	
+328	s205	In all DH domain-containing GDS proteins analyzed thus far	[]		p39	Discussion	FALSE	result	33195	33253	
+329	s205	"the DH domain is flanked by a PH domain ( Cerione and Zheng , 1996 ; Collard , 1996 ) , suggesting that the DH-PH combination is a functional unit ."	[exLink]		p39	Discussion	FALSE	implication	33254	33396	
+330	s206	"Indeed , deletions in either the DH domain or the flanking PH domain of the protooncogenes Dbl , Ost , Dbs , and Lfc result in loss of"	[]		p39	Discussion	FALSE	result	33397	33527	
+331	s206	"transforming capacity ( Ron et al. , 1991 ; Horii et al. , 1994 ; Whitehead et al. , 1995a , b ; Zheng et al. , 1996 ) ."	[exLink]		p39	Discussion	FALSE	result	33528	33636	
+332	s207	"The transforming capacity of a mutant of Lfc , which carried a deletion in the PH domain , could be restored by the addition of a COOH-terminal Ras CAAX motif ,"	[]		p39	Discussion	FALSE	result	33637	33794	
+333	s207	"suggesting that the localization of Lfc at the plasma membrane is required for its transforming capacity ( Whitehead et al. , 1995b ) ."	[exLink]		p39	Discussion	FALSE	hypothesis	33795	33926	
+334	s208	"In contrast , the Ras-CAAX motif was not sufficient"	[]		p39	Discussion	FALSE	result	33927	33977	
+335	s208	"to replace the PH domain of Dbl , which is required for the presence of Dbl in the particulate fraction of cells ( Zheng et al. , 1996 ) ."	[exLink]		p39	Discussion	FALSE	result	33978	34111	
+336	s209	"Corresponding results were obtained for the NH2-terminal PH domain of Ras-guanine nucleotide release factor ( GRF ) ,"	[]		p39	Discussion	FALSE	result	34112	34226	
+337	s209	"suggesting that the association of Ras-GRF and Dbl in the particulate fraction is a prerequisite for their activity ( Buchsbaum et al. , 1996 ; Zheng et al. , 1996 ) ."	[exLink]		p39	Discussion	FALSE	implication	34227	34388	
+338	s210	"Together with pleckstrin and RasGRF , Tiam1 is one of a few proteins"	[]		p39	Discussion	FALSE	fact	34389	34456	
+339	s210	"that contains two PH domains ( Habets et al. , 1994 ) ."	[exLink]		p39	Discussion	FALSE	fact	34457	34508	
+340	s211	"Similarly to Ras-GRF , only the NH2-terminal PH domain of Tiam1 is involved in the localization of the protein ."	[]		p39	Discussion	FALSE	fact	34509	34619	
+341	s212	"The COOH-terminal PH domain of Tiam1 has only moderate homology with other PH domains and lacks a highly conserved tryptophan residue in the COOH-terminal alpha-helix ( Habets et al. , 1994 ) ."	[exLink]		p39	Discussion	FALSE	result	34620	34809	
+342	s213	Although a complete deletion of the DH-adjacent PH domain of Tiam1 abolished membrane ruffling	[]		p39	Discussion	FALSE	result	34810	34904	
+343	s213	it did not interfere with the membrane localization of the protein ( data not shown ) .	[]		p39	Discussion	FALSE	result	34905	34990	
+344	s214	What other functions can be attributed to this PH domain	[]		p39	Discussion	FALSE	hypothesis	34991	35047	
+345	s214	remains to be elucidated .	[]		p39	Discussion	FALSE	hypothesis	35048	35073	
+346	s215	Several reports have demonstrated	[]		p40	Discussion	FALSE	result	35074	35107	
+347	s215	"that isolated PH domains can bind in vitro to Gbetagamma subunits and phospholipids like phosphatidylinositol ( 4,5 ) bisphosphate ( PIP2 ) and inositol ( 3,4,5 ) trisphosphate ( IP3 ) ( Harlan et al. , 1994 ; Ferguson et al. , 1995 ; Mahadevan et al. , 1995 ; Touhara et al. , 1995 ) ."	[exLink]		p40	Discussion	FALSE	result	35108	35374	
+348	s216	"Phosphoinositide-3-kinase ,"	[]		p40	Discussion	FALSE	fact	35375	35401	
+349	s216	"which stimulates the synthesis of phosphatidylinositol ( 3,4,5 ) trisphosphate ( PIP3 ) from PIP2 ( Hiles et al. , 1992 ) , has been implicated in the activation of Rac by PDGF and insulin ( Wennstrom et al. , 1994 ; Hawkins et al. , 1995 ) and might be required for the activation of Rac by Ras ( Rodriguez-Viciana et al. , 1994 ) ."	[exLink]		p40	Discussion	FALSE	fact	35402	35717	
+350	s217	Although we have shown that the association of Tiam1 with the plasma membrane is induced by serum	[]		p40	Discussion	FALSE	result	35718	35815	
+351	s217	neither PDGF nor insulin could substitute for serum in NIH3T3 cells .	[]		p40	Discussion	FALSE	result	35816	35885	
+352	s218	Gbetagamma subunits and phospholipids represent potential downstream effectors of G-protein-coupled receptors and/or activated tyrosine kinase receptors .	[]		p40	Discussion	FALSE	fact	35886	36039	
+353	s219	"Based on the in vitro binding data of PH domains , it is tempting"	[]		p40	Discussion	FALSE	hypothesis	36040	36104	
+354	s219	"to speculate that Gbetagamma subunits and/or specific phospholipids regulate the association of Tiam1 with the plasma membrane , as depicted in Fig. 10 ."	[inLink]	10	p40	Discussion	FALSE	hypothesis	36105	36256	
+355	s220	The fact that we were not able to functionally exchange the NH2-terminal PH domain of Tiam1 for other PH domains argues for a specific targeting function for this PH domain	[]		p40	Discussion	FALSE	implication	36257	36429	
+356	s220	"and similar results have been reported for PH domains in other signaling proteins ( Buchsbaum et al. , 1996 ; Kolanus et al. , 1996 ) ."	[exLink]		p40	Discussion	FALSE	result	36430	36560	
+357	s221	"However , at the moment we can not determine"	[]		p40	Discussion	FALSE	goal	36561	36603	
+358	s221	whether PH domains can function as independent modules or whether additional sequences are required for their activity .	[]		p40	Discussion	FALSE	hypothesis	36604	36723	
+359	s222	Since Rac-dependent membrane ruffling and activation of JNK are induced by membrane-associated Tiam1	[]		p41	Discussion	FALSE	fact	36724	36824	
+360	s222	the question of how Rac is activated arises .	[]		p41	Discussion	FALSE	hypothesis	36825	36870	
+361	s223	The current hypothesis is	[]		p41	Discussion	FALSE	hypothesis	36871	36896	
+362	s223	"that inactive Rac is complexed to RhoGDI and localized in the cytoplasm , as suggested for endogenous Rac in neutrophils ( Bokoch , 1994 ; Hawkins et al. , 1995 ) and for exogenous Rac and Rho proteins in other cell types ( Adamson et al. , 1992 ; Ridley et al. , 1992 ; Takaishi et al. , 1995 ; Robertson et al. , 1995 ) ."	[exLink]		p41	Discussion	FALSE	hypothesis	36897	37204	
+363	s224	"According to this model , activation involves the dissociation of the Rac-GDI complex , the translocation of GDP-bound Rac to the plasma membrane , followed by the exchange of GDP for GTP by interaction with a membrane-bound GDS ( Bokoch , 1994 ; Hawkins et al. , 1995 ) ."	[exLink]		p41	Discussion	FALSE	hypothesis	37205	37468	
+364	s225	"Our findings , however , also indicate"	[]		p41	Discussion	FALSE	implication	37469	37505	
+365	s225	that Tiam1 translocates from the cytoplasm to the plasma membrane after induction by serum .	[]		p41	Discussion	FALSE	implication	37506	37597	
+366	s226	The most straightforward explanation for the fact	[]		p41	Discussion	FALSE	implication	37598	37647	
+367	s226	"that membrane-associated C1199 Tiam1 , but not cytoplasmic C580 Tiam1 , induces ruffling and activates JNK would be that GDP-bound Rac is partly present at the plasma membrane in NIH3T3 and COS-7 cells ."	[]		p41	Discussion	FALSE	implication	37648	37848	
+368	s227	"The activation of this pool of membranebound , inactive Rac by Tiam1 is then sufficient for the induction of membrane ruffles and activation of JNK ."	[]		p41	Discussion	FALSE	implication	37849	37996	
+369	s228	Alternative explanations would be	[]		p41	Discussion	FALSE	hypothesis	37997	38030	
+370	s228	"that the activity of Tiam1 is enhanced at the plasma membrane , or that Tiam1 is also involved in the translocation of Rac from the cytoplasm to the plasma membrane ."	[]		p41	Discussion	FALSE	hypothesis	38031	38195	
+371	s229	"In all these models , the controlled membrane association of Tiam1 is the only determinant for the induction of membrane ruffling by Rac ."	[]		p41	Discussion	FALSE	implication	38196	38332	
+372	s230	"Since MSC580 Tiam1 , but not C580 Tiam1 , induces membrane ruffling , it is unlikely"	[]		p41	Discussion	FALSE	fact	38333	38414	
+373	s230	that the activation of cytoplasmic Rac by Tiam1 leads to the membrane translocation of GTPbound Rac .	[]		p41	Discussion	FALSE	hypothesis	38415	38515	
+374	s231	"As discussed before , however"	[]		p41	Discussion	FALSE	hypothesis	38516	38544	
+375	s231	cytoplasmic GTPbound Rac might be responsible for the induction of a tumorigenic phenotype by C682 Tiam1 .	[]		p41	Discussion	FALSE	hypothesis	38545	38651	
+376	s232	Further exploration of these models will require the generation of antibodies	[]		p41	Discussion	FALSE	goal	38652	38729	
+377	s232	that efficiently detect endogenous Tiam1 and Rac and tools to discriminate between active and inactive endogenous Rac .	[]		p41	Discussion	FALSE	goal	38730	38848	
+378	s233	"Given the importance of PH domains in Tiam1 and other GDS proteins , it is conceivable"	[]		p42	Discussion	FALSE	hypothesis	38849	38934	
+379	s233	that phospholipids and/or Gbetagamma subunits are involved in their intracellular localization and/or activation .	[]		p42	Discussion	FALSE	hypothesis	38935	39048	
+380	s234	The next challenge will be	[]		p42	Discussion	FALSE	hypothesis	39049	39075	
+381	s234	to identify the upstream signaling pathways and molecules that translocate and activate these GDS proteins .	[]		p42	Discussion	FALSE	hypothesis	39076	39183	

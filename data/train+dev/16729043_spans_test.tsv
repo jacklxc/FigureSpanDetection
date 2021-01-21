@@ -1,0 +1,442 @@
+	SentenceId	Clause Text	Codes	ExperimentValues	Paragraph	Headings	FloatingBox?	Discourse Type	Offset_Begin	Offset_End	fig_spans
+0	s1	Phosphotyrosine interactome of the ErbB-receptor kinase family	[]		-		FALSE	none	105	167	
+1	s2	Interactions between short modified peptide motifs and modular protein domains are central events in cell signal-transduction .	[]		p2		FALSE	fact	698	824	
+2	s3	We determined interaction partners to all cytosolic tyrosine residues of the four members of the ErbB-receptor family in an unbiased fashion by quantitative proteomics using pull-down experiments with pairs of phosphorylated and nonphosphorylated synthetic peptides .	[]		p2		FALSE	method	825	1091	
+3	s4	Each receptor had characteristic preferences for interacting proteins	[]		p2		FALSE	fact	1092	1161	
+4	s4	and most interaction partners had multiple binding sites on each receptor .	[]		p2		FALSE	fact	1162	1236	
+5	s5	"EGFR and ErbB4 had several docking sites for Grb2 ,"	[]		p2		FALSE	result	1237	1287	
+6	s5	while ErbB3 was characterized by six binding sites for PI3K .	[]		p2		FALSE	result	1288	1348	
+7	s6	We identified STAT5 as a direct binding partner to EGFR and ErbB4 and discovered new recognition motifs for Shc and STAT5 .	[]		p2		FALSE	method	1349	1471	
+8	s7	The overall pattern of interaction partners of EGFR and ErbB4 suggests similar roles during	[]		p2		FALSE	implication	1472	1563	
+9	s7	signaling through their respective ligands .	[]		p2		FALSE	implication	1564	1607	
+10	s8	Phosphorylation kinetics of several tyrosine resides was measured by mass spectrometry and correlated with interaction partner preference .	[]		p2		FALSE	method	1608	1746	
+11	s9	Our results demonstrate	[]		p2		FALSE	implication	1747	1770	
+12	s9	"that system-wide mapping of peptide-protein interactions sites is possible , and suggest shared and unique roles of ErbB-receptor family members in downstream signaling ."	[]		p2		FALSE	implication	1771	1939	
+13	s10	Introduction	[header-0]		title3	Introduction	FALSE	none	2057	2069	
+14	s11	Modification-dependent protein-protein interactions between domains and characteristic peptide motifs are key organizing principles of	[]		p4	Introduction	FALSE	fact	2070	2204	
+15	s11	signaling events in all organisms .	[]		p4	Introduction	FALSE	fact	2205	2239	
+16	s12	"For example , specific , extended peptide sequences"	[]		p4	Introduction	FALSE	fact	2240	2289	
+17	s12	"containing phosphotyrosine interact with cognate SH2 or PTB domains ( Pawson and Nash , 2003 ; Schlessinger and Lemmon , 2003 ; Pawson , 2004 ) ."	[exLink]		p4	Introduction	FALSE	fact	2290	2427	
+18	s13	"Consensus peptide sequences involved in recognition by domains have been well studied using oriented peptide libraries ( Songyang et al , 1994 ) , peptide arrays ( Landgraf et al , 2004 ) or phage display ( Cesareni et al , 2002 ) ."	[exLink]		p4	Introduction	FALSE	method	2428	2649	
+19	s14	Individual interactions between activated tyrosine kinase receptors and specific downstream signaling molecules have been investigated	[]		p4	Introduction	FALSE	method	2650	2784	
+20	s14	"using immunoprecipitation and detection of selected proteins by Western blotting ( see Olayioye et al , 2000 and references therein ) ."	[exLink]		p4	Introduction	FALSE	method	2785	2916	
+21	s15	"However , most of these methods lack specificity for modification-dependent interactions ."	[]		p4	Introduction	FALSE	method	2917	3005	
+22	s16	"In the past , there have been several studies for large-scale protein-protein interaction mapping in yeast ( Ito et al , 2000 , 2001 ; Uetz et al , 2000 ; Gavin et al , 2002 ; Ho et al , 2002 ) and in higher organisms ( Bouwmeester et al , 2004 ; Goehler et al , 2004 ) using the yeast two-hybrid system or tagging of full-length proteins , followed by immunoprecipitation and mass spectrometric identification of bound partners ."	[exLink]		p5	Introduction	FALSE	method	3006	3418	
+23	s17	This work provided important insights into protein interaction networks but did not specifically address signal-dependent interactions .	[]		p5	Introduction	FALSE	problem	3419	3554	
+24	s18	"However , to serve as a basis for systems biology , static and dynamic , signal-dependent interactions need"	[]		p5	Introduction	FALSE	problem	3555	3659	
+25	s18	to be determined in a comprehensive manner .	[]		p5	Introduction	FALSE	problem	3660	3703	
+26	s19	"Since protein-protein interactions during signaling events occur in a controlled and ordered way , proteins serving as nodes in interaction networks need"	[]		p5	Introduction	FALSE	problem	3704	3856	
+27	s19	"to provide distinct binding sites for the variety of interaction partners , in response to different stimuli ."	[]		p5	Introduction	FALSE	problem	3857	3965	
+28	s20	In order to improve our understanding of how interaction specificity of different pathways is achieved	[]		p5	Introduction	FALSE	problem	3966	4068	
+29	s20	it is important to obtain an overview of the intramolecular distribution of binding sites .	[]		p5	Introduction	FALSE	problem	4069	4160	
+30	s21	"Therefore , there is a great need for methods"	[]		p5	Introduction	FALSE	problem	4161	4205	
+31	s21	that can determine interactions at the resolution of single modification sites and with high-throughput .	[]		p5	Introduction	FALSE	problem	4206	4310	
+32	s22	This would help in	[]		p5	Introduction	FALSE	goal	4311	4329	
+33	s22	systematizing our increasing knowledge of protein interaction networks and signaling pathways .	[]		p5	Introduction	FALSE	goal	4330	4424	
+34	s23	Members of the ErbB-receptor family are expressed in many different tissues and play a crucial role in cell proliferation and differentiation .	[]		p6	Introduction	FALSE	fact	4425	4567	
+35	s24	"They are activated by ligand binding ,"	[]		p6	Introduction	FALSE	fact	4568	4605	
+36	s24	which leads to homo - or heterodimerization followed by transphosphorylation of characteristic tyrosines .	[]		p6	Introduction	FALSE	fact	4606	4710	
+37	s25	This triggers downstream signaling cascades by recruitment of specific substrate proteins .	[]		p6	Introduction	FALSE	fact	4711	4801	
+38	s26	"EGFR ( ErbB1 ) and ErbB4 are fully functional receptor tyrosine kinases ,"	[]		p6	Introduction	FALSE	fact	4802	4872	
+39	s26	whereas ErbB2 has no endogenous ligand and ErbB3 has no functional kinase domain .	[]		p6	Introduction	FALSE	fact	4873	4954	
+40	s27	"Changes in expression and aberrant activation , especially of EGFR and ErbB2 , have been shown"	[]		p6	Introduction	FALSE	result	4955	5047	
+41	s27	"to be associated with a variety of cancers ( Blume-Jensen and Hunter , 2001 ) ."	[exLink]		p6	Introduction	FALSE	result	5048	5123	
+42	s28	The EGFR and its signaling pathway has been well studied with respect to protein-protein interactions	[]		p6	Introduction	FALSE	result	5124	5225	
+43	s28	"and for the main players in the pathway , their interaction sites have been mapped ."	[]		p6	Introduction	FALSE	result	5226	5309	
+44	s29	"The three other members of the ErbB family are less well studied ( Olayioye et al , 2000 ) ,"	[exLink]		p6	Introduction	FALSE	problem	5310	5398	
+45	s29	"although interaction partners have also been identified for a number of phosphotyrosine residues in ErbB2 , ErbB3 and ErbB4 ."	[]		p6	Introduction	FALSE	result	5399	5522	
+46	s30	A general model of	[]		p6	Introduction	FALSE	goal	5523	5541	
+47	s30	how this receptor family integrates different signals from different stimuli through unique and redundant binding sites will be crucial to our understanding of the diverse biological roles of this receptor family .	[]		p6	Introduction	FALSE	goal	5542	5755	
+48	s31	"Therefore , systematic mapping of protein interaction sites of whole protein families and motif classes combined with unbiased protein detection is necessary ."	[]		p6	Introduction	FALSE	goal	5756	5913	
+49	s32	"Using a recently developed quantitative proteomics technology for determining protein-protein interactions ( Schulze and Mann , 2004 )"	[exLink]		p7	Introduction	FALSE	method	5914	6045	
+50	s32	we here present results of a first systematic profiling of phosphotyrosine-dependent interaction sites on the ErbB-receptor family .	[]		p7	Introduction	FALSE	method	6046	6178	
+51	s33	Our screen resulted in novel and global insights into specificity and distribution of protein interaction sites by	[]		p7	Introduction	FALSE	result	6179	6293	
+52	s33	giving a broad picture of the direct interaction partners of all phosphotyrosine residues of the ErbB family members .	[]		p7	Introduction	FALSE	implication	6294	6411	
+53	s34	The peptide-protein interaction screen turned out	[]		p7	Introduction	FALSE	result	6412	6461	
+54	s34	"to be extremely specific in the detection of primary interaction partners , and revealed that each of the receptors has distinct patterns of binding partners , indicating distinct roles in signaling events ."	[]		p7	Introduction	FALSE	result	6462	6666	
+55	s35	"Strikingly , EGFR and ErbB4 show high similarities in their phosphotyrosine interaction partners ,"	[]		p7	Introduction	FALSE	result	6667	6763	
+56	s35	suggesting integrative roles in signaling pathways of their respective ligands .	[]		p7	Introduction	FALSE	implication	6764	6843	
+57	s36	Results	[header-0]		title8	Results	FALSE	none	6844	6851	
+58	s37	Detection of protein-protein interactions has previously been a balance between specificity ( background reduction ) and affinity ( detection of weak interactions ) .	[]		p9	Results	FALSE	fact	6852	7013	
+59	s38	"Recently , the introduction of stable isotope labeling ,"	[]		p9	Results	FALSE	result	7014	7068	
+60	s38	"to distinguish specific from unspecific interaction partners ( Blagoev et al , 2003 ; Ranish et al , 2003 ) , has enabled detection of weak binders in the presence of high levels of background proteins ( see below ) ."	[exLink]		p9	Results	FALSE	method	7069	7277	
+61	s39	"Based on this principle , we have developed a proteomic screen for peptide motif-based interactions ( Schulze and Mann , 2004 ) ."	[exLink]		p9	Results	FALSE	method	7278	7402	
+62	s40	Using synthetic peptide pairs in phosphorylated and unphosphorylated form	[]		p9	Results	FALSE	method	7403	7476	
+63	s40	pull-down experiments are performed to enrich specific binding partners to the phosphorylated bait peptides .	[]		p9	Results	FALSE	method	7477	7586	
+64	s41	These proteins are subsequently identified and quantified by mass spectrometry .	[]		p9	Results	FALSE	method	7587	7666	
+65	s42	"In this study , by further method development , we greatly increased the throughput of the analysis allowing"	[]		p9	Results	FALSE	method	7667	7773	
+66	s42	us to profile the entire phosphotyrosine interactome of the ErbB-receptor family .	[]		p9	Results	FALSE	method	7774	7855	
+67	s43	Improvements and scale-up of the peptide-protein interaction screen	[header-1]		title10	Results	FALSE	method	7856	7923	
+68	s44	The ErbB family contains a total of 89 cytosolic tyrosine residues .	[]		p11	Results	FALSE	fact	7924	7991	
+69	s45	In order to carry out a systematic analysis of binding partners to the corresponding phosphotyrosine motifs	[]		p11	Results	FALSE	goal	7992	8099	
+70	s45	the proteomic peptide-protein interaction screen had to be optimized and streamlined .	[]		p11	Results	FALSE	method	8100	8186	
+71	s46	"In the process of scaling up the method , desthiobiotin instead of biotin was used as the tagging reagent during peptide synthesis ."	[]		p11	Results	FALSE	method	8187	8317	
+72	s47	Desthiobiotinylated peptides were then immobilized on streptavidin-coated magnetic beads ( Dynabeads MyOne Streptavidin )	[]		p11	Results	FALSE	method	8318	8437	
+73	s47	"and after incubation with cell lysate , bait peptides and proteins bound to them were eluted with biotin ."	[]		p11	Results	FALSE	method	8438	8543	
+74	s48	Bait peptides were removed from the reaction by precipitation of proteins .	[]		p11	Results	FALSE	method	8544	8618	
+75	s49	"As a consequence , eluted proteins did not have"	[]		p11	Results	FALSE	method	8619	8665	
+76	s49	to be separated over SDS-PAGE prior to analysis by mass spectrometry and were directly trypsin-digested in-solution .	[]		p11	Results	FALSE	method	8666	8782	
+77	s50	This eliminated the time-consuming in-gel digestion step and reduced the number of LC-MS/MS experiments from at least six to one run per pull-down experiment .	[]		p11	Results	FALSE	result	8783	8941	
+78	s51	"Furthermore , in-solution digests are more readily automatable and can be performed at a scale of hundreds or thousands ."	[]		p11	Results	FALSE	fact	8942	9061	
+79	s52	"Thus , the improved method allows interaction profiling at a system-wide scale ."	[]		p11	Results	FALSE	implication	9062	9140	
+80	s53	"In the later part of the study , we employed"	[]		p12	Results	FALSE	method	9141	9184	
+81	s53	"a linear ion trap Fourier transform mass spectrometer ( LTQ-FT , ThermoFinnigan ) ."	[]		p12	Results	FALSE	method	9185	9264	
+82	s54	This instrument has significantly higher	[]		p12	Results	FALSE	fact	9265	9305	
+83	s54	"sequencing speed and peptide mass accuracy , which resulted in significantly higher quality data ."	[]		p12	Results	FALSE	fact	9306	9402	
+84	s55	Systematic analysis and general comparison	[header-1]		title13	Results	FALSE	none	9403	9445	
+85	s56	"Here , we present results of the first modification-dependent protein interaction study involving systematic profiling of binding sites of a whole receptor subfamily ."	[]		p14	Results	FALSE	result	9446	9611	
+86	s57	"For many receptors ,"	[]		p14	Results	FALSE	fact	9612	9631	
+87	s57	"the physiological phosphorylation sites are not well documented , and algorithms for their prediction are still limited ."	[]		p14	Results	FALSE	fact	9632	9751	
+88	s58	"The relatively high throughput of our screen allowed systematic study of all tyrosine sites , without"	[]		p14	Results	FALSE	method	9752	9852	
+89	s58	making prior assumptions about the baits or their potential interaction partners .	[]		p14	Results	FALSE	method	9853	9934	
+90	s59	"In particular , we wanted"	[]		p14	Results	FALSE	method	9935	9959	
+91	s59	"to demonstrate that the throughput of the method is sufficiently high , so that no information about the phosphorylation status ( i.e. in vivo phosphorylated or not ) needed to be taken into account ."	[]		p14	Results	FALSE	method	9960	10156	
+92	s60	"Therefore , we chose"	[]		p14	Results	FALSE	method	10157	10176	
+93	s60	to study potential interaction partners to all cytosolic tyrosine residues of the ErbB-receptor family in their phosphorylated form in a systematic and unbiased approach .	[]		p14	Results	FALSE	method	10177	10347	
+94	s61	"Altogether , we analyzed all 94 pairs of synthetic singly phospho - , nonphospho - and doubly phosphopeptides to a total of 89 cytosolic tyrosine residues in the four receptors EGFR , ErbB2 , ErbB3 and ErbB4 ."	[]		p14	Results	FALSE	method	10348	10550	
+95	s62	"For a total of 25 phosphotyrosines , a single interaction partner was found , and"	[]		p15	Results	FALSE	result	10551	10630	
+96	s62	"for 13 additional tyrosine residues , we found more than one interacting protein ( Table I ) ."	[]		p15	Results	FALSE	result	10631	10721	
+97	s63	"Not surprisingly , 49 out of the 89 investigated"	[]		p15	Results	FALSE	result	10722	10769	
+98	s63	tyrosine residues did not have an interaction partner to their phosphorylated form .	[]		p15	Results	FALSE	result	10770	10853	
+99	s64	"Most of the tyrosine residues without interaction partners are located in and around the kinase domain ,"	[]		p15	Results	FALSE	result	10854	10957	
+100	s64	whereas the residues that interacted with specific partners accumulated at the C-terminal regions of the receptors .	[]		p15	Results	FALSE	result	10958	11073	
+101	s65	"Strikingly , all binding partners with a significant ratio in our assay had either an SH2 or a PTB domain ."	[]		p15	Results	FALSE	result	11074	11179	
+102	s66	"An overview of the distribution of the interaction partners of the different members of the ErbB-receptor family shows clear differences between individual receptors , but also a large overlap ( Figure 1 , Supplementary Table I ) ."	[inLink]	f1	p16	Results	FALSE	result	11180	11406	f1
+103	s67	EGFR is the family member with most interaction partners and the highest percentage of tyrosine residues with more than one binding partner .	[]		p16	Results	FALSE	result	11407	11547	
+104	s68	"ErbB3 is characterized by a large number of binding sites for phosphatidylinositol-3-kinase ( PI3K ) ,"	[]		p16	Results	FALSE	result	11548	11647	
+105	s68	while ErbB2 has only few interaction partners with Shc as the most frequent one .	[]		p16	Results	FALSE	result	11648	11728	
+106	s69	"ErbB4 and EGFR have a variety of phosphotyrosines that bind Grb2 , or Grb2 and Shc ."	[]		p16	Results	FALSE	result	11729	11811	
+107	s70	EGFR and ErbB4 have a greater diversity of interaction partners than ErbB2 and ErbB3 .	[]		p16	Results	FALSE	result	11812	11897	
+108	s71	"All interactions found in this study have been submitted to the public Molecular INTeraction database ( Zanzoni et al , 2002 ) ."	[exLink]		p16	Results	FALSE	method	11898	12022	
+109	s72	Interactions mediated by specific peptide motifs	[header-1]		title17	Results	FALSE	none	12023	12071	
+110	s73	"ErbB family members show high homology in the kinase domain ( 59-81 % identity ) ,"	[]		p18	Results	FALSE	result	12072	12150	
+111	s73	whereas the C-terminal domains are more divergent ( 11-25 % identity ) .	[]		p18	Results	FALSE	result	12151	12219	
+112	s74	ErbB3 was the receptor showing the weakest homology to the other three receptors .	[]		p18	Results	FALSE	result	12220	12301	
+113	s75	"Nevertheless , characteristic sequences around two tyrosine residues are identical in all four receptors : tyrosines Y900 of EGFR , Y908 of ErbB2 , Y897 of ErbB3 and Y906 of ErbB4 , all are embedded in the sequence SDVWSYGVTVW ; and"	[]		p18	Results	FALSE	result	12302	12528	f1
+114	s75	"tyrosine Y944 of EGFR , Y952 of ErbB2 , Y941 of ErbB3 and Y950 of ErbB4 , all have the identical sequence CTIDVYMIMVK ( underlined and color coded in Figure 1 ) ."	[inLink]	f1	p18	Results	FALSE	result	12529	12685	f1
+115	s76	"Tyrosine 944 of the EGF-receptor is phosphorylated by Src-kinase ( Stover et al , 1995 ) ."	[exLink]		p18	Results	FALSE	fact	12686	12772	
+116	s77	"To both of these shared tyrosine-containing sequences no interaction partners were found ,"	[]		p18	Results	FALSE	result	12773	12862	
+117	s77	suggesting that these sequences are conserved for structural functions or that they mediate other types of effects .	[]		p18	Results	FALSE	implication	12863	12978	
+118	s78	"Furthermore , two pairs of phosphotyrosine-containing sequences are identical in EGFR and ErbB2 ."	[]		p18	Results	FALSE	result	12979	13074	
+119	s79	One of these pairs ( pY764 in EGFR and pY772 in ErbB2 ) has no interaction partner and the other ( pY10l6 in EGFR and pY1023 in ErbB2 ) mediates interaction with PTP-2c .	[]		p18	Results	FALSE	result	13075	13240	
+120	s80	"In addition , the protein sequence around pY978 in EGFR and pY984 in ErbB4 is identical , and in our experiments , binds STAT5 and PTP-2c"	[]		p18	Results	FALSE	result	13241	13375	
+121	s80	when phosphorylated .	[]		p18	Results	FALSE	result	13376	13396	
+122	s81	"Besides these identical sequences , the ErbB-receptor family also has a highly conserved region around Y915 ( EGFR ) , Y923 ( ErbB2 ) , Y912 ( ErbB3 ) and Y921 ( ErbB4 ) ,"	[]		p19	Results	FALSE	result	13397	13556	
+123	s81	to which no interaction partner was found .	[]		p19	Results	FALSE	result	13557	13599	
+124	s82	"Similar to Y944 , Y915 was also shown"	[]		p19	Results	FALSE	result	13600	13636	
+125	s82	"to be a Src-kinase phosphorylation site in EGFR ( Stover et al , 1995 ) ."	[exLink]		p19	Results	FALSE	result	13637	13706	
+126	s83	"Two other conserved regions are around Y1197 ( EGFR ) , Y1248 ( ErbB2 ) and Y1284 ( ErbB4 ) , as well as around Y727 ( EGFR ) , Y735 ( ErbB2 ) and Y733 ( ErbB4 ) ."	[]		p19	Results	FALSE	result	13707	13854	
+127	s84	All six corresponding phosphopeptides showed specific interactions to Shc .	[]		p19	Results	FALSE	result	13855	13929	
+128	s85	It is interesting	[]		p19	Results	FALSE	implication	13930	13947	
+129	s85	to note that ErbB3 clearly differs from the other three receptors with respect to its interaction partners and conserved regions around tyrosine residues .	[]		p19	Results	FALSE	implication	13948	14102	
+130	s86	"Interaction of phosphotyrosine peptides with Grb2 , Shc or PI3K were dependent on specific consensus sequences"	[]		p20	Results	FALSE	result	14103	14212	
+131	s86	"that have been well documented ( Songyang et al , 1994 ; Yan et al , 2002 ; Pawson , 2004 ) ."	[exLink]		p20	Results	FALSE	result	14213	14298	
+132	s87	"The protein Shc ,"	[]		p20	Results	FALSE	result	14299	14315	
+133	s87	"which contains a PTB-domain and an SH2-domain , was found to bind to two different consensus sequences ."	[]		p20	Results	FALSE	result	14316	14418	
+134	s88	"The majority of Shc-binding sites conformed to the typical N-P-X-pY recognition motif for the PTB domains ( Gustafson et al , 1995 ) ."	[exLink]		p20	Results	FALSE	result	14419	14549	
+135	s89	"However , an alignment of the sequences around five Shc-binding sites revealed no conserved N-terminal motif ."	[]		p20	Results	FALSE	result	14550	14658	
+136	s90	"Instead , we found"	[]		p20	Results	FALSE	result	14659	14676	f2
+137	s90	a consensus sequence pY- [ KR ] -X- [ LI ] involving a basic residue neighboring the phosphotyrosine and a hydrophobic residue at position +3 ( Figure 2 ) .	[inLink]	f2	p20	Results	FALSE	result	14677	14823	f2
+138	s91	"Since PTB domains have recognition sequences N-terminal to pY and SH2 domains have C-terminal binding motifs ( Yaffe , 2002 )"	[exLink]		p20	Results	FALSE	fact	14824	14946	f2
+139	s91	Shc is likely to bind these bait peptides through its SH2 domain .	[]		p20	Results	FALSE	hypothesis	14947	15013	f2
+140	s92	"A consensus binding motif for the Shc SH2-domain of pY-phi-X- [ LI ] , with strongest selection on the position +3 has been described in pool-sequencing experiments ( Songyang et al , 1994 ) ."	[exLink]		p20	Results	FALSE	result	15014	15198	f2
+141	s93	"However , our results indicate"	[]		p20	Results	FALSE	implication	15199	15228	f2
+142	s93	"that the strong selection of position +3 alone comprising the motif pY-X-X- [ LI ] is not sufficient to specify binding of endogenous Shc , as Shc did not bind to pY915 , pY978 of EGFR , pY8O3 , pY923 of ErbB2 , pY912 , pY975 , pY1307 of EbB3 or pY921 , pY984 of ErbB4 , which have a pY-X-X- [ LI ] sequence ."	[]		p20	Results	FALSE	implication	15229	15522	f2
+143	s94	Supporting evidence for our motif also comes from experiments	[]		p20	Results	FALSE	result	15523	15584	f2
+144	s94	"that demonstrated binding of recombinant SH2 domain of Shc to phosphopeptides containing the pY- [ KR ] -X- [ LI ] sequence around pY727 and pY998 of EGFR ( Ward et al , 1996 ) ."	[exLink]		p20	Results	FALSE	result	15585	15752	f2
+145	s95	Grb2 was also found to bind sequences	[]		p21	Results	FALSE	result	15753	15790	f2
+146	s95	that deviate from the strict target sequence pY-X-N .	[]		p21	Results	FALSE	result	15791	15843	f2
+147	s96	"Our experiments suggest the more generalized consensus motif pY- [ phiQ ] - [ NQFDK ] ,"	[]		p21	Results	FALSE	implication	15844	15923	f2
+148	s96	where phi is a hydrophobic residue .	[]		p21	Results	FALSE	implication	15924	15959	f2
+149	s97	"Binding of Grb2 to motifs deviating from the pY-X-N sequence has previously been noted ( Songyang et al , 1994 ; Ward et al , 1996 ) ."	[exLink]		p21	Results	FALSE	result	15960	16088	
+150	s98	To describe Grb2 binding preferences	[]		p21	Results	FALSE	goal	16089	16125	f3
+151	s98	we compared ion intensities in extracted ion chromatograms of identical tryptic peptides of Grb2 from pull-down experiments with different phosphotyrosine residues ( Figure 3 ) .	[inLink]	f3	p21	Results	FALSE	method	16126	16302	f3
+152	s99	"For the same mass spectrometric conditions , peptide ion signals from the same tryptic peptide in different experiments are indicative of the abundance of these peptides in different samples , a fact"	[]		p21	Results	FALSE	method	16303	16500	f3
+153	s99	"that is , for example , used in Protein Correlation Profiling ( Andersen et al , 2003 ) ."	[exLink]		p21	Results	FALSE	method	16501	16584	f3
+154	s100	Those bait peptides	[]		p21	Results	FALSE	method	16585	16604	f3
+155	s100	containing an asparagine residue at position +2 led to identification of Grb2 peptides with high ion intensities .	[]		p21	Results	FALSE	method	16605	16718	f3
+156	s101	This correlates with the strong binding of Grb2 to the pY-X-N motif .	[]		p21	Results	FALSE	method	16719	16787	f3
+157	s102	"In contrast , bait peptides without asparagine at position +2 resulted in the identification of tryptic peptides with significantly lower ion intensities ( Figure 3 ) ."	[inLink]	f3	p21	Results	FALSE	result	16788	16952	f3
+158	s103	"Nevertheless ,"	[]		p21	Results	FALSE	result	16953	16966	f3
+159	s103	"in all cases , Grb2 was identified as a specific binding partner to the bait peptide , and these results were confirmed by Western blots ( insets in Figure 3 ) ."	[inLink]	f3	p21	Results	FALSE	result	16967	17123	f3
+160	s104	"Furthermore , our findings are in agreement with in vitro studies of binding affinities of synthetic peptides to the recombinant SH2 domain of Grb2 ( Ward et al , 1996 ) ."	[exLink]		p21	Results	FALSE	implication	17124	17290	f3
+161	s105	"In addition to direct binding of Grb2 to phosphotyrosine residues of receptor kinases , Grb2 can also be recruited to the receptor by binding"	[]		p22	Results	FALSE	fact	17291	17431	
+162	s105	to Shc when Shc is tyrosine phosphorylated as a result of receptor stimulation .	[]		p22	Results	FALSE	fact	17432	17511	
+163	s106	Phosphorylation of Shc results in binding of Grb2 to the phosphorylated tyrosine of Shc via its SH2 domain .	[]		p22	Results	FALSE	fact	17512	17619	
+164	s107	We found	[]		p22	Results	FALSE	result	17620	17628	
+165	s107	that five bait phosphopeptides had Grb2 and Shc as common binding partners .	[]		p22	Results	FALSE	result	17629	17704	
+166	s108	"However , in all five cases , the bait peptide contained overlapping binding motifs for Grb2 and Shc"	[]		p22	Results	FALSE	result	17705	17804	f3
+167	s108	see also inset in Figure 3 ) .	[inLink]	f3	p22	Results	FALSE	result	17805	17833	f3
+168	s109	"Furthermore , the experiments were carried out in cells"	[]		p22	Results	FALSE	method	17834	17888	
+169	s109	that were not especially stimulated with growth factor ( even though they were grown in the presence of serum ) .	[]		p22	Results	FALSE	method	17889	17999	
+170	s110	"Thus ,"	[]		p22	Results	FALSE	implication	18000	18005	
+171	s110	most signal-dependent multi-protein complexes are not present and binding partners are not activated ( phosphorylated ) .	[]		p22	Results	FALSE	implication	18006	18124	
+172	s111	"Therefore , the identification of Grb2 in our pull-down experiments is most likely due"	[]		p22	Results	FALSE	implication	18125	18210	
+173	s111	to direct binding and not indirect binding as an interaction partner of Shc .	[]		p22	Results	FALSE	implication	18211	18287	
+174	s112	"For the above reasons , we believe"	[]		p22	Results	FALSE	implication	18288	18321	
+175	s112	that our experiments generally yield the direct or primary phosphotyrosine interactome rather than protein complexes .	[]		p22	Results	FALSE	implication	18322	18439	
+176	s113	Y-E-Y motifs of ErbB3 and the role of double phosphorylation	[header-1]		title23	Results	FALSE	none	18440	18500	
+177	s114	ErbB3 contains three pairs of tyrosine residues	[]		p24	Results	FALSE	fact	18501	18548	
+178	s114	"that are separated by one glutamic acid residue comprising Y1197 and Y1199 , Y1222 and Y1224 , as well as Y1260 and Y1262 ."	[]		p24	Results	FALSE	fact	18549	18669	
+179	s115	"These Y-E-Y motifs were not found in any of the other ErbB-receptors ,"	[]		p24	Results	FALSE	fact	18670	18739	
+180	s115	"suggesting that these regions may perhaps have specific interaction partners also in the doubly phosphorylated state , or that double phosphorylation enhances or abolishes interaction of proteins in the singly phosphorylated peptides ."	[]		p24	Results	FALSE	implication	18740	18973	
+181	s116	"To investigate this question , we used the Y-E-Y regions as bait peptides in unphosphorylated , singly phosphorylated and doubly phosphorylated states , with cell lysates"	[]		p24	Results	FALSE	goal	18974	19141	f4
+182	s116	"that were metabolically labeled with either 12C6-arginine ( Arg0 ) , 13C6-arginine ( Arg6 ) or 15N4 13C6-arginine ( Arg10 ) and used in pull-down experiments with unphosphorylated , singly phosphorylated and doubly phosphorylated bait peptides ."	[]		p24	Results	FALSE	method	19142	19378	f4
+183	s117	The results show	[]		p25	Results	FALSE	implication	19379	19395	f4
+184	s117	that there are clear binding partners for each of the singly phosphorylated bait peptides of the Y-E-Y motifs ( Figure 4 ) .	[inLink]	f4	p25	Results	FALSE	implication	19396	19517	f4
+185	s118	"All three Y-E-Y motifs contain a binding site for PI3K at the first tyrosine residue ( Y1197 , Y1222 and Y1260 ; pY-E-Y )"	[]		p25	Results	FALSE	result	19518	19635	f4
+186	s118	and two motifs contain a binding site for Grb2 at the second tyrosine residue ( Y1199 and Y1268 ; Y-E-pY ) .	[]		p25	Results	FALSE	result	19636	19741	f4
+187	s119	The Y-E-Y motif with phosphorylated tyrosine residue Y1224 ( Y-E-pY ) did not result in specific binding of any protein .	[]		p25	Results	FALSE	result	19742	19860	f4
+188	s120	"PI3K , as well as Grb2 , also interacted with the doubly phosphorylated bait peptides ."	[]		p25	Results	FALSE	result	19861	19945	f4
+189	s121	"However , Grb2 interaction was weaker with the doubly phosphorylated bait peptides , compared to the interaction with the singly phosphorylated peptide , including the Grb2 binding site ."	[]		p25	Results	FALSE	result	19946	20129	f4
+190	s122	"Apparently , the doubly phosphorylated regions did not have characteristic specific interaction partners ."	[]		p25	Results	FALSE	result	20130	20234	f4
+191	s123	"Since both tyrosine residues are very close together , only one of the two possible interaction partners can bind at a time , and"	[]		p25	Results	FALSE	implication	20235	20362	f4
+192	s123	it remains open if the doubly phosphorylated form actually occurs in vivo .	[]		p25	Results	FALSE	hypothesis	20363	20437	f4
+193	s124	Direct interaction of EGFR and ErbB4 with STAT5	[header-1]		title26	Results	FALSE	none	20438	20485	
+194	s125	"The systematic profiling of interaction partners not only allows a global view of interaction sites , but also reveals important detailed information"	[]		p27	Results	FALSE	method	20486	20634	
+195	s125	"that can be exploited further for the understanding of signaling processes , as will be illustrated with the example of STAT5 binding to EGFR ."	[]		p27	Results	FALSE	method	20635	20776	
+196	s126	STAT5 is a transcription factor	[]		p27	Results	FALSE	fact	20777	20808	
+197	s126	that is rapidly activated upon EGF stimulation .	[]		p27	Results	FALSE	fact	20809	20856	
+198	s127	"It then moves to the nucleus ,"	[]		p27	Results	FALSE	fact	20857	20886	
+199	s127	where it is involved in the regulation of gene transcription .	[]		p27	Results	FALSE	fact	20887	20948	
+200	s128	Experiments with truncated EGFR clones suggested	[]		p27	Results	FALSE	implication	20949	20997	
+201	s128	"that the region between tyrosine residue Y0978 and Y0998 was necessary for activation of STAT5 ( Xia et al , 2002 ) ."	[exLink]		p27	Results	FALSE	implication	20998	21111	
+202	s129	"However , it remained unclear"	[]		p27	Results	FALSE	hypothesis	21112	21140	
+203	s129	whether this proposed interaction was direct or through a multiprotein complex .	[]		p27	Results	FALSE	hypothesis	21141	21220	
+204	s130	Systematic interaction profiling of all tyrosine residues of the ErbB-receptor family revealed	[]		p27	Results	FALSE	result	21221	21315	
+205	s130	STAT5 as a specific interaction partner to the phosphorylated bait peptides Y978 and Y998 of the EGF receptor and Y984 of ErbB4 .	[]		p27	Results	FALSE	result	21316	21444	
+206	s131	We confirmed the direct interaction of STAT5 and EGFR by immunoprecipitation .	[]		p27	Results	FALSE	result	21445	21522	
+207	s132	When EGFR was immunoprecipitated from whole-cell lysates of cells under normal growth conditions ( basal stimulation in 10 % FBS )	[]		p27	Results	FALSE	method	21523	21650	f5
+208	s132	STAT5 was identified by Western blot and vice versa ( Figure 5 ) .	[inLink]	f5	p27	Results	FALSE	method	21651	21715	f5
+209	s133	"To further confirm this finding , we added synthetic phosphorylated peptides pY978 and pY998 to the immunoprecipitation reaction ,"	[]		p27	Results	FALSE	goal	21716	21844	f5
+210	s133	which resulted in reduced STAT5 detection after EGFR immunoprecipitation and in reduced EGFR detection after STAT5 immunoprecipitation .	[]		p27	Results	FALSE	result	21845	21980	f5
+211	s134	The unphosphorylated counterparts of these peptides had no influence on the immunoprecipitation reactions ( Figure 5A ) . Figure 5B shows	[inLink]	f5a|f5b	p27	Results	FALSE	result	21981	22115	f5|f5a|f5b
+212	s134	"that the interaction of STAT5 depended on EGFR phosphorylation , which peaked after two minutes of EGF stimulation , and that normal growing HeLa cells also have a basal level of phosphorylated EGFR ."	[]		p27	Results	FALSE	result	22116	22313	f5|f5a|f5b
+213	s135	Dynamics of tyrosine phosphorylation after EGF stimulation	[header-1]		title28	Results	FALSE	none	22314	22372	
+214	s136	To correlate our findings with in vivo phosphorylation of the receptor	[]		p29	Results	FALSE	goal	22373	22443	
+215	s136	we directly analyzed the kinetics of phosphorylation of several sites upon EGF stimulation by mass spectrometry .	[]		p29	Results	FALSE	method	22444	22557	
+216	s137	Phosphopeptides of immunoprecipitated EGFR were analyzed by LC-MS/MS after different times of stimulation with EGF .	[]		p29	Results	FALSE	method	22558	22673	
+217	s138	"For these experiments , different cell populations were completely SILAC labeled with either Arg0 , Arg6 or Arg10 ."	[]		p29	Results	FALSE	method	22674	22786	
+218	s139	"Arg0 populations were left unstimulated ,"	[]		p29	Results	FALSE	method	22787	22827	
+219	s139	"Arg6 populations were stimulated for either 2 or 4 min , and Arg10 populations were stimulated for eight or 15 min ."	[]		p29	Results	FALSE	method	22828	22942	
+220	s140	"Ratios between tryptic phosphopeptides in their Arg0 , Arg6 and Arg10 forms in the combined immunoprecipitations allowed one"	[]		p29	Results	FALSE	method	22943	23066	
+221	s140	"to monitor the abundance of these tryptic phosphopeptides as a function of time after EGF stimulation ( Blagoev et al , 2004 ) ."	[exLink]		p29	Results	FALSE	method	23067	23191	
+222	s141	"In this experiment , we identified a novel EGFR phosphorylation site by the tryptic peptide containing the phosphorylated tyrosine residue Y998 ( Figure 6A ) ."	[inLink]	f6a	p29	Results	FALSE	result	23192	23347	f6a
+223	s142	"In total , tryptic peptides to six phosphorylation sites were analyzed ( Figure 6B ) ."	[inLink]	f6b	p29	Results	FALSE	method	23348	23430	f6b
+224	s143	"Peptides of phosphorylated Y1110 , Y1172 and Y1197 showed highest ratios at 2-4 min of stimulation"	[]		p29	Results	FALSE	result	23431	23528	f6b
+225	s143	and these ratios decreased with longer EGF stimulation .	[]		p29	Results	FALSE	result	23529	23585	f6b
+226	s144	"In contrast , Src-kinase phosphorylation site Y869 displayed a decrease in ratio at 4 min of stimulation ,"	[]		p29	Results	FALSE	result	23586	23690	f6b
+227	s144	which was accompanied by an increase in ratio of the nonphosphorylated tryptic peptide .	[]		p29	Results	FALSE	result	23691	23778	f6b
+228	s145	"The novel phosphorylation site at Y998 displayed a gradual increase in ratio over 15 min of stimulation , and"	[]		p29	Results	FALSE	result	23779	23887	f6b
+229	s145	the phosphorylation site at Y801 was maximally activated as late as 8 min after start of EGF stimulation ( Figure 6B ) .	[inLink]	f6b	p29	Results	FALSE	result	23888	24005	f6b
+230	s146	"However , in interpreting the kinetics of such curves , it has"	[]		p29	Results	FALSE	fact	24006	24066	
+231	s146	to be kept in mind that the amount of EGFR immunoprecipitated by the phosphotyrosine antibody will depend on the total tyrosine phosphorylation of the receptor in addition to the phosphorylation of the site under investigation .	[]		p29	Results	FALSE	fact	24067	24294	
+232	s147	These results show	[]		p30	Results	FALSE	implication	24295	24313	
+233	s147	"that different phosphorylation sites show different phosphorylation dynamics after stimulation , reflecting distinct temporal roles in signaling ."	[]		p30	Results	FALSE	implication	24314	24458	
+234	s148	"Interestingly , these differences in phosphorylation dynamics correlate with the interaction partners identified for each of these sites ."	[]		p30	Results	FALSE	result	24459	24595	
+235	s149	The autophosphorylation sites at Y1110 and Y1197 display rapid phosphorylation with a maximum after 4 min	[]		p30	Results	FALSE	result	24596	24701	
+236	s149	and they have the same set of interaction partners ( Grb2 and Shc ) .	[]		p30	Results	FALSE	result	24702	24768	
+237	s150	"The novel phosphorylation site at Y998 is increasingly phosphorylated over 15 min , and interacts with STAT5 , PTP-2c , Shc , Crk , and the phosphotyrosine kinase Src or Csk ( Cole et al , 2003 ) ,"	[exLink]		p30	Results	FALSE	result	24769	24957	
+238	s150	which could not be distinguished based on the observed tryptic peptides .	[]		p30	Results	FALSE	result	24958	25030	
+239	s151	Crk was immunoprecipitated with EGFR in a phosphorylation-dependent manner ( Figure 5B ) .	[inLink]	f5b	p30	Results	FALSE	result	25031	25118	f5b
+240	s152	"In contrast , the phosphorylation sites at Y801 and Y869 showed distinct phosphorylation kinetics , but had no interaction partner in our assay ."	[]		p30	Results	FALSE	result	25119	25261	
+241	s153	Discussion	[header-0]		title31	Discussion	FALSE	none	25262	25272	
+242	s154	"Specific protein-protein interactions are not only involved in the formation of stable multimeric complexes , but are important for a large number of rather short-term associations of proteins during"	[]		p32	Discussion	FALSE	fact	25273	25471	
+243	s154	signaling .	[]		p32	Discussion	FALSE	fact	25472	25482	
+244	s155	"Kinase and substrate need to interact , and"	[]		p32	Discussion	FALSE	fact	25483	25525	
+245	s155	"temporary complexes are formed by means of scaffolding and adaptor proteins ( Robinson and Bonifacino , 2001 ; Pawson , 2004 ) ."	[exLink]		p32	Discussion	FALSE	fact	25526	25648	
+246	s156	Knowing the binding partner to a phosphorylation site	[]		p32	Discussion	FALSE	fact	25649	25702	
+247	s156	defines the role of that particular modification during signal transduction .	[]		p32	Discussion	FALSE	fact	25703	25779	
+248	s157	Apart from	[]		p32	Discussion	FALSE	problem	25780	25790	
+249	s157	"resolving interactions to specific binding sites on different signaling proteins , an overall picture of the distribution of binding sites for interacting proteins may also lead to general conclusions of how signals are directed to different pathways ."	[]		p32	Discussion	FALSE	problem	25791	26041	
+250	s158	The approach taken in this study is thus complementary to other proteomic approaches	[]		p32	Discussion	FALSE	method	26042	26126	
+251	s158	"in which whole signaling complexes are identified ( see , e.g. , Blagoev et al , 2003 ) ."	[exLink]		p32	Discussion	FALSE	method	26127	26210	
+252	s159	As	[]		p33	Discussion	FALSE	method	26211	26213	
+253	s159	"signaling events are often characterized by phosphorylation of receptors and downstream interaction partners , the peptide-protein interaction screen ( Schulze and Mann , 2004 ) was further developed for high sample throughput and used to map the primary binding partners of phosphorylated tyrosine residues of the ErbB-receptor family ."	[exLink]		p33	Discussion	FALSE	method	26214	26546	
+254	s160	Individual members of this family have in the past been studied with respect	[]		p33	Discussion	FALSE	method	26547	26623	
+255	s160	"to interaction partners of selected residues using phosphopeptide competition analysis , receptor mutants and coimmunoprecipitation ( Margolis et al , 1990 ; Birge et al , 1992 ; Fedi et al , 1994 ; Prigent and Gullick , 1994 ; Lombardo et al , 1995 ; Sorkin et al , 1996 ; Keilhack et al , 1998 ; Hellyer et al , 2001 ; Yarden and Sliwkowski , 2001 ; Moro et al , 2002 ; Blagoev et al , 2003 ) ."	[exLink]		p33	Discussion	FALSE	method	26624	26995	
+256	s161	"In this study , we take a new approach"	[]		p33	Discussion	FALSE	method	26996	27033	
+257	s161	"that allows comparison and mapping of the primary interaction partners and their binding sites in a single , comprehensive and unbiased system ; that is , we do not need to make any assumptions about likely baits or interaction partners ."	[]		p33	Discussion	FALSE	method	27034	27268	
+258	s162	Specificity and sensitivity	[header-1]		title34	Discussion	FALSE	none	27269	27296	
+259	s163	The fact that all binding partners identified contained either SH2 - or	[]		p35	Discussion	FALSE	result	27297	27367	
+260	s163	"PTB-domains emphasizes the specificity of signal transduction modules ( Pawson and Nash , 2003 ) , combined with the observation that phosphotyrosines that were not expected to have binding partners did not show any proteins with significant ratios ."	[exLink]		p35	Discussion	FALSE	implication	27368	27613	
+261	s164	"This is in contrast to other protein-protein interaction screens , especially in large-scale format ( von Mering et al , 2002 )"	[exLink]		p35	Discussion	FALSE	implication	27614	27737	
+262	s164	and we conclude that assay is extremely specific and capable of confirming known binding motifs and detecting new target sequences .	[]		p35	Discussion	FALSE	implication	27738	27870	
+263	s165	Our screen resulted in identification of the vast majority of expected direct interaction partners of the ErbB family	[]		p36	Discussion	FALSE	result	27871	27988	
+264	s165	that bind through phosphotyrosines .	[]		p36	Discussion	FALSE	result	27989	28024	
+265	s166	"Among the few exceptions was PLC-gamma , which"	[]		p36	Discussion	FALSE	result	28025	28070	
+266	s166	we were unable to find as an interaction partner of Y1197 of the EGF receptor .	[]		p36	Discussion	FALSE	result	28071	28149	
+267	s167	This interaction has been described	[]		p36	Discussion	FALSE	method	28150	28185	
+268	s167	"using immunoprecipitations and in vitro phosphopeptide competition and binding assays with cloned domains ( Margolis et al , 1990 ; Rotin et al , 1992 ) ."	[exLink]		p36	Discussion	FALSE	method	28186	28334	
+269	s168	"The peptide-protein interaction assay as such is capable of identifying PLC-gamma ,"	[]		p36	Discussion	FALSE	method	28335	28417	
+270	s168	"since we previously described such an interaction using an IRS4 phosphopeptide as bait ( Hinsby et al , 2004 ) ."	[exLink]		p36	Discussion	FALSE	method	28418	28526	
+271	s169	"We also could not find the interaction of Y1197 with SHIP1 ( Keilhack et al , 1998 ) , or of Y1248 of ErbB2 with Chk ( Zrihan-Licht et al , 1998 ) ."	[exLink]		p36	Discussion	FALSE	result	28527	28667	
+272	s170	"Binding constants of SH2 domains to phosphotyrosines are in the range of 50-500 nM ( Pawson , 2004 ) ,"	[exLink]		p36	Discussion	FALSE	result	28668	28766	
+273	s170	"while binding constants of certain PTB domains to the respective bait peptides can be as low as 2 muM to 10 muM ( Yan et al , 2002 ) ."	[exLink]		p36	Discussion	FALSE	result	28767	28897	
+274	s171	"The peptide-protein interaction screen was validated for binding constants as low as at least 5 muM ( Schulze and Mann , 2004 )"	[exLink]		p36	Discussion	FALSE	method	28898	29022	
+275	s171	"but it is likely to work with much lower affinity interactions , too ."	[]		p36	Discussion	FALSE	method	29023	29092	
+276	s172	"Thus , we believe"	[]		p36	Discussion	FALSE	implication	29093	29109	
+277	s172	that the negative results are unlikely to be caused by low affinity of the interactions .	[]		p36	Discussion	FALSE	implication	29110	29198	
+278	s173	"However , some interactions may not only be motif-dependent , but also require cooperative binding or activation of the binding partner ."	[]		p36	Discussion	FALSE	implication	29199	29333	
+279	s174	"In this study , we identify Grb2 as a specific binding partner to tyrosines Y1199 and Y1268 of ErbB3 ."	[]		p37	Discussion	FALSE	result	29334	29434	
+280	s175	Other studies have identified Grb7 as a specific binding partner to those tyrosine residues using immunoprecipitation and Western blots as detection method	[]		p37	Discussion	FALSE	result	29435	29590	
+281	s175	"but assays with synthetic peptides indicated that Grb2 can also bind to Y1199 and Y1268 , but with a lower affinity ( Fiddes et al , 1998 ) ."	[exLink]		p37	Discussion	FALSE	result	29591	29728	
+282	s176	We have not identified Grb7 at all in the peptide pull-downs using whole-cell lysate and could not detect Grb7 expression in HeLa cells by Western blotting ( data not shown ) .	[]		p37	Discussion	FALSE	result	29729	29902	
+283	s177	"Therefore , the differences in interaction partner may be due to the use of a different cell type ."	[]		p37	Discussion	FALSE	implication	29903	30000	
+284	s178	This example illustrates	[]		p37	Discussion	FALSE	implication	30001	30025	
+285	s178	"that the results of our assay depend on expression of the binding partner in vivo , and may be different for different cell types ."	[]		p37	Discussion	FALSE	implication	30026	30155	
+286	s179	"Finally , some proteins have previously been reported"	[]		p38	Discussion	FALSE	result	30156	30208	
+287	s179	"to interact with EGFR ( van Delfi et al , 1997 ) , such as EPS15 ( Schumacher et al , 1995 ) ."	[exLink]		p38	Discussion	FALSE	result	30209	30295	
+288	s180	"In our study , we see EPS15 in pull-downs with a number of bait peptides , but always with a ratio of one to one , indicating no direct binding to the bait peptides ."	[]		p38	Discussion	FALSE	result	30296	30458	
+289	s181	This would in any case be expected	[]		p38	Discussion	FALSE	implication	30459	30493	
+290	s181	"since EPS15 has no SH2 or PTB domain , and rather is recruited to EGFR in a larger protein complex ."	[]		p38	Discussion	FALSE	result	30494	30592	
+291	s182	Redundancy of binding sites	[header-1]		title39	Discussion	FALSE	none	30593	30620	
+292	s183	"With very few exceptions , each of the proteins recruited to phosphotyrosines on the ErbB family had more than one binding site , although sometimes with different affinities ."	[]		p40	Discussion	FALSE	fact	30621	30794	
+293	s184	"For example , EGFR has six binding sites for the adapter protein Grb2 , and"	[]		p40	Discussion	FALSE	result	30795	30868	
+294	s184	"ErbB4 has five , each with different binding strength ( see Figure 3 and Ward et al , 1996 ) ."	"[inLink, exLink]"	f3	p40	Discussion	FALSE	result	30869	30958	
+295	s185	PI3K is the sole binding partner to six tyrosines of ErbB3 and one in ErbB4 .	[]		p40	Discussion	FALSE	fact	30959	31035	
+296	s186	This redundancy allows combinatorial control of downstream effector pathways in several ways .	[]		p40	Discussion	FALSE	fact	31036	31129	
+297	s187	"Different upstream signals can induce different phosphorylation patterns on ErbB receptors-for example , in the case of EGF versus TGFalpha stimulation of EGFR ( Guo et al , 2003 ) ."	[exLink]		p40	Discussion	FALSE	fact	31130	31307	
+298	s188	The combination of these different phosphorylation patterns with the different binding affinities allows	[]		p40	Discussion	FALSE	fact	31308	31412	
+299	s188	a different cast of effector molecules to be assembled at the receptor .	[]		p40	Discussion	FALSE	fact	31413	31484	
+300	s189	"A second level of combinatorial control is the formation of different homo - or heterodimers , depending on the stimulatory condition ( Olayioye et al , 1998 ; Hynes et al , 2001 ) ."	[exLink]		p40	Discussion	FALSE	fact	31485	31659	
+301	s190	Studies of cells with differential overexpression of ErbB family members in various combinations revealed	[]		p40	Discussion	FALSE	method	31660	31765	
+302	s190	"that binding of ErbB2 to Shc , PI3K or Grb2 was dependent on the mode of activation , and that receptor phosphorylation also was dependent on the dimerization partner ( Goehler et al , 2004 ) ."	[exLink]		p40	Discussion	FALSE	result	31766	31953	
+303	s191	"Thus , the interaction partners Grb2 , Shc or PI3K may only interact with a specific phosphotyrosine under a given cellular condition , and with a different one under another stimulus or dimerization state ."	[]		p40	Discussion	FALSE	hypothesis	31954	32157	
+304	s192	The redundancy in binding sites for specific adapter proteins thus may be essential for integration of different stimuli and the coordinated transduction of this information to downstream pathways and	[]		p40	Discussion	FALSE	hypothesis	32158	32358	
+305	s192	"to ensure , in one way or another , the binding/activation of these very important signaling switches ."	[]		p40	Discussion	FALSE	hypothesis	32359	32459	
+306	s193	"However , it has"	[]		p40	Discussion	FALSE	hypothesis	32460	32475	
+307	s193	"to be kept in mind that some phosphorylation sites may be active only under very specific conditions in vivo , and some sites analyzed in our systematic screen are likely not be phosphorylated under any conditions ."	[]		p40	Discussion	FALSE	hypothesis	32476	32689	
+308	s194	Correlation to in vivo signaling events	[header-1]		title41	Discussion	FALSE	none	32690	32729	
+309	s195	"In this study , we clearly identified STAT5 as a direct interaction partner to EGFR ( Y978 and Y998 ) and ErbB4 ( Y984 ) ."	[]		p42	Discussion	FALSE	result	32730	32846	
+310	s196	It was previously shown	[]		p42	Discussion	FALSE	result	32847	32870	
+311	s196	"that Src-phosphorylated tyrosine residue Y869 is essential for activation of STAT5b , but does not mediate the interaction itself ( Kloth et al , 2003 ) ."	[exLink]		p42	Discussion	FALSE	result	32871	33020	
+312	s197	"EGF stimulation and subsequent phosphorylation of EGFR at tyrosine Y978 , Y998 and Y869 ( see Figure 6B ) would then lead to recruitment and activation of STAT5 ,"	[inLink]	f6b	p42	Discussion	FALSE	result	33021	33179	
+313	s197	which subsequently activates transcription .	[]		p42	Discussion	FALSE	result	33180	33223	
+314	s198	Our finding that ErbB4 also has a binding site for STAT5 is consistent with the observation	[]		p42	Discussion	FALSE	result	33224	33315	
+315	s198	"that dimerization of ErbB2 and ErbB4 lead to activation of STAT5b ( Olayioye et al , 1999 ) and that ErbB4 signaling is required for STAT5 activation during lactation ( Jones et al , 1999 ) ."	[exLink]		p42	Discussion	FALSE	result	33316	33500	
+316	s199	This is a further example showing	[]		p42	Discussion	FALSE	implication	33501	33534	
+317	s199	that signaling through EGFR and ErbB4 can activate similar downstream processes in response to their different ligands .	[]		p42	Discussion	FALSE	implication	33535	33654	
+318	s200	"In a separate experiment , we have determined the activation profiles of several tyrosine phosphorylation sites in response to EGF ."	[]		p43	Discussion	FALSE	method	33655	33785	
+319	s201	We found	[]		p43	Discussion	FALSE	result	33786	33794	
+320	s201	that activation kinetics can correlate with the type of interaction partner .	[]		p43	Discussion	FALSE	result	33795	33871	
+321	s202	"While this experiment was limited in the number of sites analyzed , it clearly shows"	[]		p43	Discussion	FALSE	result	33872	33955	
+322	s202	how integration of in vivo kinetics with a knowledge of binding partners can add more functional information of phosphorylation sites and interaction partners .	[]		p43	Discussion	FALSE	implication	33956	34115	
+323	s203	Implications for signaling roles of different ErbB family members	[header-1]		title44	Discussion	FALSE	none	34116	34181	
+324	s204	This study reveals striking similarities between EGFR and ErbB4 with respect to their interaction partners and the distribution of specific binding sites at the C-terminal end of the receptors .	[]		p45	Discussion	FALSE	implication	34182	34375	
+325	s205	"EGFR and ErbB4 , the two fully functional receptor tyrosine kinases of the family , are also the two receptors"	[]		p45	Discussion	FALSE	implication	34376	34484	
+326	s205	that were found to have the greatest diversity of interaction partners .	[]		p45	Discussion	FALSE	implication	34485	34556	
+327	s206	Both receptors contain redundant binding sites for Grb2	[]		p45	Discussion	FALSE	fact	34557	34612	
+328	s206	and both receptors were found to bind STAT5 .	[]		p45	Discussion	FALSE	result	34613	34658	
+329	s207	"However , EGFR was unique in"	[]		p45	Discussion	FALSE	result	34659	34686	
+330	s207	"having a binding site for Cbl , which did not interact with any of the other receptor bait peptides ."	[]		p45	Discussion	FALSE	result	34687	34786	
+331	s208	"It is well known that EGFR functions as an integration site for different stimuli ( Hackel et al , 1999 ; Zwick et al , 1999 ) ."	[exLink]		p46	Discussion	FALSE	fact	34787	34909	
+332	s209	"Thus , redundancy of binding sites and a great diversity of different binding partners is not unexpected ."	[]		p46	Discussion	FALSE	implication	34910	35014	
+333	s210	Our data suggest	[]		p46	Discussion	FALSE	implication	35015	35031	
+334	s210	that ErbB4 may serve a similar role during signaling through neuregulin-induced pathways .	[]		p46	Discussion	FALSE	implication	35032	35121	
+335	s211	"This idea is supported by findings of overexpression studies ,"	[]		p46	Discussion	FALSE	method	35122	35183	
+336	s211	"in which EGFR dimerizes preferably with ErbB2 and ErbB3 , while ErbB4 dimerizes with ErbB2 and ErbB3 , but to a lesser extent with EGFR ( Olayioye et al , 2000 ) ."	[exLink]		p46	Discussion	FALSE	result	35184	35341	
+337	s212	"In this respect , it should be kept in mind"	[]		p46	Discussion	FALSE	result	35342	35384	
+338	s212	"that ErbB2 has a nonfunctional extracellular ligand-binding domain and is a common dimerization partner of other members of the ErbB family ( Graus-Porta et al , 1997 ) ."	[exLink]		p46	Discussion	FALSE	result	35385	35551	
+339	s213	"In contrast , ErbB3 has an inactive kinase domain ;"	[]		p46	Discussion	FALSE	result	35552	35601	
+340	s213	"thus , transphosphorylation in different heterodimers may lead to phosphorylation of different sites in ErbB3 ."	[]		p46	Discussion	FALSE	hypothesis	35602	35711	
+341	s214	"An evaluation of existing microarray expression data ( Affymetrix human U133A data set , Novartis Foundation ) using hierarchical cluster analysis ( Supplementary Figure 1 ) shows"	[inLink]	f1	p47	Discussion	FALSE	method	35712	35886	
+342	s214	that EGFR and ErbB4 indeed are rarely coexpressed and that ErbB2 and ErbB3 are seldom expressed without either EGFR or ErbB4 .	[]		p47	Discussion	FALSE	result	35887	36012	
+343	s215	"Thus , our data are consistent with the idea"	[]		p47	Discussion	FALSE	implication	36013	36056	
+344	s215	"that EGFR and ErbB4 function as ' control centers ' and sites of integration for signaling processes , involving stimulation with their ligands , EGF and neuregulin , respectively ."	[]		p47	Discussion	FALSE	implication	36057	36232	
+345	s216	"Furthermore , the striking difference in interaction partners of kinase-inactive ErbB3 compared to the other family members may indicate a specific role in"	[]		p47	Discussion	FALSE	result	36233	36387	
+346	s216	"signaling to the PI3K pathway as part of heterodimers with EGFR , ErbB4 or ErbB2 in different cell types or differentiation stages ."	[]		p47	Discussion	FALSE	hypothesis	36388	36518	
+347	s217	Perspective	[header-1]		title48	Discussion	FALSE	none	36519	36530	
+348	s218	The peptide-protein interaction screen integrates well with the broader goals of phosphoproteomics .	[]		p49	Discussion	FALSE	method	36531	36630	
+349	s219	While we have performed a systematic screen of all potential pY sites in this study	[]		p49	Discussion	FALSE	method	36631	36714	
+350	s219	bioinformatic predictions of phosphorylation sites or experimentally verified sites could have been taken as a basis for bait selection .	[]		p49	Discussion	FALSE	method	36715	36852	
+351	s220	The identification of signal-dependent phosphorylation sites is thus a major experimental goal in the characterization of	[]		p49	Discussion	FALSE	method	36853	36974	
+352	s220	signaling networks .	[]		p49	Discussion	FALSE	method	36975	36994	
+353	s221	The peptide interaction screen then allows	[]		p49	Discussion	FALSE	method	36995	37037	
+354	s221	one to directly identify possible binding partners to these identified phosphopeptides with high confidence .	[]		p49	Discussion	FALSE	method	37038	37146	
+355	s222	ErbB2 and EGFR are attractive targets for cancer therapy	[]		p50	Discussion	FALSE	fact	37147	37203	
+356	s222	as they are often overexpressed or mutated in tumors .	[]		p50	Discussion	FALSE	fact	37204	37257	
+357	s223	The drug HerceptinTM has been developed as an efficient treatment of cancer types that depend on overexpression of ErbB2	[]		p50	Discussion	FALSE	fact	37258	37378	
+358	s223	and small molecule kinase inhibitors have been directed against EGFR .	[]		p50	Discussion	FALSE	fact	37379	37449	
+359	s224	Both strategies have the general goal of inhibiting aberrant signaling .	[]		p50	Discussion	FALSE	fact	37450	37521	
+360	s225	"However , many studies show"	[]		p50	Discussion	FALSE	result	37522	37548	
+361	s225	that perturbation of signaling networks can have diverse and unanticipated effects .	[]		p50	Discussion	FALSE	result	37549	37632	
+362	s226	"For example , a thorough analysis of Herceptin action revealed"	[]		p50	Discussion	FALSE	result	37633	37694	
+363	s226	"that it did not only affect ErbB2 , but also the expression of EGFR and its downstream ligands ( Smith et al , 2004 ) ."	[exLink]		p50	Discussion	FALSE	result	37695	37809	
+364	s227	The understanding of receptor-signaling crosstalk and a detailed picture of different sites of interaction to downstream binding partners can be expected	[]		p50	Discussion	FALSE	hypothesis	37810	37963	
+365	s227	to contribute to description of signaling networks at the systems biology level .	[]		p50	Discussion	FALSE	hypothesis	37964	38044	
+366	s228	"Systematic screens , such as the one performed here , can possibly enable entirely new ways of"	[]		p50	Discussion	FALSE	hypothesis	38045	38137	
+367	s228	identifying interesting drug targets and potentially make important contributions to therapeutic research .	[]		p50	Discussion	FALSE	hypothesis	38138	38244	
+368	s229	Our studies show	[]		p51	Discussion	FALSE	implication	38245	38261	
+369	s229	"that different receptors in the ErbB family clearly differ in their preferred interaction partners , indicating distinct roles in signaling ."	[]		p51	Discussion	FALSE	implication	38262	38401	
+370	s230	"Furthermore , modification-dependent interaction does not occur at random , but rather requires characteristic motifs for specific classes of proteins"	[]		p51	Discussion	FALSE	implication	38402	38550	
+371	s230	to interact .	[]		p51	Discussion	FALSE	implication	38551	38563	
+372	s231	Novel motifs were found for Shc and STAT5 binding .	[]		p51	Discussion	FALSE	result	38564	38614	
+373	s232	"Importantly , we have shown"	[]		p51	Discussion	FALSE	implication	38615	38641	
+374	s232	that the peptide-protein interaction screen can be performed in a large-scale fashion and that it is indeed a suitable method to obtain a broad picture of shared and distinct interaction partners of a whole protein family .	[]		p51	Discussion	FALSE	implication	38642	38864	
+375	s233	"In the future , with further improvements in mass spectrometric performance , streamlining and automation , the screen can be applied"	[]		p51	Discussion	FALSE	method	38865	38995	
+376	s233	system-wide to essentially all signaling proteins and their substrates .	[]		p51	Discussion	FALSE	method	38996	39067	
+377	s234	Materials and methods	[header-0]		title52	Materials and methods	FALSE	none	39068	39089	
+378	s235	Cell culture	[header-1]		title53	Materials and methods	FALSE	none	39090	39102	
+379	s236	Human HeLa cells were grown in arginine-deficient Dulbecco 's modified Eagle 's medium ( DMEM ) with 10 % dialyzed fetal bovine serum .	[]		p54	Materials and methods	FALSE	method	39103	39232	
+380	s237	"One cell population was supplemented with normal isotopic abundance L-12 arginine ( Sigma ) and L-lysine , and the other with 99 % isotopic abundance 13C6-arginine ( Aldrich ) and 13C6-lysine ,"	[]		p54	Materials and methods	FALSE	method	39233	39419	
+381	s237	"as described ( Ong et al , 2003 ) ."	[exLink]		p54	Materials and methods	FALSE	method	39420	39451	
+382	s238	Thereby full labeling of all tryptic peptides was achieved .	[]		p54	Materials and methods	FALSE	result	39452	39511	
+383	s239	"In some experiments , cell populations were metabolically labeled"	[]		p54	Materials and methods	FALSE	method	39512	39576	
+384	s239	using D4-lysine instead of 13C6-lysine .	[]		p54	Materials and methods	FALSE	method	39577	39616	
+385	s240	"For studies with singly and doubly phosphorylated peptides of the Y-E-Y motifs , three different cell populations were labeled with 12C6-arginine ( Arg0 ) , 13C6-arginine ( Arg6 ) , and 13C6 15N4-arginine ( Arg10 ) ,"	[]		p54	Materials and methods	FALSE	method	39617	39823	
+386	s240	"resulting in mass differences of 6 and 10 Da to the Arg0 form , respectively ."	[]		p54	Materials and methods	FALSE	result	39824	39900	
+387	s241	"Each cell population was grown for at least five passages ,"	[]		p54	Materials and methods	FALSE	method	39901	39959	
+388	s241	encompassing a minimum of seven population doublings .	[]		p54	Materials and methods	FALSE	method	39960	40013	
+389	s242	For	[]		p55	Materials and methods	FALSE	result	40014	40017	
+390	s242	"experiments determining phosphorylation kinetics , three different cell populations were labeled with Arg0 , Arg6 and Arg10 , respectively ."	[]		p55	Materials and methods	FALSE	result	40018	40154	
+391	s243	"Prior to stimulation , cells were serum-starved for 18 h ."	[]		p55	Materials and methods	FALSE	method	40155	40211	
+392	s244	"Unlabeled cells were left unstimulated , while two cell populations labeled with Arg6 were stimulated for two minutes and four minutes , respectively"	[]		p55	Materials and methods	FALSE	method	40212	40359	
+393	s244	"and two cell populations labeled with Arg10 were stimulated for 8 min and 15 min , respectively ."	[]		p55	Materials and methods	FALSE	method	40360	40456	
+394	s245	EGF was added to a final concentration of 200 ng/ml .	[]		p55	Materials and methods	FALSE	method	40457	40509	
+395	s246	"Lysates of cells after different times of EGF stimulation were combined as described ( Blagoev et al , 2004 ) and subjected"	[exLink]		p55	Materials and methods	FALSE	method	40510	40630	
+396	s246	to immunoprecipitation with a general antibody against phosphotyrosine residues .	[]		p55	Materials and methods	FALSE	method	40631	40711	
+397	s247	Peptide synthesis and pull-downs	[header-1]		title56	Materials and methods	FALSE	none	40712	40744	
+398	s248	"Desthiobiotinylated peptides were synthesized on a solid-phase peptide synthesizer using amide resin ( Intavis , Germany ) ."	[]		p57	Materials and methods	FALSE	method	40745	40865	
+399	s249	Peptides were designed as 15-mers	[]		p57	Materials and methods	FALSE	method	40866	40899	
+400	s249	"bearing an N-terminal biotin , the tetrapeptide linker SGSG ( Ward et al , 1996 ) ."	[exLink]		p57	Materials and methods	FALSE	method	40900	40978	
+401	s250	The identity and purity of the synthesized peptides was confirmed by mass spectrometric analysis .	[]		p57	Materials and methods	FALSE	method	40979	41076	
+402	s251	Peptides were synthesized as pairs in an ' active ' and ' control ' form .	[]		p57	Materials and methods	FALSE	method	41077	41146	
+403	s252	"For affinity pull-downs , 50 nmol of immobilized peptide was added to an average of 2 mg of cell lysate ."	[]		p57	Materials and methods	FALSE	method	41147	41250	
+404	s253	Dynabeads MyOne StreptavidinTM were saturated with biotinylated peptide prior to incubation with cell lysates .	[]		p58	Materials and methods	FALSE	method	41251	41361	
+405	s254	"Cells were lysed in 1 % ( v/v ) Nonident P-40 , 150 mM sodium chloride , 50 mM Tris-HCl pH 7.5 , protease inhibitors ( Complete Tablets , Roche ) , and 1 mM sodium orthovanadate as phosphatase inhibitor ."	[]		p58	Materials and methods	FALSE	method	41362	41555	
+406	s255	An equal amount of protein was incubated with the respective immobilized peptides at 4degreesC for 4 h .	[]		p58	Materials and methods	FALSE	method	41556	41659	
+407	s256	"After six rounds of washing with lysis buffer , beads of pull-down pairs with ' control ' and ' phosphorylated ' were combined ( Schulze and Mann , 2004 )"	[exLink]		p58	Materials and methods	FALSE	method	41660	41806	
+408	s256	and bound proteins were eluted using 20 mM biotin .	[]		p58	Materials and methods	FALSE	method	41807	41857	
+409	s257	Eluted proteins were precipitated and subsequently digested with trypsin for LC-MS/MS analysis	[]		p58	Materials and methods	FALSE	method	41858	41952	
+410	s257	as described .	[]		p58	Materials and methods	FALSE	method	41953	41966	
+411	s258	Immunoprecipitation	[header-1]		title59	Materials and methods	FALSE	none	41967	41986	
+412	s259	"HeLa cells were lysed in 1 % ( v/v ) Nonident P-40 , 150 mM sodium chloride , 50 mM Tris-HCl pH 7.5 , 1 mM sodium orthovanadate and protease inhibitors ( Complete Tablets , Roche ) , and incubated at 4degreesC with respective primary antibodies ."	[]		p60	Materials and methods	FALSE	method	41987	42222	
+413	s260	"Depending on the host animal of the antibody , protein-A-sepharose or protein-G-sepharose beads were added after 2 h and incubated for an additional 4 h ."	[]		p60	Materials and methods	FALSE	method	42223	42375	
+414	s261	"After three rounds of washes , coprecipitated proteins were eluted in sample buffer for SDS gel electrophoresis ."	[]		p60	Materials and methods	FALSE	method	42376	42487	
+415	s262	"For peptide competition analyses , 250 mug ( 125 nmol ) of phosphorylated or nonphosphorylated peptide was added to the immunoprecipitation reaction ."	[]		p60	Materials and methods	FALSE	method	42488	42634	
+416	s263	STAT5 was immunprecipitated with an antibody directed against STAT5a and b isoforms ( Santa Cruz )	[]		p60	Materials and methods	FALSE	method	42635	42731	
+417	s263	EGFR was immunoprecipitated with a polyclonal antibody ( Santa Cruz ) .	[]		p60	Materials and methods	FALSE	method	42732	42801	
+418	s264	"For immunoprecipitation of tyrosine-phosphorylated proteins , we used the 4G10-anti-phosphotyrosine antibody ( Upstate Cell Signaling Technologies ) ."	[]		p60	Materials and methods	FALSE	method	42802	42948	
+419	s265	"LC/MS/MS , database searching and quantitation"	[header-1]		title61	Materials and methods	FALSE	none	42949	42994	
+420	s266	"Eluted proteins were in-solution digested with 1 mug trypsin after reduction in 1 mug DTT , alkylation with 5 mug iodoacetamide and dilution of the sample with 4 volumes of 50 mM NH4HCO3 ."	[]		p62	Materials and methods	FALSE	method	42995	43181	
+421	s267	"Tryptic peptide mixtures were then desalted on STAGE tips ( Rappsilber et al , 2003 ) and loaded onto reversed phase analytical columns for liquid chromatography ( Ishihama et al , 2002 ) ."	[exLink]		p62	Materials and methods	FALSE	method	43182	43364	
+422	s268	"Peptides were eluted from the analytical column by a multistep linear gradient running from 5 to 30 % acetonitrile in 90 min and sprayed directly into the orifice of a QSTAR-Pulsar quadrupole Time-Of-Flight hybrid mass spectrometer ( PE-Sciex , USA ) or a LTQ-FT ( Thermo Electron , Germany ) ."	[]		p62	Materials and methods	FALSE	method	43365	43651	
+423	s269	Proteins were identified by tandem mass spectrometry ( MS/MS ) by information-dependent acquisition of fragmentation spectra of multiple-charged peptides	[]		p62	Materials and methods	FALSE	method	43652	43803	
+424	s269	"that were then searched against the human International Protein Index Database ( IPI ; http : //srs6.ebi.ac.uk ) using the Mascot algorithm ( Perkins et al , 1999 ) with search parameters as described in ( Foster et al , 2003 ) for QSTAR data and as in Olsen et al ( 2004 ) for LTQ-FT data ."	[exLink]		p62	Materials and methods	FALSE	method	43804	44081	
+425	s270	"For quantitation and spectra validation , the software MSQuant ( http : //msquant.sourceforge.net )"	[]		p62	Materials and methods	FALSE	method	44082	44176	
+426	s271	was used .	[]		p62	Materials and methods	FALSE	method	44177	44186	
+427	s272	Determination of significant binding partners	[header-1]		title63	Materials and methods	FALSE	none	44187	44232	
+428	s273	"Ratios of labeled to unlabeled forms of each validated tryptic peptide , and the associated average ratio for the whole protein were obtained by MSQuant ."	[]		p64	Materials and methods	FALSE	method	44233	44385	
+429	s274	A plot of the distribution of all protein ratios from one experiment revealed the highest number of proteins with a ratio of around one .	[]		p64	Materials and methods	FALSE	result	44386	44522	
+430	s275	Those ratios being significantly ( 2sigma ) different from the average ratio of the majority ( covering mean+/-sigma ) of identified proteins were considered	[]		p64	Materials and methods	FALSE	result	44523	44676	
+431	s275	as significant .	[]		p64	Materials and methods	FALSE	result	44677	44692	
+432	s276	"Furthermore , we used crossover experiments ( Schulze and Mann , 2004 )"	[exLink]		p64	Materials and methods	FALSE	method	44693	44760	
+433	s276	in which specific interaction partners were required to have inverse ratios compared to the first experiment .	[]		p64	Materials and methods	FALSE	method	44761	44870	
+434	s277	"In the pull-down experiments , 89-153 proteins were quantified ."	[]		p64	Materials and methods	FALSE	method	44871	44933	
+435	s278	Cutoff thresholds were calculated for each experiment individually .	[]		p64	Materials and methods	FALSE	method	44934	45001	
+436	s279	The range of average ratios for unspecific binders ranged from 0.96+/-0.52 to 1.86+/-0.87 in different pull-down experiments .	[]		p64	Materials and methods	FALSE	method	45002	45127	
+437	s280	Supplementary Material	[header-0]		title65	Supplementary Material	FALSE	none	45128	45150	
+438	s281	Supplementary Table 1	[]		p66	Supplementary Material	FALSE	none	45151	45172	
+439	s282	Legend to Supplementary Figure 1	[]		p67	Supplementary Material	FALSE	none	45173	45205	
+440	s283	Supplementary Figure 1	[]		p68	Supplementary Material	FALSE	none	45206	45228	

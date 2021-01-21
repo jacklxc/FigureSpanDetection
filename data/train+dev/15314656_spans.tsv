@@ -1,0 +1,290 @@
+	SentenceId	Clause Text	Codes	ExperimentValues	Paragraph	Headings	FloatingBox?	Discourse Type	Offset_Begin	Offset_End	fig_spans
+0	s1	The Telomeric Protein TRF2 Binds the ATM Kinase and Can Inhibit the ATM-Dependent DNA Damage Response	[]		-		FALSE	result	240	341	
+1	s2	The telomeric protein TRF2 is required	[]		p0		FALSE	fact	1214	1252	
+2	s2	to prevent mammalian telomeres from activating DNA damage checkpoints .	[]		p0		FALSE	fact	1253	1323	
+3	s3	Here we show	[]		p0		FALSE	result	1324	1336	
+4	s3	that overexpression of TRF2 affects the response of the ATM kinase to DNA damage .	[]		p0		FALSE	result	1337	1418	
+5	s4	"Overexpression of TRF2 abrogated the cell cycle arrest after ionizing radiation and diminished several other readouts of the DNA damage response , including phosphorylation of Nbs1 , induction of p53 , and upregulation of p53 targets ."	[]		p0		FALSE	result	1419	1650	
+6	s5	"TRF2 inhibited autophosphorylation of ATM on S1981 , an early step in the activation of this kinase ."	[]		p0		FALSE	result	1651	1750	
+7	s6	A region of ATM containing S1981 was found to directly interact with TRF2 in vitro	[]		p0		FALSE	result	1751	1833	
+8	s6	and ATM immunoprecipitates contained TRF2 .	[]		p0		FALSE	result	1834	1877	
+9	s7	We propose	[]		p0		FALSE	hypothesis	1878	1888	
+10	s7	that TRF2 has the ability to inhibit ATM activation at telomeres .	[]		p0		FALSE	hypothesis	1889	1954	
+11	s8	Because TRF2 is abundant at chromosome ends but not elsewhere in the nucleus	[]		p0		FALSE	result	1955	2031	
+12	s8	this mechanism of checkpoint control could specifically block a DNA damage response at telomeres without affecting the surveillance of chromosome internal damage .	[]		p0		FALSE	hypothesis	2032	2195	
+13	s9	"The human telomere-associated protein TRF2 inhibits ATM kinase ,"	[]		p1		FALSE	result	2196	2259	
+14	s9	suggesting a mechanism by which the telomeric protein complex prevents the activation of this DNA damage response transducer	[]		p1		FALSE	implication	2260	2384	
+15	s10	Introduction	[header-0]		title2	Introduction	FALSE	none	2385	2397	
+16	s11	Telomeres prevent	[]		p3	Introduction	FALSE	fact	2398	2415	
+17	s11	the recognition of natural chromosome ends as double-stranded breaks ( DSBs ) .	[]		p3	Introduction	FALSE	fact	2416	2492	
+18	s12	"When telomeres become dysfunctional due to shortening or loss of protective factors , chromosome ends activate"	[]		p3	Introduction	FALSE	fact	2493	2602	
+19	s12	a DNA damage response mediated ( in part ) by the ATM kinase ( Karlseder et al. 1999 ; Takai et al. 2003 ) .	[exLink]		p3	Introduction	FALSE	fact	2603	2705	
+20	s13	A major challenge in telomere biology is	[]		p3	Introduction	FALSE	problem	2706	2746	
+21	s13	to define the mechanism by which functional telomeres prevent these events .	[]		p3	Introduction	FALSE	problem	2747	2822	
+22	s14	Here we show	[]		p3	Introduction	FALSE	implication	2823	2835	
+23	s14	"that the human telomere-associated protein TRF2 is an inhibitor of the ATM kinase , suggesting a mechanism by which the telomeric protein complex prevents the activation of this DNA damage response transducer ."	[]		p3	Introduction	FALSE	implication	2836	3044	
+24	s15	TRF2 is a small multimeric protein	[]		p4	Introduction	FALSE	fact	3045	3079	
+25	s15	"that binds to duplex telomeric ( TTAGGG ) repeats and recruits hRap1 , ERCC1/XPF , WRN , and the Mre11/Rad50/Nbs1 complex to chromosome ends ( Li et al. 2000 ; Zhu et al. 2000 , Zhu et al. 2000 2003 ; Opresko et al. 2002 ; Machwe et al. 2004 ) ."	[exLink]		p4	Introduction	FALSE	fact	3080	3313	
+26	s16	"TRF2 can be inhibited with a dominant-negative allele , TRF2DeltaBDeltaM ,"	[]		p4	Introduction	FALSE	fact	3314	3386	
+27	s16	which removes the endogenous TRF2 complex from telomeres ( van Steensel et al. 1998 ) .	[exLink]		p4	Introduction	FALSE	fact	3387	3471	
+28	s17	"Upon expression of TRF2DeltaBDeltaM , telomeres become uncapped and experience a series of deleterious events , including association with DNA damage response factors such as 53BP1 , cleavage of the telomeric 3 ' overhang by ERCC1/XPF , and telomere-telomere ligation by DNA ligase IV ( van Steensel et al. 1998 ; de Lange 2002 ; Smogorzewska et al. 2002 ; Takai et al. 2003 ; Zhu et al. 2003 ) ."	[exLink]		p4	Introduction	FALSE	fact	3472	3856	
+29	s18	"The DNA damage response to uncapped telomeres induces phosphorylation of DNA damage response proteins , including H2AX , SMC1 , Rad17 , CHK1 , and CHK2 , and upregulation of p53 , p21 , and p16 , resulting in a G1 arrest"	[]		p4	Introduction	FALSE	fact	3857	4069	
+30	s18	Karlseder et al. 1999 ; Smogorzewska and de Lange 2002 ; d'Adda di Fagagna et al. 2003 ) .	[exLink]		p4	Introduction	FALSE	none	4070	4156	
+31	s19	Primary human cells with telomere damage undergo apoptosis or senescence ( Karlseder et al. 1999 ; Smogorzewska and de Lange 2002 ) .	[exLink]		p4	Introduction	FALSE	fact	4157	4286	
+32	s20	An important transducer of the DNA damage signal is the ATM kinase ( reviewed in Shiloh 2003 ) .	[exLink]		p5	Introduction	FALSE	fact	4287	4380	
+33	s21	"ATM activation requires autophosphorylation on S1981 and concomitant dissociation into monomers , the presumed active form of the kinase ( Bakkenist and Kastan 2003 ) ."	[exLink]		p5	Introduction	FALSE	fact	4381	4545	
+34	s22	"DSBs and other genome stress lead to a rapid conversion of the ATM pool into active S1981-P monomers ,"	[]		p5	Introduction	FALSE	fact	4546	4647	
+35	s22	"which can phosphorylate regulators of the G1/S , intra-S , and G2/M cell cycle transitions ( Bakkenist and Kastan 2003 ) ."	[exLink]		p5	Introduction	FALSE	fact	4648	4765	
+36	s23	Activation of ATM also takes	[]		p6	Introduction	FALSE	fact	4766	4794	
+37	s23	place in response to telomere damage .	[]		p6	Introduction	FALSE	fact	4795	4832	
+38	s24	When telomeres become uncapped due to inhibition of TRF2	[]		p6	Introduction	FALSE	fact	4833	4889	
+39	s24	S1981-phosphorylated ATM associates with telomeres ( Takai et al. 2003 ) .	[exLink]		p6	Introduction	FALSE	fact	4890	4962	
+40	s25	"Furthermore , ATM targets become phosphorylated in aging cells with shortened telomeres ( d'Adda di Fagagna et al. 2003 ) ."	[exLink]		p6	Introduction	FALSE	fact	4963	5082	
+41	s26	Genetic evidence for a role of ATM in the telomere damage pathway is provided by the diminished ability of ataxia telangiectasia ( A-T ) cells	[]		p6	Introduction	FALSE	result	5083	5223	
+42	s26	to mount a DNA damage response after telomere uncapping ( Karlseder et al. 1999 ; Takai et al. 2003 ) .	[exLink]		p6	Introduction	FALSE	result	5224	5323	
+43	s27	"However , several lines of evidence suggest"	[]		p6	Introduction	FALSE	implication	5324	5366	
+44	s27	"that a second PIKK ( phosphatidylinositol 3-kinase-like kinase ) , such as ATR or DNA-PKcs , can transduce the telomere damage signal in the absence of ATM ( Takai et al. 2003 ; Wong et al. 2003 ) ."	[exLink]		p6	Introduction	FALSE	implication	5367	5557	
+45	s28	"One proposed mechanism of telomere protection is based on the ciliate telomere proteins ,"	[]		p7	Introduction	FALSE	hypothesis	5558	5646	
+46	s28	which envelop the single-stranded telomere terminus ( Horvath et al. 1998 ) .	[exLink]		p7	Introduction	FALSE	fact	5647	5721	
+47	s29	"Such a protein cap ,"	[]		p7	Introduction	FALSE	hypothesis	5722	5741	
+48	s29	"if sufficiently stable , could simply hide chromosome ends from the DNA damage surveillance machinery ."	[]		p7	Introduction	FALSE	hypothesis	5742	5843	
+49	s30	"Both budding and fission yeast also contain protective single-stranded telomere-binding proteins , but"	[]		p7	Introduction	FALSE	fact	5844	5945	
+50	s30	it is not known whether these proteins function similarly by forming a physical cap over the telomere terminus ( Garvik et al. 1995 ; Baumann and Cech 2001 ) .	[exLink]		p7	Introduction	FALSE	problem	5946	6101	
+51	s31	TRF2 must represent a different mechanism for telomere protection	[]		p8	Introduction	FALSE	fact	6102	6167	
+52	s31	since it only binds to the duplex part of the telomere .	[]		p8	Introduction	FALSE	fact	6168	6223	
+53	s32	TRF2 has been proposed	[]		p8	Introduction	FALSE	hypothesis	6224	6246	
+54	s32	to promote the formation of t-loops ( Griffith et al. 1999 ; Stansel et al. 2001 ) .	[exLink]		p8	Introduction	FALSE	hypothesis	6247	6327	
+55	s33	"In the t-loop configuration , the 3 ' overhang of TTAGGG repeats is strand-invaded into the duplex part of the telomere ."	[]		p8	Introduction	FALSE	fact	6328	6446	
+56	s34	Although this could be an effective way to protect chromosome ends from nucleases and ligases	[]		p8	Introduction	FALSE	hypothesis	6447	6540	
+57	s34	"t-loops have several structural features resembling DNA lesions , including single strand to double strand transitions , 3 ' and 5 ' ends , and single-stranded DNA ."	[]		p8	Introduction	FALSE	fact	6541	6701	
+58	s35	"Therefore , human telomeres may need additional mechanisms"	[]		p8	Introduction	FALSE	hypothesis	6702	6759	
+59	s35	to circumvent checkpoint activation .	[]		p8	Introduction	FALSE	hypothesis	6760	6796	
+60	s36	The results presented here argue for a model	[]		p8	Introduction	FALSE	hypothesis	6797	6841	
+61	s36	in which TRF2 directly blocks activation of the ATM kinase .	[]		p8	Introduction	FALSE	hypothesis	6842	6901	
+62	s37	Results	[header-0]		title9	Results	FALSE	none	6902	6909	
+63	s38	TRF2 was overexpressed in IMR90 primary fibroblasts using a retroviral vector .	[]		p10	Results	FALSE	method	6910	6988	f1
+64	s39	"Under these conditions , TRF2 saturates its telomeric binding sites and is present in the nucleoplasm ."	[]		p10	Results	FALSE	result	6989	7090	f1
+65	s40	While control IMR90 cells showed the expected reduction in mitotic index after ionizing radiation ( IR )	[]		p10	Results	FALSE	result	7091	7193	f1
+66	s40	"TRF2 overexpression partially abrogated this checkpoint response , increasing the percentage of cells entering mitosis from 0.3 % to 8 % ( Figure 1 ) ."	[inLink]	f1	p10	Results	FALSE	result	7194	7340	f1
+67	s41	The inappropriate entry into mitosis is indicative of a failure of the cell cycle checkpoints .	[]		p10	Results	FALSE	implication	7341	7435	f1
+68	s42	Since cell cycle arrest after IR largely depends on ATM ( reviewed in Shiloh 2003 )	[exLink]		p10	Results	FALSE	fact	7436	7517	f1
+69	s42	we asked whether TRF2 was acting on this kinase .	[]		p10	Results	FALSE	hypothesis	7518	7567	f1
+70	s43	"Caffeine , an inhibitor of ATM and the related kinase ATR , suppressed IR-induced arrest to a similar extent as TRF2 ( Figure 1 ) ."	[inLink]	f1	p10	Results	FALSE	result	7568	7694	f1
+71	s44	"Furthermore , caffeine had"	[]		p10	Results	FALSE	result	7695	7720	f1
+72	s44	"no additional effect on the ability of TRF2-overexpressing cells to bypass the DSB checkpoint , suggesting that TRF2 and caffeine target the same step in the response pathway ."	[]		p10	Results	FALSE	implication	7721	7895	f1
+73	s45	We then asked	[]		p11	Results	FALSE	hypothesis	7896	7909	f2a|f2b|f2c
+74	s45	whether TRF2 overexpression inhibited other ATM-dependent readouts of the DNA damage response .	[]		p11	Results	FALSE	hypothesis	7910	8004	f2a|f2b|f2c
+75	s46	ATM phosphorylates and stabilizes p53 in response to DNA damage ( reviewed in Kastan and Lim 2000 ) .	[exLink]		p11	Results	FALSE	fact	8005	8103	f2a|f2b|f2c
+76	s47	Quantitative immunoblotting showed	[]		p11	Results	FALSE	result	8104	8138	f2a|f2b|f2c
+77	s47	that cells overexpressing TRF2 had a diminished ability to induce p53 after irradiation ( Figures 2A and 2B ) .	[inLink]	f2a|f2b	p11	Results	FALSE	result	8139	8247	f2a|f2b|f2c
+78	s48	"Both the relative level of p53 protein and the induction of its downstream targets p21 , Bax , and Hdm2 were dampened ."	[]		p11	Results	FALSE	result	8248	8364	f2a|f2b|f2c
+79	s49	"By contrast , the p16/Rb pathway was not affected by TRF2 ( Figure 2A ) ."	[inLink]	f2a	p11	Results	FALSE	result	8365	8434	f2a|f2b|f2c
+80	s50	"We also examined the phosphorylation of Nbs1 on S343 , a target of ATM"	[]		p11	Results	FALSE	method	8435	8505	f2a|f2b|f2c
+81	s50	Gatei et al. 2000 ; Lim et al. 2000 ; Wu et al. 2000 ; Zhao et al. 2000 ) .	[exLink]		p11	Results	FALSE	none	8506	8576	f2a|f2b|f2c
+82	s51	Phosphorylation of this residue causes a change in electrophoretic mobility shift and can also be detected	[]		p11	Results	FALSE	result	8577	8683	f2a|f2b|f2c
+83	s51	using an antibody specific for the phosphorylated form of Nbs1 .	[]		p11	Results	FALSE	result	8684	8747	f2a|f2b|f2c
+84	s52	Extracts from irradiated control cells showed the previously reported retardation of Nbs1 and its reactivity with the S343-P-specific Nbs1 antibody ( Figure 2C ) .	[inLink]	f2c	p11	Results	FALSE	result	8748	8908	f2a|f2b|f2c
+85	s53	Both alterations could be reversed by phosphatase treatment of the Nbs1 immunoprecipitations ( IPs ) .	[]		p11	Results	FALSE	result	8909	9008	f2a|f2b|f2c
+86	s54	"In contrast , irradiation did not appear"	[]		p11	Results	FALSE	result	9009	9048	f2a|f2b|f2c
+87	s54	"to induce phosphorylation of Nbs1 in cells overexpressing TRF2 , indicating that TRF2 diminished the ATM-dependent phosphorylation of Nbs1 ( Figure 2C ) ."	[inLink]	f2c	p11	Results	FALSE	result	9049	9199	f2a|f2b|f2c
+88	s55	Because TRF2 overexpression blunted several cellular responses that depend ( in part ) on the ATM kinase	[]		p12	Results	FALSE	result	9200	9302	
+89	s55	we determined TRF2 's effect on the activation of ATM itself .	[]		p12	Results	FALSE	result	9303	9364	
+90	s56	"Phosphorylation of ATM on S1981 , an early and essential step in the activation of this kinase , can be detected rapidly after IR ,"	[]		p12	Results	FALSE	result	9365	9493	
+91	s56	even when a low level of DNA damage is induced ( Bakkenist and Kastan 2003 ) .	[exLink]		p12	Results	FALSE	result	9494	9569	
+92	s57	"To test whether TRF2 affected the autophosphorylation of ATM , the two proteins were expressed in 293T cells"	[]		p12	Results	FALSE	goal	9570	9677	f3a|f3b
+93	s57	and ATM was activated with low doses of IR .	[]		p12	Results	FALSE	method	9678	9721	f3a|f3b
+94	s58	TRF2 inhibited the activation of ATM as monitored by	[]		p12	Results	FALSE	result	9722	9774	f3a|f3b
+95	s58	immunoblotting with an antibody specific for ATM S1981-P ( Figure 3A ) .	[inLink]	f3a	p12	Results	FALSE	result	9775	9844	f3a|f3b
+96	s59	The relative level of ATM S1981-P ( normalized to total ATM protein ) at 0.3 Gy was 49 % of the vector control value ( p	[]		p12	Results	FALSE	result	9845	9961	f3a|f3b
+97	s59	"= 0.002 , Student 's t test ; n = 7 ) ."	[]		p12	Results	FALSE	result	9962	9996	f3a|f3b
+98	s60	"The TRF2 paralog TRF1 , which also binds the duplex telomeric repeats , did not have a significant effect on ATM activation , demonstrating"	[]		p12	Results	FALSE	result	9997	10133	f3a|f3b
+99	s60	that the effect on ATM is specific to TRF2 ( Figure 3A ) .	[inLink]	f3a	p12	Results	FALSE	result	10134	10189	f3a|f3b
+100	s61	Overexpression of TRF2 also diminished the IR-induced ATM autophosphorylation of endogenous ATM in IMR90 fibroblasts to 55 % of vector control value at 0.3 Gy and 60 % of vector control value at 0.6 Gy ( Figure 3B ) .	[inLink]	f3b	p12	Results	FALSE	result	10190	10402	f3a|f3b
+101	s62	In order to understand the mechanism by which TRF2 inhibited ATM	[]		p13	Results	FALSE	goal	10403	10467	f4a
+102	s62	we determined whether they interacted in vivo .	[]		p13	Results	FALSE	method	10468	10515	f4a
+103	s63	IPs of the ATM kinase from primary human IMR90 fibroblasts resulted in recovery of a small fraction ( approximately 1 % ) of endogenous TRF2 ( Figure 4A ) .	[inLink]	f4a	p13	Results	FALSE	result	10516	10666	f4a
+104	s64	This association was accentuated	[]		p13	Results	FALSE	result	10667	10699	f4a
+105	s64	when TRF2 was overexpressed from a retroviral vector .	[]		p13	Results	FALSE	result	10700	10753	f4a
+106	s65	"TRF2 was not recovered in anti-ATM immunoprecipitates from A-T cells even when TRF2 was overexpressed ( Figure 4A ) ,"	[inLink]	f4a	p13	Results	FALSE	result	10754	10868	f4a
+107	s65	demonstrating that the recovery of TRF2 is dependent on the presence of functional ATM .	[]		p13	Results	FALSE	implication	10869	10956	f4a
+108	s66	"The co-IP of TRF2 with ATM from IMR90 cells was resistant to the addition of ethidium bromide ( data not shown ) ,"	[]		p13	Results	FALSE	result	10957	11068	f4a
+109	s66	arguing that DNA tethering is not responsible for the association .	[]		p13	Results	FALSE	implication	11069	11135	f4a
+110	s67	"A control IP with antibodies to the CycD1/Cdk4/Cdk6 kinase complex did not precipitate TRF2 , and"	[]		p13	Results	FALSE	result	11136	11232	f4a
+111	s67	"an irrelevant nuclear protein ( Nova1 ) , overexpressed in parallel in IMR90 cells , was not recovered in the ATM IP ( Figure 4A ) ."	[inLink]	f4a	p13	Results	FALSE	result	11233	11358	f4a
+112	s68	"The association of TRF2 with ATM was not dependent on the presence of DNA damage ,"	[]		p13	Results	FALSE	result	11359	11440	f4a
+113	s68	since neither IR nor UV treatment enhanced the recovery of TRF2 in ATM IPs ( data not shown ) .	[]		p13	Results	FALSE	result	11441	11533	f4a
+114	s69	The nature of the association of TRF2 with ATM was explored further	[]		p14	Results	FALSE	goal	11534	11601	f4b
+115	s69	using in vitro pulldown experiments .	[]		p14	Results	FALSE	method	11602	11638	f4b
+116	s70	GST-tagged fragments of ATM were tested for their ability to bind purified TRF2 protein expressed in a baculovirus system .	[]		p14	Results	FALSE	method	11639	11761	f4b
+117	s71	"In parallel , we used baculovirus-derived TRF1 ,"	[]		p14	Results	FALSE	method	11762	11808	f4b
+118	s71	which was previously shown to interact with ATM by co-IP ( Kishi et al. 2001 ) .	[exLink]		p14	Results	FALSE	method	11809	11886	f4b
+119	s72	TRF2 bound to two overlapping fragments of ATM spanning amino acids 1439 to 2138 ( Figure 4B ) .	[inLink]	f4b	p14	Results	FALSE	result	11887	11980	f4b
+120	s73	"This region contains the FAT domain and S1981 , the critical target of autophosphorylation ( Bakkenist and Kastan 2003 ) ."	[exLink]		p14	Results	FALSE	fact	11981	12099	f4b
+121	s74	"TRF1 bound a different region of ATM ( Figure 4B ) ,"	[inLink]	f4b	p14	Results	FALSE	result	12100	12149	f4b
+122	s74	demonstrating the specificity of the observed interactions .	[]		p14	Results	FALSE	result	12150	12209	f4b
+123	s75	Blunting of the DNA damage response was observed	[]		p15	Results	FALSE	result	12210	12258	
+124	s75	when TRF2 was overexpressed throughout the nucleus .	[]		p15	Results	FALSE	result	12259	12310	
+125	s76	"Because TRF2 is chiefly present at telomeres , the simplest interpretation is"	[]		p15	Results	FALSE	implication	12311	12387	
+126	s76	that the observed activity reflected a telomeric function .	[]		p15	Results	FALSE	implication	12388	12446	
+127	s77	"However , we also considered the possibility"	[]		p15	Results	FALSE	hypothesis	12447	12490	
+128	s77	that TRF2 may have a heretofore clandestine role in the general DNA damage response .	[]		p15	Results	FALSE	hypothesis	12491	12575	
+129	s78	"If this were true , TRF2 might be expected to localize to IR-induced foci ( IRIF ) ,"	[]		p15	Results	FALSE	hypothesis	12576	12656	
+130	s78	where it would be in a position to modulate ATM .	[]		p15	Results	FALSE	hypothesis	12657	12705	
+131	s79	Previous data had shown	[]		p15	Results	FALSE	result	12706	12729	f4c
+132	s79	that the endogenous TRF2 does not relocate from telomeres to IRIF ( Zhu et al. 2000 ) .	[exLink]		p15	Results	FALSE	result	12730	12814	f4c
+133	s80	"Similarly , immunofluorescence analysis showed that overexpressed TRF2 did not form IRIF ( Figure 4C ) :"	[inLink]	f4c	p15	Results	FALSE	result	12815	12915	f4c
+134	s80	"the pattern of TRF2 localization was unchanged by IR , and there was no detectable colocalization with the known IRIF component 53BP1 ( Schultz et al. 2000 ) ."	[exLink]		p15	Results	FALSE	result	12916	13071	f4c
+135	s81	This was also the case	[]		p15	Results	FALSE	result	13072	13094	f4c
+136	s81	when TRF2 localization was examined in cells from which the nucleoplasmic proteins were extracted with a mild detergent ( Figure 4C ) .	[inLink]	f4c	p15	Results	FALSE	result	13095	13227	f4c
+137	s82	"Thus , the inhibitory effect of TRF2 on ATM signaling does not reflect association of TRF2 with sites of DNA damage ."	[]		p15	Results	FALSE	result	13228	13343	f4c
+138	s83	"Instead , we propose"	[]		p15	Results	FALSE	implication	13344	13363	f4c
+139	s83	"that the inhibition of ATM by TRF2 is an innate property of the protein , important at its natural location : telomeres ."	[]		p15	Results	FALSE	hypothesis	13364	13482	f4c
+140	s84	"However , we can not exclude the transient presence of TRF2 at DNA lesions and/or a role for TRF2 in the general DNA damage response ."	[]		p15	Results	FALSE	hypothesis	13483	13614	f4c
+141	s85	Discussion	[header-0]		title16	Discussion	FALSE	none	13615	13625	
+142	s86	Natural chromosome ends require	[]		p17	Discussion	FALSE	fact	13626	13657	
+143	s86	mechanisms to prevent the activation of the DNA damage response .	[]		p17	Discussion	FALSE	fact	13658	13722	
+144	s87	"Inhibition of the ATM kinase at human telomeres is particularly important since the telomeric complex contains the Mre11 complex , one of the DNA damage sensors of the ATM pathway ( Carson et al. 2003 ; Petrini and Stracker 2003 ; Uziel et al. 2003 ) ."	[exLink]		p17	Discussion	FALSE	fact	13723	13969	
+145	s88	The telomeric protein TRF2 appears	[]		p17	Discussion	FALSE	fact	13970	14004	
+146	s88	to play a central role in preventing telomeres from activating ATM .	[]		p17	Discussion	FALSE	fact	14005	14072	
+147	s89	"Removal of TRF2 from telomeres results in the localization of the active , phosphorylated form of ATM to unprotected chromosome ends"	[]		p17	Discussion	FALSE	fact	14073	14205	
+148	s89	Takai et al. 2003 ) and induces ATM-dependent apoptosis ( Karlseder et al. 1999 ) .	[exLink]		p17	Discussion	FALSE	fact	14206	14285	
+149	s90	The data reported	[]		p17	Discussion	FALSE	result	14286	14303	
+150	s90	here are consistent with the hypothesis that TRF2 protects telomeres through a direct interaction with ATM that blocks its activation .	[]		p17	Discussion	FALSE	implication	14304	14438	
+151	s91	"As a result , TRF2 abrogates the downstream outcomes of the ATM-dependent DNA damage response , including phosphorylation of various ATM targets and cell cycle arrest ."	[]		p17	Discussion	FALSE	implication	14439	14604	
+152	s92	We feel	[]		p18	Discussion	FALSE	hypothesis	14605	14612	
+153	s92	that the interaction of TRF2 with ATM is likely to be relevant to the mechanism by which TRF2 blocks ATM signaling .	[]		p18	Discussion	FALSE	hypothesis	14613	14728	
+154	s93	"TRF2 binds ATM in a region surrounding S1981 ,"	[]		p18	Discussion	FALSE	fact	14729	14774	
+155	s93	which is functionally linked to the oligomerization state of ATM .	[]		p18	Discussion	FALSE	fact	14775	14840	
+156	s94	"Phosphorylation on S1981 occurs concomitant with the dissociation of ATM dimers ( or oligomers ) ,"	[]		p18	Discussion	FALSE	fact	14841	14936	
+157	s94	"forming the monomeric , active form of the kinase ( Bakkenist and Kastan 2003 ) ."	[exLink]		p18	Discussion	FALSE	fact	14937	15014	
+158	s95	"TRF2 is also an oligomer of four to eight subunits ,"	[]		p18	Discussion	FALSE	fact	15015	15066	
+159	s95	"which are held together by the TRFH dimerization domain as well as other , yet to be defined , protein interactions ( Broccoli et al. 1997 ; Fairall et al. 2001 ; Stansel et al. 2001 ) ."	[exLink]		p18	Discussion	FALSE	fact	15067	15246	
+160	s96	Owing to its oligomeric nature	[]		p18	Discussion	FALSE	hypothesis	15247	15277	
+161	s96	TRF2 could potentially cross-link ATM monomers and thus hold the kinase in its inactive dimeric ( or oligomeric ) state .	[]		p18	Discussion	FALSE	hypothesis	15278	15397	
+162	s97	"In this manner , TRF2 could abrogate the ATM pathway"	[]		p18	Discussion	FALSE	hypothesis	15398	15449	
+163	s97	since it would block amplification of the ATM signal at an early step .	[]		p18	Discussion	FALSE	hypothesis	15450	15520	
+164	s98	"In agreement with this idea , the in vitro GST pulldown experiments showed"	[]		p18	Discussion	FALSE	result	15521	15594	
+165	s98	that TRF2 can interact with ATM when it is not phosphorylated on S1981 .	[]		p18	Discussion	FALSE	result	15595	15666	
+166	s99	"Because mutations in the TRF2 dimerization domain destabilize the protein , it has not been possible"	[]		p18	Discussion	FALSE	problem	15667	15766	
+167	s99	to test the contribution of TRF2 oligomerization on ATM repression directly .	[]		p18	Discussion	FALSE	problem	15767	15843	
+168	s100	"Alternatively , the interaction of TRF2 with the region surrounding S1981 may prevent"	[]		p18	Discussion	FALSE	hypothesis	15844	15928	
+169	s100	"ATM autophosphorylation or TRF2 binding could block a presumed interaction between ATM and a DNA damage sensor , such as the Mre11 complex ."	[]		p18	Discussion	FALSE	hypothesis	15929	16067	
+170	s101	It is unlikely	[]		p18	Discussion	FALSE	hypothesis	16068	16082	
+171	s101	"that TRF2 acts as an ATM target mimetic that titrates out genuine ATM targets since TRF2 is not a target of the ATM kinase ( R. Drissi , M. B. Kastan , and J. Dome , unpublished data ) ."	[]		p18	Discussion	FALSE	hypothesis	16083	16263	
+172	s102	"Furthermore , TRF2 does not block ATM kinase activity in an in vitro assay ( S ."	[]		p18	Discussion	FALSE	result	16264	16341	
+173	s103	"Kozlov , J. Karlseder , and M. F. Lavin , unpublished data ) ."	[]		p18	Discussion	FALSE	result	16342	16399	
+174	s104	"These findings are consistent with TRF2 acting at one of the earlier steps in the activation of the ATM kinase , including the interplay between ATM and DNA damage sensors , ATM autophosphorylation , or dissociation of ATM dimers ."	[]		p18	Discussion	FALSE	implication	16400	16627	
+175	s105	"In this study we have expressed TRF2 at high levels throughout the nucleus ,"	[]		p19	Discussion	FALSE	result	16628	16703	
+176	s105	whereas endogenous TRF2 is localized primarily to telomeres ( van Steensel et al. 1998 ) .	[exLink]		p19	Discussion	FALSE	result	16704	16791	
+177	s106	Our estimates suggest	[]		p19	Discussion	FALSE	implication	16792	16813	
+178	s106	that TRF2 is extremely abundant at telomeres .	[]		p19	Discussion	FALSE	implication	16814	16859	
+179	s107	Human cells contain on the order of 1 million copies of TRF2 ( X.-D .	[]		p19	Discussion	FALSE	fact	16860	16927	
+180	s108	"Zhu and T. de Lange , unpublished data ) , sufficient to position thousands of TRF2 molecules at each chromosome end ."	[]		p19	Discussion	FALSE	fact	16928	17042	
+181	s109	This number is consistent with the presence of thousands of TRF2-binding sites per telomere and the oligomerization potential of the protein .	[]		p19	Discussion	FALSE	fact	17043	17184	
+182	s110	"Thus , for every ATM kinase"	[]		p19	Discussion	FALSE	implication	17185	17211	
+183	s110	"that could be activated at a chromosome end , there is a vast molar excess of its potential inhibitor , TRF2 ."	[]		p19	Discussion	FALSE	implication	17212	17319	
+184	s111	"Since TRF2 is specifically lodged at telomeres and remains there when DNA damage is induced , it is unlikely"	[]		p19	Discussion	FALSE	fact	17320	17427	
+185	s111	to interfere with activation of the ATM kinase at sites of DNA damage elsewhere in the genome .	[]		p19	Discussion	FALSE	hypothesis	17428	17522	
+186	s112	"Hence , TRF2 could act as a telomere-specific inhibitor of ATM ."	[]		p19	Discussion	FALSE	hypothesis	17523	17585	
+187	s113	Previous studies have shown	[]		p20	Discussion	FALSE	result	17586	17613	
+188	s113	that overexpression of TRF2 can protect critically short telomeres generated by replicative aging ( Karlseder et al. 2002 ) .	[exLink]		p20	Discussion	FALSE	result	17614	17736	
+189	s114	TRF2 reduced the incidence of end-to-end chromosome fusions in this setting and also delayed the onset of senescence .	[]		p20	Discussion	FALSE	result	17737	17854	
+190	s115	These findings suggested	[]		p20	Discussion	FALSE	implication	17855	17879	
+191	s115	"that senescence is induced by an altered telomere state , in which the telomere has become so short that the amount of TRF2 it can recruit is insufficient for the protection of the chromosome end ."	[]		p20	Discussion	FALSE	implication	17880	18075	
+192	s116	When TRF2 is overexpressed	[]		p20	Discussion	FALSE	result	18076	18102	
+193	s116	this deficiency in TRF2 recruitment may be overcome .	[]		p20	Discussion	FALSE	result	18103	18156	
+194	s117	One possibility is	[]		p20	Discussion	FALSE	hypothesis	18157	18175	
+195	s117	that the altered state of critically short telomeres represents a situation in which telomeres have a diminished ability to form t-loops .	[]		p20	Discussion	FALSE	hypothesis	18176	18313	
+196	s118	The current findings raise the possibility	[]		p20	Discussion	FALSE	hypothesis	18314	18356	
+197	s118	that the altered state may also include a situation in which the telomere contains insufficient TRF2 to repress ATM .	[]		p20	Discussion	FALSE	hypothesis	18357	18473	
+198	s119	"However , the ability of TRF2 to delay senescence was also observed in A-T cells ( Karlseder et al. 2002 ) ,"	[exLink]		p20	Discussion	FALSE	result	18474	18578	
+199	s119	indicating that ATM repression is not the only pathway by which increased TRF2 loading can protect critically short telomeres .	[]		p20	Discussion	FALSE	implication	18579	18705	
+200	s120	"As TRF2 can bind ATM , it has the inherent ability"	[]		p21	Discussion	FALSE	fact	18706	18755	
+201	s120	to recruit this protein to telomeres .	[]		p21	Discussion	FALSE	fact	18756	18793	
+202	s121	ATM has not been observed at undamaged telomeres	[]		p21	Discussion	FALSE	result	18794	18842	
+203	s121	but its abundance may be too low for detection .	[]		p21	Discussion	FALSE	hypothesis	18843	18891	
+204	s122	The idea that ATM could be recruited to telomeres by TRF2 is interesting	[]		p21	Discussion	FALSE	hypothesis	18892	18964	
+205	s122	considering that ATM-like kinases are necessary for telomere maintenance in Saccharomyces cerevisiae ( Craven et al. 2002 ) and Schizosaccharomyces pombe ( Matsuura et al. 1999 ) .	[exLink]		p21	Discussion	FALSE	hypothesis	18965	19140	
+206	s123	It is not excluded	[]		p21	Discussion	FALSE	hypothesis	19141	19159	
+207	s123	that human telomere maintenance similarly requires ATM .	[]		p21	Discussion	FALSE	hypothesis	19160	19215	
+208	s124	"TRF2 could function to recruit ATM in an inactive form ,"	[]		p21	Discussion	FALSE	hypothesis	19216	19271	
+209	s124	perhaps allowing for highly regulated activation of ATM at appropriate times .	[]		p21	Discussion	FALSE	hypothesis	19272	19349	
+210	s125	Such regulation of DNA damage signaling and repair pathways at telomeres has been proposed previously in the context of the nonhomologous end-joining pathway and the role of the nucleotide excision repair endonuclease ERCC1/XPF ( Smogorzewska et al. 2002 ; Zhu et al. 2003 ) .	[exLink]		p21	Discussion	FALSE	hypothesis	19350	19622	
+211	s126	"In both cases , proteins with the potential to have detrimental effects on telomeres appear"	[]		p21	Discussion	FALSE	hypothesis	19623	19713	
+212	s126	to be regulated such that their activities can be employed for telomere function .	[]		p21	Discussion	FALSE	hypothesis	19714	19795	
+213	s127	Materials and Methods	[header-0]		title22	Materials and Methods	FALSE	none	19796	19817	
+214	s128	Cell culture and IR treatment	[header-1]		title23	Materials and Methods	FALSE	none	19818	19847	
+215	s129	"IMR90 primary lung fibroblasts ( ATCC , Manassas , Virginia , United States ) and AG02496 and AG04405 primary A-T fibroblasts ( Coriell Cell Repository , Camden , New Jersey , United States ; PD 12 and PD 15 ) were grown and infected with retroviruses"	[]		p24	Materials and Methods	FALSE	method	19848	20088	
+216	s129	as described elsewhere ( Karlseder et al. 2002 ) .	[exLink]		p24	Materials and Methods	FALSE	method	20089	20136	
+217	s130	"For gamma-irradiation , 3 105 cells were seeded in 5-cm culture dishes and exposed to a Ce137 source ."	[]		p24	Materials and Methods	FALSE	method	20137	20237	
+218	s131	Where indicated	[]		p24	Materials and Methods	FALSE	method	20238	20253	
+219	s131	"the medium was replaced with medium containing 10 mM caffeine ( Sigma , St. Louis , Missouri , United States ) and 1 mug/ml colcemide ( Sigma ) ."	[]		p24	Materials and Methods	FALSE	method	20254	20392	
+220	s132	Indirect immunofluorescence was performed	[]		p24	Materials and Methods	FALSE	method	20393	20434	
+221	s132	as described ( Smogorzewska et al. 2000 ; Takai et al. 2003 ) .	[exLink]		p24	Materials and Methods	FALSE	method	20435	20494	
+222	s133	Co-transfection assay for S1981-P inhibition	[header-1]		title25	Materials and Methods	FALSE	none	20495	20539	
+223	s134	"One day prior to transfection , approximately 5 106 293T cells were plated in 10-cm dishes ."	[]		p26	Materials and Methods	FALSE	method	20540	20630	
+224	s135	"Cells were transfected with 1 mug of FLAG-ATM DNA ( Canman et al. 1998 ) and 9 mug of N-terminally Myc-tagged TRF2 ( Karlseder et al. 2002 ) or TRF1 in a pLPC vector backbone ( gift of S. Lowe , Cold Spring Harbor Laboratory ) or vector alone using CaPO4 coprecipitation ."	[exLink]		p26	Materials and Methods	FALSE	method	20631	20895	
+225	s136	"Two days after transfection , cells were harvested in media and divided into three equal fractions ,"	[]		p26	Materials and Methods	FALSE	method	20896	20994	
+226	s136	"which were exposed to 0 , 0.3 , or 0.6 Gy IR ."	[]		p26	Materials and Methods	FALSE	method	20995	21038	
+227	s137	Cells were allowed	[]		p26	Materials and Methods	FALSE	method	21039	21057	
+228	s137	"to recover for 30 min , washed with PBS , and resuspended in 250 mul of lysis buffer ( 50 mM Tris [ pH 7.4 ] , 1 % Triton X-100 , 0.1 % SDS , 150 mM NaCl , 1 mM EDTA , 1 mM DTT , 1 mM PMSF , with a complete mini-protease inhibitor tablet [ Roche , Basel , Switzerland ] per 10 ml ) ."	[]		p26	Materials and Methods	FALSE	method	21058	21321	
+229	s138	The NaCl concentration was raised to 400 mM	[]		p26	Materials and Methods	FALSE	method	21322	21365	
+230	s138	and the lysate was incubated on ice for 5 min .	[]		p26	Materials and Methods	FALSE	method	21366	21413	
+231	s139	"The NaCl concentration was reduced to 200 mM , cell debris was removed by centrifugation , and"	[]		p26	Materials and Methods	FALSE	method	21414	21506	
+232	s139	an equal volume of Laemmli buffer was added to the lysate .	[]		p26	Materials and Methods	FALSE	method	21507	21565	
+233	s140	Immunoblotting	[header-1]		title27	Materials and Methods	FALSE	none	21566	21580	
+234	s141	For ATM immunoblots in the ATM S1981-P suppression assays :	[]		p28	Materials and Methods	FALSE	method	21581	21639	
+235	s141	"40 mul of 293T cell lysate or ATM immunoprecipitated from approximately 5 106 IMR90 fibroblasts were run on 7.5 % precast polyacrylamide Bio-Rad ( Hercules , California , UnitedStates ) Ready Gels ."	[]		p28	Materials and Methods	FALSE	method	21640	21832	
+236	s142	"PVDF ImmobilonTM Transfer Membrane ( Millipore , Billerica , Massachusetts , United States ) was prepared for protein transfer according to the manufacturer 's instructions and the gel was transferred for 2 h at 90 V. Membranes were preincubated in 10 % milk , 0.1 % Tween-20 in PBS for 30 min at room temperature and subsequently incubated with primary antibodies : polyclonal rabbit ATM S1981-P ( Bakkenist and Kastan 2003 ) and mouse monoclonal ATM antibody MAT3 ( gift from Y. Shiloh ) diluted in 0.1 % milk , 0.1 % Tween-20 in PBS overnight at 4 degreesC followed by three 10 min washes ."	[exLink]		p28	Materials and Methods	FALSE	method	21833	22408	
+237	s143	"Membranes were incubated for 45 min with HRP-conjugated secondary antibodies , washed , and developed"	[]		p28	Materials and Methods	FALSE	method	22409	22508	
+238	s143	"using the ECL system ( Amersham , Little Chalfort , United Kingdom ) ."	[]		p28	Materials and Methods	FALSE	method	22509	22574	
+239	s144	"Immunoblots of Myc-tagged proteins ( using Ab-1 ; Oncogene Research , Cambridge , Massachusetts , United States ) in the ATM S1981-P suppression assays were performed as above ,"	[]		p28	Materials and Methods	FALSE	method	22575	22745	
+240	s144	"except that nitrocellulose ( Schleicher and Schuell , Keene , New Hampshire , United States ) filters were used ."	[]		p28	Materials and Methods	FALSE	method	22746	22853	
+241	s145	"For all other immunoblots , cells were trypsinized , washed once with PBS , and subsequently lysed in Laemmli buffer at 104 cells/mul ."	[]		p28	Materials and Methods	FALSE	method	22854	22985	
+242	s146	"Lysates ( 10 mul ) were separated on SDS-polyacrylamide gels ( 29:1 acrylamide : bisacrylamide , 8 % for p53 , TRF2 , and gamma-tubulin , 6 % for pRB and Hdm2 , 12 % for Bax , p21 , and p16 ) and transferred onto nitrocellulose membranes ( Schleicher and Schuell ) for 60 min at 90 V ( Bio-Rad Mini-Protean II Cell ) ."	[]		p28	Materials and Methods	FALSE	method	22986	23284	
+243	s147	"Membranes were preincubated in 10 % nonfat dry milk , 0.1 % Tween-20 in PBS for 30 min and subsequently incubated with primary antibodies : p53 D01 ( Santa Cruz Biotechnology , Santa Cruz , California , United States ) ; TRF2 serum 647 ( Zhu et al. 2000 ) ; pRB # 554136 ( PharMingen , Uppsalla , Sweden ) ; Hdm2 # 3F3 ( gift from , A. Levine ) ; Bax # sc-7480 ( Santa Cruz Biotechnology ) ; p21 sc-7480 ( Santa Cruz Biotechnology ) ; p16 # 15126E ( PharMingen ) ; gamma-tubulin GTU88 ( Sigma ) ; Nova1 ( Luque et al. 1991 ) in 5 % dry milk , 0.1 % Tween-20 in PBS overnight ."	[exLink]		p28	Materials and Methods	FALSE	method	23285	23817	
+244	s148	Secondary antibody incubation and ECL were performed	[]		p28	Materials and Methods	FALSE	method	23818	23870	
+245	s148	as described above .	[]		p28	Materials and Methods	FALSE	method	23871	23890	
+246	s149	"To quantify signals , band intensities were determined"	[]		p28	Materials and Methods	FALSE	goal	23891	23944	
+247	s149	using an AlphaImagerTM 2200 using the SpotDenso function of AlphaEaseFCTM Software Version 3.1.2	[]		p28	Materials and Methods	FALSE	method	23945	24041	
+248	s150	"( Witec , Littau , Switzerland ) ."	[]		p28	Materials and Methods	FALSE	none	24042	24071	
+249	s151	IP	[header-1]		title29	Materials and Methods	FALSE	none	24072	24074	
+250	s152	"For co-IP of ATM and TRF2 , proteins were extracted from subconfluent cells by"	[]		p30	Materials and Methods	FALSE	method	24075	24152	
+251	s152	"incubating trypsinized cells ( approximately 107 cells/0.1 ml buffer ) in 20 mM HEPES ( pH 7.9 ) , 0.42 M KCl , 25 % glycerol , 0.1 mM EDTA , 5 mM MgCl2 , 0.2 % NP40 , 1 mM DTT , 0.5 mM PMSF , 1 mug/ml leupeptine , 1 mug/ml aprotinin , 10 mug/ml pepstatin on ice for 30 min ."	[]		p30	Materials and Methods	FALSE	method	24153	24411	
+252	s153	"Debris was removed by centrifugation ( 14,000 rpm , 4 degreesC , 10 min ) ."	[]		p30	Materials and Methods	FALSE	method	24412	24482	
+253	s154	Protein concentration in the supernatant was determined	[]		p30	Materials and Methods	FALSE	method	24483	24538	
+254	s154	"using the Bradford assay and 400 mug of protein was diluted to 150 mM KCl and incubated for 20 min with 100 mul of protein G-Sepharose beads ( Amersham ) , blocked with 1 % fetal bovine serum in PBS ."	[]		p30	Materials and Methods	FALSE	method	24539	24734	
+255	s155	"The beads were collected at 14,000 rpm for 1 min and"	[]		p30	Materials and Methods	FALSE	method	24735	24787	
+256	s155	"the supernatant was incubated with 5 mug of anti-ATM antibody ( AB3 , Oncogene Research ) or anti-Cyclin D1 antibody ( # sc-6281 , Santa Cruz Biotechnology ) for 1 h at 4 degreesC on a nutator ."	[]		p30	Materials and Methods	FALSE	method	24788	24974	
+257	s156	"Protein G-Sepharose beads ( 30 mul ) were added , and"	[]		p30	Materials and Methods	FALSE	method	24975	25025	
+258	s156	the mixture was incubated 1 h at 4 degreesC on a nutator .	[]		p30	Materials and Methods	FALSE	method	25026	25083	
+259	s157	"The beads were collected at 4,000 rpm at 4 degreesC , washed three times with wash buffer ( 150 mM NaCl , 1 % NP40 , 50 mM Tris [ pH 8.0 ] with protease inhibitors as described above ) by vortexing the suspension for 10 s ."	[]		p30	Materials and Methods	FALSE	method	25084	25298	
+260	s158	The beads were resuspended in Laemmli buffer and boiled 5 min	[]		p30	Materials and Methods	FALSE	method	25299	25360	
+261	s158	and proteins were separated by polyacrylamide gel electrophoresis .	[]		p30	Materials and Methods	FALSE	method	25361	25428	
+262	s159	"For IP of endogenous ATM from IMR90 fibroblasts for the phosphorylation assay , cells were resuspended in lysis buffer"	[]		p30	Materials and Methods	FALSE	method	25429	25547	
+263	s159	"50 mM Hepes [ pH 7.5 ] , 150 mM NaCl , 50 mM NaF , 1 % Tween-20 , 0.2 % NP40 , 1mM PMSF , with 1 complete mini-protease inhibitor tablet [ Roche , Basel , Switzerland ] ) and centrifuged at 13,000 rpm for 10 min ."	[]		p30	Materials and Methods	FALSE	method	25548	25746	
+264	s160	400 mul of lysate was incubated with 30 mul of blocked protein G beads and 100 mul of D16.11 monoclonal supernatant ( Alligood et al. 2000 ) for 1.5 h .	[exLink]		p30	Materials and Methods	FALSE	method	25747	25896	
+265	s161	Beads were washed once in lysis buffer and twice in RIPA buffer and resuspended in 60 mul of Laemmli buffer .	[]		p30	Materials and Methods	FALSE	method	25897	26005	
+266	s162	Pulldown assays	[header-1]		title31	Materials and Methods	FALSE	none	26006	26021	
+267	s163	GST-ATM fusion plasmids ( Khanna et al. 1998 ) were transformed into BL-21 cells .	[exLink]		p32	Materials and Methods	FALSE	method	26022	26101	
+268	s164	A 10-ml overnight culture was used	[]		p32	Materials and Methods	FALSE	method	26102	26136	
+269	s164	"to inoculate 500 ml of LB-Amp ( 50 mug/ml ) and at OD600 , 0.5-0.7 ,"	[]		p32	Materials and Methods	FALSE	method	26137	26201	
+270	s165	0.3 mM IPTG ( final ) was added .	[]		p32	Materials and Methods	FALSE	method	26202	26232	
+271	s166	"After 3 h at 30 degreesC , cells were harvested , resuspended in 8 ml of lysis buffer ( 50 mM Tris [ pH 7.9 ] , 100 mM KCl , 1 % Triton X-100 , 2 mM DTT , 0.1 mM PMSF , 1 complete protease inhibitor tablet [ Roche ] ) and sonicated three times for 30 s on ice ."	[]		p32	Materials and Methods	FALSE	method	26233	26479	
+272	s167	"The lysate was cleared by centrifugation at 50,000 g at 4 degreesC and incubated with 600 mul of equilibrated glutathione beads for 2 h at 4 degreesC ."	[]		p32	Materials and Methods	FALSE	method	26480	26630	
+273	s168	"The beads were washed three times for 10 min each ( washes 1 and 3 : PBS , 1 % Triton X-100 , 2 mM DTT , 0.1 mM PMSF , 1 mM benzamidine , 1 complete protease inhibitor tablet [ Roche ] ; wash 2 : 300 mM NaCl , 50 mM Tris [ pH 7.9 ] , 2 mM DTT , 0.1 mM PMSF , 1 mM benzamidine , 1 complete protease inhibitor tablet [ Roche ] ) and a fourth time in wash 4 ( 50 mM Tris [ pH 7.9 ] , 100 mM KCl , 10 % glycerol , 2 mM DTT , 0.1 mM PMSF ) ."	[]		p32	Materials and Methods	FALSE	method	26631	27035	
+274	s169	Fusion proteins were eluted in 500 mul of wash 4	[]		p32	Materials and Methods	FALSE	method	27036	27084	
+275	s169	containing 15 mM glutathione ( reduced form ) .	[]		p32	Materials and Methods	FALSE	method	27085	27129	
+276	s170	Two subsequent elutions were collected .	[]		p32	Materials and Methods	FALSE	method	27130	27169	
+277	s171	"Five micrograms of GST fusion proteins or GST alone were incubated with 2 mug of baculoviral TRF1 or TRF2 in binding buffer ( 150 mM NaCl , 100 mM KCl , 50 mM Tris [ pH 8.0 ] , 1 % NP40 , 0.1 % SDS , 100 g/ml BSA ) at 4 degreesC for 1 h ."	[]		p32	Materials and Methods	FALSE	method	27170	27396	
+278	s172	Glutathione beads ( 20 mul ) were added and incubated for 1 h at 4 degreesC .	[]		p32	Materials and Methods	FALSE	method	27397	27471	
+279	s173	"Beads were collected by centrifugation at 5,000 rpm at 4 degreesC and washed three times for 10 min each with binding buffer , and bound"	[]		p32	Materials and Methods	FALSE	method	27472	27607	
+280	s173	protein was eluted by boiling the samples in Laemmli buffer .	[]		p32	Materials and Methods	FALSE	method	27608	27668	
+281	s174	"GST fusion proteins , TRF1 , and TRF2 were detected by immunoblotting ."	[]		p32	Materials and Methods	FALSE	result	27669	27737	
+282	s175	Cell cycle arrest assay	[header-1]		title33	Materials and Methods	FALSE	method	27738	27761	
+283	s176	Cells were seeded on microscope coverslips and irradiated with 4 Gy of gamma-irradiation	[]		p34	Materials and Methods	FALSE	method	27762	27850	
+284	s176	as described above .	[]		p34	Materials and Methods	FALSE	method	27851	27870	
+285	s177	Cells were incubated in growth medium containing 1 mug/ml colcemid for 16 h .	[]		p34	Materials and Methods	FALSE	method	27871	27947	
+286	s178	"Cells were fixed , and"	[]		p34	Materials and Methods	FALSE	method	27948	27969	
+287	s178	"phosphorylated histone H3 was detected by indirect immunofluorescence using a phosphospecific antibody ( 6G3 monoclonal ; Cell Signaling Technology , Beverly , Massachusetts , United States ) ."	[]		p34	Materials and Methods	FALSE	method	27970	28156	
+288	s179	Cells in mitosis were counted and expressed as a percentage of total cell number .	[]		p34	Materials and Methods	FALSE	method	28157	28238	

@@ -1,0 +1,374 @@
+	SentenceId	Clause Text	Codes	ExperimentValues	Paragraph	Headings	FloatingBox?	Discourse Type	Offset_Begin	Offset_End	fig_spans
+0	s1	Growth Factor-induced p42/p44 MAPK Nuclear Translocation and Retention Requires Both MAPK Activation and Neosynthesis of Nuclear Anchoring Proteins	[]		-		FALSE	fact	126	273	
+1	s2	We have previously shown	[]		p0		FALSE	result	668	692	
+2	s2	that the activation of p42/p44 MAPK required for transduction of mitogenic signaling is associated with a rapid nuclear translocation of these kinases .	[]		p0		FALSE	result	693	844	
+3	s3	"However , the means"	[]		p0		FALSE	problem	845	863	
+4	s3	by which p42 and p44 MAPK translocate into the nucleus after cytoplasmic activation is still not understood and can not simply be deduced from their protein sequences .	[]		p0		FALSE	problem	864	1030	
+5	s4	"In this study , we have demonstrated"	[]		p0		FALSE	result	1031	1066	
+6	s4	that activation of the p42/ p44 MAPK pathway was necessary and sufficient for triggering nuclear translocation of p42 and p44 MAPK .	[]		p0		FALSE	result	1067	1198	
+7	s5	"First ,"	[]		p0		FALSE	fact	1199	1205	
+8	s5	"addition of the MEK inhibitor PD 98059 , which blocks activation of the p42/p44 MAPK pathway , impedes the nuclear accumulation , whereas direct activation of the p42/p44 MAPK pathway by the chimera DeltaRaf-1 : ER is sufficient to promote nuclear accumulation of p42/p44 MAPK ."	[]		p0		FALSE	fact	1206	1478	
+9	s6	"In addition , we have shown"	[]		p0		FALSE	result	1479	1505	
+10	s6	that this nuclear accumulation of p42/p44 MAPK required the neosynthesis of short-lived proteins .	[]		p0		FALSE	result	1506	1603	
+11	s7	"Indeed , inhibitors of protein synthesis abrogate nuclear accumulation in response"	[]		p0		FALSE	result	1604	1685	
+12	s7	to serum and accelerate p42/p44 MAPK nuclear efflux under conditions of persistent p42/p44 MAPK activation .	[]		p0		FALSE	result	1686	1793	
+13	s8	"In contrast , inhibition of targeted proteolysis by the proteasome synergistically potentiated p42/p44 MAPK nuclear localization by nonmitogenic agonists and markedly prolonged nuclear localization of p42/p44 MAPK after mitogenic stimulation ."	[]		p0		FALSE	fact	1794	2035	
+14	s9	We therefore conclude	[]		p0		FALSE	hypothesis	2036	2057	
+15	s9	that the MAPK nuclear translocation requires both activation of the p42/p44 MAPK module and neosynthesis of short-lived proteins that we postulate to be nuclear anchors .	[]		p0		FALSE	hypothesis	2058	2227	
+16	s10	The sequence of events linking cell surface receptor - mediated signals to expression of specific genes has received considerable attention over the years .	[]		p1		FALSE	none	2314	2468	
+17	s11	"One of such signaling modules is the p42/p44 mitogen-activated protein kinase ( MAPK ) 1 pathway , which transmits signaling from receptor tyrosine kinases , some G protein-coupled receptors , cytokine receptors , and integrins through the following activation cascade"	[]		p1		FALSE	fact	2469	2730	
+18	s11	"Ras/Raf/MAPK kinase ( MEK ) /p42/p44 MAPK ( for reviews see 25 , 41 ) ."	[]		p1		FALSE	fact	2731	2796	
+19	s12	"Among all the members of this signaling cascade , p44 and p42 MAPK isoforms ( equivalent to Erk1 and Erk2 ) have been shown"	[]		p1		FALSE	result	2797	2917	
+20	s12	"to be the only ones able to accumulate in the nucleus after mitogenic stimulation ( 8 , 18 , 27 ) ."	[exLink]		p1		FALSE	result	2918	3012	
+21	s13	"In relation to this nuclear event , it has been demonstrated"	[]		p1		FALSE	result	3013	3072	
+22	s13	"that p42/p44 MAPK phosphorylate multiple transcription factors , Elk-1 being one of the best characterized examples ( 16 , 29 ) , for which phosphorylation by p42/p44 MAPK has been demonstrated to increase its transcriptional activity ( 17 , 21 ) ."	[exLink]		p1		FALSE	result	3073	3312	
+23	s14	"Recently , Jaaro et al. ( 23 ) have shown that truncated or mutated forms of MEK can localize in the nucleus , but"	[exLink]		p1		FALSE	result	3313	3423	
+24	s14	"they confirm our initial report that the wild-type form of MEK remains in the cytoplasm ( 27 ) , a feature dependent on a nuclear export signal in its sequence ( 14 , 23 ) ."	[exLink]		p1		FALSE	result	3424	3590	
+25	s15	"Thus , although MEK may enter in the nucleus , it is readily exported and thus can not be found"	[]		p1		FALSE	result	3591	3683	
+26	s15	"accumulated in it ( 14 , 27 , 35 , 48 ) ."	[exLink]		p1		FALSE	result	3684	3719	
+27	s16	The mechanism	[]		p1		FALSE	problem	3720	3733	
+28	s16	by which p42/p44 MAPK are sequestered in the cytoplasm in resting cells and translocate to the nucleus upon mitogenic stimulation is still unknown .	[]		p1		FALSE	problem	3734	3881	
+29	s17	"Certainly , it can not be explained by the unmasking of a canonical nuclear localization signal ( NLS ) ( 6 )"	[exLink]		p1		FALSE	problem	3882	3985	
+30	s17	"that would accelerate this transfer to the nucleus ( for reviews on nucleocytoplasmic transfer see 38 , 40 ) ."	[]		p1		FALSE	problem	3986	4092	
+31	s18	"Nuclear localization of p42/p44 MAPK is reversible ( 8 , 18 , 27 ) , and"	[exLink]		p1		FALSE	fact	4093	4160	
+32	s18	"the only known reversible modification of p42 and p44 MAPK is their dual phosphorylation upon activation by MEK ( 1 , 10 , 47 ) ."	[exLink]		p1		FALSE	result	4161	4285	
+33	s19	We and others have demonstrated	[]		p1		FALSE	result	4286	4317	
+34	s19	"that nonphosphorylatable and inactive mutated forms of p44 MAPK are still able to translocate to the nucleus ( 18 , 26 , 27 ) ."	[exLink]		p1		FALSE	result	4318	4440	
+35	s20	"Recently , Khokhlatchev et al. ( 26 ) reported"	[exLink]		p1		FALSE	result	4441	4484	
+36	s20	that microinjected mutants of p42 MAPK can dimerize with phosphorylated wild-type p42 MAPK to enter the nucleus .	[]		p1		FALSE	result	4485	4597	
+37	s21	Further studies are needed	[]		p1		FALSE	problem	4598	4624	
+38	s21	to clarify the role of MAPK dimerization in the mechanism of nuclear translocation .	[]		p1		FALSE	problem	4625	4708	
+39	s22	"In this study , however , we have demonstrated in vivo"	[]		p2		FALSE	result	4709	4761	
+40	s22	that activation of the p42/p44 MAPK plays a key role in triggering its nuclear translocation .	[]		p2		FALSE	implication	4762	4855	
+41	s23	"Moreover , this activation is both necessary and sufficient ."	[]		p2		FALSE	result	4856	4915	
+42	s24	"Indeed , blocking the activation of p42/p44 MAPK with the MEK inhibitor Park Davis 98059 ( PD 98059 ; references 2 , 12 ) impedes nuclear accumulation of p42/p44 MAPK ,"	[exLink]		p2		FALSE	fact	4916	5078	
+43	s24	"while the sole activation of this pathway by the chimera DeltaRaf-1 : ER ( 28 , 43 , 44 ) results in the nuclear accumulation of p42/p44 MAPK ."	[exLink]		p2		FALSE	fact	5079	5215	
+44	s25	"In addition , we have shown"	[]		p2		FALSE	result	5216	5242	
+45	s25	that the nuclear accumulation of p42/p44 MAPK that peaks after 3 h of serum stimulation requires the neosynthesis of short-lived proteins .	[]		p2		FALSE	result	5243	5381	
+46	s26	Blocking serum-dependent transcriptional activation by actinomycin D or blocking protein synthesis by cycloheximide	[]		p2		FALSE	result	5382	5497	
+47	s26	"two actions that do not suppress MAPK activation by serum , impedes nuclear accumulation of p42/p44 MAPK ."	[]		p2		FALSE	result	5498	5603	
+48	s27	"In addition ,"	[]		p2		FALSE	result	5604	5616	
+49	s27	blocking protein synthesis during mitogenic stimulation accelerates the efflux of p42/p44 MAPK from the nucleus .	[]		p2		FALSE	result	5617	5729	
+50	s28	This result indicates	[]		p2		FALSE	implication	5730	5751	
+51	s28	that the proteins that contribute to the nuclear retention of p42/p44 MAPK are short-lived .	[]		p2		FALSE	implication	5752	5843	
+52	s29	"In fact , the stabilization of these short-lived proteins via inhibition of targeted proteolysis by the proteasome"	[]		p2		FALSE	fact	5844	5958	
+53	s29	"for reviews see 4 , 42 ) greatly potentiated p42/p44 MAPK nuclear localization ."	[]		p2		FALSE	fact	5959	6036	
+54	s30	"However , the rapid entry of MAPK into the nucleus does not require protein synthesis ."	[]		p2		FALSE	implication	6037	6122	
+55	s31	"In conclusion , the data presented here lead"	[]		p2		FALSE	implication	6123	6166	
+56	s31	us to dissociate two events : the rapid nuclear entry of p42/p44 MAPK and the nuclear accumulation of p42/p44 MAPK .	[]		p2		FALSE	implication	6167	6281	
+57	s32	"Both processes require robust activation of p42/p44 MAPK , the second being dependent on neosynthesis of short-lived proteins ( most likely nuclear anchors ) induced by activation of the p42/p44 MAPK cascade ."	[]		p2		FALSE	implication	6282	6487	
+58	s33	Materials and Methods	[header-0]		title3	Materials and Methods	FALSE	none	6488	6509	
+59	s34	Materials	[header-1]		title4	Materials and Methods	FALSE	none	6510	6519	
+60	s35	"Texas red-conjugated anti-rabbit antibody was purchased from Molecular Probes ( Eugene , OR )"	[]		p5	Materials and Methods	FALSE	method	6520	6610	
+61	s35	"and CITIFLUOR was purchased from UKC Chem Lab ( Canterbury , UK ) ."	[]		p5	Materials and Methods	FALSE	method	6611	6674	
+62	s36	"Anti-MAPK antibody R2 was obtained from Upstate Biotechnologies , Inc. ( Lake Placid , NY ) ."	[]		p5	Materials and Methods	FALSE	method	6675	6763	
+63	s37	This antibody was directed against the peptide sequence corresponding to the amino acids 333-367 of the COOH terminus of Rat Erk1 ( catalog # 06-182 ) .	[]		p5	Materials and Methods	FALSE	method	6764	6912	
+64	s38	The proteasome inhibitor N-Acetyl-Leu-Leu-norLeucinal ( LLnL ) was purchased from Sigma Chemical Co .	[]		p5	Materials and Methods	FALSE	method	6913	7011	
+65	s39	( St .	[]		p5	Materials and Methods	FALSE	none	7012	7016	
+66	s40	"Louis , MO ) ."	[]		p5	Materials and Methods	FALSE	none	7017	7028	
+67	s41	"The proteasome inhibitor lactacystin ( synthetic ) was purchased from Calbiochem ( La Jolla , CA ) ."	[]		p5	Materials and Methods	FALSE	method	7029	7123	
+68	s42	All other chemicals were of the highest purity available .	[]		p5	Materials and Methods	FALSE	result	7124	7181	
+69	s43	Cell Line and Cell Culture	[header-1]		title6	Materials and Methods	FALSE	none	7182	7208	
+70	s44	Chinese hamster lung fibroblasts	[]		p7	Materials and Methods	FALSE	none	7209	7241	
+71	s44	"CCL39 were maintained in DME ( catalog # 52100 ; Life Technologies , Inc. , Gaithersburg , MD ) containing 25 mM NaHCO3 ."	[]		p7	Materials and Methods	FALSE	method	7242	7355	
+72	s45	The derived CCL39-DeltaRaf-1 : ER clone ( 28 ) was maintained in DME without phenol red and supplemented with glutamine and glucose	[exLink]		p7	Materials and Methods	FALSE	method	7356	7483	
+73	s45	to reach the concentrations of normal DME ( catalog # 11880 ) .	[]		p7	Materials and Methods	FALSE	method	7484	7543	
+74	s46	"Both culture media were supplemented with 7.5 % FCS ( GIBCO-BRL ; Life Technologies , Inc. ) , penicillin ( 50 U/ml ) , and streptomycin ( 50 mug/ml ) ."	[]		p7	Materials and Methods	FALSE	method	7544	7684	
+75	s47	Cells were maintained at 37degreesC in the presence of 5 % CO2 .	[]		p7	Materials and Methods	FALSE	method	7685	7747	
+76	s48	The CCL39-DeltaRaf-1 : ER	[]		p8	Materials and Methods	FALSE	method	7748	7771	
+77	s48	"clonal cell line was obtained by transfection of CCL39 cells with the plasmid pLNCDeltaRaf-1 : ER ( 44 ) and selection of clones resistant to Geneticin ( G418 , GIBCO-BRL ) ."	[exLink]		p8	Materials and Methods	FALSE	method	7772	7938	
+78	s49	The clone that displayed the highest stimulation of p42/p44 MAPK activity upon beta-estradiol addition was selected	[]		p8	Materials and Methods	FALSE	result	7939	8054	
+79	s49	and its characteristics were reported ( 28 ) .	[exLink]		p8	Materials and Methods	FALSE	result	8055	8099	
+80	s50	Quiescent cells ( G0-arrested ) were obtained by	[]		p9	Materials and Methods	FALSE	method	8100	8146	
+81	s50	incubating confluent cultures in serum-free medium for 24-48 h .	[]		p9	Materials and Methods	FALSE	method	8147	8210	
+82	s51	Cells were then treated with various agents	[]		p9	Materials and Methods	FALSE	method	8211	8254	
+83	s51	as described in Results and figure legends .	[]		p9	Materials and Methods	FALSE	method	8255	8298	
+84	s52	Indirect Immunofluorescence Analysis	[header-1]		title10	Materials and Methods	FALSE	none	8299	8335	
+85	s53	"G0-arrested or serum-stimulated CCL39 cells were fixed at -20degreesC for 10 min with methanol/acetone ( 70:30 , vol/vol ) without previous PBS wash ."	[]		p11	Materials and Methods	FALSE	method	8336	8482	
+86	s54	After	[]		p11	Materials and Methods	FALSE	method	8483	8488	
+87	s54	"a 10-min rehydration at 25degreesC in PBS containing 10 % FCS ( PBS/ FCS ) , fixed cells were then incubated with the R2 antibody from Upstate Biotechnologies , Inc. , for 60 min at 25degreesC in PBS/FCS ( dilution 1:2 ,000 ) ."	[]		p11	Materials and Methods	FALSE	method	8489	8706	
+88	s55	Cells were then washed five times with PBS and incubated in PBS/FCS for 60 min at 25degreesC with Texas red-conjugated anti-rabbit antibody ( 1:500 ) .	[]		p11	Materials and Methods	FALSE	method	8707	8855	
+89	s56	"Finally , cells were washed five times with PBS , mounted under glass coverslides with CITIFLUOR media , and examined under epifluorescent illumination with excitation-emission filters for Texas red ."	[]		p11	Materials and Methods	FALSE	method	8856	9052	
+90	s57	"To control for specificity ,"	[]		p11	Materials and Methods	FALSE	goal	9053	9080	
+91	s57	"( a ) the same results were obtained when cells were fixed with 1 % paraformaldehyde in methanol at -20degreesC for 15 min or with 4 % paraformaldehyde in PBS at 20degreesC for 15 min followed by permeabilization with 0.2 % Triton X-100 in PBS for 5 min at 20degreesC ( data not shown ) , and ( b ) incubation with secondary antibody alone did not reveal any significant fluorescent signal ( data not shown ) ."	[]		p11	Materials and Methods	FALSE	method	9081	9478	
+92	s58	R2 antibodies raised against the last 35 amino acids of Rat Erk1 are in fact very specific for p44 MAPK .	[]		p11	Materials and Methods	FALSE	fact	9479	9583	
+93	s59	This was resolved by	[]		p11	Materials and Methods	FALSE	method	9584	9604	
+94	s59	using mouse embryo fibroblasts lacking Erk1 that we have obtained in our laboratory .	[]		p11	Materials and Methods	FALSE	method	9605	9689	
+95	s60	"With these cells , we showed"	[]		p11	Materials and Methods	FALSE	result	9690	9717	
+96	s60	that p42 MAPK translocation and retention in the nucleus follow the same features as those of p44 MAPK .	[]		p11	Materials and Methods	FALSE	result	9718	9821	
+97	s61	"Therefore , we invariably denote translocation of p42/p44 MAPK all along this manuscript ."	[]		p11	Materials and Methods	FALSE	result	9822	9910	
+98	s62	SDS-PAGE and Immunoblotting	[header-1]		title12	Materials and Methods	FALSE	none	9911	9938	
+99	s63	"Confluent cells were lysed in a lysis buffer ( 0.1 % Triton X-100 , 50 mM Tris-HCl , pH 7.5 , 5 mM EDTA , 1 mM phenylmethanesulfonyl fluoride , 1 mM benzamidine , 40 mM paranitrophenylphosphate , and 200 muM orthovanadate ) ."	[]		p13	Materials and Methods	FALSE	method	9939	10153	
+100	s64	"25 mug of detergent-extracted proteins were separated by SDS-PAGE on a 12.5 % ( wt/vol ) polyacrylamide gel ( 30:0 .2 ) and electrophoretically transferred to immobilon-P membrane ( Millipore Corp. , Bedford , MA ) ."	[]		p13	Materials and Methods	FALSE	method	10154	10359	
+101	s65	Immunoprobing was performed with the antibody E1B	[]		p13	Materials and Methods	FALSE	method	10360	10409	
+102	s65	as previously described ( 28 ) .	[exLink]		p13	Materials and Methods	FALSE	method	10410	10439	
+103	s66	p42/p44 MAPK Kinase Assay	[header-1]		title14	Materials and Methods	FALSE	none	10440	10465	
+104	s67	p42/p44 MAPK activity was assayed	[]		p15	Materials and Methods	FALSE	method	10466	10499	
+105	s67	as previously described ( 28 ) .	[exLink]		p15	Materials and Methods	FALSE	method	10500	10529	
+106	s68	"In brief , cells were lysed in the lysis buffer described in the previous section ."	[]		p15	Materials and Methods	FALSE	method	10530	10611	
+107	s69	After centrifugation	[]		p15	Materials and Methods	FALSE	method	10612	10632	
+108	s69	"to remove insoluble cell fragments , the supernatant was incubated with 5 mul of the MAPK precipitating antibody Kelly as previously described ( 28 ) and protein A-Sepharose ( Pharmacia Biotech , Piscataway , NJ ) ."	[exLink]		p15	Materials and Methods	FALSE	method	10633	10840	
+109	s70	The immune complex was washed five times with the lysis buffer and once with the kinase buffer without substrate .	[]		p15	Materials and Methods	FALSE	method	10841	10954	
+110	s71	"Immunoprecipitated MAPK was then incubated for 20 min at 30degreesC in the kinase buffer : 20 mM Hepes , pH 7.4 , 10 mM MgCl2 , 1 mM dithiothreitol , 20 mM paranitrophenylphosphate , 0.25 mg/ml myelin basic protein and 30 muM ATP ( 3 muCi of [ gamma32P ] ATP ) ."	[]		p15	Materials and Methods	FALSE	method	10955	11205	
+111	s72	"The kinase reaction was stopped by adding Laemmli buffer , and"	[]		p15	Materials and Methods	FALSE	method	11206	11267	
+112	s72	"the myelin basic protein was separated by an SDS-polyacrylamide gel ( 10 % , 29:1 ) ."	[]		p15	Materials and Methods	FALSE	method	11268	11348	
+113	s73	"Radioactivity was measured by the MACBASS quantification program of the Fuji Phosphoimager ( Tokyo , Japan ) ."	[]		p15	Materials and Methods	FALSE	method	11349	11455	
+114	s74	Results	[header-0]		title16	Results	FALSE	none	11456	11463	
+115	s75	Activation of the p42/p44 MAPK Pathway Is Necessary for Inducing Nuclear Translocation of p42/p44 MAPK	[header-1]		title17	Results	FALSE	fact	11464	11566	
+116	s76	We previously reported	[]		p18	Results	FALSE	result	11567	11589	
+117	s76	that mitogenic stimulation of resting CCL39 cells led to a rapid nuclear translocation of MAPKs into the nucleus ( 27 ) .	[exLink]		p18	Results	FALSE	result	11590	11708	
+118	s77	Translocation into the nucleus correlated nicely with the persistent activation of MAPK during the G1 phase of the cell cycle .	[]		p18	Results	FALSE	result	11709	11835	
+119	s78	"For example , serum or alpha-thrombin , two potent mitogens of CCL39 cells , induced persistent MAPK activation and nuclear localization ."	[]		p18	Results	FALSE	result	11836	11970	
+120	s79	"In contrast , the thrombin receptor peptide activator or TPA , which transiently activates MAPK , failed"	[]		p18	Results	FALSE	result	11971	12072	
+121	s79	to induce nuclear translocation of MAPK ( 27 ) .	[exLink]		p18	Results	FALSE	result	12073	12118	
+122	s80	This result led	[]		p18	Results	FALSE	hypothesis	12119	12134	
+123	s80	us to postulate that the p42/p44 MAPK cascade itself controls the nuclear translocation of MAPK .	[]		p18	Results	FALSE	hypothesis	12135	12231	
+124	s81	"Therefore , we tested"	[]		p18	Results	FALSE	method	12232	12252	
+125	s81	whether addition of the specific MEK inhibitor PD 98059 ( 12 ) was sufficient to block the entry of p42/p44 MAPK in the nucleus in response to serum .	[exLink]		p18	Results	FALSE	method	12253	12400	
+126	s82	This inhibitor has been previously shown	[]		p18	Results	FALSE	result	12401	12441	
+127	s82	"to inhibit by up to 90 % MAPK activation without affecting the activation of other MAPK cascades , such as the JNK and p38 MAPK pathways ( 2 ) ."	[exLink]		p18	Results	FALSE	result	12442	12581	
+128	s83	"In accordance to our and others ' previous observations , p42/p44 MAPK immunostaining is predominantly cytoplasmic in serum-deprived cells ( Fig. 1 A ) and in cells treated by the MEK inhibitor PD 98059 alone ( Fig. 1 D ) ,"	[inLink]	1a|1d	p18	Results	FALSE	result	12582	12798	1a|1b|1d
+129	s83	"whereas within 3 h of stimulation by 10 % FCS , it is relocated markedly in the nucleus ( Fig. 1 B ) ."	[inLink]	1b	p18	Results	FALSE	result	12799	12896	1a|1b|1d
+130	s84	"As depicted in Fig. 1 C , the addition of the MEK inhibitor PD 98059 ( 30 muM ) at the time of serum addition was sufficient"	[inLink]	1c	p18	Results	FALSE	result	12897	13018	1c
+131	s84	to block nuclear translocation of p42/p44 MAPK .	[]		p18	Results	FALSE	result	13019	13066	1c
+132	s85	As was reported by Alessi et al. ( 2 ) we found	[exLink]		p18	Results	FALSE	result	13067	13112	
+133	s85	that MAPK activity was not totally inhibited by 30 muM of PD 98059 compound in CCL39 cells ( up to 80 % inhibition ) .	[]		p18	Results	FALSE	result	13113	13227	
+134	s86	This incomplete inhibition could explain	[]		p18	Results	FALSE	hypothesis	13228	13268	
+135	s86	why in certain cells some nuclear localization of p42/p44 MAPK remained .	[]		p18	Results	FALSE	hypothesis	13269	13341	
+136	s87	In these cells it is possible	[]		p18	Results	FALSE	hypothesis	13342	13371	
+137	s87	that MAPK stimulation by serum may be extremely potent .	[]		p18	Results	FALSE	hypothesis	13372	13427	
+138	s88	"However , this result indicates"	[]		p18	Results	FALSE	implication	13428	13458	
+139	s88	that activation of the p42/p44 MAPK signaling cascade in response to serum is absolutely required for nuclear translocation of p42/p44 MAPK .	[]		p18	Results	FALSE	implication	13459	13599	
+140	s89	Persistent Activation of p42/p44 MAPK in Cells Expressing the DeltaRaf-1 : ER Chimera	[header-1]		title19	Results	FALSE	none	13600	13683	
+141	s90	To evaluate whether the sole activation of the p42/p44 MAPK signaling module is sufficient to promote nuclear translocation of p42/p44 MAPK	[]		p20	Results	FALSE	goal	13684	13823	
+142	s90	"we have taken advantage of a fibroblastic cell line CCL39-DeltaRaf-1 : ER ( 28 ) stably expressing the chimera DeltaRaf-1 : ER ( 43 , 44 ) ."	[exLink]		p20	Results	FALSE	method	13824	13955	
+143	s91	"Upon addition of beta-estradiol to these cells , the Raf-1 kinase moiety of the chimera is unmasked and rapidly phosphorylates MEK ,"	[]		p20	Results	FALSE	fact	13956	14086	
+144	s91	which in turn activates p42/p44 MAPK ( 28 ) .	[exLink]		p20	Results	FALSE	fact	14087	14129	
+145	s92	As shown in Fig. 2 A	[inLink]	2a	p20	Results	FALSE	result	14130	14150	2a
+146	s92	serum stimulation retards the electrophoretic mobility of p42 MAPK ( due to phosphorylation ) .	[]		p20	Results	FALSE	result	14151	14244	2a
+147	s93	This activation observed	[]		p20	Results	FALSE	result	14245	14269	2a
+148	s93	"after 15 min persists for up to 6 h , declines after 9 h , and is not detectable at 12 h when cells enter S-phase ( Fig. 2 A ) ."	[inLink]	2a	p20	Results	FALSE	result	14270	14393	2a
+149	s94	"In sharp contrast , activation of the same cells with estradiol induces a gel mobility shift"	[]		p20	Results	FALSE	result	14394	14485	2a|2b
+150	s94	that persists as long as the cells are treated with estradiol ( Fig. 2 B ) .	[inLink]	2b	p20	Results	FALSE	result	14486	14559	2a|2b
+151	s95	"In this experiment , only p42 MAPK is detected because of the specificity of the antibody used ."	[]		p20	Results	FALSE	result	14560	14654	2b
+152	s96	"However , activation of p44 MAPK ( revealed with a less selective anti-MAPK antibody ) parallels activation of p42 MAPK ."	[]		p20	Results	FALSE	result	14655	14772	2b
+153	s97	The CCL39-DeltaRaf-1 : ER cell line offers two unique advantages .	[]		p20	Results	FALSE	implication	14773	14836	2b
+154	s98	"First , by its specific activation , downstream of Raf , estradiol exclusively turns on the p42/p44 MAPK module with no detectable activation of JNK or p38 MAPK within the first 16-24 h ( 33 and data not shown ) ."	[]		p20	Results	FALSE	result	14837	15044	2b
+155	s99	"Second , in contrast"	[]		p20	Results	FALSE	result	15045	15064	2b
+156	s99	"to serum activation that leads to the time-dependent desensitization of p42/p44 MAPK , beta-estradiol induces a persistent p42/p44 MAPK activity ."	[]		p20	Results	FALSE	result	15065	15209	2b
+157	s100	One can therefore easily manipulate the temporal activation of p42/p44 MAPK by	[]		p20	Results	FALSE	hypothesis	15210	15288	2b
+158	s100	adding beta-estradiol or the MEK inhibitor PD 98059 .	[]		p20	Results	FALSE	method	15289	15341	2b
+159	s101	It was therefore of interest	[]		p20	Results	FALSE	goal	15342	15370	2b
+160	s101	to compare the p42/p44 MAPK translocation in cells stimulated with either serum or beta-estradiol .	[]		p20	Results	FALSE	goal	15371	15469	2b
+161	s102	Activation of the p42/p44 MAPK Signaling Pathway Is	[header-1]		title21	Results	FALSE	fact	15470	15521	3
+162	s102	Sufficient to Promote the Nuclear Translocation of p42/p44 MAPK	[header-1]		title21	Results	FALSE	fact	15522	15585	3
+163	s103	Fig. 3 depicts a typical time course of p42/p44 MAPK subcellular localization after stimulation of resting CCL39-DeltaRaf-1 : ER cells by either serum of beta-estradiol .	[inLink]	3	p22	Results	FALSE	result	15586	15753	3
+164	s104	"First , as illustrated in Fig. 3 , A and E , the observed staining for p42/ p44 MAPK shows"	[inLink]	3a|3e	p22	Results	FALSE	result	15754	15841	3a|3e
+165	s104	"that in G0-arrested cells , p42/p44 MAPK immunolabeling was predominantly cytoplasmic , in accordance with our and other previously published results ( 8 , 18 , 27 ) ."	[exLink]		p22	Results	FALSE	result	15842	16002	3a|3e
+166	s105	"Second , as judged by immunofluorescence microscopy , p42/p44 MAPK immunostaining underwent a complete redistribution in serum-stimulated cells ,"	[]		p22	Results	FALSE	result	16003	16145	3b|3a|3e
+167	s105	becoming almost exclusively nuclear after 3 h stimulation ( Fig. 3 B ) .	[inLink]	3b	p22	Results	FALSE	result	16146	16215	3b|3a|3e
+168	s106	"After 6 h of serum stimulation , p42/p44 MAPK immunostaining is uniformly distributed throughout the whole cell ( Fig. 3 C ) ."	[inLink]	3c	p22	Results	FALSE	result	16216	16338	3c
+169	s107	"Finally , after 9 h of serum stimulation , p42/ p44 MAPK immunostaining was again predominantly cytoplasmic ( Fig. 3 D ) ."	[inLink]	3d	p22	Results	FALSE	result	16339	16456	3d
+170	s108	"Interestingly , a 3-h stimulation of the DeltaRaf-1 : ER chimera by beta-estradiol was sufficient"	[]		p22	Results	FALSE	result	16457	16551	3f|3d
+171	s108	to induce by itself the nuclear localization of p42/p44 MAPK ( Fig. 3 F ) .	[inLink]	3f	p22	Results	FALSE	result	16552	16624	3f|3d
+172	s109	"In contrast to serum stimulation , activation of the DeltaRaf-1 : ER chimera prolonged the nuclear localization of p42/p44 MAPK for up to 6 h ( Fig. 3 G ) and 9 h ( Fig. 3 H ) after stimulation by beta-estradiol ."	[inLink]	3g|3h	p22	Results	FALSE	result	16625	16830	3h|3g
+173	s110	"Furthermore , p42/p44 MAPK"	[]		p22	Results	FALSE	result	16831	16856	1|3h|3g
+174	s110	nuclear immunostaining was even detected after 15 h of DeltaRaf-1 : ER stimulation ( data not shown ) .	[]		p22	Results	FALSE	result	16857	16955	1|3h|3g
+175	s111	Later immunohistochemical observations were rendered more difficult	[]		p22	Results	FALSE	result	16956	17023	1|3h|3g
+176	s111	because cells underwent rounding and detachment by the prolonged activation of this signaling cascade ( 35 and data not shown ) .	[]		p22	Results	FALSE	result	17024	17150	1|3h|3g
+177	s112	"As seen in response to serum , MAPK nuclear translocation initiated by activation of the DeltaRaf-1"	[]		p22	Results	FALSE	result	17151	17249	1|3h|3g
+178	s112	"ER chimera was also abrogated in presence of the MEK inhibitor ( Fig. 1 , compare E and F ) ."	[inLink]	1	p22	Results	FALSE	result	17250	17339	1|3h|3g
+179	s113	The results presented above demonstrate	[]		p23	Results	FALSE	implication	17340	17379	1
+180	s113	that the sole activation of the p42/p44 MAPK signaling module is sufficient to promote the nuclear localization of p42/p44 MAPK .	[]		p23	Results	FALSE	implication	17380	17508	1
+181	s114	"In addition , the nuclear localization of p42/p44 MAPK correlates well with the degree of activation of the p42/p44 MAPK pathway ."	[]		p23	Results	FALSE	implication	17509	17637	1
+182	s115	As long	[]		p23	Results	FALSE	result	17638	17645	1
+183	s115	"as p42/p44 MAPK activity remains elevated , such as with long-term DeltaRaf-1 : ER stimulation , p42/p44 MAPK remains in the nucleus ."	[]		p23	Results	FALSE	result	17646	17775	1
+184	s116	"On the contrary ,"	[]		p23	Results	FALSE	result	17776	17792	1
+185	s116	"if activation of the p42/p44 MAPK pathway decreases to unstimulated levels , as with long term serum stimulation , p42/p44 MAPK returns to the cytoplasm ."	[]		p23	Results	FALSE	result	17793	17944	1
+186	s117	We have shown previously	[]		p23	Results	FALSE	result	17945	17969	
+187	s117	"that serum removal was sufficient to induce the efflux of p42/p44 MAPK from the nucleus within 1 h ( 27 ) , a result consistent with the present observation ."	[exLink]		p23	Results	FALSE	result	17970	18124	
+188	s118	Neosynthesis of Proteins Is Required for p42/p44 MAPK Nuclear Retention	[header-1]		title24	Results	FALSE	none	18125	18196	
+189	s119	The results presented above indicated	[]		p25	Results	FALSE	implication	18197	18234	
+190	s119	that activation of p42/p44 MAPK cascade was both required and sufficient for inducing p42/p44 MAPK nuclear translocation .	[]		p25	Results	FALSE	implication	18235	18356	
+191	s120	"p42/ p44 MAPK activation results from its dual phosphorylation by MEK ( 1 , 10 , 47 ) ."	[exLink]		p25	Results	FALSE	implication	18357	18439	
+192	s121	This reversible phosphorylation could explain the reversible nuclear localization of p42/ p44 MAPK .	[]		p25	Results	FALSE	hypothesis	18440	18539	
+193	s122	"However , we and others have previously shown"	[]		p25	Results	FALSE	result	18540	18584	
+194	s122	that nonphosphorylatable and inactive mutants of p42/p44 MAPK can still translocate into the nucleus .	[]		p25	Results	FALSE	result	18585	18686	
+195	s123	"Thus , activation of p42/p44 MAPK must modify either its interactions with partner proteins and/or the cell physiology"	[]		p25	Results	FALSE	hypothesis	18687	18804	
+196	s123	to induce nuclear accumulation of p42/p44 MAPK .	[]		p25	Results	FALSE	hypothesis	18805	18852	
+197	s124	"First , we evaluated"	[]		p25	Results	FALSE	goal	18853	18872	
+198	s124	whether the activation of transcription induced by p42/p44 MAPK activation and the resulting neosynthesized proteins contribute to nuclear retention of MAPK .	[]		p25	Results	FALSE	hypothesis	18873	19030	
+199	s125	As illustrated in Fig. 4 C	[inLink]	4c	p25	Results	FALSE	result	19031	19057	4c|4
+200	s125	"inhibition of protein synthesis with 30 mug/ml cycloheximide ( CHX ) completely blocks the nuclear localization of p42/p44 MAPK after a 3-h serum stimulation ( Fig. 4 , compare B and C ) ."	[inLink]	4	p25	Results	FALSE	result	19058	19241	4c|4
+201	s126	Identical results were obtained	[]		p25	Results	FALSE	result	19242	19273	4
+202	s126	when nuclear translocation of p42/p44 MAPK was induced with activation of the chimera DeltaRaf-1 : ER ( data not shown ) .	[]		p25	Results	FALSE	result	19274	19391	4
+203	s127	We demonstrated that the activation of the MAPK pathway closely parallels to the nuclear translocation of p42/p44 MAPK ;	[]		p26	Results	FALSE	result	19392	19511	
+204	s127	"therefore , it was essential to verify that CHX did not abrogate p42/p44 MAPK activity , since this would explain the inhibition of nuclear translocation ."	[]		p26	Results	FALSE	hypothesis	19512	19664	
+205	s128	Addition of CHX to serum-stimulated CCL39 cells did not modify the activity ( Fig. 5 ) nor the levels of p42/p44 MAPK ( data not shown ) .	[inLink]	5	p27	Results	FALSE	result	19665	19798	5
+206	s129	"Indeed , CHX treatment did not affect serum stimulation of p42/p44 MAPK measured at 7 min"	[]		p27	Results	FALSE	result	19799	19888	5|4
+207	s129	compare lanes 4 and 5 ) or at 60 min ( compare lanes 7 and 8 ) .	[]		p27	Results	FALSE	result	19889	19949	5|4
+208	s130	"CHX treatment even enhanced activation of p42/ p44 MAPK at 3 h ( compare lanes 10 and 11 ) ,"	[]		p27	Results	FALSE	result	19950	20039	4
+209	s130	which is in accordance to previous observations ( 7 ) .	[exLink]		p27	Results	FALSE	result	20040	20092	4
+210	s131	The prolongation of MAPK activation by CHX treatment may be a consequence of	[]		p27	Results	FALSE	hypothesis	20093	20169	4
+211	s131	"blocking the inducible expression of specific MAPK phosphatases of the MKP family : MKP-1 ( 45 ) , MKP-2 ( 20 , 34 ) , and MKP-3 ( 19 , 36 ) ."	[exLink]		p27	Results	FALSE	result	20170	20300	4
+212	s132	"Thus , the inhibition of p42/p44 MAPK nuclear translocation by CHX treatment , observed in Fig. 4 , can not be attributed to inhibition of the p42/p44 MAPK signaling pathway ."	[inLink]	4	p27	Results	FALSE	implication	20301	20471	4
+213	s133	"Furthermore , we were able to rule out the possibility"	[]		p27	Results	FALSE	result	20472	20525	4
+214	s133	that CHX exerted its action via nonspecific effects since inhibition of protein synthesis by 100 ng/ml anisomycin and inhibition of transcription by 5 mug/ml actinomycin D also prevented p42/ p44 MAPK nuclear localization after serum or DeltaRaf-1 : ER chimera stimulation ( data not shown ) .	[]		p27	Results	FALSE	result	20526	20814	4
+215	s134	"In addition , we ruled out a possible effect of CHX via activation of JNK/ p38 stress-activated protein kinases ( SAPK ) by"	[]		p27	Results	FALSE	result	20815	20935	4
+216	s134	showing that IL1-beta or low concentrations of anisomycin ( two potent activators of SAPKs ) did not change the nuclear accumulation of MAPKs in response to serum .	[]		p27	Results	FALSE	result	20936	21097	4
+217	s135	"Finally , by"	[]		p27	Results	FALSE	result	21098	21109	4
+218	s135	"analyzing the localization of the transcription factor SP1 , MEK , or a nuclear form of MEK ( NLS : MEK ) , we ruled out unspecific effects of CHX on the nuclear import/export of proteins in general ( data not shown ) ."	[]		p27	Results	FALSE	result	21110	21319	4
+219	s136	"Taken together , these experiments clearly demonstrate"	[]		p27	Results	FALSE	implication	21320	21373	4
+220	s136	that the transcriptional stimulation driven by p42/p44 MAPK activation and the resulting protein neosynthesis are absolutely required for the nuclear accumulation of p42/p44 MAPK observed after 1-3 h of mitogenic stimulation .	[]		p27	Results	FALSE	implication	21374	21599	4
+221	s137	Inhibition of Protein Synthesis Triggers the Exit of p42/p44 MAPK from the Nucleus	[header-1]		title28	Results	FALSE	fact	21600	21682	4
+222	s138	We have shown previously	[]		p29	Results	FALSE	result	21683	21707	4
+223	s138	that terminating MAPK stimulation by rapid removal of serum growth factor induced the efflux of nuclear p42/p44 MAPK to the cytoplasm within 1 h ( 27 ) .	[exLink]		p29	Results	FALSE	result	21708	21858	4
+224	s139	"In light of the experiments described in Fig. 4 , which demonstrate that protein neosynthesis is required for the nuclear accumulation of p42/p44 MAPK , we formulate the hypothesis"	[inLink]	4	p29	Results	FALSE	hypothesis	21859	22037	4
+225	s139	that the nuclear efflux induced by serum removal is caused by a decrease in the synthesis of proteins associated with p42/p44 MAPK in the nucleus ( nuclear anchors ) .	[]		p29	Results	FALSE	hypothesis	22038	22202	4
+226	s140	"Therefore , we predict"	[]		p29	Results	FALSE	hypothesis	22203	22224	4
+227	s140	that inhibition of protein synthesis should accelerate MAPK efflux from the nucleus .	[]		p29	Results	FALSE	hypothesis	22225	22309	4
+228	s141	"Fig. 6 , B and C , show the localization of p42/p44 MAPK after 3 and 5 h of serum stimulation , respectively ."	[inLink]	6	p30	Results	FALSE	result	22310	22416	6
+229	s142	"In both cases , MAPKs are clearly accumulated in the nucleus with perhaps a less intense signal at 5 h ( Fig. 6 C ) because of a decline in p42/p44 MAPK activity ."	[inLink]	6c	p30	Results	FALSE	result	22417	22576	6c
+230	s143	"However , the inhibition of protein synthesis with CHX for the last 2 h of serum stimulation markedly accelerated the cytoplasmic return of p42/p44 MAPK ( Fig. 6 , compare C and E ) ."	[inLink]	6	p30	Results	FALSE	result	22577	22755	6
+231	s144	This acceleration of MAPK nuclear efflux was already apparent 1 h after CHX addition ( Fig. 6 D ) .	[inLink]	6d	p30	Results	FALSE	result	22756	22852	6d
+232	s145	"Similarly ,"	[]		p31	Results	FALSE	result	22853	22863	3|6d
+233	s145	"when CCL39-DeltaRaf-1 : ER cells were stimulated by beta-estradiol , which induced a persistent activation and nuclear accumulation of p42/p44 MAPK ( as shown in Fig. 3 ) , addition of CHX was sufficient to trigger the efflux of p42/p44 MAPK from the nucleus ( data not shown ) ."	[inLink]	3	p31	Results	FALSE	result	22864	23134	3|6d
+234	s146	As CHX treatment did not abrogate ( and even slightly enhanced ) p42/p44 MAPK activation	[]		p31	Results	FALSE	result	23135	23221	3
+235	s146	we conclude that continuous protein synthesis is required to retain p42/p44 MAPK in the nucleus .	[]		p31	Results	FALSE	implication	23222	23319	3
+236	s147	Inhibition of the Proteasome-dependent Protein Degradation Pathway Promotes Nuclear Accumulation of p42/p44 MAPK	[header-1]		title32	Results	FALSE	fact	23320	23432	
+237	s148	The experiments presented above led	[]		p33	Results	FALSE	implication	23433	23468	
+238	s148	us to propose that activation of the p42/p44 MAPK pathway triggers the neosynthesis of short-lived proteins that contribute to the nuclear accumulation of p42/p44 MAPK .	[]		p33	Results	FALSE	hypothesis	23469	23637	
+239	s149	A prediction of this proposal is	[]		p33	Results	FALSE	hypothesis	23638	23670	
+240	s149	that the stabilization of short-lived proteins should prolong the nuclear accumulation of p42/p44 MAPK .	[]		p33	Results	FALSE	hypothesis	23671	23774	
+241	s150	Many short-lived proteins have been found	[]		p34	Results	FALSE	result	23775	23816	
+242	s150	to be targeted and degraded by the proteasome after their ubiquitinylation ( 39 ) .	[exLink]		p34	Results	FALSE	result	23817	23897	
+243	s151	"Thus ,"	[]		p34	Results	FALSE	hypothesis	23898	23903	
+244	s151	"to validate this hypothesis we inhibited the activity of the proteasome with LLnL , a membrane-permeable inhibitor of cysteine proteases that acts upon calpains and proteasomes ( 42 , 46 ) ."	[exLink]		p34	Results	FALSE	hypothesis	23904	24089	
+245	s152	The action of LLnL on p42/p44 MAPK subcellular localization was assessed after long-term serum stimulation .	[]		p34	Results	FALSE	method	24090	24197	
+246	s153	Fig. 7 recapitulates a typical immunolocalization of p42/ p44 MAPK .	[inLink]	7	p35	Results	FALSE	result	24198	24265	7
+247	s154	"Mainly cytoplasmic in G0-arrested cells ( Fig. 7 A ) , MAPKs display a clear nuclear localization after 3 h of stimulation with 10 % FCS ( Fig. 7 B ) and return almost completely in the cytoplasm after 12 h"	[inLink]	7a|7b	p35	Results	FALSE	result	24266	24466	7c|7b|7a
+248	s154	when cells are beginning to enter S-phase ( Fig. 7 C ) .	[inLink]	7c	p35	Results	FALSE	result	24467	24520	7c|7b|7a
+249	s155	"In a parallel set of stimulated cells , addition of the proteasome inhibitor LLnL ( 30 muM ) , for 12 h , markedly prevented nuclear MAPK efflux ( Fig. 7 , compare D with C ) ."	[inLink]	7	p35	Results	FALSE	result	24521	24688	7
+250	s156	"In addition ,"	[]		p35	Results	FALSE	result	24689	24701	7|7h
+251	s156	"if mitogenic stimulation was ended upon serum removal after 3 h and the cells were incubated for another 9 h in a serum-free medium containing the LLnL , the nuclear localization of p42/p44 MAPK was maintained ( Fig. 7 H ) ."	[inLink]	7h	p35	Results	FALSE	result	24702	24922	7|7h
+252	s157	We have previously shown	[]		p35	Results	FALSE	result	24923	24947	7f|7h
+253	s157	that p42/p44 MAPK activity in exponentially growing cells is completely abolished after a 3-h serum removal ( our unpublished results ) .	[]		p35	Results	FALSE	result	24948	25082	7f|7h
+254	s158	Our results indicate	[]		p35	Results	FALSE	implication	25083	25103	7f|7h
+255	s158	"that p42/p44 MAPK nuclear retention can be observed while MAPK activation is totally abrogated , provided that the targeted degradation of proteins is halted ."	[]		p35	Results	FALSE	implication	25104	25261	7f|7h
+256	s159	"Furthermore , we have previously shown"	[]		p35	Results	FALSE	result	25262	25299	7f|7h
+257	s159	that activation of CCL39 cells by nonmitogenic stimuli was not sufficient to promote nuclear accumulation of p42/p44 MAPK ( 27 ) .	[exLink]		p35	Results	FALSE	result	25300	25427	7f|7h
+258	s160	"For example , TPA ,"	[]		p35	Results	FALSE	result	25428	25445	7f|7h
+259	s160	"which is not mitogenic for CCL39 cells , does not induce any redistribution of MAPKs in the nucleus ( Fig. 7 F ) ."	[inLink]	7f	p35	Results	FALSE	result	25446	25556	7f|7h
+260	s161	"Surprisingly ,"	[]		p35	Results	FALSE	result	25557	25570	7f|7
+261	s161	"blocking protein degradation by addition of LLnL during TPA stimulation for 12 h , triggered the nuclear accumulation of p42/p44 MAPK ( Fig. 7 , compare G and F ) ."	[inLink]	7	p35	Results	FALSE	result	25571	25730	7f|7
+262	s162	"Interestingly , the nuclear accumulation of p42/p44 MAPK observed"	[]		p35	Results	FALSE	result	25731	25795	5a|7|5b
+263	s162	"when cells were exposed to both TPA and LLnL was delayed as compared with that obtained with mitogenic stimulation ( starting at ~6 h , data not shown ) ."	[]		p35	Results	FALSE	result	25796	25946	5a|7|5b
+264	s163	"For all the experiments presented here , it is important"	[]		p35	Results	FALSE	result	25947	26002	5a|7|5b
+265	s163	"to note that LLnL alone is not able to stimulate p42/p44 MAPK activity nor alter the magnitude and temporal profile of stimulated MAPKs by serum ( Fig. 5 A , lanes 6 , 9 , and 12 and Fig. 5 B , lanes 3 , 7 , and 11 ) or upon addition of TPA ( Fig. 5 B , lanes 5 , 9 , and 12 ) ."	[inLink]	5a|5b	p35	Results	FALSE	result	26003	26267	5a|7|5b
+266	s164	"Thus , any action of LLnL on the subcellular localization of p42/p44 MAPK can not be attributed to the modification of MAPK activity ."	[]		p35	Results	FALSE	implication	26268	26399	5a|5b
+267	s165	"Furthermore , treatment with LLnL alone does not change the cytoplasmic localization of MAPKs in resting cells ( Fig. 7 E ) ."	[inLink]	7e	p35	Results	FALSE	result	26400	26521	7e
+268	s166	To verify that LLnL does not alter the general mechanism of nuclear import/export	[]		p35	Results	FALSE	goal	26522	26603	8b|8c|7e
+269	s166	treatment with LLnL for 12 h in presence of serum does not modify the subcellular localization of MEK or of the transcription factor SP1 ( data not shown ) .	[]		p35	Results	FALSE	result	26604	26759	8b|8c|7e
+270	s167	To further eliminate the possibility of nonspecific effect ( s ) of LLnL	[]		p36	Results	FALSE	goal	26760	26829	8b|8c|7e
+271	s167	treatment with lactacystin ( Fig. 8 C ) mimics the action of LLnL ( Fig. 8 B ) .	[inLink]	8b|8c	p36	Results	FALSE	result	26830	26906	8b|8c|7e
+272	s168	"LLnL is a reversible and slow-binding inhibitor that blocks proteasome function and calpain proteases ( 46 ) ,"	[exLink]		p36	Results	FALSE	fact	26907	27014	
+273	s168	"whereas lactacystin , a compound shown to be a more specific proteasome inhibitor , alkylates irreversibly threonine 1 of the active beta subunit of the proteasome ( 11 , 13 ) ."	[exLink]		p36	Results	FALSE	fact	27015	27186	
+274	s169	"Taken together , these results show the specific implication of newly synthesized proteins in the process of nuclear retention of p42/p44 MAPK and demonstrates"	[]		p37	Results	FALSE	implication	27187	27345	
+275	s169	"that these nuclear anchor ( s ) , which retain MAPKs in the nucleus , are finely regulated by the proteasome system ."	[]		p37	Results	FALSE	implication	27346	27457	
+276	s170	Discussion	[header-0]		title38	Discussion	FALSE	none	27458	27468	
+277	s171	The MAPK cascade constitutes a functional signaling unit	[]		p39	Discussion	FALSE	fact	27469	27525	
+278	s171	that links surface receptor-mediated signals to nuclear events .	[]		p39	Discussion	FALSE	fact	27526	27589	
+279	s172	It is interesting	[]		p39	Discussion	FALSE	fact	27590	27607	
+280	s172	"that among the six to eight sequential components of this cascade , only p42 and p44 MAPKs , the most downstream elements , possess the unique potential to shuttle between the cytoplasm and the nucleus ."	[]		p39	Discussion	FALSE	fact	27608	27807	
+281	s173	"This nuclear translocation was observed in virtually all cell types in culture ( fibroblasts , smooth muscle cells , mesangial cells , epithelial cells , PC12 cells , neurons ) ,"	[]		p39	Discussion	FALSE	result	27808	27978	
+282	s173	"occurring in response to either potent mitogenic stimuli , differentiating agents , or depolarizing agents ( 8 , 9 , 18 , 24 , 27 , 30 , 32 , 37 ) ."	[exLink]		p39	Discussion	FALSE	result	27979	28115	
+283	s174	Although we believe that this regulatory mechanism is central to set the spatiotemporal activity of MAPKs and therefore their biological function	[]		p39	Discussion	FALSE	implication	28116	28261	
+284	s174	the mechanism by which MAPKs translocate to the nucleus upon stimulation is largely unknown .	[]		p39	Discussion	FALSE	problem	28262	28355	
+285	s175	"In resting cells , p42/p44 MAPK are retained in the cytoplasm , presumably via a cytoplasmic anchoring complex ."	[]		p40	Discussion	FALSE	fact	28356	28465	
+286	s176	This notion is based on three findings : ( a ) Overexpression of either p42 or p44 MAPK leads to a spontaneous leakage of MAPK to the nucleus in the absence of stimuli ( 27 ) .	[exLink]		p40	Discussion	FALSE	fact	28466	28636	
+287	s177	We interpreted this finding as a saturation of the cytoplasmic anchor .	[]		p40	Discussion	FALSE	implication	28637	28707	
+288	s178	"( b ) MEK , the upstream activator of p42/p44 MAPK , is permanently excluded from the nucleus by a leucine-rich short sequence ,"	[]		p40	Discussion	FALSE	fact	28708	28831	
+289	s178	"which acts as a nuclear export signal ( 14 , 23 ) ."	[exLink]		p40	Discussion	FALSE	fact	28832	28879	
+290	s179	( c ) Thorner and colleagues have highlighted the existence of a specific p42/p44 MAPK docking site at the extreme NH2 terminus of MEK	[]		p40	Discussion	FALSE	result	28880	29012	
+291	s179	a site conserved from yeast to human ( 3 ) .	[exLink]		p40	Discussion	FALSE	result	29013	29055	
+292	s180	"Based on these observations , we hypothesized"	[]		p40	Discussion	FALSE	hypothesis	29056	29100	
+293	s180	"that MEK might represent a good candidate for being part of a MAPK cytoplasmic anchoring complex , a notion that has been largely substantiated by Fukuda et al. ( 15 ) ."	[exLink]		p40	Discussion	FALSE	hypothesis	29101	29266	
+294	s181	"In this report , we have been able"	[]		p41	Discussion	FALSE	result	29267	29300	
+295	s181	"to identify the signal triggering MAPK nuclear translocation and its dissociation from the putative cytoplasmic anchor , and the process that regulates MAPK nuclear retention ."	[]		p41	Discussion	FALSE	result	29301	29475	
+296	s182	The signal required	[]		p41	Discussion	FALSE	implication	29476	29495	
+297	s182	to initiate MAPK nuclear translocation is clearly the activation of the p42/p44 MAPK module .	[]		p41	Discussion	FALSE	implication	29496	29588	
+298	s183	This was best demonstrated by the use of the DeltaRaf-1 : ER-expressing cells .	[]		p41	Discussion	FALSE	result	29589	29665	
+299	s184	Activation of the module downstream of Raf alone is sufficient	[]		p41	Discussion	FALSE	fact	29666	29728	
+300	s184	to initiate MAPK nuclear stimulation .	[]		p41	Discussion	FALSE	fact	29729	29766	
+301	s185	"This translocation is rapid since in most experiments , entry into the nucleus can be observed as early as 10 min after stimulation ( our unpublished results )"	[]		p41	Discussion	FALSE	result	29767	29923	
+302	s185	"and more importantly , this action does not require new protein synthesis ."	[]		p41	Discussion	FALSE	implication	29924	29998	
+303	s186	These findings were best visualized by	[]		p41	Discussion	FALSE	method	29999	30037	
+304	s186	using antibodies specifically recognizing the doubly phosphorylated and thus active form of MAPK .	[]		p41	Discussion	FALSE	method	30038	30135	
+305	s187	Entry into the nucleus of active p42/p44 MAPK is seen as soon as 5 min after serum stimulation ( data not shown ) .	[]		p41	Discussion	FALSE	result	30136	30248	
+306	s188	"This result confirms and extends the observations of Fukuda et al. ( 15 ) , demonstrating the nuclear localization of Xenopus MAPK"	[exLink]		p41	Discussion	FALSE	result	30249	30376	
+307	s188	when injected in conjunction with constitutively active MEK or v-Ras .	[]		p41	Discussion	FALSE	result	30377	30446	
+308	s189	"More recently , MAPK was also shown"	[]		p41	Discussion	FALSE	result	30447	30481	
+309	s189	to be constitutively nuclear in Ras-transformed cells ( 5 ) .	[exLink]		p41	Discussion	FALSE	result	30482	30540	
+310	s190	How p42 and p44 MAPKs dissociate from the cytoplasmic anchoring complex upon activation and enter the nucleus	[]		p42	Discussion	FALSE	problem	30541	30650	
+311	s190	is not entirely clear .	[]		p42	Discussion	FALSE	problem	30651	30673	
+312	s191	"One interesting idea proposed by Seger 's group ( 23 ) is that upon serum stimulation , the MEK-MAPK complex translocates to the nucleus"	[exLink]		p42	Discussion	FALSE	fact	30674	30806	
+313	s191	"where , following dissociation , only MEK is rapidly excluded via its active nuclear export signal sequence ."	[]		p42	Discussion	FALSE	fact	30807	30913	
+314	s192	"Alternatively , the model"	[]		p42	Discussion	FALSE	hypothesis	30914	30938	
+315	s192	"we favor , also proposed by Fukuda et al. ( 15 ) , is a rapid dissociation of MAPK in the cytoplasm after retrophosphorylation of the anchoring complex via p42/p44 MAPK ."	[exLink]		p42	Discussion	FALSE	hypothesis	30939	31104	
+316	s193	"Subsequent to this dissociation , MAPKs could easily translocate to the nucleus via simple diffusion ,"	[]		p42	Discussion	FALSE	hypothesis	31105	31205	
+317	s193	"as illustrated by Nishida 's group ( 15 ) , although a cotransport involving association of MAPKs with their NLS-containing substrates can not be excluded ."	[exLink]		p42	Discussion	FALSE	hypothesis	31206	31356	
+318	s194	This model is not in contradiction with a previous observation	[]		p42	Discussion	FALSE	implication	31357	31419	
+319	s194	"that we and others have made concerning the ability of nonphosphorylatable mutants of p42/p44 MAPK to translocate to the nucleus upon mitogenic stimulation ( 18 , 27 ) ."	[exLink]		p42	Discussion	FALSE	implication	31420	31585	
+320	s195	"Under these circumstances , the endogenous MAPK activity is still capable of"	[]		p42	Discussion	FALSE	fact	31586	31661	
+321	s195	regulating the dissociation of the inactive kinase from the cytoplasmic complex .	[]		p42	Discussion	FALSE	fact	31662	31742	
+322	s196	"Alternatively , a third model has been recently presented by Khokhlatchev et al. ( 26 ) ."	[exLink]		p42	Discussion	FALSE	hypothesis	31743	31828	
+323	s197	The authors propose	[]		p42	Discussion	FALSE	hypothesis	31829	31848	
+324	s197	that phosphorylation of Erk2 ( p42 MAPK ) promotes its homodimerization and nuclear translocation .	[]		p42	Discussion	FALSE	hypothesis	31849	31945	
+325	s198	Although interesting	[]		p42	Discussion	FALSE	method	31946	31966	
+326	s198	this model based on microinjection studies in fibroblasts awaits validation in vivo by an independent approach .	[]		p42	Discussion	FALSE	method	31967	32079	
+327	s199	"In contrast to the rapid process of MAPK dissociation from the cytoplasmic anchoring complex and nuclear entry , the events leading to p42/p44 MAPK nuclear retention do require new protein synthesis ."	[]		p43	Discussion	FALSE	fact	32080	32278	
+328	s200	This process	[]		p43	Discussion	FALSE	fact	32279	32291	
+329	s200	that develops slowly with time also depends upon activation of the p42/p44 MAPK module .	[]		p43	Discussion	FALSE	fact	32292	32379	
+330	s201	"Indeed , MAPK nuclear retention mirrors the temporal activation of p42/p44 MAPK ."	[]		p43	Discussion	FALSE	fact	32380	32459	
+331	s202	This is best demonstrated by	[]		p43	Discussion	FALSE	method	32460	32488	
+332	s202	comparing serum with estradiol stimulation .	[]		p43	Discussion	FALSE	method	32489	32532	
+333	s203	The strong and persistent activation of the MAPK module attained with estradiol in DeltaRaf-1 : ER cells led to a massive and persistent MAPK nuclear retention .	[]		p43	Discussion	FALSE	result	32533	32691	
+334	s204	"Under these conditions , an arrest of protein synthesis by CHX is sufficient to provoke an efflux of nuclear MAPK ,"	[]		p43	Discussion	FALSE	result	32692	32805	
+335	s204	although the MAPK module remains fully active .	[]		p43	Discussion	FALSE	result	32806	32852	
+336	s205	Another example of disjunction between MAPK activation and nuclear retention was obtained by	[]		p43	Discussion	FALSE	method	32853	32945	
+337	s205	inhibiting the proteasome .	[]		p43	Discussion	FALSE	method	32946	32972	
+338	s206	Under conditions	[]		p43	Discussion	FALSE	result	32973	32989	
+339	s206	"where MAPK is transiently stimulated ( TPA , serum during short pulses ) , MAPK does not accumulate in the nucleus ."	[]		p43	Discussion	FALSE	result	32990	33101	
+340	s207	"However ,"	[]		p43	Discussion	FALSE	result	33102	33110	
+341	s207	"if protein degradation of short-lived proteins is inhibited by proteasome inhibitors , then MAPK nuclear retention is observed ."	[]		p43	Discussion	FALSE	result	33111	33237	
+342	s208	This process is slower than with a physiological stimulation with serum	[]		p43	Discussion	FALSE	result	33238	33309	
+343	s208	but the amplitude of nuclear retention is comparable ( see Figs. 7 and 8 ) .	[inLink]	8	p43	Discussion	FALSE	result	33310	33384	
+344	s209	"Interestingly , under these conditions of proteasome inhibition , MAPK activity is barely detectable , and yet MAPK"	[]		p43	Discussion	FALSE	result	33385	33497	
+345	s209	nuclear retention is maximal ( see Fig. 5 ) .	[inLink]	5	p43	Discussion	FALSE	result	33498	33540	
+346	s210	"Therefore , when protein degradation is inhibited , it seems"	[]		p43	Discussion	FALSE	implication	33541	33599	
+347	s210	that MAPK nuclear retention occurs independently of MAPK-dependent phosphorylating events .	[]		p43	Discussion	FALSE	implication	33600	33690	
+348	s211	"Interestingly , the only reported case"	[]		p43	Discussion	FALSE	result	33691	33728	
+349	s211	where p42/p44 MAPK nuclear translocation can occur regardless of its activation was in REF52 cells treated with thiol-modifying agents such as phenylarsine oxide and N-ethylmaleimide ( 31 ) .	[exLink]		p43	Discussion	FALSE	result	33729	33917	
+350	s212	Considering	[]		p43	Discussion	FALSE	hypothesis	33918	33929	
+351	s212	"that N-ethylmaleimide is known to inhibit one peptidase activity of the proteasome by acting on a critical cysteinyl residue ( 11 , 22 ) , this agent could trigger , in some cells , the nuclear accumulation of p42/p44 MAPK by blocking the degradation of MAPK nuclear anchors ."	[exLink]		p43	Discussion	FALSE	hypothesis	33930	34199	
+352	s213	We interpret our data by	[]		p44	Discussion	FALSE	hypothesis	34200	34224	
+353	s213	proposing that activation of the p42/p44 MAPK module leads to the neosynthesis of a MAPK nuclear anchor protein ( s ) .	[]		p44	Discussion	FALSE	hypothesis	34225	34340	
+354	s214	This MAPK nuclear anchor protein ( s ) is rapidly synthesized upon activation of the p42/p44 MAPK module and has a very short half-life ( estimated ~1 hour ) .	[]		p44	Discussion	FALSE	fact	34341	34494	
+355	s215	What may be the nature of this nuclear anchor protein ( s ) ?	[]		p44	Discussion	FALSE	problem	34495	34552	
+356	s216	"It has the characteristic of an immediate early gene product , and"	[]		p44	Discussion	FALSE	fact	34553	34618	
+357	s216	"it could well represent a set of transcription factors , substrates of p42/p44 MAPK , that have the capacity to accumulate in the nucleus and to physically interact with their signaling kinases ."	[]		p44	Discussion	FALSE	hypothesis	34619	34811	
+358	s217	"On the other hand , the MAPK-specific phosphatases , MKP-1 and MKP-2 , represent another set of nuclear proteins ,"	[]		p44	Discussion	FALSE	result	34812	34922	
+359	s217	which are newly synthesized under the control of p42/p44 MAPK activity ( 7 ) and which share the features of a MAPK anchoring system .	[exLink]		p44	Discussion	FALSE	result	34923	35054	
+360	s218	"Alternatively , and perhaps more appealing , the MAPK nuclear anchor might represent a specific component of the MAPK cascade"	[]		p44	Discussion	FALSE	implication	35055	35178	
+361	s218	"that , in view of long-term signaling , has evolved to address a pool of active MAP kinase in the nucleus ."	[]		p44	Discussion	FALSE	hypothesis	35179	35283	
+362	s219	"In fact , signals that trigger the nuclear accumulation of p42/p44 MAPK may not be mitogenic ones"	[]		p44	Discussion	FALSE	hypothesis	35284	35380	
+363	s219	but in all cases they convey long-term activation of p42/p44 MAPK .	[]		p44	Discussion	FALSE	hypothesis	35381	35448	
+364	s220	"This is the case for differentiation of PC12 cell ( 9 , 37 ) and for long-term facilitation of presynaptic cells in Aplysia ( 30 ) ."	[exLink]		p44	Discussion	FALSE	result	35449	35575	
+365	s221	"Alternatively , the pool of MAPKs in the nucleus could progressively become inactivated by the emergence of the nuclear MKPs ."	[]		p44	Discussion	FALSE	result	35576	35700	
+366	s222	"If this is the case , then MAPK"	[]		p44	Discussion	FALSE	hypothesis	35701	35731	
+367	s222	"nuclear retention could be an efficient mechanism of signal desensitization , by sequestering MAPK out of the cytoplasmic-activating complex ."	[]		p44	Discussion	FALSE	hypothesis	35732	35872	
+368	s223	"Indeed , nonphosphorylatable and inactive mutated forms of MAPK can accumulate into the nucleus ( 18 , 27 ) ,"	[exLink]		p44	Discussion	FALSE	result	35873	35977	
+369	s223	providing an indication that inactive MAPK can bind to the nuclear anchor ( s ) .	[]		p44	Discussion	FALSE	implication	35978	36055	
+370	s224	One of the next steps in our future investigation of MAPK nuclear signaling will clearly be the identification of the nuclear anchoring components and the analysis of the MAPK activity from the nuclear pool .	[]		p45	Discussion	FALSE	goal	36056	36263	
+371	s225	Here we have established a set of conditions	[]		p45	Discussion	FALSE	method	36264	36308	
+372	s225	"that should help to evaluate among positive "" MAPK interactors "" obtained from purification or by two hybrid screens , those specific components that contribute to MAPK nuclear retention ."	[]		p45	Discussion	FALSE	goal	36309	36493	

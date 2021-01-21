@@ -1,0 +1,309 @@
+	SentenceId	Clause Text	Codes	ExperimentValues	Paragraph	Headings	FloatingBox?	Discourse Type	Offset_Begin	Offset_End	fig_spans
+0	s1	Peli1 facilitates TRIF-dependent Toll-like receptor signaling and proinflammatory cytokine production	[]		-		FALSE	implication	119	220	
+1	s2	Toll-like receptors ( TLRs ) play a pivotal role in innate immunity and inflammation .	[]		p3		FALSE	fact	804	887	
+2	s3	Here we showed	[]		p3		FALSE	result	888	902	
+3	s3	"that genetic deficiency of Peli1 , an E3 ubiquitin ligase , attenuates induction of proinflammatory cytokines by ligands of TLR3 and TLR4 and renders mice resistant to septic shock ."	[]		p3		FALSE	result	903	1082	
+4	s4	"Peli1 was required for TLR3-induced activation of IkappaB kinase ( IKK ) and its downstream target transcription factor NF-kappaB , but was dispensable for IKK-NF-kappaB activation induced by several other TLRs and the interleukin-1 receptor ."	[]		p3		FALSE	result	1083	1322	
+5	s5	"Notably , Peli1 bound to and ubiquitinated RIP1 , a signaling molecule that mediates IKK activation induced by the TLR3 and TLR4 adaptor TRIF ."	[]		p3		FALSE	result	1323	1463	
+6	s6	These findings suggest	[]		p3		FALSE	implication	1464	1486	
+7	s6	that Peli1 is a ubiquitin ligase needed for transmission of TRIF-dependent TLR signals .	[]		p3		FALSE	implication	1487	1574	
+8	s7	Innate immunity serves as the first line of host defense against infections .	[]		p4		FALSE	fact	1773	1849	
+9	s8	Host cells are equipped with pattern-recognition receptors ( PRRs )	[]		p4		FALSE	fact	1850	1915	
+10	s8	"that recognize diverse pathogen-associated molecular patterns ( PAMPs ) , such as lipopolysaccharide ( LPS ) , peptidoglycan ( PGN ) , single - and double-stranded RNA , and DNA 1 ."	[exLink]		p4		FALSE	fact	1916	2085	
+11	s9	A major family of PRRs is the Toll-like receptor ( TLR ) family .	[]		p4		FALSE	fact	2086	2148	
+12	s10	"To date , 10 human and 12 mouse TLRs , each of which recognize distinct PAMPs , have been cloned 2 . For example , TLR4 recognizes LPS derived from the outer membrane of gram-negative bacteria , TLR3 recognizes viral double-stranded RNA as well as the synthetic nucleic acid poly ( I : C ) , whereas TLR9 recognizes unmethylated CpG motifs present in bacterial and viral DNAs 2 . Recognition of PAMPs by TLRs triggers signaling pathways that lead to the production of proinflammatory cytokines , chemokines , and type I interferons ( IFNs ) ."	[exLink]		p4		FALSE	fact	2149	2673	
+13	s11	These proteins combat invading pathogens and recruit additional immune cells to the site of infection .	[]		p4		FALSE	fact	2674	2776	
+14	s12	TLRs also facilitate induction of	[]		p4		FALSE	fact	2777	2810	
+15	s12	costimulatory molecules ( e.g .	[]		p4		FALSE	fact	2811	2840	
+16	s13	"CD80 and CD86 ) and MHC class II on dendritic cells and B cells , and stimulate B cell proliferation 3 , 4 ."	[exLink]		p4		FALSE	fact	2841	2945	
+17	s14	"A key TLR signaling event is activation of the NF-kappaB family of transcription factors ,"	[]		p5		FALSE	fact	2946	3035	
+18	s14	"which mediate induction of various proinflammatory cytokines and many other immune genes 2 , 5 ."	[exLink]		p5		FALSE	fact	3036	3130	
+19	s15	"In unstimulated cells , NF-kappaB proteins are sequestered in the cytoplasm by inhibitory proteins , IkappaBs 5 ."	[exLink]		p5		FALSE	fact	3131	3241	
+20	s16	"In response to TLR stimuli , IkappaB kinases ( IKKs ) phosphorylate"	[]		p5		FALSE	fact	3242	3306	
+21	s16	"IkappaBs , causing their degradation and NF-kappaB nuclear translocation 5 . Another TLR signaling pathway , which is stimulated by TLR3 and TLR4 , involves activation of the IKK-related kinases , IKKepsilon ( also called IKKi ) and TBK1 6 , 7 , which are responsible for activation of IFN-responsive factor 3 ( IRF3 ) , a transcription factor that mediates induction of genes encoding type I IFNs and IFN-responsive factors 2 ."	[exLink]		p5		FALSE	fact	3307	3722	
+22	s17	The signaling function of TLRs depends on intracellular adaptors	[]		p6		FALSE	fact	3723	3787	
+23	s17	"2 . MyD88 transmits signals emanating from all TLRs , except TLR3 , and from the interleukin-1 receptor ( IL-1R ) ."	[exLink]		p6		FALSE	fact	3788	3897	
+24	s18	"Another signaling adaptor , TRIF ( also called TICAM1 ) ( http : //www.signaling-gateway.org/molecule/query ? afcsid=A004068 ) , specifically mediates"	[]		p6		FALSE	fact	3898	4038	
+25	s18	TLR3 and TLR4 signaling 8-10 .	[exLink]		p6		FALSE	fact	4039	4068	
+26	s19	TLR4 is unique in	[]		p6		FALSE	fact	4069	4086	
+27	s19	that it induces both MyD88 - and TRIF-dependent signaling pathways .	[]		p6		FALSE	fact	4087	4153	
+28	s20	MyD88-mediated signaling involves recruitment and activation of IL-1R-associated kinases ( IRAKs ) 11 .	[exLink]		p6		FALSE	fact	4154	4254	
+29	s21	"Upon activation , IRAKs interact with and activate TRAF6 , an E3 ubiquitin ligase"	[]		p6		FALSE	fact	4255	4334	
+30	s21	"that specifically catalyzes lysine 63 ( K63 ) -linked ubiquitin chains 12 . TRAF6-mediated K63 ubiquitination plays a critical role in transducing TLR-proximal signals to downstream events , particularly the activation of IKK and NF-kappaB 13 ."	[exLink]		p6		FALSE	fact	4335	4573	
+31	s22	"Recent studies suggest that the function of IRAKs may also involve interaction with the Peli ( also called Pellino , hereafter named Peli ) family of proteins 12 ."	[exLink]		p7		FALSE	implication	4574	4733	
+32	s22	"Peli proteins are mammalian homologues of Drosophila Peli , a molecule that interacts with the Drosophila IRAK-like molecule Pelle 14 ."	[exLink]		p7		FALSE	fact	4734	4867	
+33	s23	"Mammalian cells have three Peli members ,"	[]		p7		FALSE	fact	4868	4908	
+34	s23	which share strong sequence homology and contain a RING-like domain 12 .	[exLink]		p7		FALSE	fact	4909	4980	
+35	s24	In vitro studies suggest	[]		p7		FALSE	implication	4981	5005	
+36	s24	that Peli proteins function as E3 ubiquitin ligases that catalyze K63-linked ubiquitin chains 15-17 .	[exLink]		p7		FALSE	implication	5006	5106	
+37	s25	"Like TRAF6 , Peli proteins physically interact with IRAKs ( IRAK1 and IRAK4 ) and induce ubiquitination of IRAK1 15-17 ."	[exLink]		p7		FALSE	fact	5107	5223	
+38	s26	"Based on cell line transfection studies , Peli proteins have been implicated in the regulation of IL-1R and MyD88-dependent TLR"	[]		p7		FALSE	result	5224	5350	
+39	s26	signaling 12 .	[exLink]		p7		FALSE	result	5351	5364	
+40	s27	"However , to date , the physiological functions of Peli proteins have not been resolved ."	[]		p7		FALSE	problem	5365	5451	
+41	s28	"Compared to the MyD88-dependent signaling pathway , much less is known"	[]		p8		FALSE	problem	5452	5521	
+42	s28	regarding how TRIF transduces TLR-proximal signals .	[]		p8		FALSE	problem	5522	5573	
+43	s29	"Nevertheless , recent studies establish RIP1 ( receptor-interacting protein 1 ) as an essential adaptor mediating IKK activation downstream of TRIF-dependent TLR3 signals 18 , 19 ."	[exLink]		p8		FALSE	implication	5574	5749	
+44	s30	RIP1 was originally identified as an adaptor kinase	[]		p8		FALSE	fact	5750	5801	
+45	s30	that transduces tumor necrosis factor receptor ( TNFR ) signals .	[]		p8		FALSE	fact	5802	5864	
+46	s31	"In the TNFR pathway , the ubiquitin ligase TRAF2 interacts with and ubiquitinates RIP1 , which in turn recruits IKK and its upstream kinase , Tak1"	[]		p8		FALSE	fact	5865	6008	
+47	s31	these kinases are then activated 13 .	[exLink]		p8		FALSE	fact	6009	6046	
+48	s32	"RIP1 ubiquitination is also induced by the TLR3 ligand , poly ( I : C ) , and is required for poly ( I : C ) -stimulated IKK activation 18 . RIP1 interacts with TRIF via a RIP homotypic interaction motif ( RHIM ) 19"	[exLink]		p8		FALSE	fact	6047	6246	
+49	s32	and the TRIF-RIP1 signaling complex also contains the adaptor molecule TRADD 20-22 .	[exLink]		p8		FALSE	fact	6247	6331	
+50	s33	"Despite these important findings , the ubiquitin ligase responsible for"	[]		p8		FALSE	problem	6332	6402	
+51	s33	ubiquitinating RIP1 in the TRIF-dependent TLR pathway remains elusive .	[]		p8		FALSE	problem	6403	6473	
+52	s34	Although TRAF6 was proposed to ubiquitinate RIP1	[]		p8		FALSE	hypothesis	6474	6522	
+53	s34	TRAF6 knockout studies revealed a dispensable role for this E3 in TRIF-dependent IKK activation 23 .	[exLink]		p8		FALSE	result	6523	6623	
+54	s35	"In the present study , we provide genetic evidence"	[]		p9		FALSE	goal	6624	6673	
+55	s35	that Peli1 has a non-redundant role in regulating RIP1 ubiquitination and IKK activation in the TRIF-dependent TLR pathway .	[]		p9		FALSE	implication	6674	6797	
+56	s36	Peli1 deficiency caused a specific defect in pro-inflammatory gene induction by ligands of TLR3 and TLR4 and rendered mice resistant to LPS - and poly ( I : C ) -induced lethality .	[]		p9		FALSE	result	6798	6971	
+57	s37	Peli1 physically interacted with RIP1 and induced RIP1 ubiquitination .	[]		p9		FALSE	result	6972	7042	
+58	s38	Loss of Peli1 attenuated TLR3-stimulated RIP1 ubiquitination and IKK activation but had no effect on the activation of IKK-related kinases .	[]		p9		FALSE	result	7043	7182	
+59	s39	These findings suggest	[]		p9		FALSE	implication	7183	7205	
+60	s39	that Peli1 is an E3 ubiquitin ligase that mediates IKK-NF-kappaB activation in the TRIF-dependent TLR signaling pathway .	[]		p9		FALSE	implication	7206	7326	
+61	s40	Results	[header-0]		title10	Results	FALSE	none	7327	7334	
+62	s41	Normal lymphocyte development in Peli1-/ - mice	[header-1]		title11	Results	FALSE	none	7335	7381	
+63	s42	To understand the physiological function of Peli1 in immune regulation	[]		p12	Results	FALSE	goal	7382	7452	f1
+64	s42	we performed studies using Peli1-/ - mice .	[]		p12	Results	FALSE	method	7453	7495	f1
+65	s43	These mutant mice were generated	[]		p12	Results	FALSE	method	7496	7528	f1
+66	s43	"using conventional targeting strategy , in which coding exons 1 and 2 were replaced with a lacZ/neomycin cassette ( Supplementary Fig. 1 ) ."	[inLink]	f1	p12	Results	FALSE	method	7529	7665	f1
+67	s44	The Peli1 homozygous knockout ( Peli1-/- ) mice were viable and did not display overt abnormalities in growth and survival .	[]		p12	Results	FALSE	result	7666	7787	f1
+68	s45	The development of thymocytes appeared	[]		p12	Results	FALSE	result	7788	7826	f2
+69	s45	"to be normal , as Peli1-/ - and Peli1+/+ mice produced comparable frequencies of CD4+ and CD8+ single-positive cells and CD4+CD8+ double-positive cells ( Supplementary Fig. 2 ) ."	[inLink]	f2	p12	Results	FALSE	result	7827	8000	f2
+70	s46	The number of T cells was also normal in the spleen of Peli1-/ - mice ( data not shown ) .	[]		p12	Results	FALSE	result	8001	8087	f2
+71	s47	"Similarly , the Peli1 deficiency did not cause obvious defect in the generation of B cells ."	[]		p12	Results	FALSE	result	8088	8178	f2
+72	s48	Follicular and marginal zone B cells were present in comparable percentages in Peli1-/ - and Peli1+/+ mice ( Supplementary Fig. 2 ) .	[inLink]	f2	p12	Results	FALSE	result	8179	8308	f2
+73	s49	"Thus , Peli1 appears"	[]		p12	Results	FALSE	implication	8309	8328	f2
+74	s49	to be dispensable for the development of immune cells .	[]		p12	Results	FALSE	implication	8329	8383	f2
+75	s50	Septic shock resistance of Peli1-/ - mice	[header-1]		title13	Results	FALSE	none	8384	8424	
+76	s51	To investigate the in vivo function of Peli1 in regulating TLR signaling	[]		p14	Results	FALSE	goal	8425	8497	f1a
+77	s51	"we employed a septic shock model involving intra-peritoneal ( i.p. ) injection of the TLR4 ligand LPS plus a liver-specific transcription inhibitor , D-galactosamine , which enhances the toxicity of LPS 24 ."	[exLink]		p14	Results	FALSE	method	8498	8701	f1a
+78	s52	"In this acute inflammation model , lethality occurs within hours and is largely dependent on the production of the proinflammatory cytokine TNF 25 , 26 ."	[exLink]		p14	Results	FALSE	result	8702	8852	f1a
+79	s53	As expected	[]		p14	Results	FALSE	result	8853	8864	f1a
+80	s53	injection of LPS and D-galacosamine caused lethality in the majority of Peli1+/+ mice within 9 hours and killed all of them within 18 hours ( Fig. 1a ) .	[inLink]	f1a	p14	Results	FALSE	result	8865	9016	f1a
+81	s54	"In sharp contrast , none of the Peli1-/ - mice succumbed to the septic shock induction during the entire 24 hour time period ( Fig. 1a ) ."	[inLink]	f1a	p14	Results	FALSE	result	9017	9150	f1a
+82	s55	We also employed a septic shock model involving injection of high-doses of LPS in the absence of D-galactosamine .	[]		p14	Results	FALSE	method	9151	9264	f3
+83	s56	"As expected , a much higher dose of LPS ( 45 mg/kg body weight ) and a considerably longer time ( 24 hours ) were required"	[]		p14	Results	FALSE	result	9265	9382	f3
+84	s56	to induce a moderate frequency ( 2 out of 6 ) of lethality in wild-type mice ( Supplementary Fig. 3 ) .	[inLink]	f3	p14	Results	FALSE	result	9383	9481	f3
+85	s57	"At this time , none of the Peli1-/ - mice succumbed ."	[]		p14	Results	FALSE	result	9482	9532	f3
+86	s58	"After longer times , 1 of the 6 Peli1-/ - mice died , compared to 50 % of the Peli1+/+ mice ( Supplementary Fig. 3 ) ."	[inLink]	f3	p14	Results	FALSE	result	9533	9644	f3
+87	s59	"Thus ,"	[]		p14	Results	FALSE	implication	9645	9650	f3
+88	s59	"although less striking than the acute lethality model , the Peli1 deficiency also caused reduced the lethality induced in the high-dose LPS model ."	[]		p14	Results	FALSE	implication	9651	9796	f3
+89	s60	"Like LPS , the TLR3 ligand poly ( I : C ) also induces lethality in mice through a TNF-dependent mechanism27 ."	[exLink]		p15	Results	FALSE	result	9797	9900	
+90	s61	We thus examined the effect of Peli1 deficiency on the lethality induced by poly ( I : C ) .	[]		p15	Results	FALSE	method	9901	9987	
+91	s62	"Compared to LPS , poly ( I : C ) was relatively inefficient in"	[]		p15	Results	FALSE	result	9988	10044	
+92	s62	inducing lethality .	[]		p15	Results	FALSE	result	10045	10064	
+93	s63	"Nevertheless , at a high dose ( 0.5 mug/g body weight ) , poly ( I : C ) induced death of most of the Peli1+/+ mice within 8 hours but none of the Peli1-/ - mice at this early time point ( Fig. 1b ) ."	[inLink]	f1b	p15	Results	FALSE	result	10065	10252	f1b
+94	s64	"Even at late times , only 1 out of 6 Peli1-/ - mice died ."	[]		p15	Results	FALSE	result	10253	10308	f1b
+95	s65	To understand the molecular mechanism mediating the resistance of Peli1-/ - mice to septic shock induction	[]		p16	Results	FALSE	goal	10309	10414	f1c
+96	s65	we bled the LPS - and poly ( I : C ) -challenged mice during early time periods ( 1-4 hours ) after LPS and poly ( I : C ) injection and measured the serum concentrations of pro-inflammatory cytokines as well as the anti-viral cytokine interferon ( IFN ) -beta .	[]		p16	Results	FALSE	method	10415	10660	f1c
+97	s66	"Injection of Peli1+/+ mice led to the production of high concentrations of TNF , IL-6 , IL-12P40 , and IFN-beta ( Fig. 1c ) ."	[inLink]	f1c	p16	Results	FALSE	result	10661	10780	f1c
+98	s67	"Consistent with the lethality result , the induction of pro-inflammatory cytokines was severely attenuated in the Peli1-/ - mice ( Fig. 1c ) ."	[inLink]	f1c	p16	Results	FALSE	result	10781	10918	f1c
+99	s68	Loss of Peli1 also partially inhibited the proinflammatory cytokine induction by poly ( I : C ) ( Fig. 1d ) .	[inLink]	f1d	p16	Results	FALSE	result	10919	11020	f1c|f1d
+100	s69	"On the other hand , Peli1 deficiency only slightly reduced the production of IFN-beta ( Fig. 1c , d ) ."	[inLink]	f1c|f1d	p16	Results	FALSE	result	11021	11118	f1c|f1d
+101	s70	These results suggest a critical role for Peli1 in	[]		p16	Results	FALSE	implication	11119	11169	f1c|f1d
+102	s70	regulating TLR3 and TLR4-mediated proinflammatory cytokine induction and lethality .	[]		p16	Results	FALSE	implication	11170	11253	f1c|f1d
+103	s71	Next we analyzed the effect of Peli1 deficiency on TLR-mediated gene induction in vitro .	[]		p17	Results	FALSE	method	11254	11342	2a
+104	s72	"For these studies , we prepared primary murine embryonic fibroblasts ( MEFs ) from Peli1+/+ and Peli1-/ - littermate embryos ( dissected from the same pregnant females ) ."	[]		p17	Results	FALSE	method	11343	11507	2a
+105	s73	Stimulation of Peli1+/+ MEFs by LPS and poly ( I : C ) led to the induction of Tnf gene expression ( Fig. 2a ) .	[inLink]	f2a	p17	Results	FALSE	result	11508	11612	2a
+106	s74	"Consistent with the in vivo studies , induction of Tnf by both LPS and poly ( I : C ) was severely inhibited in the Peli1-/ - MEFs ."	[]		p17	Results	FALSE	result	11613	11737	2a
+107	s75	"Peli1 was also essential for LPS - and poly ( I : C ) -stimulated expression of another proinflammatory gene , IL-12p40 ( Fig. 2a ) ."	[inLink]	f2a	p17	Results	FALSE	result	11738	11860	2a
+108	s76	"On the other hand , Peli1 is not a universal signaling component of the TLR pathway ,"	[]		p17	Results	FALSE	implication	11861	11944	2a
+109	s76	"as it was not required for LPS - and poly ( I : C ) -stimulated expression of IFN-beta and an IFN-responsive gene , Cxcl10 , which encodes the interferon-inducible protein-10 ( IP-10 ) 28 ( Fig. 2a ) ."	"[inLink, exLink]"	f2a	p17	Results	FALSE	result	11945	12132	2a
+110	s77	Real-time PCR and ELISA studies using bone marrow derived	[]		p17	Results	FALSE	result	12133	12190	f2b|f2c
+111	s77	"macrophages revealed that Peli1 was critical for IL-12p40 induction by LPS and poly ( I : C ) and was partially required for IL-12p40 induction by CpG ( Fig. 2b , c ) ."	[inLink]	f2b|f2c	p17	Results	FALSE	result	12191	12349	f2b|f2c
+112	s78	"In addition , in bone marrow-derived dendritic cells and B cells , poly ( I : C ) -stimulated proinflammatory gene expression was severely attenuated in the absence of Peli ( Fig. 2d , e ) ."	[inLink]	f2d|f2e	p17	Results	FALSE	result	12350	12527	f2d|f2e
+113	s79	"However , Peli1 deficiency did not appreciably affect gene induction by several other TLR ligands , including Pam3CSK4 ( TLR1-TLR2 ) , R837 ( TLR7 , TLR8 ) , and MALP2 ( TLR2-TLR6 ) ( Supplementary Fig. 4 ) ."	[inLink]	f4	p17	Results	FALSE	result	12528	12722	f4
+114	s80	"Thus , Peli1 is required for pro-inflammatory cytokine gene induction predominantly by LPS and poly ( I : C ) ."	[]		p17	Results	FALSE	implication	12723	12827	
+115	s81	Peli1 in TLR-mediated B cell activation-survival	[header-1]		title18	Results	FALSE	none	12828	12876	
+116	s82	TLRs play an important role in B cell activation 29-31 .	[exLink]		p19	Results	FALSE	fact	12877	12932	
+117	s83	"In response to TLR signals , B cells express costimulatory molecules and increase the expression of MHCII molecules ,"	[]		p19	Results	FALSE	fact	12933	13048	
+118	s83	thus enhancing their ability to activate helper T cells .	[]		p19	Results	FALSE	fact	13049	13105	
+119	s84	To examine whether Peli1 is involved in TLR-mediated B cell activation	[]		p19	Results	FALSE	goal	13106	13176	f3a
+120	s84	we analyzed the effect of Peli1 deficiency on the activation of B cells derived from Peli1+/+ and Peli1-/ - mice .	[]		p19	Results	FALSE	method	13177	13290	f3a
+121	s85	As expected	[]		p19	Results	FALSE	result	13291	13302	f3a
+122	s85	"stimulation of Peli1+/+ B cells with several TLR ligands ( LPS , poly ( I : C ) , PGN , CpG ) led to potent induction of the costimulatory molecule CD86 ( Fig. 3a , left panels , black line ) as well as enhanced expression of MHCII ( Fig. 3a , right panels , black line ) ."	[inLink]	f3a	p19	Results	FALSE	result	13303	13558	f3a
+123	s86	Induction of these genes was also detected in cells stimulated with antibodies	[]		p19	Results	FALSE	result	13559	13637	f3a
+124	s86	that crosslink IgM and CD40 ( Fig. 3a ) .	[inLink]	f3a	p19	Results	FALSE	result	13638	13676	f3a
+125	s87	Induction of both CD86 and MHCII by LPS was attenuated in Peli1-/ - B cells ( Fig. 3a ) .	[inLink]	f3a	p19	Results	FALSE	result	13677	13762	f3a
+126	s88	"The inhibitory effect of Peli1 deficiency on CD86 and MHCII induction was even more profoundly seen in B cells stimulated with the TLR3 ligand , poly ( I : C ) ( Fig. 3a ) ."	[inLink]	f3a	p19	Results	FALSE	result	13763	13927	f3a
+127	s89	"On the other hand , loss of Peli1 had no effect on the induction of CD86 and MHCII by several other TLR ligands , including PGN and CpG ( Fig. 3a ) as well as Pam3CSK4 , MALP2 , and R837 ( Supplementary Fig. 5 and data not shown ) ."	[inLink]	f3a|f5	p19	Results	FALSE	result	13928	14151	f3a|f5
+128	s90	"Furthermore , Peli1 was dispensable for the induction of CD86 and MHCII by anti-IgM and anti-CD40 ."	[]		p19	Results	FALSE	result	14152	14249	
+129	s91	"Thus , Peli1 is required for CD86 and MHCII induction specifically by TLR3 and TLR4 signals ."	[]		p19	Results	FALSE	implication	14250	14341	
+130	s92	TLR signals also induce the proliferation of B cells 31 .	[exLink]		p20	Results	FALSE	fact	14342	14398	
+131	s93	"Consistently , the proliferation of Peli1+/+ B cells was stimulated by a panel of TLR ligands as well as by IgM and CD40"	[]		p20	Results	FALSE	result	14399	14518	f3b
+132	s93	crosslinking ( Fig. 3b ) .	[inLink]	f3b	p20	Results	FALSE	result	14519	14542	f3b
+133	s94	"As seen with the induction of CD86 and MHCII expression , the induction of proliferation by LPS and poly ( I : C ) was severely inhibited in Peli1-/ - B cells ."	[]		p20	Results	FALSE	result	14543	14695	f3b
+134	s95	This effect was again more profound for poly ( I : C ) .	[]		p20	Results	FALSE	result	14696	14746	f3b
+135	s96	We detected a partial inhibition of CpG - and Pam3CSK4-induced proliferation in Peli1-/ - B cells ( Fig. 3b ) .	[inLink]	f3b	p20	Results	FALSE	result	14747	14853	f3b
+136	s97	"This effect was , however , not generic for all MyD88-binding TLRs ,"	[]		p20	Results	FALSE	implication	14854	14919	f3b
+137	s97	"since loss of Peli1 did not inhibit the induction of B cell proliferation by R837 , MALP2 , or PGN ( Fig. 3b ) ."	[inLink]	f3b	p20	Results	FALSE	result	14920	15027	f3b
+138	s98	Peli1 deficiency did not affect proliferation induced by IgM or CD40 crosslinking .	[]		p20	Results	FALSE	result	15028	15110	f3b
+139	s99	"In fact , we repeatedly detected enhanced proliferation of PGN - and anti-CD40-stimulated Peli1-/ - B cells ,"	[]		p20	Results	FALSE	result	15111	15216	
+140	s99	although it is currently unclear how Peli1 negatively regulates the signaling of these pathways .	[]		p20	Results	FALSE	implication	15217	15313	
+141	s100	"TLR ligands , particularly LPS and CpG 32 , 33 , also stimulate the survival of B cells ."	[exLink]		p21	Results	FALSE	fact	15314	15399	
+142	s101	To examine the role of Peli1 in TLR-driven survival	[]		p21	Results	FALSE	goal	15400	15451	f3c
+143	s101	we incubated Peli1+/+ and Peli1-/ - B cells in vitro in the presence of different TLR ligands .	[]		p21	Results	FALSE	method	15452	15546	f3c
+144	s102	"In the absence of TLR ligands , Peli1+/+ B cells underwent massive apoptosis , as determined by"	[]		p21	Results	FALSE	result	15547	15640	f3c
+145	s102	staining with annexin-V and PI .	[]		p21	Results	FALSE	result	15641	15672	f3c
+146	s103	"After culture for 24 hours , less than 20 % of the cells were negative for both PI and annexin-V ( Fig. 3c , live cells ) , but"	[inLink]	f3c	p21	Results	FALSE	result	15673	15794	f3c
+147	s103	the spontaneous death of Peli1+/+ B cells was greatly inhibited by LPS and CpG and moderately inhibited by several other TLR ligands ( Fig. 3c ) .	[inLink]	f3c	p21	Results	FALSE	result	15795	15938	f3c
+148	s104	"However , loss of Peli1 severely attenuated the pro-survival effects of LPS , poly ( I : C ) , and CpG ( Fig. 3c ) ."	[inLink]	f3c	p21	Results	FALSE	result	15939	16044	f3c
+149	s105	"Thus , Peli1 mediates TLR3 and TLR4-driven induction of costimulatory gene expression , proliferation and survival in B cells ."	[]		p21	Results	FALSE	implication	16045	16169	f3c
+150	s106	Peli1 in IKK-NF-kappaB activation	[header-1]		title22	Results	FALSE	none	16170	16203	
+151	s107	A central signaling event involved in TLR-mediated gene induction is activation of IKK and its downstream transcription factor NF-kappaB 2 . To investigate the function of Peli1 in this process	[exLink]		p23	Results	FALSE	fact	16204	16396	
+152	s107	we examined the effect of Peli1 deficiency on TLR-stimulated activation of IKK and NF-kappaB using different cell types .	[]		p23	Results	FALSE	method	16397	16518	
+153	s108	"Consistent with the gene induction studies ( Fig. 2,3 ) , poly ( I : C ) -stimulated NF-kappaB activation was severely attenuated in Peli1-/ - MEFs ( Fig. 4a ) ."	[inLink]	f2|f3|f4a	p23	Results	FALSE	result	16519	16667	f2|f3|f4a
+154	s109	The Peli1 deficient MEFs also showed a partial inhibition of NF-kappaB activation by LPS ( Fig. 4a ) .	[inLink]	f4a	p23	Results	FALSE	result	16668	16767	f4a
+155	s110	Parallel kinase assays revealed that Peli1 deficiency largely impaired poly ( I : C ) -stimulated activation of IKK and also partially inhibited the LPS-stimulated activation of IKK ( Fig. 4b ) .	[inLink]	f4b	p23	Results	FALSE	result	16768	16954	f4b
+156	s111	"Since TLR4 activates IKK through both MyD88 - and TRIF-dependent pathways , whereas TLR3 activates IKK exclusively through TRIF 2 , these results suggest"	[exLink]		p23	Results	FALSE	fact	16955	17105	
+157	s111	that Peli1 plays a non-redundant role in promoting IKK activation in the TRIF-dependent TLR pathway .	[]		p23	Results	FALSE	result	17106	17206	
+158	s112	We next examined the role of Peli1 in the activation of NF-kappaB in B cells .	[]		p24	Results	FALSE	method	17207	17284	
+159	s113	As seen in MEFs	[]		p24	Results	FALSE	result	17285	17300	f4c|f4d
+160	s113	the Peli1 deficiency markedly inhibited poly ( I : C ) -stimulated activation of NF-kappaB ( Fig. 4c ) and IKK ( Fig. 4d ) .	[inLink]	f4c|f4d	p24	Results	FALSE	result	17301	17415	f4c|f4d
+161	s114	The loss of Peli1 also partially inhibited LPS-stimulated NF-kappaB activation .	[]		p24	Results	FALSE	result	17416	17495	f4c
+162	s115	"However , Peli1 was largely dispensable for NF-kappaB activation by CpG and anti-IgM ( Fig. 4c ) ."	[inLink]	f4c	p24	Results	FALSE	result	17496	17590	f4c
+163	s116	"A similar result was obtained in splenocytes ,"	[]		p24	Results	FALSE	result	17591	17636	f4e
+164	s116	in which Peli1 was required for IKK activation by poly ( I : C ) but not by other TLR ligands ( Fig. 4e ) .	[inLink]	f4e	p24	Results	FALSE	result	17637	17736	f4e
+165	s117	"Notably , the effect of Peli1 deficiency on LPS-stimulated IKK activation was not appreciable in splenocytes ."	[]		p24	Results	FALSE	result	17737	17845	
+166	s118	These results further suggest a role for Peli1 in	[]		p24	Results	FALSE	implication	17846	17895	
+167	s118	"mediating IKK-NF-kappaB activation by the TRIF-dependent TLRs , particularly TLR3 ."	[]		p24	Results	FALSE	implication	17896	17977	
+168	s119	"In addition to activation of IKK , the TRIF-dependent TLR pathway stimulates the activity of IKK-related kinases , IKKepsilon and TBK1 ."	[]		p25	Results	FALSE	fact	17978	18111	
+169	s120	To further investigate the signaling mechanism of Peli1	[]		p25	Results	FALSE	goal	18112	18167	
+170	s120	we examined its role in the activation of IKKepsilon induced by poly ( I : C ) and LPS .	[]		p25	Results	FALSE	method	18168	18251	
+171	s121	"In contrast to the activation of IKK , the activation of IKKepsilon downstream of both poly ( I : C ) and LPS was similar in Peli1-/ - and Peli1+/+ MEFs ( Fig. 4f ) ."	[inLink]	f4f	p25	Results	FALSE	result	18252	18408	f4f
+172	s122	"Thus , Peli1 plays a selective role in"	[]		p25	Results	FALSE	implication	18409	18446	
+173	s122	regulating IKK-NF-kappaB activation by TLR3 .	[]		p25	Results	FALSE	implication	18447	18491	
+174	s123	Peli1 is dispensable for IL-1R signaling	[header-1]		title26	Results	FALSE	fact	18492	18532	
+175	s124	Prior transfection studies performed using a cell line model suggest	[]		p27	Results	FALSE	implication	18533	18601	
+176	s124	that Peli1 facilitates IL-1R signaling 34 .	[exLink]		p27	Results	FALSE	implication	18602	18644	
+177	s125	"However , it is unknown"	[]		p27	Results	FALSE	hypothesis	18645	18667	
+178	s125	whether Peli1 is required for IL-1R signaling under physiological conditions .	[]		p27	Results	FALSE	hypothesis	18668	18745	
+179	s126	"To address this question , we examined the effect of Peli1 deficiency on IL-1R-mediated pro-inflammatory gene induction in primary MEFs"	[]		p27	Results	FALSE	method	18746	18880	
+180	s126	a cell type that efficiently responds to IL-1beta stimulation .	[]		p27	Results	FALSE	method	18881	18944	
+181	s127	"In Peli1+/+ MEFs , IL-1beta stimulated the expression of Tnf and Il6 ,"	[]		p27	Results	FALSE	result	18945	19013	f5a
+182	s127	although it did not induce appreciable expression of IL-12p40 ( Fig. 5a and data not shown ) .	[inLink]	f5a	p27	Results	FALSE	result	19014	19105	f5a
+183	s128	"IL-1beta also induced expression of Cxcl10 , the gene encoding IP-10 , in Peli1+/+ MEFs ."	[]		p27	Results	FALSE	result	19106	19192	f5a
+184	s129	"However , loss of Peli1 did not affect IL-1beta-stimulated expression of Tnf , Il6 or Cxcl10 ( Fig. 5a ) ."	[inLink]	f5a	p27	Results	FALSE	result	19193	19294	f5a
+185	s130	To further examine the role of Peli1 in IL-1R signaling	[]		p27	Results	FALSE	goal	19295	19350	f5b
+186	s130	we employed an in vivo gene induction model .	[]		p27	Results	FALSE	method	19351	19396	f5b
+187	s131	"When injected into Peli1+/+ mice , IL-1beta stimulated production of high concentrations of IL-6 ( Fig. 5b ) ,"	[inLink]	f5b	p27	Results	FALSE	result	19397	19503	f5b
+188	s131	although it did not induce detectable quantities of TNF ( data not shown ) .	[]		p27	Results	FALSE	result	19504	19577	f5b
+189	s132	Consistent with the in vitro results	[]		p27	Results	FALSE	result	19578	19614	f5b
+190	s132	Peli1 was completely dispensable for IL-1beta-induced IL-6 production in vivo ( Fig. 5b ) .	[inLink]	f5b	p27	Results	FALSE	result	19615	19704	f5b
+191	s133	To directly examine the role of Peli1 in IL-1R signaling	[]		p28	Results	FALSE	goal	19705	19761	f5c
+192	s133	we analyzed the effect of Peli1 deficiency on IL-1beta-stimuated activation of NF-kappaB and IKK .	[]		p28	Results	FALSE	method	19762	19860	f5c
+193	s134	IL-1beta stimulated comparable NF-kappaB DNA-binding activity in Peli1+/+ and Peli1-/ - MEFs ( Fig. 5c ) .	[inLink]	f5c	p28	Results	FALSE	result	19861	19963	f5c
+194	s135	"Consistently , the loss of Peli1 did not affect IL-1beta-stimulated activation of IKK ( Fig. 5d ) ."	[inLink]	f5d	p28	Results	FALSE	result	19964	20059	f5d
+195	s136	"Together , these results suggest"	[]		p28	Results	FALSE	implication	20060	20091	
+196	s136	that Peli1 is either functionally redundant with other Peli proteins or not critical in the IL-1R signaling pathway .	[]		p28	Results	FALSE	implication	20092	20208	
+197	s137	As IL-1R transduces signals through MyD88 35	[exLink]		p28	Results	FALSE	fact	20209	20253	f4c|f4e
+198	s137	"these results are consistent with the dispensable role of Peli1 in IKK-NF-kappaB activation by the MyD88-dependent TLR2 and TLR9 ( Fig. 4c , e ) ."	[inLink]	f4c|f4e	p28	Results	FALSE	result	20254	20396	f4c|f4e
+199	s138	Peli1 induces RIP1 ubiquitination	[header-1]		title29	Results	FALSE	fact	20397	20430	
+200	s139	The signaling studies presented above suggest a role for Peli1 in	[]		p30	Results	FALSE	implication	20431	20496	
+201	s139	regulating IKK activation in the TRIF-dependent TLR pathway .	[]		p30	Results	FALSE	implication	20497	20557	
+202	s140	"A hallmark of this pathway of IKK activation is the ubiquitination of a TRIF-interacting adaptor kinase , RIP1 18 ."	[exLink]		p30	Results	FALSE	fact	20558	20671	
+203	s141	"In response to poly ( I : C ) stimulation , RIP1 undergoes K63 ubiquitination ,"	[]		p30	Results	FALSE	fact	20672	20744	
+204	s141	which is critical for recruitment and activation of IKK .	[]		p30	Results	FALSE	fact	20745	20801	
+205	s142	"To date , the ubiquitin ligase of RIP1 in the TRIF-dependent TLR pathway remains unidentified ."	[]		p30	Results	FALSE	fact	20802	20895	
+206	s143	Since Peli1 is an E3 ubiquitin ligase 15-17 that is critical for IKK activation by TLR3	[exLink]		p30	Results	FALSE	hypothesis	20896	20983	
+207	s143	we examined the potential role of Peli1 in ubiquitinating RIP1 .	[]		p30	Results	FALSE	method	20984	21048	
+208	s144	We first analyzed	[]		p30	Results	FALSE	goal	21049	21066	
+209	s144	whether Peli1 is essential for poly ( I : C ) -stimulated ubiquitination of RIP1 .	[]		p30	Results	FALSE	goal	21067	21142	
+210	s145	"Consistent with previous studies 18 , 21"	[exLink]		p30	Results	FALSE	result	21143	21182	f6a
+211	s145	stimulation of Peli1+/+ MEFs with poly ( I : C ) led to accumulation of ubiquitinated RIP1 ( Fig. 6a ) .	[inLink]	f6a	p30	Results	FALSE	result	21183	21280	f6a
+212	s146	"In contrast , the poly ( I : C ) -stimulated"	[]		p30	Results	FALSE	result	21281	21318	f6a|f6
+213	s146	RIP1 ubiquitination was largely blocked in the Peli1-/ - cells ( Fig. 6a and Supplementary Fig. 6 ) .	[inLink]	f6|f6a	p30	Results	FALSE	result	21319	21416	f6a|f6
+214	s147	We next examined	[]		p31	Results	FALSE	goal	21417	21433	
+215	s147	whether Peli1 physically associates with RIP1 .	[]		p31	Results	FALSE	goal	21434	21480	
+216	s148	"When coexpressed in 293 cells , Peli1 and RIP1 indeed formed a stable complex"	[]		p31	Results	FALSE	result	21481	21557	f6b
+217	s148	that was readily detected by coimmunoprecipitation assays ( Fig. 6b ) .	[inLink]	f6b	p31	Results	FALSE	result	21558	21626	f6b
+218	s149	Peli1 also interacted with endogenous RIP1 ( Fig. 6c ) .	[inLink]	f6c	p31	Results	FALSE	result	21627	21680	f6c
+219	s150	"Peli1-RIP1 binding seemed to be further enhanced by expression of TRIF , and"	[]		p31	Results	FALSE	result	21681	21756	f6c
+220	s150	Peli1 seemed to enhance the association between TRIF and endogenous RIP1 ( Fig. 6c ) .	[inLink]	f6c	p31	Results	FALSE	result	21757	21840	f6c
+221	s151	"These enhanced physical interaction activities were not due to increases in the expression of RIP1 , TRIF , or Peli1 ( Fig. 6c ) ."	[inLink]	f6c	p31	Results	FALSE	result	21841	21966	f6c
+222	s152	As Peli1 was essential for poly ( I : C ) -stimulated RIP1 ubiquitination	[]		p31	Results	FALSE	fact	21967	22034	
+223	s152	we examined whether Peli1 was able to induce RIP1 ubiquitination .	[]		p31	Results	FALSE	method	22035	22101	
+224	s153	"Indeed ,"	[]		p31	Results	FALSE	result	22102	22109	
+225	s153	"when coexpressed with Peli1 , RIP1 became potently ubiquitinated ( Fig. 6d , e ) ."	[inLink]	f6d|f6e	p31	Results	FALSE	result	22110	22186	f6d|f6e
+226	s154	"Moreover , the Peli1-mediated RIP1 ubiquitination was further enhanced by TRIF ( Fig. 6d ) ."	[inLink]	f6d	p31	Results	FALSE	result	22187	22275	f6d
+227	s155	"Peli1-mediated RIP1 ubiquitination required the RING domain of Peli1 ,"	[]		p31	Results	FALSE	implication	22276	22345	f6f
+228	s155	since the ubiquitination of RIP1 was not induced by Peli1 mutants harboring RING deletion ( DeltaR ) or point mutations ( PM ) ( Fig. 6f ) .	[inLink]	f6f	p31	Results	FALSE	result	22346	22479	f6f
+229	s156	Peli1-mediated RIP1 ubiquitination appeared	[]		p31	Results	FALSE	result	22480	22523	f6h
+230	s156	"to be direct , as Peli1 also induced RIP1 ubiquitination in a cell-free system ( Fig. 6h ) ."	[inLink]	f6h	p31	Results	FALSE	result	22524	22612	
+231	s157	These results suggest	[]		p31	Results	FALSE	implication	22613	22634	
+232	s157	that Peli1 is an E3 ubiquitin ligase that mediates RIP1 ubiquitination in the TRIF-dependent TLR pathway .	[]		p31	Results	FALSE	implication	22635	22740	
+233	s158	Discussion	[header-0]		title32	Discussion	FALSE	none	22741	22751	
+234	s159	"Peli proteins possess K63 ubiquitin ligase function 15-17 ,"	[exLink]		p33	Discussion	FALSE	fact	22752	22810	
+235	s159	although their physiological role has remained unknown .	[]		p33	Discussion	FALSE	fact	22811	22866	
+236	s160	The results presented in this paper demonstrate a critical role for Peli1 in	[]		p33	Discussion	FALSE	implication	22867	22943	
+237	s160	facilitating TLR3-stimulated activation of IKK and its downstream transcription factor NF-kappaB .	[]		p33	Discussion	FALSE	implication	22944	23041	
+238	s161	"Peli1 interacted with the TRIF-signaling adaptor kinase RIP1 , and mediated RIP1 ubiquitination , a key step in the TRIF-dependent IKK-signaling pathway ."	[]		p33	Discussion	FALSE	fact	23042	23193	
+239	s162	"Consequently , Peli1 was required for TLR3-stimulated expression of pro-inflammatory cytokines and B cell activation ."	[]		p33	Discussion	FALSE	result	23194	23310	
+240	s163	"Peli1 was also important for TLR4-mediated gene induction ,"	[]		p33	Discussion	FALSE	implication	23311	23369	
+241	s163	although it was only partially required for LPS-stimulated activation of IKK and NF-kappaB .	[]		p33	Discussion	FALSE	implication	23370	23461	
+242	s164	"This result is reminiscent of the phenotype of TRIF - and RIP1-deficient cells , and can be attributed to the involvement of both TRIF - and MyD88-dependent pathways in TLR4-mediated IKK-NF-kappaB activation 10 , 18 , 33 ."	[exLink]		p33	Discussion	FALSE	implication	23462	23678	
+243	s165	Our study further revealed	[]		p33	Discussion	FALSE	result	23679	23705	
+244	s165	"that , like RIP1 , Peli1 was dispensable for IKK-NF-kappaB activation induced by IL-1R and the MyD88-dependent TLR2 and TLR9 ."	[]		p33	Discussion	FALSE	result	23706	23829	
+245	s166	Peli1 joins TRAF6 as the second E3 ubiquitin ligase known	[]		p34	Discussion	FALSE	fact	23830	23887	
+246	s166	to mediate IKK-NF-kappaB activation in the TLR-signaling pathways .	[]		p34	Discussion	FALSE	fact	23888	23954	
+247	s167	"However , these two E3 molecules appear"	[]		p34	Discussion	FALSE	fact	23955	23993	
+248	s167	to have distinct roles .	[]		p34	Discussion	FALSE	fact	23994	24017	
+249	s168	Extensive studies have established TRAF6 as an essential E3 in the MyD88-dependent TLR and IL-1R signaling pathways 2 . On the other hand	[exLink]		p34	Discussion	FALSE	fact	24018	24154	
+250	s168	TRAF6 appears to be less important for TRIF-dependent TLR signaling .	[]		p34	Discussion	FALSE	fact	24155	24224	
+251	s169	Although TRAF6 binds to TRIF and modulates TRIF-specific signaling function under transfection conditions 36	[exLink]		p34	Discussion	FALSE	fact	24225	24333	
+252	s169	TRAF6 deficiency does not impair poly ( I : C ) -stimulated NF-kappaB activation 23 .	[exLink]		p34	Discussion	FALSE	implication	24334	24413	
+253	s170	"In contrast to TRAF6 , Peli1 is critical for the TRIF-dependent TLR signaling but is dispensable for the signaling function of MyD88-dependent TLRs and IL-1R ."	[]		p34	Discussion	FALSE	fact	24414	24571	
+254	s171	"The finding that Peli1 is not required for IL-1R signaling was unexpected ,"	[]		p34	Discussion	FALSE	result	24572	24646	
+255	s171	as a previous transfection study suggests a role for Peli1 in regulating IL-1R signaling in 293 cells 34 .	[exLink]		p34	Discussion	FALSE	result	24647	24752	
+256	s172	It is currently unclear	[]		p34	Discussion	FALSE	problem	24753	24776	
+257	s172	whether Peli1 is functionally redundant with TRAF6 or other Peli members in mediating the signaling of IL-1R and MyD88-dependent TLRs .	[]		p34	Discussion	FALSE	problem	24777	24911	
+258	s173	"As the different Peli family members share strong sequence homology 12 , it is possible"	[exLink]		p34	Discussion	FALSE	hypothesis	24912	24998	
+259	s173	that they possess functional redundancy in certain signaling pathways and cell types .	[]		p34	Discussion	FALSE	hypothesis	24999	25084	
+260	s174	"Nevertheless , our findings suggest a crucial function of Peli1 in the TRIF-dependent NF-kappaB signaling pathway ."	[]		p34	Discussion	FALSE	implication	25085	25198	
+261	s175	It is important	[]		p34	Discussion	FALSE	implication	25199	25214	
+262	s175	"to note , however , that the defect of Peli1-/ - mice and cells in cytokine induction is less severe than that of the TRIF-/ - mice and cells ."	[]		p34	Discussion	FALSE	implication	25215	25353	
+263	s176	This finding implies	[]		p34	Discussion	FALSE	implication	25354	25374	
+264	s176	that Peli1 homologues or additional E3 proteins may also participate in TRIF signaling .	[]		p34	Discussion	FALSE	implication	25375	25462	
+265	s177	An alternative explanation is	[]		p34	Discussion	FALSE	implication	25463	25492	
+266	s177	"that the ubiquitination of RIP1 is important , but not absolutely essential , for mediating TRIF-dependent NF-kappaB activation ."	[]		p34	Discussion	FALSE	implication	25493	25619	
+267	s178	The signaling function of Peli1 appears	[]		p34	Discussion	FALSE	implication	25620	25659	
+268	s178	"to be cell type-specific , with the most obvious phenotype observed in B cells and MEFs ."	[]		p34	Discussion	FALSE	implication	25660	25747	
+269	s179	Future studies will examine	[]		p34	Discussion	FALSE	goal	25748	25775	
+270	s179	whether the cell type-specific function of Peli1 is due to its expression amount or redundancy with other Peli members .	[]		p34	Discussion	FALSE	goal	25776	25895	
+271	s180	"The TRIF-dependent TLR3 signaling pathway activates IKKepsilon and TBK1 ,"	[]		p35	Discussion	FALSE	fact	25896	25968	
+272	s180	which mediate activation of IRF3 and IFN-responsive genes .	[]		p35	Discussion	FALSE	fact	25969	26027	
+273	s181	"Like the activation of IKK , the activation of IKKepsilon and TBK1also involves K63 ubiquitination ."	[]		p35	Discussion	FALSE	fact	26028	26126	
+274	s182	We showed that Peli1 deficiency only had moderate effects on LPS - and	[]		p35	Discussion	FALSE	result	26127	26200	
+275	s182	( I : C ) -induced expression of type I IFNs both in vivo and in vitro .	[]		p35	Discussion	FALSE	result	26201	26267	
+276	s183	"Furthermore , Peli1 was not required for TLR3-mediated activation of IKKepsilon ."	[]		p35	Discussion	FALSE	result	26268	26347	
+277	s184	"Consistent with our finding , TRAF3 has been implicated as the E3 ubiquitin ligase"	[]		p35	Discussion	FALSE	implication	26348	26429	
+278	s184	"that mediates IKKepsilon and TBK1 activation 37 . Our finding that Peli1 regulates RIP1 further suggests a specific function of Peli1 in the IKK-NF-kappaB signaling axis , as RIP1 mediates activation of NF-kappaB but not that of IRF3 18 ."	[exLink]		p35	Discussion	FALSE	implication	26430	26665	
+279	s185	"When injected in vivo , poly ( I : C ) also induces a cytoplasmic PRR signaling pathway"	[]		p35	Discussion	FALSE	fact	26666	26747	
+280	s185	"involving the adaptors MDA5 and IPS-1 ( also known as MAVS and Cardif ) 38 , 39 ."	[exLink]		p35	Discussion	FALSE	fact	26748	26825	
+281	s186	Future studies will examine	[]		p35	Discussion	FALSE	goal	26826	26853	
+282	s186	whether Peli1 has a role in regulating the MDA5-IPS-1 signaling pathway .	[]		p35	Discussion	FALSE	hypothesis	26854	26926	
+283	s187	"Our data suggest that in addition to its role in regulating the signaling function of TRIF-dependent TLRs ( TLR3 and TLR4 ) , Peli1 is partially required for CpG ( TLR9 )"	[]		p36	Discussion	FALSE	implication	26927	27092	
+284	s187	and Pam3CSK4 ( TLR1-TLR2 ) -stimulated B cell proliferation and survival .	[]		p36	Discussion	FALSE	implication	27093	27164	
+285	s188	"However , this function is not generic for all MyD88-dependent TLRs ,"	[]		p36	Discussion	FALSE	result	27165	27232	
+286	s188	"because Peli1 is not required for B cell activation induced by the ligands of TLR2 ( PGN ) , TLR2-TLR6 ( MALP2 ) , or TLR7-TLR8 ( R837 ) ."	[]		p36	Discussion	FALSE	result	27233	27362	
+287	s189	"It is currently unclear how Peli1 regulates the function of specific MyD88-dependent TLRs , but"	[]		p36	Discussion	FALSE	problem	27363	27457	
+288	s189	"circumstantial evidence suggests the involvement of RIP1 in some MyD88-dependent TLRs , particularly TLR9 ."	[]		p36	Discussion	FALSE	implication	27458	27563	
+289	s190	"Like Peli1-/ - B cells , RIP1-deficient B cells are partially defective in CpG-induced B cell proliferation 33 ."	[exLink]		p36	Discussion	FALSE	result	27564	27673	
+290	s191	"As Peli1 is not required for CpG-stimulated NF-kappaB activation , we propose"	[]		p36	Discussion	FALSE	fact	27674	27750	
+291	s191	that Peli1 might regulate CpG-mediated activation of other signaling factors or specific members of NF-kappaB .	[]		p36	Discussion	FALSE	hypothesis	27751	27861	
+292	s192	"Additional signaling functions of Peli1 are also implicated by the interaction of Peli proteins with IRAK family members , particularly IRAK1 and IRAK4 12 ."	[exLink]		p37	Discussion	FALSE	hypothesis	27862	28016	
+293	s192	Whether IRAKs are involved in the signaling function of Peli1 in the TLR3 signaling pathway remains to be investigated .	[]		p37	Discussion	FALSE	problem	28017	28136	
+294	s193	"However , this possibility is low ,"	[]		p37	Discussion	FALSE	hypothesis	28137	28170	
+295	s193	"as IRAKs do not seem to have a critical role in TRIF-dependent TLR signaling , despite their critical participation in the MyD88-dependent TLR and IL-1R signaling pathways 40-42 ."	[exLink]		p37	Discussion	FALSE	hypothesis	28171	28348	
+296	s194	It is more likely	[]		p37	Discussion	FALSE	hypothesis	28349	28366	
+297	s194	that IRAKs modulate the function of Peli1 in MyD88-dependent TLR and IL-1R pathways .	[]		p37	Discussion	FALSE	hypothesis	28367	28451	
+298	s195	As discussed above	[]		p37	Discussion	FALSE	hypothesis	28452	28470	
+299	s195	this function of Peli1 might be masked by its functional redundancy with other Peli members or TRAF6 .	[]		p37	Discussion	FALSE	hypothesis	28471	28573	
+300	s196	Generation of mouse models deficient in different Peli proteins is important for	[]		p37	Discussion	FALSE	goal	28574	28654	
+301	s196	addressing this question .	[]		p37	Discussion	FALSE	goal	28655	28680	
+302	s197	"Notwithstanding , our current work establishes"	[]		p37	Discussion	FALSE	implication	28681	28726	
+303	s197	Peli1 is an E3 ubiquitin ligase that is specifically required for TRIF-induced RIP1 ubiquitination and IKK activation .	[]		p37	Discussion	FALSE	implication	28727	28845	
+304	s198	Methods	[header-0]		title38	Methods	FALSE	none	28846	28853	
+305	s199	The Methods and their associated references appear only online .	[]		p39	Methods	FALSE	none	28854	28917	
+306	s200	Supplementary Material	[header-0]		title40	Supplementary Material	FALSE	none	28918	28940	
+307	s201	1	[label]		label41	Supplementary Material	FALSE	none	28941	28942	

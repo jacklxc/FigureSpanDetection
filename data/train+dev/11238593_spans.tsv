@@ -1,0 +1,206 @@
+	SentenceId	Clause Text	Codes	ExperimentValues	Paragraph	Headings	FloatingBox?	Discourse Type	Offset_Begin	Offset_End	fig_spans
+0	s1	"Essential Role of Nuclear Factor ( NF ) -kappaB-Inducing Kinase and Inhibitor of kappab ( Ikappab ) Kinase alpha in Nf-kappab Activation through Lymphotoxin beta Receptor , but Not through Tumor Necrosis Factor Receptor I"	[]		-		FALSE	implication	148	363	
+1	s2	Both nuclear factor ( NF ) -kappaB-inducing kinase ( NIK ) and inhibitor of kappaB ( IkappaB ) kinase ( IKK ) have been implicated as essential components for NF-kappaB activation in response to many external stimuli .	[]		p4		FALSE	fact	1429	1637	
+2	s3	"However , the exact roles of NIK and IKKalpha in cytokine signaling still remain controversial ."	[]		p4		FALSE	problem	1638	1732	
+3	s4	"With the use of in vivo mouse models , rather than with enforced gene-expression systems , we have investigated the role of NIK and IKKalpha in"	[]		p4		FALSE	method	1733	1874	
+4	s4	"signaling through the type I tumor necrosis factor ( TNF ) receptor ( TNFR-I ) and the lymphotoxin beta receptor ( LTbetaR ) , a receptor essential for lymphoid organogenesis ."	[]		p4		FALSE	method	1875	2043	
+5	s5	TNF stimulation induced similar levels of phosphorylation and degradation of IkappaBalpha in embryonic fibroblasts from either wild-type or NIK-mutant mice .	[]		p4		FALSE	result	2044	2200	
+6	s6	"In contrast , LTbetaR stimulation induced NF-kappaB activation in wild-type mice , but"	[]		p4		FALSE	result	2201	2285	
+7	s6	the response was impaired in embryonic fibroblasts from NIK-mutant and IKKalpha-deficient mice .	[]		p4		FALSE	result	2286	2381	
+8	s7	"Consistent with the essential role of IKKalpha in LTbetaR signaling , we found"	[]		p4		FALSE	result	2382	2459	
+9	s7	that development of Peyer 's patches was defective in IKKalpha-deficient mice .	[]		p4		FALSE	result	2460	2537	
+10	s8	These results demonstrate	[]		p4		FALSE	implication	2538	2563	
+11	s8	"that both NIK and IKKalpha are essential for the induction of NF-kappaB through LTbetaR , whereas the NIK-IKKalpha pathway is dispensable in TNFR-I signaling ."	[]		p4		FALSE	implication	2564	2721	
+12	s9	Introduction	[header-0]		title5	Introduction	FALSE	none	2788	2800	
+13	s10	"The transcription factor nuclear factor ( NF ) -kappaB plays a pivotal role in the regulation of innate immunity , stress responses , inflammation , and the inhibition of apoptosis 12 ."	[exLink]		p6	Introduction	FALSE	fact	2801	2979	
+14	s11	The activity of NF-kappaB is tightly regulated by cytokines and other external stimuli .	[]		p6	Introduction	FALSE	fact	2980	3067	
+15	s12	"In most cell types , NF-kappaB is present"	[]		p6	Introduction	FALSE	fact	3068	3108	
+16	s12	as a heterodimer comprising 50-kD ( p50 ) and 65-kD ( p65 ) subunits and is sequestered in the cytoplasm by a member of the inhibitor of kappaB ( IkappaB ) family of inhibitory proteins .	[]		p6	Introduction	FALSE	fact	3109	3289	
+17	s13	"NF-kappaB activation requires the degradation of IkappaB proteins , and"	[]		p6	Introduction	FALSE	fact	3290	3360	
+18	s13	the mechanisms of IkappaB degradation and subsequent NF-kappaB activation have been the subject of intense investigation 3 .	[exLink]		p6	Introduction	FALSE	fact	3361	3484	
+19	s14	Those studies have revealed two important classes of kinase involved in this pathway :	[]		p6	Introduction	FALSE	fact	3485	3570	
+20	s14	"mitogen-activated protein kinase kinase kinase ( MAP3K ) and its downstream target , IkappaB kinase ( IKK ) 45 ."	[exLink]		p6	Introduction	FALSE	fact	3571	3677	
+21	s15	NF-kappaB-inducing kinase ( NIK ) is structurally related to MAP3K and has been identified as a TNFR-associated factor ( TRAF ) 2-interacting protein 6 .	[exLink]		p6	Introduction	FALSE	fact	3678	3825	
+22	s16	On the basis of the finding	[]		p6	Introduction	FALSE	hypothesis	3826	3853	
+23	s16	"that kinase-inactive mutants of NIK transfected into 293-EBNA cells abolished NF-kappaB activation in response to TNF or by cotransfection with type I TNF receptor ( TNFR-I ) , NIK was considered to be involved in an NF-kappaB-inducing signaling cascade induced by TNF 6 ."	[exLink]		p6	Introduction	FALSE	hypothesis	3854	4122	
+24	s17	"Subsequently , NIK was demonstrated"	[]		p6	Introduction	FALSE	result	4123	4157	
+25	s17	"to phosphorylate IKKalpha and IKKbeta , which directly associate with IkappaBalpha and specifically phosphorylate it on serines 32 and 36 45 ."	[exLink]		p6	Introduction	FALSE	result	4158	4298	
+26	s18	These studies suggested	[]		p6	Introduction	FALSE	implication	4299	4322	
+27	s18	that interaction of NIK and IKK constitutes an essential step for NF-kappaB activation .	[]		p6	Introduction	FALSE	implication	4323	4410	
+28	s19	"However , in vivo studies with mutant mice have thrown some doubt on the essential roles of NIK and IKKalpha in NF-kappaB activation , at least"	[]		p6	Introduction	FALSE	problem	4411	4552	
+29	s19	as induced by TNF .	[]		p6	Introduction	FALSE	problem	4553	4571	
+30	s20	The alymphoplasia ( aly ) mouse is a natural strain with a mutated	[]		p6	Introduction	FALSE	fact	4572	4636	
+31	s20	"NIK 7 . Despite the NIK mutation , upregulation of vascular cell adhesion molecule 1 ( VCAM-1 ) after stimulation with TNF was present in aly mouse embryonic fibroblasts ( EFs ) 8 ."	[exLink]		p6	Introduction	FALSE	result	4637	4811	
+32	s21	It was also reported	[]		p6	Introduction	FALSE	result	4812	4832	
+33	s21	that aly mice exhibited similar TNF-mediated endotoxin shock after generalized LPS administration 7 .	[exLink]		p6	Introduction	FALSE	result	4833	4933	
+34	s22	These observations suggested	[]		p6	Introduction	FALSE	implication	4934	4962	
+35	s22	that NIK was not a critical element in the TNF signaling pathway to NF-kappaB activation .	[]		p6	Introduction	FALSE	implication	4963	5052	
+36	s23	The in vivo role of IKK in NF-kappaB activation was also examined	[]		p6	Introduction	FALSE	method	5053	5118	
+37	s23	using gene-targeted mice .	[]		p6	Introduction	FALSE	method	5119	5144	
+38	s24	Although TNF-induced NF-kappaB activation was markedly reduced in IKKbeta-deficient EFs 910	[exLink]		p6	Introduction	FALSE	result	5145	5236	
+39	s24	NF-kappaB activation from IKKalpha-deficient EFs was normal 1112 or diminished but still present 13 after stimulation with TNF .	[exLink]		p6	Introduction	FALSE	result	5237	5365	
+40	s25	"Surprisingly , mice deficient in IKKalpha showed perinatal death associated with limb and skin abnormalities ,"	[]		p6	Introduction	FALSE	result	5366	5474	
+41	s25	suggesting that IKKalpha plays an essential role in the regulation of gene expression required for the development of limb and skin rather than for TNF signaling 111213 .	[exLink]		p6	Introduction	FALSE	implication	5475	5644	
+42	s26	"Thus , the role of NIK-IKKalpha in NF-kappaB activation through TNFR signaling requires further investigation ."	[]		p6	Introduction	FALSE	problem	5645	5754	
+43	s27	The lymphotoxin beta receptor ( LTbetaR ) has emerged as a signaling system required for the development of lymphoid organs 1415 .	[exLink]		p7	Introduction	FALSE	fact	5755	5882	
+44	s28	"Although LTbetaR has been shown to bind TRAF2 , -3 , -4 , and -5 , but not TRAF6 1617 , and to activate NF-kappaB after receptor ligation 18"	[exLink]		p7	Introduction	FALSE	result	5883	6018	
+45	s28	the molecular mechanisms by which LTbetaR exerts its biological activities are still poorly understood .	[]		p7	Introduction	FALSE	problem	6019	6123	
+46	s29	"aly mice and LT ligand - or LTbetaR-deficient mice share a unique phenotype ,"	[]		p7	Introduction	FALSE	fact	6124	6199	
+47	s29	which includes the lack of LN and Peyer 's patches ( PPs ) and a disturbed splenic architecture 71415 .	[exLink]		p7	Introduction	FALSE	fact	6200	6299	
+48	s30	"Therefore , we speculated"	[]		p7	Introduction	FALSE	hypothesis	6300	6324	
+49	s30	that NIK plays a role in LTbetaR signaling .	[]		p7	Introduction	FALSE	hypothesis	6325	6368	
+50	s31	This hypothesis was supported by the demonstration	[]		p7	Introduction	FALSE	hypothesis	6369	6419	
+51	s31	that upregulation of VCAM-1 after stimulation with agonistic anti-LTbetaR mAb was absent from aly mouse EFs 8 .	[exLink]		p7	Introduction	FALSE	result	6420	6530	
+52	s32	"Phenotypic analyses of mutant and gene-targeted mice ,"	[]		p8	Introduction	FALSE	method	6531	6584	
+53	s32	"as described above , have unveiled the essential roles of NIK in lymphoid organogenesis and of IKKalpha in limb and skin development ."	[]		p8	Introduction	FALSE	method	6585	6717	
+54	s33	"However , the roles of NIK and IKKalpha in cytokine signaling still remain controversial ."	[]		p8	Introduction	FALSE	problem	6718	6806	
+55	s34	We have approached this question with the use of in vivo mouse models .	[]		p8	Introduction	FALSE	method	6807	6877	
+56	s35	"Here , we show"	[]		p8	Introduction	FALSE	result	6878	6891	
+57	s35	"that NIK-IKKalpha constitutes an essential pathway for the induction of NF-kappaB through LTbetaR , whereas this pathway is dispensable in TNFR-I signaling ."	[]		p8	Introduction	FALSE	implication	6892	7047	
+58	s36	Materials and Methods	[header-0]		title9	Materials and Methods	FALSE	none	7048	7069	
+59	s37	Mice .	[header-1]		title10	Materials and Methods	FALSE	none	7070	7075	
+60	s38	"aly/+ , aly/aly , and C57BL/6J mice were purchased from CLEA Japan ."	[]		p11	Materials and Methods	FALSE	method	7076	7141	
+61	s39	The mice were maintained under pathogen-free conditions and were handled in accordance with the Guidelines for Animal Experimentation of Tokushima University School of Medicine .	[]		p11	Materials and Methods	FALSE	method	7142	7319	
+62	s40	The experiments were initiated at 8-12 wk of age .	[]		p11	Materials and Methods	FALSE	method	7320	7369	
+63	s41	IKKalpha-deficient mice were generated by gene	[]		p11	Materials and Methods	FALSE	method	7370	7416	
+64	s41	targeting as described previously and maintained at Osaka University 11 .	[exLink]		p11	Materials and Methods	FALSE	method	7417	7489	
+65	s42	Use of EF to Assess Signaling through TNFR-I and LTbetaR .	[header-1]		title12	Materials and Methods	FALSE	none	7490	7547	
+66	s43	EFs were established	[]		p13	Materials and Methods	FALSE	method	7548	7568	
+67	s43	as described previously 811 .	[exLink]		p13	Materials and Methods	FALSE	method	7569	7597	
+68	s44	"EFs from aly/aly mice , IKKalpha-deficient mice , and C57BL/6J wild-type mice were cultured in DMEM ( GIBCO BRL ) supplemented with 10 % heat-inactivated FCS ( GIBCO BRL ) , 2 mM l-glutamine , 100 U/ml penicillin , and 100 mug/ml streptomycin at a density of 7 x 105 cells per 60-mm culture dish ."	[]		p13	Materials and Methods	FALSE	method	7598	7884	
+69	s45	"After incubation with control mAb Ha4/8 ( 2 mug/ml ) , agonistic anti-LTbetaR mAb AC.H6 ( 2 mug/ml ; reference 19 ) , or recombinant human TNF ( Genzyme , Inc. ) , whole cell lysates were harvested from the dish with a lysis buffer containing 1 % NP-40 ( Sigma-Aldrich ) and subjected to Western blot analysis"	[exLink]		p13	Materials and Methods	FALSE	method	7885	8180	
+70	s45	as described previously 20 .	[exLink]		p13	Materials and Methods	FALSE	method	8181	8208	
+71	s46	The following Abs were used : rabbit antipeptide Ab directed against IkappaBalpha ( cat .	[]		p13	Materials and Methods	FALSE	method	8209	8295	
+72	s47	no .	[]		p13	Materials and Methods	FALSE	none	8296	8299	
+73	s48	"sc-371 ; Santa Cruz Biotechnology ) , phospho-specific IkappaBalpha ( cat ."	[]		p13	Materials and Methods	FALSE	none	8300	8370	
+74	s49	no .	[]		p13	Materials and Methods	FALSE	none	8371	8374	
+75	s50	"9241 ; New England Biolabs ) , and polyclonal rabbit Ab against actin ( Biomedical Technologies ) ."	[]		p13	Materials and Methods	FALSE	none	8375	8468	
+76	s51	"For blockade of the phosphatidylinositol-3'-OH kinase ( PI [ 3 ] K ) -Akt pathway , EFs were treated with 1 muM wortmannin ( Calbiochem ) for 30 min before stimulation with TNF ."	[]		p13	Materials and Methods	FALSE	method	8469	8636	
+77	s52	"For blockade of proteasome activity , EFs were treated with 100 muM N-acetyl-Leu-Leu-norleucinal ( ALLN ; Nacalai Tesque ) for 1 h ."	[]		p13	Materials and Methods	FALSE	method	8637	8764	
+78	s53	Use of NF-kappaB Reporter Assay to Assess Signaling through TNFR-I and LTbetaR .	[header-1]		title14	Materials and Methods	FALSE	none	8765	8844	
+79	s54	EFs cultured in a 35-mm culture dish ( 2 x 105 cells ) were transfected with 2 mug of a reporter plasmid	[]		p15	Materials and Methods	FALSE	method	8845	8947	
+80	s54	"comprising three repeats of the NF-kappaB site upstream of a minimal thymidine kinase promoter and a luciferase gene in the pGL-2 vector ( Promega ) , together with 2 mug of beta-actin promoter-driven beta-galactosidase expression plasmid ."	[]		p15	Materials and Methods	FALSE	method	8948	9184	
+81	s55	Transfected cells were incubated in the presence of recombinant human TNF ( 100 U/ml ) or agonistic anti-LTbetaR mAb AC.H6 for 8 h .	[]		p15	Materials and Methods	FALSE	method	9185	9314	
+82	s56	"After 24 h , the cells were harvested in PBS and lysed in a luciferase lysis buffer , LC-beta ( Piccagene ) ."	[]		p15	Materials and Methods	FALSE	method	9315	9419	
+83	s57	Luciferase assays were performed with a luminometer ( Lumat LB 9507 ; Berthold ) .	[]		p15	Materials and Methods	FALSE	method	9420	9498	
+84	s58	"Activity was normalized to beta-galactosidase activity , and"	[]		p15	Materials and Methods	FALSE	method	9499	9558	
+85	s58	data were expressed as the fold activation compared with stimulation by control anti-KLH hamster mAb Ha4/8 .	[]		p15	Materials and Methods	FALSE	method	9559	9666	
+86	s59	Assessment of LTbetaR Expression on EFs with Flow-cytometric Analysis .	[header-1]		title16	Materials and Methods	FALSE	method	9667	9737	
+87	s60	EFs were incubated with anti-LTbetaR mAb AF.H6 19 or control mAb Ha4/8 .	[exLink]		p17	Materials and Methods	FALSE	method	9738	9809	
+88	s61	After	[]		p17	Materials and Methods	FALSE	method	9810	9815	
+89	s61	"washing twice with PBS , cells were incubated with FITC-conjugated anti-hamster IgG mAb ( clone G94-56 ; PharMingen ) ."	[]		p17	Materials and Methods	FALSE	method	9816	9930	
+90	s62	Cells were analyzed with a FACSCaliber ( TM ) flow cytometer ( Becton Dickinson ) with CELLQuest ( TM ) software .	[]		p17	Materials and Methods	FALSE	method	9931	10036	
+91	s63	Mouse mAb-producing hybridoma cells were used as negative control .	[]		p17	Materials and Methods	FALSE	method	10037	10103	
+92	s64	Assessment of PP Formation with Whole-Mount Immunohistochemistry .	[header-1]		title18	Materials and Methods	FALSE	none	10104	10169	
+93	s65	Whole-mount immunohistochemistry for the detection of PP was performed as described 21 .	[exLink]		p19	Materials and Methods	FALSE	method	10170	10257	
+94	s66	"In brief , 2 % paraformaldehyde ( pH 7.4 ) -fixed intestines from 18.5 days postcoitus ( d.p.c. ) embryos were incubated with mAb against VCAM-1 ( PharMingen ) and then with horseradish peroxidase ( HRP ) -conjugated anti-rat Ig ( Tago Immunologicals ) ."	[]		p19	Materials and Methods	FALSE	method	10258	10497	
+95	s67	Color development for bound HRP was done with diaminobenzidine .	[]		p19	Materials and Methods	FALSE	method	10498	10561	
+96	s68	Assessment of Association between NIK and IKKalpha .	[header-1]		title20	Materials and Methods	FALSE	none	10562	10613	
+97	s69	Proteins were expressed by	[]		p21	Materials and Methods	FALSE	method	10614	10640	
+98	s69	transfecting expression constructs with the indicated cDNAs into COS-7 cells .	[]		p21	Materials and Methods	FALSE	method	10641	10718	
+99	s70	Extracts were prepared 30 h after transfection .	[]		p21	Materials and Methods	FALSE	method	10719	10766	
+100	s71	Immunoprecipitation and Western blot analysis was performed	[]		p21	Materials and Methods	FALSE	method	10767	10826	
+101	s71	as described previously 2022 .	[exLink]		p21	Materials and Methods	FALSE	method	10827	10856	
+102	s72	"Full-sized , Flag-tagged wild-type NIK 6 , Flag-tagged aly-type NIK , and Myc-tagged IKKalpha 22 were expressed in pCR3 vectors ( Invitrogen ) ;"	[exLink]		p21	Materials and Methods	FALSE	method	10857	10995	
+103	s72	aly-type NIK cDNA was generated by the introduction of an amino acid substitution ( G860R ) into the COOH-terminal region of human NIK 7 by site-directed mutagenesis .	[exLink]		p21	Materials and Methods	FALSE	method	10996	11160	
+104	s73	"Anti-Flag mAb ( clone M2 ) and anti-Myc mAb ( clone 9E10 ) were from Sigma-Aldrich and Santa Cruz Biotechnology , respectively ."	[]		p21	Materials and Methods	FALSE	method	11161	11283	
+105	s74	Results and Discussion	[header-0]		title22	Results and Discussion	FALSE	none	11284	11306	
+106	s75	Retained TNFR-I Signaling in NIK-mutant EFs .	[header-1]		title23	Results and Discussion	FALSE	none	11307	11351	
+107	s76	NIK was originally identified as a kinase	[]		p24	Results and Discussion	FALSE	fact	11352	11393	f1a|f1b|f1c
+108	s76	"that participates in an NF-kappaB-inducing signaling cascade induced by TNF , CD95 , and IL-1 6 ."	[exLink]		p24	Results and Discussion	FALSE	fact	11394	11488	f1a|f1b|f1c
+109	s77	"To assess the impact of NIK mutation in TNF responsiveness , we treated EFs from both wild-type and aly mice with human TNF ,"	[]		p24	Results and Discussion	FALSE	goal	11489	11612	f1a|f1b|f1c
+110	s77	"which signals only through mouse TNFR-I 23 , and assessed NF-kappaB activation by Western blot analysis ."	[exLink]		p24	Results and Discussion	FALSE	method	11613	11716	f1a|f1b|f1c
+111	s78	Rapid IkappaBalpha degradation concomitant with the appearance of phosphorylated IkappaBalpha was observed with similar kinetics in EFs from both wild-type and aly mice ( Fig. 1 A ) .	[inLink]	f1a	p24	Results and Discussion	FALSE	result	11717	11897	f1a|f1b|f1c
+112	s79	"30 min after stimulation with TNF , IkappaBalpha started"	[]		p24	Results and Discussion	FALSE	result	11898	11953	f1a|f1b|f1c
+113	s79	to recover similarly in both wild-type and aly mice ( Fig. 1 B ) .	[inLink]	f1b	p24	Results and Discussion	FALSE	result	11954	12017	f1a|f1b|f1c
+114	s80	IkappaBbeta degradation in response to TNF was also indistinguishable between wild-type and aly mice ( data not shown ) .	[]		p24	Results and Discussion	FALSE	result	12018	12136	f1a|f1b|f1c
+115	s81	We also tested TNF responsiveness by	[]		p24	Results and Discussion	FALSE	method	12137	12173	f1a|f1b|f1c
+116	s81	titrating the TNF concentration between 0.1 and 100 U/ml .	[]		p24	Results and Discussion	FALSE	method	12174	12231	f1a|f1b|f1c
+117	s82	"In this range , TNF sensitivity assessed by IkappaBalpha degradation , and"	[]		p24	Results and Discussion	FALSE	result	12232	12304	f1a|f1b|f1c
+118	s82	IkappaBalpha phosphorylation was indistinguishable between wild-type and aly mice ( Fig. 1 C ) .	[inLink]	f1c	p24	Results and Discussion	FALSE	result	12305	12398	f1a|f1b|f1c
+119	s83	Using an NF-kappaB-binding oligonucleotide probe in an electrophoretic mobility shift assay ( EMSA )	[]		p24	Results and Discussion	FALSE	method	12399	12497	f1a|f1b|f1c
+120	s83	we also observed a very similar level of NF-kappaB activation between wild-type and aly mice in TNF-stimulated EFs or TNF-stimulated thymocytes ( data not shown ) .	[]		p24	Results and Discussion	FALSE	result	12498	12660	f1a|f1b|f1c
+121	s84	"Furthermore , IL-1 and IL-6 production from TNF-stimulated EFs was indistinguishable between wild-type and aly mice ( data not shown ) ."	[]		p24	Results and Discussion	FALSE	result	12661	12793	f1a|f1b|f1c
+122	s85	These results demonstrate	[]		p24	Results and Discussion	FALSE	implication	12794	12819	f1a|f1b|f1c
+123	s85	that NF-kappaB activation through TNFR-I is not affected by the NIK mutation .	[]		p24	Results and Discussion	FALSE	implication	12820	12897	f1a|f1b|f1c
+124	s86	"Recently , it was demonstrated"	[]		p25	Results and Discussion	FALSE	fact	12898	12927	f1d
+125	s86	that Akt serine-threonine kinase is involved in the activation of NF-kappaB by TNF 24 .	[exLink]		p25	Results and Discussion	FALSE	fact	12928	13014	f1d
+126	s87	Although the results described above do not suggest a role for NIK in TNFR-I signaling	[]		p25	Results and Discussion	FALSE	implication	13015	13101	f1d
+127	s87	it is possible that NIK plays an important role in NF-kappaB activation in combination with Akt .	[]		p25	Results and Discussion	FALSE	hypothesis	13102	13199	f1d
+128	s88	We therefore tested the combined effect of NIK and Akt in the NF-kappaB-inducing pathway downstream of the TNFR-I .	[]		p25	Results and Discussion	FALSE	method	13200	13314	f1d
+129	s89	"IkappaBalpha degradation occurred 10 min after TNF stimulation in wild-type EFs , even in the presence of 1 muM wortmannin , a sufficient concentration for blockade of the PI ( 3 ) K-Akt pathway ( references 24 and 25 ; Fig. 1 D ) ."	"[inLink, exLink]"	f1d	p25	Results and Discussion	FALSE	result	13315	13537	f1d
+130	s90	This suggests	[]		p25	Results and Discussion	FALSE	implication	13538	13551	f1d
+131	s90	"that Akt , the downstream target of PI ( 3 ) K , by itself has no major role in NF-kappaB activation by TNF ."	[]		p25	Results and Discussion	FALSE	implication	13552	13654	f1d
+132	s91	"Additionally , no obvious effect of wortmannin on IkappaBalpha degradation was observed in aly mouse EFs ,"	[]		p25	Results and Discussion	FALSE	result	13655	13759	f1d
+133	s91	indicating that NF-kappaB activation by TNF can occur even when the functions of both NIK and Akt are inhibited .	[]		p25	Results and Discussion	FALSE	implication	13760	13872	f1d
+134	s92	We failed to observe phosphorylation of Akt in response to TNF	[]		p25	Results and Discussion	FALSE	result	13873	13935	f1d
+135	s92	when we probed the same blot with phospho-specific anti-Akt Ab in this experimental setting ( data not shown ) .	[]		p25	Results and Discussion	FALSE	result	13936	14045	f1d
+136	s93	These results suggest	[]		p25	Results and Discussion	FALSE	implication	14046	14067	f1d
+137	s93	"that neither NIK nor Akt is essential for NF-kappaB activation by TNF and that other IKK kinase ( s ) can substitute for NIK and Akt in NF-kappaB activation by TNF , at least in EFs ."	[]		p25	Results and Discussion	FALSE	implication	14068	14246	f1d
+138	s94	Elucidation of the IKK kinase ( s )	[]		p25	Results and Discussion	FALSE	problem	14247	14279	f1d
+139	s94	that activates IKK in response to TNF awaits further study .	[]		p25	Results and Discussion	FALSE	problem	14280	14339	f1d
+140	s95	Indispensable Role of NIK and IKKalpha in NF-kappaB Activation through LTbetaR .	[header-1]		title26	Results and Discussion	FALSE	none	14340	14419	
+141	s96	We intended	[]		p27	Results and Discussion	FALSE	goal	14420	14431	f1|f2a
+142	s96	"to evaluate the role of NIK in TNFR-I and LTbetaR signaling with the use of in vivo mouse models , rather than introducing enforced gene-expression systems ."	[]		p27	Results and Discussion	FALSE	goal	14432	14587	f1|f2a
+143	s97	"To this end , we transfected EFs ( which express both TNFR-I and LTbetaR ) only with a reporter plasmid"	[]		p27	Results and Discussion	FALSE	method	14588	14688	f1|f2a
+144	s97	"that has three repeats of the NF-kappaB site upstream of a minimal thymidine kinase promoter and a luciferase gene , and then stimulated the transfected EFs with TNF or agonistic anti-LTbetaR mAb ( AC.H6 ) ."	[]		p27	Results and Discussion	FALSE	method	14689	14892	f1|f2a
+145	s98	EFs from both wild-type and aly mice showed upregulation of luciferase activity in response to human TNF	[]		p27	Results and Discussion	FALSE	result	14893	14998	f1|f2a
+146	s98	Fig. 2 A ) .	[inLink]	f2a	p27	Results and Discussion	FALSE	result	14999	15009	f1|f2a
+147	s99	The normal level of TNF responsiveness in aly mice is consistent with the results shown above ( Fig. 1 ) .	[inLink]	f1	p27	Results and Discussion	FALSE	result	15010	15113	f1|f2a
+148	s100	"In contrast to TNF stimulation , NF-kappaB activation in response to agonistic anti-LTbetaR mAb was significantly reduced in aly mouse EFs ,"	[]		p27	Results and Discussion	FALSE	result	15114	15252	f1|f2a
+149	s100	indicating that NIK is involved in LTbetaR signaling ( Fig. 2 A ) .	[inLink]	f2a	p27	Results and Discussion	FALSE	implication	15253	15317	f1|f2a
+150	s101	"With the combination of EFs and agonistic anti-LTbetaR mAb , signals for NF-kappaB activation assessed by EMSA were not strong enough"	[]		p28	Results and Discussion	FALSE	result	15318	15450	f2b
+151	s101	to evaluate the role of NIK in NF-kappaB activation through the LTbetaR ( our unpublished observation ) .	[]		p28	Results and Discussion	FALSE	result	15451	15553	f2b
+152	s102	Involvement of NIK in LTbetaR signaling was therefore examined by detection of IkappaBalpha phosphorylation in response to agonistic anti-LTbetaR mAb .	[]		p28	Results and Discussion	FALSE	method	15554	15704	f2b
+153	s103	"In wild-type EFs stimulated with agonistic anti-LTbetaR mAb for 1 h , IkappaBalpha phosphorylation was easily detected by Western blot analysis ( Fig. 2 B ) ."	[inLink]	f2b	p28	Results and Discussion	FALSE	method	15705	15859	f2b
+154	s104	"In contrast , aly mouse"	[]		p28	Results and Discussion	FALSE	result	15860	15882	f2b
+155	s104	"EFs showed minimal , if any , phosphorylated IkappaBalpha after LTbetaR stimulation ."	[]		p28	Results and Discussion	FALSE	result	15883	15965	f2b
+156	s105	"Taken together , these results demonstrate"	[]		p28	Results and Discussion	FALSE	implication	15966	16007	f2b
+157	s105	"that NIK is essential for NF-kappaB activation in LTbetaR signaling , which accounts for the abnormal lymphoid organogenesis in aly mice ."	[]		p28	Results and Discussion	FALSE	implication	16008	16144	f2b
+158	s106	We have previously demonstrated	[]		p29	Results and Discussion	FALSE	result	16145	16176	f2b|f2c|f2d
+159	s106	"that EFs isolated from IKKalpha-deficient mice can activate NF-kappaB in response to TNF and IL-1 , suggesting that IKKalpha is not essential for either the TNF or IL-1 signaling pathways 11 ."	[exLink]		p29	Results and Discussion	FALSE	implication	16177	16367	f2b|f2c|f2d
+160	s107	The dispensable role of IKKalpha in NF-kappaB activation through TNFR-I was also confirmed by the detection of phosphorylated IkappaBalpha in IKKalpha-deficient EFs after TNF stimulation ( Fig. 2 C ) .	[inLink]	f2c	p29	Results and Discussion	FALSE	result	16368	16566	f2b|f2c|f2d
+161	s108	"Because NIK is essential for LTbetaR signaling , as demonstrated above , and NIK has been shown to phosphorylate IKKalpha 26"	[exLink]		p29	Results and Discussion	FALSE	result	16567	16689	f2b|f2c|f2d
+162	s108	it is important to determine whether IKKalpha is also essential for LTbetaR signaling .	[]		p29	Results and Discussion	FALSE	hypothesis	16690	16777	f2b|f2c|f2d
+163	s109	We therefore treated EFs from IKKalpha-deficient mice with agonistic anti-LTbetaR mAb and assessed NF-kappaB activation by the detection of phosphorylated IkappaBalpha .	[]		p29	Results and Discussion	FALSE	method	16778	16946	f2b|f2c|f2d
+164	s110	We found	[]		p29	Results and Discussion	FALSE	result	16947	16955	f2b|f2c|f2d
+165	s110	"that IKKalpha-deficient EFs showed no IkappaBalpha phosphorylation after LTbetaR stimulation , suggesting that NIK-IKKalpha constitutes an important pathway in LTbetaR signaling ( Fig. 2 B ) ."	[inLink]	f2b	p29	Results and Discussion	FALSE	result	16956	17144	f2b|f2c|f2d
+166	s111	"LTbetaR expression assessed by flow-cytometric analysis with anti-LTbetaR mAb ( AF.H6 ) was similar among wild-type , aly , and IKKalpha-deficient EFs ( Fig. 2 D ) ."	[inLink]	f2d	p29	Results and Discussion	FALSE	result	17145	17303	f2b|f2c|f2d
+167	s112	"The basal level of NF-kappaB activation , assessed by the treatment of EFs with ALLN alone ,"	[]		p29	Results and Discussion	FALSE	result	17304	17394	f2b|f2c|f2d
+168	s112	"which blocks the degradation of phosphorylated IkappaBalpha by proteasomes 3 , was reduced in aly mice and reduced more profoundly in IKKalpha-deficient mice ( Fig. 2 B ) ."	"[inLink, exLink]"	f2b	p29	Results and Discussion	FALSE	result	17395	17563	f2b|f2c|f2d
+169	s113	The essential role of IKKalpha in LTbetaR signaling was examined by investigation of lymphoid organogenesis in IKKalpha-deficient mice .	[]		p30	Results and Discussion	FALSE	method	17564	17699	f3a|f3b
+170	s114	Because IKKalpha-deficient mice show perinatal death associated with abnormal limb and skin development	[]		p30	Results and Discussion	FALSE	result	17700	17803	f3a|f3b
+171	s114	lymphoid organogenesis in IKKalpha-deficient mice was assessed by the development of PP from 18.5 d.p.c .	[]		p30	Results and Discussion	FALSE	method	17804	17909	f3a|f3b
+172	s115	embryos .	[]		p30	Results and Discussion	FALSE	method	17910	17918	f3a|f3b
+173	s116	PP formation in control embryos ( n = 8 ) was easily detected by whole-mount immunohistochemistry with mAb against VCAM-1 ( Fig. 3 A ) ;	[inLink]	f3a	p30	Results and Discussion	FALSE	result	17919	18050	f3a|f3b
+174	s116	VCAM-1+ cells accumulate at the site of PP development starting from 15.5 d.p.c. and can be used as a stromal marker for PP formation 21 .	[exLink]		p30	Results and Discussion	FALSE	result	18051	18188	f3a|f3b
+175	s117	"In contrast , no PP formation was detected in intestines isolated from IKKalpha-deficient embryos ( n"	[]		p30	Results and Discussion	FALSE	result	18189	18288	f3a|f3b
+176	s117	= 7 ; Fig. 3 B ) .	[inLink]	f3b	p30	Results and Discussion	FALSE	result	18289	18304	f3a|f3b
+177	s118	A similar lack of VCAM-1+ cell accumulation in embryonic intestines has been demonstrated in aly mice 21 .	[exLink]		p30	Results and Discussion	FALSE	result	18305	18410	f3a|f3b
+178	s119	This result shows	[]		p30	Results and Discussion	FALSE	implication	18411	18428	f3a|f3b
+179	s119	that LTbetaR signaling is fundamentally impaired in IKKalpha-deficient mice .	[]		p30	Results and Discussion	FALSE	implication	18429	18505	f3a|f3b
+180	s120	"Together , these findings are important in providing clear evidence"	[]		p30	Results and Discussion	FALSE	implication	18506	18572	f3a|f3b
+181	s120	that IKKalpha is involved in cytokine receptor signaling in vivo .	[]		p30	Results and Discussion	FALSE	implication	18573	18638	f3a|f3b
+182	s121	"It is important to note that abnormal lymphoid organogenesis in IKKalpha-deficient mice is not due to defective receptor activator of NF-kappaB ( RANK ) signaling , because mice deficient in RANK have PPs despite their lack of peripheral LNs 27"	[exLink]		p31	Results and Discussion	FALSE	implication	18639	18880	
+183	s121	"RANK activates NF-kappaB by recruiting TRAF6 , which has not been observed to associate with LTbetaR 1617 ."	[exLink]		p31	Results and Discussion	FALSE	result	18881	18987	
+184	s122	"It remains possible , however ,"	[]		p31	Results and Discussion	FALSE	hypothesis	18988	19017	
+185	s122	that there exist other undefined NIK-IKKalpha-activating receptor pathways involved in lymphoid organogenesis beyond LTbetaR .	[]		p31	Results and Discussion	FALSE	hypothesis	19018	19143	
+186	s123	The above data strongly suggest	[]		p32	Results and Discussion	FALSE	implication	19144	19175	f4
+187	s123	that NIK and IKKalpha together control LTbetaR signaling with a close mechanistic relationship in their pathway .	[]		p32	Results and Discussion	FALSE	implication	19176	19288	f4
+188	s124	We have therefore reasoned	[]		p32	Results and Discussion	FALSE	hypothesis	19289	19315	f4
+189	s124	that impaired LTbetaR signaling in aly mice may be due to defective interaction between mutated NIK and IKKalpha .	[]		p32	Results and Discussion	FALSE	hypothesis	19316	19429	f4
+190	s125	"To investigate this , NIK and IKKalpha were coexpressed in COS-7 cells"	[]		p32	Results and Discussion	FALSE	goal	19430	19499	f4
+191	s125	and protein interactions were assessed by immunoprecipitation .	[]		p32	Results and Discussion	FALSE	method	19500	19563	f4
+192	s126	Association of wild-type NIK with IKKalpha was easily detected ( Fig. 4 ) .	[inLink]	f4	p32	Results and Discussion	FALSE	result	19564	19636	f4
+193	s127	"In contrast , association of aly type NIK , which corresponds to a G855R substitution in mice , with IKKalpha was disrupted by the mutation ,"	[]		p32	Results and Discussion	FALSE	result	19637	19774	f4
+194	s127	providing further support for the role of NIK-IKKalpha as an essential pathway for NF-kappaB activation in LTbetaR signaling .	[]		p32	Results and Discussion	FALSE	implication	19775	19900	f4
+195	s128	"Despite this finding , the possibility remains"	[]		p32	Results and Discussion	FALSE	hypothesis	19901	19946	f4
+196	s128	that aly mice might have a different phenotype from NIK-null mutation mice .	[]		p32	Results and Discussion	FALSE	hypothesis	19947	20022	f4
+197	s129	It is unclear	[]		p33	Results and Discussion	FALSE	hypothesis	20023	20036	
+198	s129	whether TRAFs mediate all of the signaling activities of LTbetaR .	[]		p33	Results and Discussion	FALSE	hypothesis	20037	20102	
+199	s130	"In fact , mice deficient in TRAF2 , -3 , or -5 show LN development 2829 ."	[exLink]		p33	Results and Discussion	FALSE	result	20103	20172	
+200	s131	"In support of the dispensable role of TRAFs in LTbetaR signaling , recent mutational analyses of the cytoplasmic region of LTbetaR have demonstrated a TRAF-independent mechanism of NF-kappaB activation through LTbetaR 30 ."	[exLink]		p33	Results and Discussion	FALSE	result	20173	20393	
+201	s132	"Consistent with this idea , TRAF-NIK interaction in COS-7 cells"	[]		p33	Results and Discussion	FALSE	result	20394	20456	
+202	s132	"as assessed by immunoprecipitation was not affected by the aly mutation ( our unpublished observation ) , although the aly mutation resides in a putative TRAF-binding domain of NIK 31 ."	[exLink]		p33	Results and Discussion	FALSE	result	20457	20638	
+203	s133	Elucidation of the molecular mechanisms	[]		p33	Results and Discussion	FALSE	problem	20639	20678	
+204	s133	by which NIK becomes activated after LTbetaR stimulation will be critical for understanding the biological nature of LTbetaR signaling .	[]		p33	Results and Discussion	FALSE	problem	20679	20814	

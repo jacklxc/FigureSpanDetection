@@ -1,0 +1,340 @@
+	SentenceId	Clause Text	Codes	ExperimentValues	Paragraph	Headings	FloatingBox?		Discourse Type	Offset_Begin	Offset_End	fig_spans
+0	s1	Activity of the upstream TATA-less promoter of the p21Waf1/Cip1 gene depends on transcription factor IIA ( TFIIA ) in addition to TFIIA-reactive TBP-like protein	[]		-		FALSE	fact	implication	146	305	
+1	s2	TATA-binding protein-like protein ( TLP ) binds	[]		p2		FALSE	fact	fact	1115	1160	
+2	s2	"to transcription factor IIA ( TFIIA ) with high affinity , although the significance of this binding is poorly understood ."	[]		p2		FALSE	fact	fact	1161	1280	
+3	s3	"In this study , we investigated the role of TFIIA in transcriptional regulation of the p21Waf1/Cip1 ( p21 ) gene ."	[]		p2		FALSE	goal	goal	1281	1391	
+4	s4	It has been shown	[]		p2		FALSE	result	fact	1392	1409	
+5	s4	that TLP is indispensable for p53-activated transcription from an upstream TATA-less promoter of the p21 gene .	[]		p2		FALSE	fact	fact	1410	1520	
+6	s5	We found	[]		p2		FALSE	result	result	1521	1529	
+7	s5	that mutant TLPs having decreased TFIIA-binding ability exhibited weakened transcriptional activation function for the upstream promoter .	[]		p2		FALSE	result	result	1530	1667	
+8	s6	"Activity of the upstream promoter was enhanced considerably by an increased amount of TFIIA in a p53-dependent manner ,"	[]		p2		FALSE	result	result	1668	1786	
+9	s6	whereas activity of the TATA-containing downstream promoter was enhanced only slightly .	[]		p2		FALSE	result	result	1787	1874	
+10	s7	TFIIA potentiated the upstream promoter additively with TLP .	[]		p2		FALSE	result	result	1875	1935	
+11	s8	Although TFIIA is recruited to both promoters	[]		p2		FALSE	result	result	1936	1981	
+12	s8	activity of the upstream promoter was much more dependent on TFIIA .	[]		p2		FALSE	result	result	1982	2050	
+13	s9	"Recruitment of TFIIA and TLP to the upstream promoter was augmented in etoposide-treated cells , in which the amount of TFIIA-TLP complex is increased"	[]		p2		FALSE	result	result	2051	2200	
+14	s9	and TFIIA-reactive TLP was required for the recruitment of both factors .	[]		p2		FALSE	result	result	2201	2274	
+15	s10	It was confirmed	[]		p2		FALSE	result	result	2275	2291	
+16	s10	that etoposide-stimulated transcription depends on TLP .	[]		p2		FALSE	implication	result	2292	2347	
+17	s11	We also found	[]		p2		FALSE	result	result	2348	2361	
+18	s11	"that TFIIA-reactive TLP acts to decrease cell growth rate , which can be explained by interaction of the p21 promoter with the transcription factors that we examined ."	[]		p2		FALSE	hypothesis	result	2362	2527	
+19	s12	The results of the present study suggest	[]		p2		FALSE	implication	implication	2528	2568	
+20	s12	that the upstream TATA-less promoter of p21 needs TFIIA and TFIIA-reactive TLP for p53-dependent transcriptional enhancement .	[]		p2		FALSE	implication	implication	2569	2694	
+21	s13	Structured digital abstract	[header-0]		title3	Structured digital abstract	FALSE	method	none	2695	2722	
+22	s14	TLP physically interacts with TFIIA beta and TFIIA alpha by anti tag coimmunoprecipitation ( View interaction )	[]		p4	Structured digital abstract	FALSE	method	implication	2723	2832	
+23	s15	TFIIA alpha/beta physically interacts with TLP by anti bait coip ( View interaction )	[]		p4	Structured digital abstract	FALSE	none	implication	2833	2916	
+24	s16	Introduction	[header-0]		title7	Introduction	FALSE	none	none	2949	2961	
+25	s17	Transcriptional regulation of an RNA polymerase II driven gene is governed by a particular set of gene-specific DNA-reactive transcription regulatory factors and their associating transcriptional cofactors .	[]		p8	Introduction	FALSE	fact	fact	2962	3168	
+26	s18	"Moreover , general transcription factors such as TFIID ( transcription factor IID ) and TFIIA are assembled at a promoter region"	[]		p8	Introduction	FALSE	fact	fact	3169	3294	
+27	s18	"to conduct transcriptional initiation [ 1-3 ] , which is enhanced by gene-specific transcription regulatory factors through functional interaction ."	[exLink]		p8	Introduction	FALSE	fact	fact	3295	3439	
+28	s19	TATA-binding protein ( TBP ) is an essential component in TFIID	[]		p9	Introduction	FALSE	fact	fact	3440	3501	
+29	s19	"that binds to the TATA-box promoter element [ 2,4-6 ] ."	[exLink]		p9	Introduction	FALSE	fact	fact	3502	3554	
+30	s20	"TBP-like protein ( TLP , also called TRF2 ) has been identified"	[]		p9	Introduction	FALSE	fact	fact	3555	3615	
+31	s20	"as one of the TBP family proteins [ 7-9 ] and has been shown to enhance expression of TATA-less genes such as NF-1 , Cyclin-G2 , TAp63 and Wee1 [ 10-12 ] ."	[exLink]		p9	Introduction	FALSE	result	fact	3616	3764	
+32	s21	"TLP is unable to bind to the TATA-box , and"	[]		p9	Introduction	FALSE	result	fact	3765	3807	
+33	s21	a consensus TLP-binding sequence has not been determined so far .	[]		p9	Introduction	FALSE	result	fact	3808	3872	
+34	s22	"In the Drosophila PCNA gene , TLP is engaged in transcriptional activation"	[]		p9	Introduction	FALSE	result	fact	3873	3946	
+35	s22	as a cofactor for a transcription regulatory factor called DREF [ 13 ] .	[exLink]		p9	Introduction	FALSE	result	fact	3947	4016	
+36	s23	"Although TLP is usually concentrated in the cytoplasm , it translocates to the nucleus in a particular cell-cycle period or"	[]		p9	Introduction	FALSE	fact	fact	4017	4139	
+37	s23	when activated by a genotoxin such as etoposide [ 12 ] .	[exLink]		p9	Introduction	FALSE	result	fact	4140	4193	
+38	s24	"Hence , TLP is thought"	[]		p9	Introduction	FALSE	hypothesis	hypothesis	4194	4215	
+39	s24	to be involved in gene regulation related to growth control and DNA damage response .	[]		p9	Introduction	FALSE	hypothesis	hypothesis	4216	4300	
+40	s25	"Recently , we have identified p21 ( p21Waf1/Cip1 ) as one of the TLP-target genes [ 14 ] ."	[exLink]		p9	Introduction	FALSE	result	result	4301	4385	
+41	s26	"p21 is a CDK inhibitor and causes cell-cycle arrest at G1 or G2 phase [ 15,16 ] ."	[exLink]		p10	Introduction	FALSE	fact	fact	4386	4464	
+42	s27	"Since p21 also participates in apoptosis , DNA repair and tumor suppression in some cases [ 17 ]"	[exLink]		p10	Introduction	FALSE	fact	fact	4465	4558	
+43	s27	p21 is regarded as a major gene for cell growth regulation .	[]		p10	Introduction	FALSE	fact	fact	4559	4619	
+44	s28	"The amount of intracellular p21 is regulated at the transcription level , and"	[]		p10	Introduction	FALSE	fact	fact	4620	4696	
+45	s28	"its expression level is enhanced by multiple transcription factors [ 18,19 ] ."	[exLink]		p10	Introduction	FALSE	fact	fact	4697	4772	
+46	s29	"The promoter-enhancer region of p21 contains several binding sites for p53 ,"	[]		p10	Introduction	FALSE	fact	fact	4773	4848	
+47	s29	which enhances the promoter activity .	[]		p10	Introduction	FALSE	fact	fact	4849	4886	
+48	s30	"p53 ,"	[]		p10	Introduction	FALSE	result	fact	4887	4891	
+49	s30	"which works for genome homeostasis , is a typical tumor suppressor and major regulator of the p21 gene [ 20-22 ] ."	[exLink]		p10	Introduction	FALSE	fact	fact	4892	5002	
+50	s31	The human p21 gene has two major promoters :	[]		p10	Introduction	FALSE	result	fact	5003	5046	
+51	s31	"a TATA-containing downstream promoter and an upstream TATA-less promoter [ 23,24 ] ."	[exLink]		p10	Introduction	FALSE	result	fact	5047	5128	
+52	s32	TFIID is recruited to the TATA-box of the downstream promoter together with p53 upon UV irradiation	[]		p10	Introduction	FALSE	result	fact	5129	5228	
+53	s32	but it does not participate in regulation of the upstream promoter [ 24 ] .	[exLink]		p10	Introduction	FALSE	result	fact	5229	5302	
+54	s33	We have found that activity of the upstream promoter absolutely depends on TLP and p53 [ 14 ]	[exLink]		p10	Introduction	FALSE	result	result	5303	5394	
+55	s33	"and these two factors form a complex in cells [ 14,25 ] ."	[exLink]		p10	Introduction	FALSE	implication	result	5395	5450	
+56	s34	The most attractive property of TLP is its potent TFIIA-binding ability .	[]		p11	Introduction	FALSE	fact	fact	5451	5523	
+57	s35	TFIIA is another member of the family of general transcription factors [ 3 ] .	[exLink]		p11	Introduction	FALSE	fact	fact	5524	5599	
+58	s36	Although TFIIA binds to TBP to some extent in order to potentiate TFIID-dependent promoters	[]		p11	Introduction	FALSE	fact	fact	5600	5691	
+59	s36	"it is also used for TATA-less promoters [ 3,26,27 ] ."	[exLink]		p11	Introduction	FALSE	fact	fact	5692	5743	
+60	s37	"In higher eukaryotes , TFIIA consists of three subunits including TFIIA alpha , beta and gamma [ 3 ] ."	[exLink]		p11	Introduction	FALSE	result	result	5744	5841	
+61	s38	TFIIAalphabeta is encoded by a single gene and is cleaved into individual alpha and beta subunits	[]		p11	Introduction	FALSE	fact	fact	5842	5939	
+62	s38	"[ 3,28 ] ."	[exLink]		p11	Introduction	FALSE	result	none	5940	5947	
+63	s39	We have found	[]		p11	Introduction	FALSE	result	result	5948	5961	
+64	s39	that TLP binds more strongly to TFIIA than to TBP [ 29 ] .	[exLink]		p11	Introduction	FALSE	result	result	5962	6017	
+65	s40	Although TLP is mainly localized in the cytoplasm	[]		p11	Introduction	FALSE	result	result	6018	6067	
+66	s40	mutant TLPs with impaired TFIIA-binding ability display a diffuse localization pattern [ 29 ] .	[exLink]		p11	Introduction	FALSE	result	result	6068	6161	
+67	s41	"However , the significance of the TFIIA-binding ability of TLP in transcriptional regulation has remained"	[]		p11	Introduction	FALSE	result	problem	6162	6266	
+68	s41	to be clarified .	[]		p11	Introduction	FALSE	hypothesis	problem	6267	6283	
+69	s42	"In this study , we investigated the contribution of TLP-TFIIA interaction to p21 gene regulation , and"	[]		p12	Introduction	FALSE	goal	goal	6284	6384	
+70	s42	we found that mutant TLPs with weakened TFIIA-binding ability exhibit decreased transcription stimulation activity .	[]		p12	Introduction	FALSE	result	result	6385	6500	
+71	s43	"Moreover , etoposide ,"	[]		p12	Introduction	FALSE	result	result	6501	6521	
+72	s43	"which stimulates p21 gene expression , facilitated binding of the upstream promoter to TFIIA and TFIIA-reactive TLP ."	[]		p12	Introduction	FALSE	result	result	6522	6637	
+73	s44	One reason	[]		p12	Introduction	FALSE	hypothesis	problem	6638	6648	
+74	s44	why TLP possesses a strong TFIIA-binding ability may be elucidated through this study .	[]		p12	Introduction	FALSE	hypothesis	problem	6649	6735	
+75	s45	Results	[header-0]		title13	Results	FALSE	none	none	6736	6743	
+76	s46	Transcriptional activation function of mutant TLPs for the p21 promoter	[header-1]		title14	Results	FALSE	fact	none	6744	6815	
+77	s47	We previously constructed various kinds of mutant TLPs [ 29 ] .	[exLink]		p15	Results	FALSE	method	method	6816	6876	
+78	s48	"Among them , N37E and R52E have weakened binding ability to TFIIA , and"	[]		p15	Results	FALSE	result	fact	6877	6946	f1
+79	s48	"N37E is a more severe mutant than R52E for TFIIA binding , whereas R55E binds to TFIIA as strongly as does wild-type TLP ."	[]		p15	Results	FALSE	result	fact	6947	7067	f1
+80	s49	"In this study , we first investigated in"	[]		p15	Results	FALSE	goal	goal	7068	7107	f1
+81	s49	detail the intracellular TFIIA-binding strength of these mutants by co-immunoprecipitation assays .	[]		p15	Results	FALSE	method	method	7108	7206	f1
+82	s50	It was confirmed	[]		p15	Results	FALSE	result	result	7207	7223	f1
+83	s50	"that wild-type TLP and R55E exhibited significant binding to TFIIA , whereas N37E did not bind to TFIIA ( Fig. 1 ) ."	[inLink]	f1	p15	Results	FALSE	result	result	7224	7336	f1
+84	s51	We further investigated processed and unprocessed forms of TFIIAalpha/beta and found	[]		p15	Results	FALSE	goal	goal	7337	7421	f1
+85	s51	"that R52E binds to the alpha and beta subunits of TFIIA but does not bind to uncleaved TFIIAalphabeta ( Fig. 1 , lane 12 ) ."	[inLink]	f1	p15	Results	FALSE	result	result	7422	7542	f1
+86	s57	The human p21 gene	[]		p18	Results	FALSE	fact	result	7897	7915	f2a
+87	s57	"produces mainly alt-a and variant-1 transcripts from the upstream and downstream promoters , respectively ( Fig. 2A ) [ 14,23 ] ."	"[inLink, exLink]"	f2a	p18	Results	FALSE	result	result	7916	8039	f2a
+88	s58	"Knockdown of endogenous TLP resulted in decreased production of whole p21 transcripts , mainly due to the decreased level of alt-a transcripts ( Fig. 2B ) ."	[inLink]	f2b	p18	Results	FALSE	result	result	8040	8192	f2b
+89	s59	An overexpression experiment confirmed	[]		p18	Results	FALSE	result	result	8193	8231	f2c|f2b
+90	s59	that alt-a is specifically dependent on intracellular TLP level .	[]		p18	Results	FALSE	implication	result	8232	8296	f2c|f2b
+91	s60	"Next , we investigated the transcriptional activation function of the above-mentioned TLP mutants ."	[]		p18	Results	FALSE	goal	goal	8297	8394	f2c|f2b
+92	s61	"R55E , which has a native TFIIA-binding ability , considerably enhanced alt-a production ( Fig. 2C-a , lane 3 ) ,"	[inLink]	f2c	p18	Results	FALSE	result	result	8395	8502	f2c
+93	s61	whereas R52E and N37E exhibited almost no effect ( lanes 5 and 6 ) .	[]		p18	Results	FALSE	result	result	8503	8568	f2c
+94	s62	R52E and N37E showed decreased transcription stimulation activity for the upstream promoter compared with that of wild-type TLP and R55E ( Fig. 2C ) .	[inLink]	f2c	p18	Results	FALSE	result	result	8569	8716	f2c
+95	s63	To obtain direct evidence that TFIIA-reactive TLP potentiates the upstream promoter	[]		p18	Results	FALSE	goal	goal	8717	8800	f2c|f2d
+96	s63	we performed a luciferase reporter assay in mutant TLP-overexpressed cells .	[]		p18	Results	FALSE	method	method	8801	8877	f2c|f2d
+97	s64	It was demonstrated	[]		p18	Results	FALSE	result	result	8878	8897	f2c|f2d
+98	s64	"that R55E enhanced promoter activity as much as wild-type TLP did , whereas R52E and N37E had less effect on promoter activity than did wild-type TLP ( Fig. 2D ) ."	[inLink]	f2d	p18	Results	FALSE	result	result	8898	9057	f2c|f2d
+99	s65	These results suggest	[]		p18	Results	FALSE	implication	implication	9058	9079	f2d
+100	s65	that TFIIA-binding ability is required for the transcription stimulation function of TLP .	[]		p18	Results	FALSE	implication	implication	9080	9169	f2d
+101	s82	TFIIA sensitivity of the upstream promoter	[header-1]		title21	Results	FALSE	fact	none	10707	10749	
+102	s83	"Since TFIIA-binding ability of TLP was found to affect the transcriptional activation function of the upstream promoter ( Fig. 2C , D )"	[inLink]	f2c|f2d	p22	Results	FALSE	result	result	10750	10881	f2c|f3a|f3b|f3c|f2d
+103	s83	we investigated how TFIIA works for p21 promoters .	[]		p22	Results	FALSE	goal	goal	10882	10933	f2c|f3a|f3b|f3c|f2d
+104	s84	"Overexpression of TFIIAalphabeta considerably stimulated the upstream promoter ( Fig. 3A-a , lane 3 ) ."	[inLink]	f3a	p22	Results	FALSE	result	result	10934	11033	f3a|f3b|f3c
+105	s85	"Since TFIIAgamma exhibited little effect ( Fig. 3A-a , lane 4 )"	[inLink]	f3a	p22	Results	FALSE	result	result	11034	11094	f3a|f3b|f3c
+106	s85	the concentration of TFIIAgamma in cells seemed to be sufficient for the upstream promoter .	[]		p22	Results	FALSE	result	implication	11095	11187	f3a|f3b|f3c
+107	s86	We further investigated	[]		p22	Results	FALSE	goal	goal	11188	11211	f3a|f3b|f3c
+108	s86	the cooperative effect directed by TLP and TFIIA in transcriptional regulation through co-overexpression of TFIIAalphabeta and TLP or N37E .	[]		p22	Results	FALSE	method	method	11212	11351	f3a|f3b|f3c
+109	s87	Although the activation degree of TLP for the upstream promoter was 2.6-fold	[]		p22	Results	FALSE	result	result	11352	11428	f3a|f3b|f3c
+110	s87	"co-overexpression of both TLP and TFIIAalphabeta yielded 4.0-fold activation ( Fig. 3A-b , lanes 1-3 ) ."	[inLink]	f3a	p22	Results	FALSE	result	result	11429	11530	f3a|f3b|f3c
+111	s88	"However , this additive effect was relatively small ( 1.8-fold )"	[]		p22	Results	FALSE	result	result	11531	11592	f3a|f3b|f3c
+112	s88	"when N37E and TFIIAalphabeta were used ( Fig. 3A-b , lanes 4 and 5 ) ."	[inLink]	f3a	p22	Results	FALSE	result	result	11593	11659	f3a|f3b|f3c
+113	s89	"A dose-responsive effect of TFIIA on TLP-dependent promoter activation was observed ( Fig. 3A-c ) ,"	[inLink]	f3a	p22	Results	FALSE	result	result	11660	11756	f3a|f3b|f3c
+114	s89	suggesting physical and functional interactions between TLP and TFIIA .	[]		p22	Results	FALSE	implication	implication	11757	11827	f3a|f3b|f3c
+115	s90	"To exclude a possibility that overexpressed TFIIA increases the amount of TLP protein , we examined the expression level of TLP and TFIIA and confirmed"	[]		p22	Results	FALSE	goal	goal	11828	11978	f3a|f3b|f3c
+116	s90	that TFIIA does not exhibit a significant effect on the expression of both endogenous and exogenous TLP ( Fig. 3A-d ) .	[inLink]	f3a	p22	Results	FALSE	result	result	11979	12095	f3a|f3b|f3c
+117	s91	The downstream promoter was potentiated only slightly by TFIIA ( Fig. 3B ) .	[inLink]	f3b	p22	Results	FALSE	result	result	12096	12169	f3a|f3b|f3c
+118	s92	Therefore it is suggested	[]		p22	Results	FALSE	hypothesis	hypothesis	12170	12195	f3a|f3b|f3c
+119	s92	that the upstream promoter is much more sensitive to the concentration of TFIIA and that TFIIA-binding activity of TLP is involved in this process .	[]		p22	Results	FALSE	hypothesis	hypothesis	12196	12343	f3a|f3b|f3c
+120	s93	Knockdown experiments revealed	[]		p22	Results	FALSE	result	method	12344	12374	f3a|f3b|f3c
+121	s93	that the upstream promoter is much more dependent on TFIIA than is the downstream promoter ( Fig. 3C-a ) .	[inLink]	f3c	p22	Results	FALSE	result	result	12375	12478	f3a|f3b|f3c
+122	s94	The effect of downregulation of TFIIA by short interfering RNA ( siRNA ) was evaluated by western blotting ( Fig. 3C-b ) .	[inLink]	f3c	p22	Results	FALSE	result	method	12479	12596	f3a|f3b|f3c
+123	s95	We then investigated	[]		p22	Results	FALSE	goal	goal	12597	12617	f3a|f3b|f3c
+124	s95	whether TFIIA-dependent activation of the upstream promoter occurs in p53-deficient cells .	[]		p22	Results	FALSE	hypothesis	goal	12618	12708	f3a|f3b|f3c
+125	s96	"As shown in Fig. 4A , however"	[inLink]	f4a	p22	Results	FALSE	result	result	12709	12737	f4a|f4b
+126	s96	TFIIA did not activate the upstream promoter in p53-deficient cells .	[]		p22	Results	FALSE	result	result	12738	12807	f4a|f4b
+127	s97	"Moreover , the upstream promoter harboring a mutant p53RE did not respond to TFIIA in addition to TLP ( Fig. 4B ) ."	[inLink]	f4b	p22	Results	FALSE	result	result	12808	12919	f4b
+128	s113	Recruitment of TFIIA to the upstream promoter of the endogenous p21 gene	[header-1]		title27	Results	FALSE	fact	none	14525	14597	
+129	s114	It has been reported	[]		p28	Results	FALSE	result	result	14598	14618	
+130	s114	"that TFIIA can be recruited to some TATA-less promoters as well as TFIID-dependent TATA-containing promoters [ 26,27,30,31 ] ."	[exLink]		p28	Results	FALSE	result	result	14619	14742	
+131	s115	"In this study , we demonstrated"	[]		p28	Results	FALSE	result	result	14743	14773	f3a
+132	s115	"that TFIIAalphabeta activates the upstream promoter additively with native TLP ( Fig. 3A-b , c ) ."	[inLink]	f3a	p28	Results	FALSE	result	result	14774	14867	f3a
+133	s116	We investigated	[]		p28	Results	FALSE	goal	goal	14868	14883	f3a
+134	s116	whether TFIIA is associated with p21 promoters .	[]		p28	Results	FALSE	hypothesis	goal	14884	14931	f3a
+135	s117	Although we detected chromatin-bound TFIIA in the upstream promoter region ( p53RE ) as well as the downstream promoter region ( TATA-box ) ( Fig. 5B )	[inLink]	f5b	p28	Results	FALSE	result	result	14932	15077	f5b
+136	s117	"the amount of TFIIA was larger for the downstream promoter ( Fig. 5B-c ) , possibly due to TFIID-assisted recruitment ."	[inLink]	f5b	p28	Results	FALSE	result	result	15078	15194	f5b
+137	s118	"We performed TFIIA knockdown experiments to examine TFIIA function for p21 gene regulation , and"	[]		p28	Results	FALSE	method	method	15195	15290	f5b|f5c
+138	s118	we found that the production of alt-a mRNA was dependent on the amount of TFIIA ( Fig. 5C ) .	[inLink]	f5c	p28	Results	FALSE	result	result	15291	15381	f5b|f5c
+139	s119	The amount of p21 variant-1 ( Fig. 5C ) and the total amount of p21 mRNA ( data not shown ) were also decreased in TFIIA-depressed cells .	[inLink]	f5c	p28	Results	FALSE	result	result	15382	15515	f5c
+140	s128	Recruitment of TFIIA and TFIIA-reactive TLP to the upstream promoter in etoposide-treated cells	[header-1]		title31	Results	FALSE	none	none	16222	16317	
+141	s129	"Previously , we demonstrated"	[]		p32	Results	FALSE	result	result	16318	16345	
+142	s129	that p53 and TLP are recruited to the same region of the p21 gene in etoposide-treated cells [ 14 ] .	[exLink]		p32	Results	FALSE	result	result	16346	16444	
+143	s130	"In this study , we confirmed"	[]		p32	Results	FALSE	goal	goal	16445	16472	f6d|f6a
+144	s130	"that p53 ( Fig. 6A ) and TLP ( Fig. 6D , lanes 1 and 2 ) were substantially recruited to the upstream promoters in cells treated with etoposide , which is one of the typical genotoxins ."	[inLink]	f6a|f6d	p32	Results	FALSE	result	result	16473	16652	f6d|f6a
+145	s131	Figure 6B shows that large amounts of TFIIA bind to the upstream p53RE-containing region .	[inLink]	f6b	p32	Results	FALSE	result	result	16653	16742	f6b
+146	s132	"Furthermore , we found"	[]		p32	Results	FALSE	result	result	16743	16764	f6c|f6b
+147	s132	that exogenous TLP but not N37E increased the amount of upstream promoter-bound TFIIA ( Fig. 6C ) .	[inLink]	f6c	p32	Results	FALSE	result	result	16765	16861	f6c|f6b
+148	s133	These results indicate	[]		p32	Results	FALSE	implication	implication	16862	16884	f6e|f6d|f6c
+149	s133	that TFIIA-binding ability of TLP is required for recruitment of TFIIA to the upstream promoter .	[]		p32	Results	FALSE	implication	implication	16885	16981	f6e|f6d|f6c
+150	s134	We next determined	[]		p32	Results	FALSE	goal	goal	16982	17000	f6e|f6d|f6c
+151	s134	how many mutant TLPs are recruited to the promoter in etoposide-treated cells .	[]		p32	Results	FALSE	goal	goal	17001	17079	f6e|f6d|f6c
+152	s135	Exogenously expressed	[]		p32	Results	FALSE	method	result	17080	17101	f6e|f6d|f6c
+153	s135	"TLP and R55E clearly bound to the p53-responsive element ( Fig. 6D , lanes 2 and 3 ) ."	[inLink]	f6d	p32	Results	FALSE	result	result	17102	17184	f6e|f6d|f6c
+154	s136	"On the other hand , R52E and N37E showed decreased binding signals ( lanes 4 and 5 )"	[]		p32	Results	FALSE	result	result	17185	17266	f6e|f6d
+155	s136	although these proteins were substantially present in cells .	[]		p32	Results	FALSE	result	result	17267	17327	f6e|f6d
+156	s137	A further chromatin immunoprecipitation ( ChIP ) assay demonstrated	[]		p32	Results	FALSE	result	method	17328	17393	f6e|f6d
+157	s137	"that the amount of promoter-bound wild-type TLP was significantly increased by etoposide , whereas that of N37E did not change and was lower than TLP , even though amounts of N37E were higher than those of TLP in nuclei of control and etoposide-treated cells ( Fig. 6E ) ."	[inLink]	f6e	p32	Results	FALSE	result	result	17394	17661	f6e|f6d
+158	s138	"Consequently , R52 and N37E , whose chromatin-binding results were overestimated ( Fig. 6D , E ) , were demonstrated"	[inLink]	f6d|f6e	p32	Results	FALSE	result	result	17662	17771	f6f|f6e|f6d
+159	s138	to have weakened promoter-binding abilities compared with wild-type TLP .	[]		p32	Results	FALSE	result	result	17772	17844	f6f|f6e|f6d
+160	s139	We then examined the effect of etoposide on TLP-TFIIA interaction .	[]		p32	Results	FALSE	goal	goal	17845	17911	f6f|f6e|f6d
+161	s140	A co-immunoprecipitation experiment revealed	[]		p32	Results	FALSE	method	method	17912	17956	f6f|f6e|f6d
+162	s140	that TLP and TFIIA form an intracellular complex in etoposide-treated cells upon DNA damage ( Fig. 6F ) .	[inLink]	f6f	p32	Results	FALSE	result	result	17957	18059	f6f|f6e|f6d
+163	s141	The same result was obtained	[]		p32	Results	FALSE	result	result	18060	18088	f6f
+164	s141	when exogenously expressed FH-TFIIA was examined ( data not shown ) .	[]		p32	Results	FALSE	result	result	18089	18155	f6f
+165	s167	"Lastly , we investigated"	[]		p35	Results	FALSE	method	method	20405	20428	f6f
+166	s167	whether activity of the upstream promoter is modulated by TLP in etoposide-treated cells .	[]		p35	Results	FALSE	hypothesis	hypothesis	20429	20518	f6f
+167	s168	"TLP knockdown resulted in a decrease in upstream promoter-driven mRNA production ( Fig. 6G , left two columns ) ."	[inLink]	f6g	p35	Results	FALSE	result	result	20519	20628	f6g
+168	s169	We found	[]		p35	Results	FALSE	result	result	20629	20637	f6g
+169	s169	"that the net quantity of knockdown-directed decreased mRNA production in etoposide-treated cells was twice as much as that obtained in normal cells ( Fig. 6G , right two columns ) ."	[inLink]	f6g	p35	Results	FALSE	result	result	20638	20815	f6g
+170	s170	We have confirmed	[]		p35	Results	FALSE	result	result	20816	20833	
+171	s170	"that etoposide enhances transcription from the endogenous p21 upstream promoter [ 14,23 ] ."	[exLink]		p35	Results	FALSE	hypothesis	result	20834	20922	
+172	s171	These situations suggest	[]		p35	Results	FALSE	implication	implication	20923	20947	
+173	s171	"that etoposide-augmented promoter-recruited TLP , perhaps together with TFIIA , works for activated transcription from the p21 upstream promoter ."	[]		p35	Results	FALSE	implication	implication	20948	21091	
+174	s172	Negative regulation of cell growth by TLP and TFIIA	[header-1]		title36	Results	FALSE	result	none	21092	21143	f7a
+175	s173	"In the above-described figures , we showed"	[]		p37	Results	FALSE	result	result	21144	21185	f7a
+176	s173	that TLP and TFIIA potentiate the upstream promoter of the p21 gene and upregulate anti-mitotic p21 protein .	[]		p37	Results	FALSE	result	result	21186	21294	f7a
+177	s174	We then examined	[]		p37	Results	FALSE	method	method	21295	21311	f7a
+178	s174	how TLP and TFIIA affect the growth profile .	[]		p37	Results	FALSE	goal	goal	21312	21356	f7a
+179	s175	Knockdown experiments demonstrated	[]		p37	Results	FALSE	result	result	21357	21391	f7a
+180	s175	that reduction of endogenous TLP resulted in elevated proliferation for both normal ( Fig. 7A-a ) and p53-deficient cells ( Fig. 7A-b ) .	[inLink]	f7a	p37	Results	FALSE	result	result	21392	21524	f7a
+181	s176	"However , the rate of proliferation acceleration caused by depression of TLP was much higher for wild-type cells than in p53-deficient cells ."	[]		p37	Results	FALSE	result	result	21525	21665	f7a|f7b
+182	s177	"Moreover , overexpression of N37E exhibited a slight but significant growth-inhibitory effect compared with wild-type TLP ( Fig. 7B ) ."	[inLink]	f7b	p37	Results	FALSE	result	result	21666	21797	f7b
+183	s178	Knockdown of TFIIA also resulted in acceleration of the cell proliferation rate ( Fig. 7C ) .	[inLink]	f7c	p37	Results	FALSE	result	result	21798	21888	f7c
+184	s179	We next examined the effects of TLP and TFIIA on the profile of etoposide-triggered cell death by knockdown experiments ( Fig. 7D )	[inLink]	f7d	p37	Results	FALSE	result	result	21889	22018	f7d
+185	s179	and we found that both TLP ( Fig. 7D-a ) and TFIIA ( Fig. 7D-b ) accelerated cell death rate in a DNA-damaged condition .	[inLink]	f7d	p37	Results	FALSE	result	result	22019	22136	f7d
+186	s180	Since TLP and TFIIA play a negative role in cell growth and since association of the two factors is implicated from the results shown in Fig. 7B	[inLink]	f7b	p37	Results	FALSE	result	result	22137	22281	f7b
+187	s180	these factors might modify the expression of growth - and apoptosis-related genes including p21 .	[]		p37	Results	FALSE	hypothesis	hypothesis	22282	22378	f7b
+188	s193	Discussion	[header-0]		title40	Discussion	FALSE	implication	none	23237	23247	
+189	s194	"Previously , we demonstrated"	[]		p41	Discussion	FALSE	result	result	23248	23275	
+190	s194	"that TLP , which is one of the TBP family proteins , is involved in regulation of the upstream promoter [ 14 ] ."	[exLink]		p41	Discussion	FALSE	implication	result	23276	23383	
+191	s195	"The most attractive property of TLP is its stronger TFIIA-binding ability than that of TBP [ 29,30 ] ,"	[exLink]		p41	Discussion	FALSE	fact	fact	23384	23483	
+192	s195	although the functional significance of this property has not been elucidated .	[]		p41	Discussion	FALSE	result	problem	23484	23562	
+193	s196	Bryant et al. [ 31 ] reported	[exLink]		p41	Discussion	FALSE	result	result	23563	23590	
+194	s196	that mutant TBPs with decreased TFIIA-binding ability showed decreased transcription activation function in vitro .	[]		p41	Discussion	FALSE	result	result	23591	23705	
+195	s197	"In this study , we demonstrated"	[]		p41	Discussion	FALSE	result	result	23706	23736	
+196	s197	"that Asn37 and Arg52 of TLP , which correspond to TFIIA-reactive Asn189 and Arg205 of TBP , respectively [ 31 ] , are required for TFIIA binding in human cells ( Fig. 1 ) ."	"[inLink, exLink]"	f1	p41	Discussion	FALSE	result	result	23737	23901	
+197	s198	"N37E and R52E exhibited decreased transcriptional activation functions for the endogenous upstream promoter ,"	[]		p41	Discussion	FALSE	result	result	23902	24010	
+198	s198	"while R55E , which has substantial TFIIA-binding capacity , exhibited native function ( Fig. 2C ) ."	[inLink]	f2c	p41	Discussion	FALSE	result	result	24011	24105	
+199	s199	These mutant TLPs also exhibited decreased transcriptional activation function for the upstream promoter in an exogenous reporter plasmid ( Fig. 2D ) .	[inLink]	f2d	p41	Discussion	FALSE	result	result	24106	24254	
+200	s200	"Consequently , TFIIA-binding ability of TLP is thought"	[]		p41	Discussion	FALSE	implication	implication	24255	24308	
+201	s200	to be required for TLP-dependent transcriptional activation .	[]		p41	Discussion	FALSE	implication	implication	24309	24369	
+202	s201	"Although R52E had binding ability to processed TFIIA ( Fig. 1 , lane 12 )"	[inLink]	f1	p41	Discussion	FALSE	result	result	24370	24440	
+203	s201	it exhibited little transcriptional function .	[]		p41	Discussion	FALSE	result	result	24441	24487	
+204	s202	"Because unprocessed TFIIA has been reported to be transcriptionally active [ 28 ] , it is possible"	[exLink]		p41	Discussion	FALSE	result	result	24488	24583	
+205	s202	that binding to unprocessed TFIIA is required for TLP function to activate p21 upstream promoter .	[]		p41	Discussion	FALSE	hypothesis	hypothesis	24584	24681	
+206	s203	TFIIA activates RNA polymerase II promoters via interaction with various transcription factors .	[]		p42	Discussion	FALSE	fact	fact	24682	24777	
+207	s204	As is generally known	[]		p42	Discussion	FALSE	fact	fact	24778	24799	
+208	s204	"TFIIA indirectly associates with the TATA-box promoter element via TBP [ 1-3,6 ] ."	[exLink]		p42	Discussion	FALSE	fact	fact	24800	24880	
+209	s205	Li et al. [ 24 ] showed	[exLink]		p42	Discussion	FALSE	result	result	24881	24902	
+210	s205	that TFIID is recruited to the TATA-box of the p21 downstream promoter and that p53 is associated indirectly with the TATA-box via TFIID .	[]		p42	Discussion	FALSE	fact	fact	24903	25040	
+211	s206	"Indeed , abundant chromatin-bound TFIIA was detected at the downstream promoter ( Fig. 5B ) ."	[inLink]	f5b	p42	Discussion	FALSE	result	result	25041	25130	
+212	s207	"However , overexpressed TFIIA enhanced the endogenous downstream promoter only slightly ( Fig. 3B ) ."	[inLink]	f3b	p42	Discussion	FALSE	result	result	25131	25228	
+213	s208	"On the other hand , the upstream promoter was significantly activated by TFIIA ( ~3.0-fold ) ( Fig. 3A-a ) ."	[inLink]	f3a	p42	Discussion	FALSE	result	result	25229	25331	
+214	s209	"Moreover , results shown in Fig. 3C and"	[inLink]	f3c	p42	Discussion	FALSE	result	result	25332	25370	
+215	s209	maybe Fig. 5C suggest that the upstream promoter requires a high concentration of intracellular TFIIA for its maximal activity .	[inLink]	f5c	p42	Discussion	FALSE	implication	implication	25371	25498	
+216	s210	It has remained a question for a long time	[]		p42	Discussion	FALSE	implication	problem	25499	25541	
+217	s210	"why TFIIA is an essential factor for cell growth [ 32 ] , despite the fact that it works just as a cofactor ."	[exLink]		p42	Discussion	FALSE	hypothesis	problem	25542	25647	
+218	s211	We speculate	[]		p42	Discussion	FALSE	implication	hypothesis	25648	25660	
+219	s211	that some essential TATA-less genes need TFIIA as well as TLP .	[]		p42	Discussion	FALSE	implication	hypothesis	25661	25723	
+220	s212	"Results shown in Fig. 3A-b also demonstrate an additive effect between TFIIA and TFIIA-interactive TLP but not mutant ones ,"	[inLink]	f3a	p42	Discussion	FALSE	implication	result	25724	25847	
+221	s212	suggesting a functional interaction of these two factors for the upstream promoter .	[]		p42	Discussion	FALSE	implication	implication	25848	25931	
+222	s213	"As already stated , the human p21 gene has two major promoters :"	[]		p42	Discussion	FALSE	implication	fact	25932	25994	
+223	s213	"a TATA-less upstream promoter and a TATA-containing downstream promoter [ 23,24 ] ."	[exLink]		p42	Discussion	FALSE	result	fact	25995	26075	
+224	s214	Although the mechanism by which TFIIA exhibits different responses to the two promoters of the p21 gene is not fully understood	[]		p42	Discussion	FALSE	result	problem	26076	26203	
+225	s214	the TATA-box element seems to be one of the determinants .	[]		p42	Discussion	FALSE	hypothesis	hypothesis	26204	26262	
+226	s215	Existence of multiple promoters of the p21 gene might have an advantage	[]		p42	Discussion	FALSE	hypothesis	hypothesis	26263	26334	
+227	s215	"to maximize the level of gene expression , which is governed by different sets of transcription factors , when cells are exposed to different kinds of stimuli and stresses ."	[]		p42	Discussion	FALSE	hypothesis	hypothesis	26335	26505	
+228	s216	It has been confirmed	[]		p43	Discussion	FALSE	result	implication	26506	26527	
+229	s216	that the upstream promoter is basically driven by p53 [ 23 ] .	[exLink]		p43	Discussion	FALSE	implication	implication	26528	26587	
+230	s217	Activity of the upstream promoter was almost inert in p53-deficient cells ( Fig. 4A ) .	[inLink]	f4a	p43	Discussion	FALSE	result	result	26588	26672	
+231	s218	"Moreover , TLP does not exhibit a transcription activation function for the upstream promoter in p53-null cells ."	[]		p43	Discussion	FALSE	result	result	26673	26784	
+232	s219	We found	[]		p43	Discussion	FALSE	result	result	26785	26793	
+233	s219	that the upstream promoter is upregulated by TFIIA and is dependent on TFIIA in addition to p53 and TLP ( Figs 3 and 4 ) .	[inLink]	f3|f5	p43	Discussion	FALSE	result	result	26794	26913	
+234	s220	The results shown in Figs 5 and 6 demonstrate that these three transcription factors are recruited to the upstream promoter	[inLink]	f5|f6	p43	Discussion	FALSE	result	result	26914	27037	
+235	s220	"and etoposide , which stimulates p21 gene expression , increased this recruitment ."	[]		p43	Discussion	FALSE	result	result	27038	27119	
+236	s221	Drosophila TLP works	[]		p43	Discussion	FALSE	result	fact	27120	27140	
+237	s221	as a cofactor for DREF transcription factor of the PCNA gene [ 13 ] .	[exLink]		p43	Discussion	FALSE	fact	fact	27141	27207	
+238	s222	"Moreover , TFIIA can work"	[]		p43	Discussion	FALSE	result	fact	27208	27232	
+239	s222	as a co-activator of several activators [ 33-36 ] and binds to p53 [ 37 ] .	[exLink]		p43	Discussion	FALSE	result	fact	27233	27303	
+240	s223	We have observed intracellular binding of TLP and TFIIA [ 29 ] .	[exLink]		p43	Discussion	FALSE	result	result	27304	27365	
+241	s224	"Furthermore , we showed interaction between TLP and p53 [ 25 ] ."	[exLink]		p43	Discussion	FALSE	result	result	27366	27426	
+242	s225	"We therefore speculate that TLP can form a triple complex with TFIIA and p53 , and"	[]		p43	Discussion	FALSE	hypothesis	hypothesis	27427	27508	
+243	s225	TLP and TFIIA coordinately function as a binary co-activator complex for p53 on the p21 upstream promoter .	[]		p43	Discussion	FALSE	hypothesis	hypothesis	27509	27615	
+244	s226	The fact	[]		p43	Discussion	FALSE	implication	result	27616	27624	
+245	s226	"that the native , but not N37E , TLP stimulates the upstream promoter additively with TFIIA ( Fig. 3A-b ) supports this hypothesis ."	[inLink]	f3a	p43	Discussion	FALSE	implication	result	27625	27752	
+246	s227	"In addition to p21 , TLP and p53 are widely involved in growth repression and apoptosis of cells ."	[]		p44	Discussion	FALSE	fact	fact	27753	27849	
+247	s228	The present study revealed	[]		p44	Discussion	FALSE	result	implication	27850	27876	
+248	s228	that TFIIA is also associated with the function of TLP .	[]		p44	Discussion	FALSE	implication	implication	27877	27932	
+249	s229	The results presented in Fig. 7A show	[inLink]	f7a	p44	Discussion	FALSE	result	result	27933	27970	
+250	s229	that TLP-mediated growth repression is dependent on p53 .	[]		p44	Discussion	FALSE	implication	implication	27971	28027	
+251	s230	Since TLP with decreased TFIIA reactivity exhibited a weaker growth-inhibitory effect ( Fig. 7B )	[inLink]	f7b	p44	Discussion	FALSE	result	result	28028	28123	
+252	s230	some parts of TLP-mediated growth repression can be governed by at least TLP - and TFIIA-dependent transcription from the upstream promoter of the anti-mitotic p21 gene .	[]		p44	Discussion	FALSE	implication	implication	28124	28293	
+253	s231	"Furthermore , we observed"	[]		p44	Discussion	FALSE	result	result	28294	28318	
+254	s231	that TLP and TFIIA are also involved in etoposide-mediated cell death ( Fig. 7D ) .	[inLink]	f7d	p44	Discussion	FALSE	result	result	28319	28399	
+255	s232	We believe	[]		p44	Discussion	FALSE	implication	hypothesis	28400	28410	
+256	s232	that TLP and TFIIA contribute to this phenomenon through interaction with the p21 upstream promoter .	[]		p44	Discussion	FALSE	implication	hypothesis	28411	28511	
+257	s233	Materials and methods	[header-0]		title45	Materials and methods	FALSE	method	none	28512	28533	
+258	s234	"Cell culture , drug treatment and DNA transfection"	[header-1]		title46	Materials and methods	FALSE	method	none	28534	28583	
+259	s235	Human HCT116 cells ( wild-type and p53-deficient mutant cells )	[]		p47	Materials and methods	FALSE	method	method	28584	28646	
+260	s235	"27 ] and HeLa cells were maintained in Dulbecco 's modified MEM with high glucose and low glucose respectively ( Sigma-Aldrich , St. Louis , MO USA ) at 37 degreesC in the presence of 10 % fetal bovine serum ."	[exLink]		p47	Materials and methods	FALSE	method	method	28647	28848	
+261	s236	Cell numbers were counted by the trypan blue dye-exclusion method with a hematocytometer .	[]		p47	Materials and methods	FALSE	method	method	28849	28938	
+262	s237	Etoposide dissolved in dimethylsulfoxide was added to the medium to 30-50 mum .	[]		p47	Materials and methods	FALSE	method	method	28939	29017	
+263	s238	Transfection of nucleic acids was performed by	[]		p47	Materials and methods	FALSE	method	method	29018	29064	
+264	s238	"using Lipofectamine and Plus Reagent ( Invitrogen , Carlsbad CA , USA ) ."	[]		p47	Materials and methods	FALSE	method	method	29065	29133	
+265	s239	Expression plasmids for mammalian cells	[header-1]		title48	Materials and methods	FALSE	none	none	29134	29173	
+266	s240	"pCIneo-FH-TLP ,"	[]		p49	Materials and methods	FALSE	none	fact	29174	29188	
+267	s240	"which is an expression plasmid of flag/oligohistidine ( FH ) tagged mouse TLP , was described previously [ 14 ] ."	[exLink]		p49	Materials and methods	FALSE	result	fact	29189	29296	
+268	s241	Mouse and human TLPs have an identical amino acid sequence .	[]		p49	Materials and methods	FALSE	result	fact	29297	29356	
+269	s242	"Plasmids for mutant TLPs ( R55E , R52E and N37E ) were described previously"	[]		p49	Materials and methods	FALSE	method	fact	29357	29429	
+270	s242	[ 29 ] .	[exLink]		p49	Materials and methods	FALSE	result	none	29430	29435	
+271	s243	"TFIIA expression plasmids , pCIneo-FH-TFIIAalphabeta and pCIneo-FH-TFIIAgamma , have an open reading frame of human TFIIAalphabeta and TFIIAgamma with an FH-tag at their amino termini ."	[]		p49	Materials and methods	FALSE	result	fact	29436	29618	
+272	s244	Reporter plasmids for luciferase assay	[header-1]		title50	Materials and methods	FALSE	method	none	29619	29657	
+273	s245	"pGL4.10 vector ( Promega , Madison WI , USA ) was used for construction of luciferase reporter plasmids ."	[]		p51	Materials and methods	FALSE	method	method	29658	29758	
+274	s246	A reporter plasmid ( designated p21up/GL4 ) containing a human p21 promoter region encompassing from -2266 to -1875 was described previously	[]		p51	Materials and methods	FALSE	method	none	29759	29897	
+275	s246	[ 14 ] .	[exLink]		p51	Materials and methods	FALSE	result	none	29898	29903	
+276	s247	The +1 position represents the transcription start site of the downstream promoter .	[]		p51	Materials and methods	FALSE	result	fact	29904	29987	
+277	s248	"In this study , we constructed two new luciferase reporter plasmids , p21down/GL4 and p21core/GL4 ,"	[]		p51	Materials and methods	FALSE	method	method	29988	30084	
+278	s248	"that contain a downstream promoter region from -168 to +66 and a short DNA stretch from -5 to +66 of the p21 downstream promoter , respectively ."	[]		p51	Materials and methods	FALSE	result	method	30085	30228	
+279	s249	These constructs were generated by a PCR-based strategy using a reporter plasmid	[]		p51	Materials and methods	FALSE	method	method	30229	30309	
+280	s249	"encompassing from -2677 to +66 , which has been named p21luc1 as previously described [ 14 ] ."	[exLink]		p51	Materials and methods	FALSE	method	method	30310	30400	
+281	s250	Primer sets	[]		p51	Materials and methods	FALSE	method	method	30401	30412	
+282	s250	"to amplify DNA fragments from -168 to +66 and from -5 to +66 sequences were as follows : -168 to +66 forward , 5'-CTCGAGGGCCTGCTGGAACTCGGCCAG ; -5 to +66 forward , 5'-CTCGAGGCGCCAGCTGAGGTGTGAGCA ; and common reverse , 5'-AGATCTCGGCGAATCCGCGCCCAGCT ."	[]		p51	Materials and methods	FALSE	method	method	30413	30655	
+283	s251	RNA interference	[header-1]		title52	Materials and methods	FALSE	method	method	30656	30672	
+284	s252	"siRNAs were prepared by a Silencer siRNA Construction Kit ( Ambion , Carlsbad , CA , USA ) ."	[]		p53	Materials and methods	FALSE	method	method	30673	30759	
+285	s253	Sequences for target human TFIIAalphabeta were 5'-GATGGGCAGGTGGAAGAAG ( sense ) and 5'-CTTCTTCCACCTGCCCATC ( antisense ) .	[]		p53	Materials and methods	FALSE	method	method	30760	30877	
+286	s254	The sequence for human TLP was described previously	[]		p53	Materials and methods	FALSE	method	none	30878	30929	
+287	s254	[ 14 ] .	[exLink]		p53	Materials and methods	FALSE	result	none	30930	30935	
+288	s255	A scrambled sequence of a part of TFIIAalphabeta was used as a control siRNA .	[]		p53	Materials and methods	FALSE	method	method	30936	31013	
+289	s256	Cells were transfected with 50-100 nm of siRNA and cultured for an appropriate period .	[]		p53	Materials and methods	FALSE	method	method	31014	31100	
+290	s257	PCR	[header-1]		title54	Materials and methods	FALSE	none	method	31101	31104	
+291	s258	"Total cellular RNAs were prepared using an RNeasy Mini Kit ( Qiagen , Chatsworth , CA , USA )"	[]		p55	Materials and methods	FALSE	method	method	31105	31193	
+292	s258	and RT-PCR was performed as described previously [ 38 ] .	[exLink]		p55	Materials and methods	FALSE	method	method	31194	31249	
+293	s259	Amplified products were analyzed by agarose gel electrophoresis .	[]		p55	Materials and methods	FALSE	method	method	31250	31314	
+294	s260	Quantitative determination of the PCR products ( qPCR ) was performed	[]		p55	Materials and methods	FALSE	method	method	31315	31382	
+295	s260	"using a Thunderbird qPCR Mix ( Toyobo , Osaka , Japan ) and 7300 Real Time PCR System ( Applied Biosystems , Foster City , CA , USA ) ."	[]		p55	Materials and methods	FALSE	method	method	31383	31508	
+296	s261	All reactions were performed in triplicate .	[]		p55	Materials and methods	FALSE	method	method	31509	31552	
+297	s262	Primer sets	[]		p55	Materials and methods	FALSE	method	method	31553	31564	
+298	s262	"to detect p21 transcripts were as follows : total p21 forward , 5'-GACACCACTGGAGGGTGACT ; reverse , 5'-CCCTAGGCTGTGCTCACTTC ; alt-a forward , 5'-GGTGGCTATTTTGTCCTTGG ; reverse , 5'-ACAGGTCCACATGGTCTTCC ; variant-1 forward , 5'-CTGCCGAAGTCAGTTCCTTG ; reverse , common to alt-a reverse ."	[]		p55	Materials and methods	FALSE	method	method	31565	31837	
+299	s263	Luciferase assay	[header-1]		title56	Materials and methods	FALSE	method	none	31838	31854	
+300	s264	Cells were inoculated into a 24-well plate ( 8 x 104cells.well-1 ) .	[]		p57	Materials and methods	FALSE	method	method	31855	31920	
+301	s265	"Twenty-four hours later , cells were transfected with the indicated amount of a reporter plasmid and an effector plasmid and cultured for 24 h ."	[]		p57	Materials and methods	FALSE	method	method	31921	32063	
+302	s266	Total amounts of transfected DNA were adjusted with pRL-TK ( Promega ) .	[]		p57	Materials and methods	FALSE	method	method	32064	32133	
+303	s267	Cells were disrupted with a Passive Lysis Buffer ( Promega ) .	[]		p57	Materials and methods	FALSE	method	method	32134	32193	
+304	s268	Luciferase activity in lysates was determined by a Dual Luciferase Reporter Assay System ( Promega ) .	[]		p57	Materials and methods	FALSE	method	method	32194	32293	
+305	s269	Immunoprecipitation of intracellular proteins	[header-1]		title58	Materials and methods	FALSE	method	none	32294	32339	
+306	s270	Cell extracts were prepared	[]		p59	Materials and methods	FALSE	method	method	32340	32367	
+307	s270	as previously described [ 29 ] .	[exLink]		p59	Materials and methods	FALSE	method	method	32368	32397	
+308	s271	Five hundred micrograms of the extract was used for immunoprecipitation .	[]		p59	Materials and methods	FALSE	method	method	32398	32470	
+309	s272	"Endogenous proteins in extracts were mixed with a specific antibody and precipitated with protein G-Sepharose 4 Fast Flow ( GE Healthcare Bioscience , Piscataway , NJ , USA ) ."	[]		p59	Materials and methods	FALSE	method	method	32471	32641	
+310	s273	FH-proteins in extracts were precipitated by anti-Flag M2 Affinity Gel ( Sigma-Aldrich ) .	[]		p59	Materials and methods	FALSE	method	method	32642	32729	
+311	s274	"Normal rabbit IgG ( Santa Cruz , Santa Cruz , CA , USA ) and IgG-Sepharose 6 Fast Flow ( GE Healthcare Bioscience ) were used as control antibodies ."	[]		p59	Materials and methods	FALSE	method	method	32730	32871	
+312	s275	Bound proteins were eluted and analyzed by western blotting as described before [ 29 ] .	[exLink]		p59	Materials and methods	FALSE	method	method	32872	32957	
+313	s276	Western blotting	[header-1]		title60	Materials and methods	FALSE	method	none	32958	32974	
+314	s277	"Proteins were separated by SDS/PAGE , transferred to an Immobilon-P poly ( vinylidene difluoride ) membrane ( Millipore , Billerica , MA , USA ) and detected by an ECL Prime ( GE Healthcare Bioscience )"	[]		p61	Materials and methods	FALSE	method	method	32975	33166	
+315	s277	as previously described [ 29 ] by using specific antibodies and appropriate horseradish-peroxidase-conjugated secondary antibodies including anti ( alpha ) -rabbit IgG and alpha-mouse IgG .	[exLink]		p61	Materials and methods	FALSE	method	method	33167	33349	
+316	s278	"As primary antibodies , we used alpha-p53 antibody ( Santa Cruz ) , alpha-beta-actin antibody ( Sigma-Aldrich ) and antigen-purified alpha-TLP antibody and TFIIAalphabeta antibody"	[]		p61	Materials and methods	FALSE	method	method	33350	33523	
+317	s278	as described previously [ 29 ] .	[exLink]		p61	Materials and methods	FALSE	method	method	33524	33553	
+318	s279	Chromatin immunoprecipitation ( ChIP )	[header-1]		title62	Materials and methods	FALSE	method	none	33554	33590	
+319	s280	Cells transfected with plasmids were treated with 50 mum etoposide for an appropriate time .	[]		p63	Materials and methods	FALSE	method	method	33591	33682	
+320	s281	"After fixation of cells , ChIP assay was performed"	[]		p63	Materials and methods	FALSE	method	method	33683	33732	
+321	s281	as described previously [ 14 ] .	[exLink]		p63	Materials and methods	FALSE	method	method	33733	33762	
+322	s282	"Endogenous and exogenous FH-proteins were precipitated with a specific antibody and Protein G-Sepharose 4 Fast Flow ( GE Healthcare Bioscience ) and alpha-Flag M2 Affinity Gel ( Sigma-Aldrich ) , respectively ."	[]		p63	Materials and methods	FALSE	method	method	33763	33967	
+323	s283	Immunoprecipitated DNAs and control input DNAs were analyzed by semi-quantitative PCR or qPCR	[]		p63	Materials and methods	FALSE	method	method	33968	34061	
+324	s283	using p21 promoter-specific primer sets .	[]		p63	Materials and methods	FALSE	method	method	34062	34102	
+325	s284	Primer sets for ChIP analysis were	[]		p63	Materials and methods	FALSE	method	method	34103	34137	
+326	s284	"as follows : p53RE forward , 5'-CACCTTTCACCATTCCCCTA ; reverse , 5'-GCAGCCCAAGGACAAAATAG ; TATA-box forward , 5'-TGCTGGAACTCGGCCAGGCTCAGCTG ; reverse , 5'-CCAGCTCCGGCTCCACAAGGAACTG ; control forward , 5'-TGGTAGGCCTCTCCAAGGTA ; reverse , 5'-ACACATGTGACTTGGGGTGA ."	[]		p63	Materials and methods	FALSE	method	method	34138	34387	
+327	s285	Statistical analysis	[header-1]		title64	Materials and methods	FALSE	method	none	34388	34408	
+328	s286	Data in this study are shown as mean +/ -	[]		p65	Materials and methods	FALSE	result	method	34409	34449	
+329	s286	standard error of the mean obtained from at least three independent experiments .	[]		p65	Materials and methods	FALSE	method	method	34450	34530	
+330	s287	Statistical significance of quantitative data was determined	[]		p65	Materials and methods	FALSE	method	method	34531	34591	
+331	s287	using Bonferroni 's method with r console ( ver .	[]		p65	Materials and methods	FALSE	method	method	34592	34638	
+332	s288	3.0.3 ) .	[]		p65	Materials and methods	FALSE	method	none	34639	34646	
+333	s289	The number of experiments used for statistical analysis was at least three ( n	[]		p65	Materials and methods	FALSE	method	method	34647	34724	
+334	s289	= 3 ) .	[]		p65	Materials and methods	FALSE	method	method	34725	34730	
+335	s290	P < 0.05 was considered	[]		p65	Materials and methods	FALSE	result	method	34731	34754	
+336	s290	to be statistically significant .	[]		p65	Materials and methods	FALSE	result	method	34755	34787	
+337	s291	Statistical significance of differences between samples is shown in the figures with asterisks :	[]		p65	Materials and methods	FALSE	result	none	34788	34883	
+338	s291	*P < 0.05 ; **P < 0.01 ; ***P < 0.001 .	[]		p65	Materials and methods	FALSE	result	none	34884	34920	

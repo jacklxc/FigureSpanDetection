@@ -1,0 +1,401 @@
+	SentenceId	Clause Text	Codes	ExperimentValues	Paragraph	Headings	FloatingBox?	Discourse Type	Offset_Begin	Offset_End	fig_spans	
+0	s1	"Phosphoprotein Associated with Glycosphingolipid-Enriched Microdomains ( Pag ) , a Novel Ubiquitously Expressed Transmembrane Adaptor Protein , Binds the Protein Tyrosine Kinase Csk and Is Involved in Regulation of T Cell Activation"	[]		-		FALSE	fact	141	369		
+1	s2	"According to a recently proposed hypothesis , initiation of signal transduction via immunoreceptors depends on interactions of the engaged immunoreceptor with glycosphingolipid-enriched membrane microdomains ( GEMs ) ."	[]		p4		FALSE	hypothesis	1356	1570		
+2	s3	"In this study , we describe a novel GEM-associated transmembrane adaptor protein , termed phosphoprotein associated with GEMs ( PAG ) ."	[]		p4		FALSE	method	1571	1701		
+3	s4	PAG comprises a short extracellular domain of 16 amino acids and a 397-amino acid cytoplasmic tail containing ten tyrosine residues	[]		p4		FALSE	fact	1702	1833		
+4	s4	that are likely phosphorylated by Src family kinases .	[]		p4		FALSE	fact	1834	1887		
+5	s5	"In lymphoid cell lines and in resting peripheral blood alpha/beta T cells , PAG is expressed as a constitutively tyrosine-phosphorylated protein and binds the major negative regulator of Src kinases , the tyrosine kinase Csk ."	[]		p4		FALSE	fact	1888	2111		
+6	s6	"After activation of peripheral blood alpha/beta T cells , PAG becomes rapidly dephosphorylated and dissociates from Csk ."	[]		p4		FALSE	fact	2112	2231		
+7	s7	"Expression of PAG in COS cells results in recruitment of endogenous Csk , altered Src kinase activity , and impaired phosphorylation of Src-specific substrates ."	[]		p4		FALSE	result	2232	2390		
+8	s8	"Moreover , overexpression of PAG in Jurkat cells downregulates T cell receptor-mediated activation of the transcription factor nuclear factor of activated T cells ."	[]		p4		FALSE	result	2391	2553		
+9	s9	These findings collectively suggest	[]		p4		FALSE	implication	2554	2589		
+10	s9	"that in the absence of external stimuli , the PAG-Csk complex transmits negative regulatory signals and thus may help to keep resting T cells in a quiescent state ."	[]		p4		FALSE	implication	2590	2752		
+11	s10	Introduction	[header-0]		title5	Introduction	FALSE	none	2824	2836		
+12	s11	"Signal transduction by immunoreceptors ( TCRs , B cell receptors , and most Fc receptors ) after their aggregation by natural ligands or Abs is initiated by activation of protein tyrosine kinases ( PTKs ) of the Src and Syk families ,"	[]		p6	Introduction	FALSE	fact	2837	3064		
+13	s11	"which phosphorylate a variety of substrates , thus allowing propagation of the initial stimulus to cytosolic signaling pathways 1 ."	[exLink]		p6	Introduction	FALSE	fact	3065	3194		
+14	s12	"Other structural membrane elements apparently important for initiation of immunoreceptor-mediated signaling are the so-called glycosphingolipid-enriched microdomains ( GEMs ) , also known as membrane rafts or detergent-insoluble glycolipid-rich membrane domains 23 ."	[exLink]		p6	Introduction	FALSE	fact	3195	3457		
+15	s13	"These are small islets ( < 70 nm ) in the plasma membrane of most cell types and are enriched in glycosphingolipids , sphingomyelin , and cholesterol ."	[]		p6	Introduction	FALSE	fact	3458	3603		
+16	s14	The major extracellular protein components of GEMs are molecules	[]		p6	Introduction	FALSE	fact	3604	3668		
+17	s14	that are anchored in the outer membrane leaflet via a glycolipid ( glycosylphosphatidylinositol ) anchor .	[]		p6	Introduction	FALSE	fact	3669	3772		
+18	s15	"In contrast , most transmembrane proteins ( with a few exceptions ) are excluded from the GEMs 45 ."	[exLink]		p6	Introduction	FALSE	result	3773	3868		
+19	s16	GEMs seem	[]		p6	Introduction	FALSE	result	3869	3878		
+20	s16	"to form a specific "" ordered liquid phase "" more or less separated from the less-ordered bulk membrane , presumably because of their high content of cholesterol and lipids possessing saturated acyl chains 67 ."	[exLink]		p6	Introduction	FALSE	result	3879	4084		
+21	s17	GEMs are relatively resistant	[]		p6	Introduction	FALSE	result	4085	4114		
+22	s17	"to solubilization at 0-4degreesC by some types of detergents ( e.g. , Triton X-100 , NP-40 , Brij series ) , but are mostly dissociated by detergents of the n-alkyl glycosidic type ( octylglucoside , dodecylmaltoside [ 8-10 ] ) ."	[]		p6	Introduction	FALSE	result	4115	4332		
+23	s18	"Because of their high lipid content , GEMs can be conveniently isolated from detergent extracts by"	[]		p6	Introduction	FALSE	result	4333	4430		
+24	s18	density gradient ultracentrifugation 8 .	[exLink]		p6	Introduction	FALSE	result	4431	4470		
+25	s19	The cytoplasmic side of GEMs is associated with several molecules involved in initiation of immunoreceptor	[]		p6	Introduction	FALSE	fact	4471	4577		
+26	s19	signaling 11121314151617 .	[exLink]		p6	Introduction	FALSE	none	4578	4603		
+27	s20	"These are heterotrimeric G proteins , Src family kinases , and the recently cloned transmembrane adaptor protein linker for activation of T cells ( LAT ) ."	[]		p6	Introduction	FALSE	fact	4604	4754		
+28	s21	Src family kinases and G proteins are anchored in the plasma membrane by means of NH2-terminal dual acylation with long saturated fatty acids 1617 .	[exLink]		p6	Introduction	FALSE	result	4755	4902		
+29	s22	"Similarly , the transmembrane protein LAT is targeted to GEMs of T lymphocytes by palmitoylation of two membrane-proximal cysteine residues 15 ."	[exLink]		p6	Introduction	FALSE	result	4903	5045		
+30	s23	"At least a fraction of the CD4 and CD8 co-receptors is also found in GEMs 18 , possibly because of their association with Lck and/or LAT 1920 ."	[exLink]		p6	Introduction	FALSE	result	5046	5187		
+31	s24	Initiation of immunoreceptor signaling is accompanied by association of the receptor components with GEMs 21222324252627 .	[exLink]		p7	Introduction	FALSE	result	5188	5309		
+32	s25	"Furthermore , treatments disrupting GEMs ( cholesterol depletion , biosynthetic partial replacement of their saturated fatty acids by polyunsaturated ones ) inhibits immunoreceptor signaling 222829 ."	[exLink]		p7	Introduction	FALSE	result	5310	5504		
+33	s26	A plausible hypothesis explaining the requirement of GEMs for immunoreceptor signaling is that immunoreceptor complexes merge with GEMs upon interaction ( aggregation ) with their ligands	[]		p7	Introduction	FALSE	hypothesis	5505	5690		
+34	s26	and thus their immunoreceptor tyrosine-based activation motif ( ITAM ) -bearing chains become exposed to Src family kinases concentrated in GEMs .	[]		p7	Introduction	FALSE	hypothesis	5691	5834		
+35	s27	"Furthermore , at least in T cells , a major substrate of the ZAP70 PTK , the linker protein LAT , is also present in these "" signaling islets "" 1415 ."	[exLink]		p7	Introduction	FALSE	result	5835	5978		
+36	s28	"Therefore , GEMs may well act as preformed "" signalosomes "" for initiation and spatial organization of early phases of immunoreceptor signaling ."	[]		p7	Introduction	FALSE	hypothesis	5979	6120		
+37	s29	One as yet unidentified component of the GEMs is an 80-kD phosphoprotein	[]		p8	Introduction	FALSE	fact	6121	6193		
+38	s29	that was repeatedly observed as a major constituent of in vitro-labeled immunoprecipitates prepared from various types of GEMs 9103031 .	[exLink]		p8	Introduction	FALSE	result	6194	6329		
+39	s30	"Similarly , we have demonstrated previously"	[]		p8	Introduction	FALSE	result	6330	6372		
+40	s30	that an unknown highly acidic 80-85-kD phosphoprotein is a component of an oligomeric protein complex that is formed in resting peripheral blood lymphocytes between the Src family PTK Fyn and several phosphoproteins 323334 .	[exLink]		p8	Introduction	FALSE	result	6373	6596		
+41	s31	"In this report , we describe molecular cloning and preliminary functional characterization of this GEM/Fyn-associated pp80 polypeptide ,"	[]		p8	Introduction	FALSE	result	6597	6731		
+42	s31	which we termed phosphoprotein associated with GEMs ( PAG ) .	[]		p8	Introduction	FALSE	result	6732	6790		
+43	s32	Materials and Methods	[header-0]		title9	Materials and Methods	FALSE	none	6791	6812		
+44	s33	Cells .	[header-1]		title10	Materials and Methods	FALSE	none	6813	6819		
+45	s34	"alpha/beta T cells ( 99.5 % pure , > 85 % propidium iodide negative ) were prepared from buffy coats by Ficoll centrifugation and preparative cell sorting"	[]		p11	Materials and Methods	FALSE	method	6820	6968		
+46	s34	"using a FACS Vantage ( TM ) flow cytometer ( Becton Dickinson ) to remove monocytes , B , NK , and gamma/delta T cells ."	[]		p11	Materials and Methods	FALSE	method	6969	7080		
+47	s35	Sorted cells were allowed	[]		p11	Materials and Methods	FALSE	method	7081	7106		
+48	s35	to rest for at least 24 h in RPMI 1640 medium ( GIBCO BRL ) supplemented with 10 % human AB serum .	[]		p11	Materials and Methods	FALSE	method	7107	7202		
+49	s36	"P116 cells ( a gift from Dr. R. Abraham , The Mayo Clinic , Rochester , NY ; reference 35 ) , J.CaM1.6 cells ( donated by Dr. A. Weiss , University of California at San Francisco , San Francisco , CA ; reference 36 ) , and the other cell lines used were maintained in medium supplemented with 10 % FCS , 1 % penicillin-streptomycin , and 2 % glutamine ( all supplements from GIBCO BRL ) ."	[exLink]		p11	Materials and Methods	FALSE	method	7203	7569		
+50	s37	Purification of pp80 .	[header-1]		title12	Materials and Methods	FALSE	none	7570	7591		
+51	s38	"7 x 108 Raji cells were lysed in 6 ml of 1 % NP-40 lysis buffer A ( 20 mM Tris-HCl , pH 8.2 , 140 mM NaCl , 1 % NP-40 [ Fluka ] , 5 mM iodoacetamide , 1 mM Pefabloc [ 4- ( 2-aminoethyl ) -benzensulfonyl fluoride ; Sigma-Aldrich ] ) on ice for 30 min , then mixed 1:1 with ice-cold 80 % ( wt/vol ) sucrose diluted in lysis buffer A. Six 5-ml ultracentrifugation tubes were filled with 2 ml of this suspension , followed with ice-cold 2.5 ml of 30 % sucrose and finally 0.5 ml of sucrose-free lysis buffer A. These tubes were centrifuged at 52,000 rpm in a SW55 swing-out rotor ( cca 250,000 g ; Beckman Coulter ) for 18 h at 4degreesC ."	[]		p13	Materials and Methods	FALSE	method	7592	8199		
+52	s39	"0.7-ml fractions were collected near the top , pooled , mixed with 6.3 ml of acetone , precipitated overnight at -20degreesC , and sedimented by a 15-min centrifugation at 15,000 g at 0degreesC ."	[]		p13	Materials and Methods	FALSE	method	8200	8390		
+53	s40	"The air-dried pellet was resuspended in 50 mul of 20 mM Tris-HCl , pH 7.5 , 150 mM NaCl , 1 % Triton X-100 ( Sigma-Aldrich ) , briefly sonicated , and then subjected to two-dimensional gel electrophoresis 37 ."	[exLink]		p13	Materials and Methods	FALSE	method	8391	8591		
+54	s41	"The wet gel was silver stained , and"	[]		p13	Materials and Methods	FALSE	method	8592	8627		
+55	s41	the spot corresponding to PAG ( as judged from a parallel phosphotyrosine blot ) was excised and subjected to sequencing .	[]		p13	Materials and Methods	FALSE	method	8628	8747		
+56	s42	Precipitation Experiments .	[header-1]		title14	Materials and Methods	FALSE	none	8748	8774		
+57	s43	Immunoprecipitations were performed	[]		p15	Materials and Methods	FALSE	method	8775	8810		
+58	s43	"as described previously 38 using postnuclear supernatants of 1 % detergent ( Triton X-100 , NP-40 , or laurylmaltoside [ n-dodecyl beta-D-maltoside ; Sigma-Aldrich ] ) cell lysates ( lysis buffer : Tris-buffered saline , pH 7.5 , containing 1 mM Pefabloc , 10 mM EDTA , 10 mM NaF , 1 mM NaVO3 ) and CNBr Sepharose beads ( Amersham Pharmacia Biotech ) coupled with Protein A-purified mAbs ."	[exLink]		p15	Materials and Methods	FALSE	method	8811	9181		
+59	s44	Precipitations using recombinant glutathione S-transferase ( GST ) -coupled Src homology ( SH ) 2 domains	[]		p15	Materials and Methods	FALSE	method	9182	9281		
+60	s44	were performed as described elsewhere 3238 .	[exLink]		p15	Materials and Methods	FALSE	method	9282	9325		
+61	s45	"The SH2 domains of Csk , Vav , and Ras-GAP were provided by Dr. A. Beyers ( University of Stellenbosch Medical School , Tygerberg , South Africa ) ."	[]		p15	Materials and Methods	FALSE	method	9326	9467		
+62	s46	All other SH2 domains have been described elsewhere 3238 .	[exLink]		p15	Materials and Methods	FALSE	result	9468	9525		
+63	s47	"Precipitates were washed and then either subjected to SDS-PAGE or further processed for two-dimensional gel electrophoresis , in vitro kinase assay , or reprecipitation experiments ."	[]		p15	Materials and Methods	FALSE	method	9526	9705		
+64	s48	"GEMs were immunoprecipitated from Raji and Jurkat cells by the "" solid phase immunoisolation technique "" followed by in vitro kinase assays ,"	[]		p15	Materials and Methods	FALSE	method	9706	9844		
+65	s48	as described previously 9 . Reprecipitation experiments were conducted as described elsewhere 3738 .	[exLink]		p15	Materials and Methods	FALSE	method	9845	9943		
+66	s49	"In some experiments , immunoisolation was performed"	[]		p15	Materials and Methods	FALSE	method	9944	9994		
+67	s49	using minicolumns ( 25-200-mul packed volume ) of CNBr Sepharose beads coupled with Protein A-purified mAbs .	[]		p15	Materials and Methods	FALSE	method	9995	10101		
+68	s50	Postnuclear lysates were passed through the columns .	[]		p15	Materials and Methods	FALSE	method	10102	10154		
+69	s51	"After washing with 10-column volumes of lysis buffer ,"	[]		p15	Materials and Methods	FALSE	method	10155	10208		
+70	s51	"bound proteins were eluted with 2-column volumes of 2 % SDS and the flow-through , and eluted fractions were analyzed by SDS-PAGE followed by Western blotting ."	[]		p15	Materials and Methods	FALSE	method	10209	10366		
+71	s52	"In Vitro Kinase Reaction , Two-dimensional Gel Electrophoresis , Density Gradient Ultracentrifugation , and Western Blotting ."	[header-1]		title16	Materials and Methods	FALSE	none	10367	10489		
+72	s53	"In vitro kinase reaction , two-dimensional gel electrophoresis , and Western blot analysis were performed essentially"	[]		p17	Materials and Methods	FALSE	method	10490	10605		
+73	s53	"as described previously 37 , with the exception of the experiment shown in Fig. 8 B , where 1 muM cold ATP was added to the kinase buffer ."	"[inLink, exLink]"	f8b	p17	Materials and Methods	FALSE	method	10606	10742		
+74	s54	"For reproducible detection of GEM components ( such as PAG ) by Western blotting , it was necessary"	[]		p17	Materials and Methods	FALSE	method	10743	10839		
+75	s54	to solubilize the cells by 1 % laurylmaltoside to avoid losses during removal of nuclei by low-speed centrifugation .	[]		p17	Materials and Methods	FALSE	method	10840	10955		
+76	s55	"Density gradient ultracentrifugation was performed essentially as described above , except that standard lysis buffer with 1 % detergents ( Brij58 , laurylmaltoside ) was used , sample size ( in 40 % sucrose ) was 1 ml"	[]		p17	Materials and Methods	FALSE	method	10956	11165		
+77	s55	and the 30 % sucrose layer was 3.5 ml .	[]		p17	Materials and Methods	FALSE	method	11166	11204		
+78	s56	"After ultracentrifugation , the gradient was separated into eight fractions of equal volume ."	[]		p17	Materials and Methods	FALSE	method	11205	11296		
+79	s57	These and the sediment were further analyzed by SDS-PAGE and Western blotting .	[]		p17	Materials and Methods	FALSE	method	11297	11375		
+80	s58	Peptide Sequencing .	[header-1]		title18	Materials and Methods	FALSE	none	11376	11395		
+81	s59	The protein spot corresponding to pp80 was excised from the silver-stained two-dimensional gel and in-gel digested with trypsin as described 39 .	[exLink]		p19	Materials and Methods	FALSE	method	11396	11540		
+82	s60	Tryptic peptides were extracted from the gel matrix by 5 % formic acid and acetonitrile	[]		p19	Materials and Methods	FALSE	method	11541	11627		
+83	s60	and extracts were pooled and dried .	[]		p19	Materials and Methods	FALSE	method	11628	11664		
+84	s61	The sample was redissolved in 5 % formic acid and analyzed by nanoelectrospray tandem mass spectrometry ( Nano ES MS/MS ) as described 40 .	[exLink]		p19	Materials and Methods	FALSE	method	11665	11800		
+85	s62	Analyses were performed on a triple quadrupole mass spectrometer ( API III ; PE Sciex Instruments ) equipped with the nanoelectrospray ion source developed at European Molecular Biology Laboratory ( EMBL 41 ) .	[exLink]		p19	Materials and Methods	FALSE	method	11801	12005		
+86	s63	Acquired tandem mass spectra were interpreted manually	[]		p19	Materials and Methods	FALSE	method	12006	12060		
+87	s63	using AppleScript-based software developed at EMBL .	[]		p19	Materials and Methods	FALSE	method	12061	12112		
+88	s64	Searching against comprehensive protein and expressed sequence tag ( EST )	[]		p19	Materials and Methods	FALSE	method	12113	12185		
+89	s64	sequence databases was performed by PeptideSearch v3.0 software developed at EMBL .	[]		p19	Materials and Methods	FALSE	method	12186	12268		
+90	s65	cDNA Cloning .	[header-1]		title20	Materials and Methods	FALSE	none	12269	12282		
+91	s66	"Based on an EST cDNA sequence AA220201 corresponding to the FSSLSYK peptide obtained by Nano ES MS/MS sequencing of purified pp80 , forward and nested forward oligonucleotides ( TTGTCATACAAGTCTCGGGAAGAAGACC and GGACAGTTAGTGAATAAATCGGGGCAG ) and reverse and nested reverse oligonucleotides ( CTGCGGGTGAAAGTGTGCTGTTTGGAG and AGGAGGAGGGTG ACCTCTGTGGGTCC ) were used as primers for 3 ' - and 5'-rapid amplification of cDNA end ( RACE ) reaction performed on Leucocyte Marathon-ready ( TM ) cDNA ( CLONTECH Laboratories , Inc. ) using the Advantage ( R ) cDNA PCR kit ( CLONTECH Laboratories , Inc. ) according to the manufacturer 's instructions ."	[]		p21	Materials and Methods	FALSE	method	12283	12903		
+92	s67	"The RACE products were sequenced yielding the entire sequence of the 3 ' end of the coding region , whereas the 5 ' part of the coding region was still incomplete"	[]		p21	Materials and Methods	FALSE	method	12904	13063		
+93	s67	and another round of 5 ' RACE had to be performed with ATP-tailed Raji cDNA .	[]		p21	Materials and Methods	FALSE	method	13064	13140		
+94	s68	The cDNA encoding mouse homologue of PAG was cloned by a similar approach based on knowledge of mouse EST sequences	[]		p21	Materials and Methods	FALSE	method	13141	13256		
+95	s68	covering the 5 ' and 3 ' regions of the gene .	[]		p21	Materials and Methods	FALSE	method	13257	13300		
+96	s69	"cDNA Constructs , Transfection ."	[header-1]		title22	Materials and Methods	FALSE	none	13301	13331		
+97	s70	The coding region of human wild-type PAG and Csk was amplified from Jurkat cDNA ( primers : CCCTCGGCTGGTGCCAGTGC versus GCAGCATATGAAGTATAGGTTTGTG for PAG and CTGAGAAGATGTCAGCAATACAGGCC versus GAGGCCAGCCGTCACAGGTGCAG for Csk ) .	[]		p23	Materials and Methods	FALSE	method	13332	13555		
+98	s71	The PCR products were cloned into the BstXI site of the eukaryotic expression vector pEF-BOS 42 .	[exLink]		p23	Materials and Methods	FALSE	method	13556	13652		
+99	s72	The FLAG-PAG construct encoding the full-length PAG	[]		p23	Materials and Methods	FALSE	method	13653	13704		
+100	s72	containing the COOH-terminal FLAG and the various PAG mutants carrying tyrosine to phenylalanine exchanges were produced by site-directed mutagenesis using the QuikChange ( TM ) site-directed mutagenesis kit ( Stratagene ) according to the manufacturer 's instructions .	[]		p23	Materials and Methods	FALSE	method	13705	13968		
+101	s73	Transient transfection of Jurkat and COS cells was performed essentially as described 38 .	[exLink]		p24	Materials and Methods	FALSE	method	13969	14058		
+102	s74	"For the transfection experiments in COS cells , we used the following cDNA constructs : wild-type Fyn cloned in pSRalpha expression vector ( provided by Dr. A. da Silva , Dana Farber Cancer Institute , Boston , MA ) , MYC-tagged Lck or ZAP70 inserted into pcDNA3 vector ( donated by Dr. R. Abraham ) , FLAG-tagged Syk cloned into the p5C7 vector ( provided by Dr. W. Kolanus , Gene Center , Munich , Germany ) , and FLAG-tagged SH2 domain-containing leukocyte phosphoprotein ( SLP ) -76 cDNA construct in pEF-BOS ( a gift of Dr. G. Koretzky , University of Pennsylvania , Philadelphia , PA ) ."	[]		p24	Materials and Methods	FALSE	method	14059	14626		
+103	s75	"The cDNA construct coding for a chimeric zeta molecule ( consisting of the extracellular domain of CD25 [ Tac ] fused to the transmembrane and cytoplasmic domain of the TCR zeta chain ) was provided by Dr. A. Veillette ( McGill University , Montreal , Quebec , Canada ) ."	[]		p24	Materials and Methods	FALSE	method	14627	14888		
+104	s76	"For bacterial expression , the PAG intracellular fragment corresponding to amino acid ( aa ) residues 97-432 was cloned to BamHI site of pET-15b expression vector ( Novagen ) ,"	[]		p24	Materials and Methods	FALSE	method	14889	15059		
+105	s76	generating a construct with NH2-terminal His tag .	[]		p24	Materials and Methods	FALSE	method	15060	15109		
+106	s77	Northern Blots .	[header-1]		title25	Materials and Methods	FALSE	method	15110	15125		
+107	s78	"Human multiple-tissue Northern blots and multiple-tissue expression arrays were obtained from CLONTECH Laboratories , Inc. and hybridized as"	[]		p26	Materials and Methods	FALSE	method	15126	15265		
+108	s78	"described previously 38 with a PAG-specific cDNA probe encompassing nucleotides 257-1685 , i.e. , corresponding to a full coding region and an additional 132 residues of the untranslated sequences ."	[exLink]		p26	Materials and Methods	FALSE	method	15266	15461		
+109	s79	Abs .	[header-1]		title27	Materials and Methods	FALSE	none	15462	15466		
+110	s80	The following mAbs were used ( if	[]		p28	Materials and Methods	FALSE	method	15467	15499		
+111	s80	"not stated otherwise , the mAbs are products of the authors ' laboratories ) : CD59 ( MEM-43 ) , CD18 ( MEM-48 ) , CD25 ( AICD25.1 ) ,"	[]		p28	Materials and Methods	FALSE	result	15500	15621		
+112	s81	"T cell receptor-interacting molecule ( TRIM ) -01 , phosphotyrosine ( P-Tyr ) -01 and 4G10 , conjugated with horseradish peroxidase ( Upstate Biotechnology ) , FLAG ( M2 ; Eastman Kodak Co. ) , MYC ( 9E10 , a gift from Dr. D. Cantrell , Imperial Cancer Research Fund , London , UK ) , rabbit antisera to Lck and Fyn ( provided by Dr. A. Veillette ) , rabbit antiserum to LAT ( provided by Dr. L. Samelson , National Institute of Child Health and Human Development , NIH , Bethesda , MD ; reference 13 ) , Csk and G-proteins beta subunits ( rabbit Abs from Santa Cruz Biotechnology , Inc. ) , mitogen-activated protein kinase ( rabbit antiserum from Upstate Biotechnology ) ."	[]		p28	Materials and Methods	FALSE	result	15622	16256		
+113	s82	Horseradish peroxidase-conjugated polyclonal Abs to mouse and rabbit Ig were from Bio-Rad or Dianova .	[]		p28	Materials and Methods	FALSE	method	16257	16358		
+114	s83	To raise mouse polyclonal and mAbs to the intracellular domain of PAG	[]		p29	Materials and Methods	FALSE	goal	16359	16428		
+115	s83	F1 ( BALB/c x B10.A ) hybrid mice were immunized with the bacterially expressed His-tagged PAG fragment described above .	[]		p29	Materials and Methods	FALSE	method	16429	16547		
+116	s84	Hybridomas were prepared and selected by standard techniques using Sp2/0 myeloma cells as fusion partners .	[]		p29	Materials and Methods	FALSE	method	16548	16654		
+117	s85	Biosynthetic Labeling with [ 3H ] Palmitate .	[header-1]		title30	Materials and Methods	FALSE	result	16655	16696		
+118	s86	5 x 107 Jurkat or Raji cells were starved for 1 h at 37degreesC in 50 ml of plain RPMI 1640 medium .	[]		p31	Materials and Methods	FALSE	method	16697	16796		
+119	s87	"Then , 2.5-mCi radiolabeled palmitate ( [ 9,10 ( n ) -3H ] palmitic acid , specific activity 40-60 Ci/mmol ; Amersham Pharmacia Biotech ) in 100 mul ethanol and 10 % extensively dialyzed"	[]		p31	Materials and Methods	FALSE	method	16797	16970		
+120	s87	FCS ( against PBS ) was added .	[]		p31	Materials and Methods	FALSE	method	16971	16999		
+121	s88	"After 3 h at 37degreesC , the cells were washed and solubilized in a 1 % laurylmaltoside lysis buffer , and"	[]		p31	Materials and Methods	FALSE	method	17000	17104		
+122	s88	the postnuclear supernatant was used for immunoprecipitation followed by SDS-PAGE .	[]		p31	Materials and Methods	FALSE	method	17105	17187		
+123	s89	"The wet gel was treated with Amplify solution ( Amersham Pharmacia Biotech ) according to the manufacturer 's recommendation , dried , and subjected"	[]		p31	Materials and Methods	FALSE	method	17188	17331		
+124	s89	to fluorography for 3 wk .	[]		p31	Materials and Methods	FALSE	method	17332	17357		
+125	s90	Cytofluorometry of Permeabilized Blood Cells and Confocal Laserscan Microscopy .	[header-1]		title32	Materials and Methods	FALSE	method	17358	17437		
+126	s91	"After 10 min of blocking of Fc receptors by 20 % human AB serum , cells were permeabilized with 20 mug/ml digitonin and stained"	[]		p33	Materials and Methods	FALSE	method	17438	17563		
+127	s91	using the first-step mAbs followed by fluorescein goat anti-mouse IgG .	[]		p33	Materials and Methods	FALSE	method	17564	17634		
+128	s92	Samples were measured on a FACSort ( TM ) flow cytometer ( Becton Dickinson ) in a standard three-color setup .	[]		p33	Materials and Methods	FALSE	method	17635	17740		
+129	s93	Leukocyte populations were resolved on the basis of their scatter properties .	[]		p33	Materials and Methods	FALSE	method	17741	17818		
+130	s94	The subcellular localization of PAG in Raji cells was determined by confocal laser	[]		p33	Materials and Methods	FALSE	method	17819	17901		
+131	s94	"scan microscopy as described elsewhere 38 , using PAG mAb MEM-250 ( 10 mug/ml , diluted in PBS/BSA ) and Cy2 donkey anti-mouse IgG ( Dianova ) ."	[exLink]		p33	Materials and Methods	FALSE	method	17902	18039		
+132	s95	Nuclei were stained with propidium iodide ( 0.1 mug/ml ) .	[]		p33	Materials and Methods	FALSE	method	18040	18095		
+133	s96	Cells were analyzed on	[]		p33	Materials and Methods	FALSE	method	18096	18118		
+134	s96	"a Laserscan microscope ( Ernst Leitz GmbH ) using 570 nm ( red emission ) and 508 nm ( green emission ) filters , respectively ."	[]		p33	Materials and Methods	FALSE	method	18119	18239		
+135	s97	Cell Activation and Luciferase Reporter Gene Assay .	[header-1]		title34	Materials and Methods	FALSE	method	18240	18291		
+136	s98	In vitro activation of T cells was performed	[]		p35	Materials and Methods	FALSE	method	18292	18336		
+137	s98	"using IgM anti-CD3 mAb MEM-92 at 50 mug/ml or culture supernatants of anti-TCR mAb C305 ( IgM ; a gift from Dr. A. Weiss ) and anti-CD28 mAb ( IgM ; donated by Dr. U. Moebius , University of Heidelberg , Heidelberg , Germany ) or pervanadate as described previously 384344 ."	[exLink]		p35	Materials and Methods	FALSE	method	18337	18601		
+138	s99	The Src family kinase-specific inhibitor	[]		p35	Materials and Methods	FALSE	method	18602	18642		
+139	s99	"PP1 ( Calbiochem ; provided by Dr. P. Draber , Institute of Molecular Genetics , Prague , Czech Republic ; reference 45 ) was used at 10 mug/ml ."	[]		p35	Materials and Methods	FALSE	method	18643	18780		
+140	s100	Luciferase assays were performed essentially	[]		p35	Materials and Methods	FALSE	method	18781	18825		
+141	s100	"as described previously 45 , with the exception that in addition to the cDNA constructs coding for Fyn , FLAG-tagged SLP-76 ( 15 mug each ) and the nuclear factor of activated T cells ( NF-AT ) -driven luciferase reporter gene ( 5 mug ) cells were transfected with 1 mug of a reporter gene coding for Renilla luciferase ( whose activity is independent of the activation status of the cells ) ."	[exLink]		p35	Materials and Methods	FALSE	method	18826	19207		
+142	s101	Luciferase activity was determined	[]		p35	Materials and Methods	FALSE	method	19208	19242		
+143	s101	using the Dual-Luciferase ( R ) assay kit from Promega .	[]		p35	Materials and Methods	FALSE	method	19243	19295		
+144	s102	Normalized luciferase units were determined by the following calculation :	[]		p35	Materials and Methods	FALSE	method	19296	19369		
+145	s102	( NF-AT luciferase units/Renilla luciferase units ) x 105 .	[]		p35	Materials and Methods	FALSE	method	19370	19426		
+146	s103	Results	[header-0]		title36	Results	FALSE	none	19427	19434		
+147	s104	Purification and cDNA Cloning of PAG .	[header-1]		title37	Results	FALSE	none	19435	19472		
+148	s105	"In vitro kinase assays performed on GEMs immunoprecipitated by , for example , CD59 mAb from leukocytes typically produce two major species of phosphorylated proteins : one with a molecular mass of 55-60 kD ( previously identified as Src family kinases ) and the other , as yet unidentified , with a molecular mass of ~80 kD ( Fig. 1 A ) ."	[inLink]	f1a	p38	Results	FALSE	result	19473	19802	f1a|f1b|f1c	
+149	s106	"Moreover , an acidic 85-kD phosphoprotein is a component of the recently described Fyn complex 33 and can be visualized after two-dimensional gel electrophoresis of an in vitro-labeled Fyn immunoprecipitate prepared from resting human T cells ( Fig. 1 B ) ."	"[inLink, exLink]"	f1b	p38	Results	FALSE	result	19803	20056	f1a|f1b|f1c	
+150	s107	"Finally , a constitutive tyrosine-phosphorylated 70-80-kD protein is expressed in peripheral blood leukocytes and lymphoid cell lines and associates with GEMs ,"	[]		p38	Results	FALSE	result	20057	20215	f1a|f1b|f1c	
+151	s107	as defined by flotation in density gradients ( Fig. 1 C ) .	[inLink]	f1c	p38	Results	FALSE	result	20216	20272	f1a|f1b|f1c	
+152	s108	We suspected	[]		p38	Results	FALSE	hypothesis	20273	20285	f1a|f1b|f1c	
+153	s108	"that these 80-85-kD GEM - and Fyn-associated phosphoproteins as well as the prominent pp70-80 found in leukocytes might represent the same molecule , and thus attempted its characterization ."	[]		p38	Results	FALSE	hypothesis	20286	20474	f1a|f1b|f1c	
+154	s109	Since the expression of GEM-associated pp80 was found to be highest in the B cell line Raji	[]		p39	Results	FALSE	result	20475	20566	f2a|f2b	
+155	s109	GEMs were isolated from 7 x 108 Raji cells and subjected to two-dimensional gel electrophoresis .	[]		p39	Results	FALSE	method	20567	20664	f2a|f2b	
+156	s110	An acidic spot of 75-85 kD was detected by silver staining	[]		p39	Results	FALSE	result	20665	20724	f2a|f2b	
+157	s110	Fig. 2 A ) and verified by antiphosphotyrosine staining of a corresponding blot ( not shown ) .	[inLink]	f2a	p39	Results	FALSE	method	20725	20816	f2a|f2b	
+158	s111	"This spot was excised and digested in-gel with trypsin , and"	[]		p39	Results	FALSE	method	20817	20876	f2a|f2b	
+159	s111	resulting peptides were sequenced by Nano ES MS/MS ( Fig. 2 B ) .	[inLink]	f2b	p39	Results	FALSE	result	20877	20939	f2a|f2b	
+160	s112	Database searching hit	[]		p39	Results	FALSE	result	20940	20962		
+161	s112	"two peptides encoded by the EST clones AA960867 , AA622656 ( LLDENENLQEK ) , and AA220201 ( FSSLSYK ) , respectively ."	[]		p39	Results	FALSE	method	20963	21073		
+162	s113	Reverse and forward primers deduced from EST clone AA220201 were used for 5 ' and	[]		p39	Results	FALSE	method	21074	21154		
+163	s113	3 ' RACE experiments to amplify the rest of the corresponding gene from human leukocyte cDNA .	[]		p39	Results	FALSE	method	21155	21247		
+164	s114	The sequence corresponding to the very 5 ' end of the gene was finally obtained by 5 ' RACE performed on cDNA obtained from Raji RNA .	[]		p39	Results	FALSE	result	21248	21379		
+165	s115	"An open reading frame of 1,296 nucleotides ( not shown ) codes for a polypeptide of 432 aa and a predicted molecular weight of 46,980"	[]		p40	Results	FALSE	result	21380	21511	f2c	
+166	s115	"finally , four peptides sequenced by Nano ES MS/MS were matched to the full-length sequence of the protein ( Fig. 2 C ) ."	[inLink]	f2c	p40	Results	FALSE	implication	21512	21630	f2c	
+167	s116	Because of the fact	[]		p40	Results	FALSE	implication	21631	21650	f2c	
+168	s116	"that the phosphoprotein was purified from GEMs , we termed it phosphoprotein associated with GEMs ."	[]		p40	Results	FALSE	implication	21651	21748	f2c	
+169	s117	"In Jurkat T cells transiently transfected with an expression vector encoding PAG , a 68-kD polypeptide ( see below ) was detected by an anti-PAG mAb"	[]		p40	Results	FALSE	result	21749	21894	f2d	
+170	s117	that exactly comigrated with the endogenously expressed protein ( Fig. 2 D ) .	[inLink]	f2d	p40	Results	FALSE	result	21895	21970	f2d	
+171	s118	This indicates	[]		p40	Results	FALSE	implication	21971	21985	f2d	
+172	s118	that the sequenced cDNA contains the complete PAG gene .	[]		p40	Results	FALSE	implication	21986	22041	f2d	
+173	s119	To assess whether PAG is identical to the GEM - and Fyn-associated pp80 and to the major leukocyte tyrosine-phosphorylated 80-kD polypeptide	[]		p41	Results	FALSE	goal	22042	22181	f3a|f3b|f3c	
+174	s119	GEMs were immunoprecipitated from Raji cells using CD59 mAb and subjected to in vitro kinase assay followed by reprecipitation using anti-PAG mAbs .	[]		p41	Results	FALSE	method	22182	22330	f3a|f3b|f3c	
+175	s120	As demonstrated in Fig. 3 A	[inLink]	f3a	p41	Results	FALSE	result	22331	22358	f3a|f3b|f3c	
+176	s120	pp80 was selectively reprecipitated from the mixture of in vitro-phosphorylated GEM proteins .	[]		p41	Results	FALSE	result	22359	22453	f3a|f3b|f3c	
+177	s121	"Similarly , a polyclonal mouse anti-PAG Ab reprecipitated pp80-85 from an in vitro-labeled Fyn immunoprecipitate prepared from resting human T lymphocytes ( Fig. 3 B ) ."	[inLink]	f3b	p41	Results	FALSE	result	22454	22619	f3a|f3b|f3c	
+178	s122	"Finally , anti-PAG immunosorbent specifically removed the tyrosine-phosphorylated 75-80-kD protein from lysates of peripheral blood T cells ( Fig. 3 C ) ."	[inLink]	f3c	p41	Results	FALSE	result	22620	22770	f3a|f3b|f3c	
+179	s123	"Thus , PAG is identical to GEM/Fyn-associated pp80-85 and to the leukocyte tyrosine-phosphorylated pp80 ."	[]		p41	Results	FALSE	implication	22771	22874	f3a|f3b|f3c	
+180	s124	Molecular Characterization of PAG .	[header-1]		title42	Results	FALSE	none	22875	22909		
+181	s125	The first methionine of PAG is not followed by any typical signal sequence ( Fig. 2 C ) .	[inLink]	f2c	p43	Results	FALSE	result	22910	22996	f2c	
+182	s126	"However , a region of 20 mostly hydrophobic aa and devoid of charged aa extends from residues 17-36 and likely corresponds to an alpha-helical transmembrane domain ,"	[]		p43	Results	FALSE	fact	22997	23160	f2c	
+183	s126	indicating that PAG is a type III transmembrane protein with an extracellular portion of 16 aa .	[]		p43	Results	FALSE	fact	23161	23256	f2c	
+184	s127	The transmembrane domain of PAG is directly followed	[]		p43	Results	FALSE	result	23257	23309	f2c	
+185	s127	by a putative palmitoylation site ( CSSC ; see below ) .	[]		p43	Results	FALSE	result	23310	23362	f2c	
+186	s128	Immediately downstream of the palmitoylation motif is a sequence of six aa enriched in basic residues ( two arginines and two lysines ) .	[]		p43	Results	FALSE	result	23363	23497	f2c	
+187	s129	"The predicted 397-aa cytoplasmic domain contains a total of 10 tyrosines ,"	[]		p43	Results	FALSE	result	23498	23571	f2c	
+188	s129	9 of which are within potential consensus sequences for phosphorylation by Src family PTK ( YxxV/L/I ) .	[]		p43	Results	FALSE	result	23572	23673	f2c	
+189	s130	"Among the tyrosine-based signaling motifs , three can be distinguished ( YxxL/V/I ( x ) nYxxL/V/I )"	[]		p43	Results	FALSE	result	23674	23766	f2c	
+190	s130	"that show some similarity to ITAMs , although the values of n are larger ( 14 , 14 , and 26 residues , respectively ) than in typical ITAMs ( Fig. 2 C ) ."	[inLink]	f2c	p43	Results	FALSE	result	23767	23912	f2c	
+191	s131	"In addition to the tyrosine-based signaling motifs , the cytoplasmic domain contains multiple sites for phosphorylation by casein kinase 2 and/or protein kinase C ( 12 serine and 10 threonine residues ) ."	[]		p43	Results	FALSE	result	23913	24113	f2c	
+192	s132	"Furthermore , two proline-rich sequences can be distinguished ( positions 131-138 and 257-263 )"	[]		p43	Results	FALSE	result	24114	24206	f2c	
+193	s132	that may potentially bind to SH3 domains 46 .	[exLink]		p43	Results	FALSE	result	24207	24251	f2c	
+194	s133	"All these motifs , except for the tyrosine residue corresponding to Y341 , are also completely conserved in mouse PAG ( Fig. 2 C ) ."	[inLink]	f2c	p43	Results	FALSE	result	24252	24379	f2c	
+195	s134	"The overall acidic character of PAG ( predicted isoelectric point 4.4 ) and further modification by phosphorylation might result in anomalous binding of SDS and thus retarded migration on SDS-PAGE ,"	[]		p43	Results	FALSE	hypothesis	24380	24575	f2c	
+196	s134	leading to an apparent molecular mass of 70-85 kD .	[]		p43	Results	FALSE	hypothesis	24576	24626	f2c	
+197	s135	The structure of PAG allows	[]		p43	Results	FALSE	implication	24627	24654	f2c	
+198	s135	it to be designated as a novel transmembrane adaptor protein 4748 .	[exLink]		p43	Results	FALSE	implication	24655	24721	f2c	
+199	s136	Previous reports and the data shown above indicated that in vitro-labeled pp80 migrates at 80-85 kD in SDS-PAGE .	[]		p44	Results	FALSE	result	24722	24834	f2d	
+200	s137	"However , the data depicted in Fig. 2"	[inLink]	f2d	p44	Results	FALSE	implication	24835	24871	f2d	
+201	s137	"D suggested that in nonstimulated Jurkat T cells , PAG only runs at about 68-70 kD ."	[]		p44	Results	FALSE	implication	24872	24954	f2d	
+202	s138	The apparent discrepancy between the molecular weight of the in vitro-phosphorylated PAG ( Fig. 3 ) versus its migration when prepared from lysates of nonstimulated cells suggested	[inLink]	f3	p44	Results	FALSE	result	24955	25133	f3	
+203	s138	that the electrophoretic mobility of PAG is influenced by its level of tyrosine phosphorylation .	[]		p44	Results	FALSE	implication	25134	25230	f3	
+204	s139	"Indeed , the electrophoretic mobility of PAG strongly decreased after pervanadate treatment of Jurkat cells and corresponded to the previously observed apparent molecular mass of 85 kD ( Fig. 4 A ) ."	[inLink]	f4a	p44	Results	FALSE	result	25231	25426	f4a	
+205	s140	This demonstrates	[]		p44	Results	FALSE	implication	25427	25444	f4a	
+206	s140	"that in unstimulated Jurkat T cells , a submaximally phosphorylated 68-kD form of PAG predominates that shifts to 80-85 kD upon pervanadate treatment ."	[]		p44	Results	FALSE	implication	25445	25594	f4a	
+207	s141	To determine which PTKs may phosphorylate PAG in vivo	[]		p45	Results	FALSE	goal	25595	25648	f4b|f4c|f4d	
+208	s141	COS cells were cotransfected with cDNAs encoding FLAG-tagged PAG and various PTKs .	[]		p45	Results	FALSE	method	25649	25732	f4b|f4c|f4d	
+209	s142	As shown in Fig. 4 B	[inLink]	f4b	p45	Results	FALSE	result	25733	25753	f4b|f4c|f4d	
+210	s142	PAG serves as a substrate for Lck and Fyn but not for ZAP70 and/or Syk .	[]		p45	Results	FALSE	result	25754	25826	f4b|f4c|f4d	
+211	s143	"In Jurkat T cells , tyrosine phosphorylation of PAG was absent in the Lck-negative Jurkat mutant J.CaM1.6 but was normal or even enhanced in the ZAP70/Syk-negative mutant P116 ( Fig. 4 C ) ,"	[inLink]	f4c	p45	Results	FALSE	result	25827	26013	f4b|f4c|f4d	
+212	s143	indicating that Lck might be primarily responsible for PAG phosphorylation in T cells .	[]		p45	Results	FALSE	implication	26014	26100	f4b|f4c|f4d	
+213	s144	"However ,"	[]		p45	Results	FALSE	result	26101	26109	f4b|f4c|f4d	
+214	s144	"when wild-type Jurkat T cells ( or Raji cells , not shown ) were briefly treated with the Src family PTK-specific inhibitor PP1 , the constitutive tyrosine phosphorylation of PAG was lost ( Fig. 4 D ) ."	[inLink]	f4d	p45	Results	FALSE	result	26110	26305	f4b|f4c|f4d	
+215	s145	This strongly suggests	[]		p45	Results	FALSE	implication	26306	26328	f4b|f4c|f4d	
+216	s145	that the phosphorylation status of PAG is controlled by balanced activities of Src kinases ( likely Lck ) and an as yet unidentified tyrosine phosphatase ( s ) .	[]		p45	Results	FALSE	implication	26329	26484	f4b|f4c|f4d	
+217	s146	Tissue and Subcellular Distribution of PAG .	[header-1]		title46	Results	FALSE	none	26485	26528		
+218	s147	Northern blot analysis was performed	[]		p47	Results	FALSE	method	26529	26565	f5a	
+219	s147	to investigate the pattern of PAG mRNA expression in human tissues .	[]		p47	Results	FALSE	goal	26566	26633	f5a	
+220	s148	Fig. 5 A demonstrates	[inLink]	f5a	p47	Results	FALSE	result	26634	26655	f5a	
+221	s148	"that mRNA coding for PAG is expressed in almost all tissues examined , the highest level being observed in the immune system as well as in the lung , heart , and placenta ."	[]		p47	Results	FALSE	result	26656	26824	f5a	
+222	s149	"Interestingly , several bands hybridized with the PAG cDNA probe ."	[]		p47	Results	FALSE	result	26825	26889	f5a	
+223	s150	This might indicate the existence of alternatively spliced forms of PAG or PAG-related genes .	[]		p47	Results	FALSE	hypothesis	26890	26983	f5a	
+224	s151	"However , we did not yet obtain convincing evidence for the existence of PAG variants on the protein level ( not shown ) ."	[]		p47	Results	FALSE	result	26984	27102	f5a	
+225	s152	Expression of PAG within hematopoietic cells was further examined by intracellular immunostaining of permeabilized peripheral blood leukocytes .	[]		p48	Results	FALSE	method	27103	27246	f5b	
+226	s153	These experiments revealed strong expression of PAG in lymphocytes and monocytes and weak expression in neutrophils ( Fig. 5 B ) .	[inLink]	f5b	p48	Results	FALSE	result	27247	27374	f5b	
+227	s154	In vitro kinase assay and Western blot analysis indicated	[]		p48	Results	FALSE	result	27375	27432	f5b	
+228	s154	that PAG is also expressed in platelets ( not shown ) .	[]		p48	Results	FALSE	result	27433	27485	f5b	
+229	s155	The subcellular localization of PAG was analyzed by immunofluorescence in fixed and permeabilized Raji cells .	[]		p49	Results	FALSE	method	27486	27595	f6a|f6b	
+230	s156	Confocal laser scan microscopy demonstrated that PAG predominantly localizes to the plasma membrane ( Fig. 6 A )	[inLink]	f6a	p49	Results	FALSE	result	27596	27706	f6a|f6b	
+231	s156	similar results were observed in Jurkat cells ( not shown ) .	[]		p49	Results	FALSE	result	27707	27766	f6a|f6b	
+232	s157	To further analyze in which membrane compartment PAG is localized	[]		p49	Results	FALSE	goal	27767	27832	f6a|f6b	
+233	s157	Jurkat cells were lysed in Brij58 detergent and subjected to sucrose gradient ultracentrifugation .	[]		p49	Results	FALSE	method	27833	27932	f6a|f6b	
+234	s158	"As shown in Fig. 6 B , nearly all PAG was present in buoyant , detergent-resistant GEMs ;"	[inLink]	f6b	p49	Results	FALSE	result	27933	28019	f6a|f6b	
+235	s158	"when cells were solubilized in laurylmaltoside ( which effectively dissolves GEMs ) , all PAG was detected exclusively in the dense fractions of the gradient ( Fig. 6 B ) ."	[inLink]	f6b	p49	Results	FALSE	result	28020	28186	f6a|f6b	
+236	s159	"Thus , the major portion of PAG is localized in the plasma membrane , namely in the subcompartment corresponding to GEMs ."	[]		p49	Results	FALSE	implication	28187	28306	f6a|f6b	
+237	s160	The cytoplasmic domain of PAG contains a potential palmitoylation site ( CSSC ) directly adjacent to the transmembrane domain .	[]		p50	Results	FALSE	fact	28307	28431	f6c	
+238	s161	To determine whether PAG is palmitoylated in vivo	[]		p50	Results	FALSE	goal	28432	28481	f6c	
+239	s161	"Raji B cells were biosynthetically labeled with 3 [ H ] palmitate , lysed in laurylmaltoside-containing buffer , and subjected to anti-PAG immunoprecipitation ."	[]		p50	Results	FALSE	method	28482	28636	f6c	
+240	s162	As shown in Fig. 6 C	[inLink]	f6c	p50	Results	FALSE	result	28637	28657	f6c	
+241	s162	PAG is expressed as a palmitoylated polypeptide .	[]		p50	Results	FALSE	result	28658	28707	f6c	
+242	s163	"Identical results were obtained in Jurkat T cells ( not shown ) ,"	[]		p50	Results	FALSE	result	28708	28770	f6c	
+243	s163	although the radioactive signal was much weaker than in Raji cells ( obviously because Jurkat cells express much lower amounts of PAG ) .	[]		p50	Results	FALSE	result	28771	28905	f6c	
+244	s164	"PAG Forms a Complex with Csk ,"	[header-1]		title51	Results	FALSE	result	28906	28935		
+245	s164	which is Functionally Relevant to TCR/CD3 Signaling .	[header-1]		title51	Results	FALSE	result	28936	28988		
+246	s165	The presence of multiple tyrosine-based motifs suggested	[]		p52	Results	FALSE	fact	28989	29045	f7a	B
+247	s165	that PAG may associate with SH2 domain-containing cytoplasmic signaling proteins .	[]		p52	Results	FALSE	hypothesis	29046	29127	f7a	i
+248	s166	"Indeed , in vitro pull-down assays performed on lysates of pervanadate-treated Jurkat T cells revealed that"	[]		p52	Results	FALSE	method	29128	29234	f7a	i
+249	s166	"phosphorylated PAG strongly binds to the recombinant SH2 domains of Lck , Fyn , Lyn , Csk , Shc , Vav , GAP , and PI3K as well as the tandem SH2 domains of ZAP70 and Syk , whereas it only weakly binds to the SH2 domains of growth factor receptor binding protein 2 ( Grb2 ) , SLP-76 , SH2 domain-containing protein tyrosine phosphatase ( SHP ) -1 , and SHP-2 ( Fig. 7 A ) ."	[inLink]	f7a	p52	Results	FALSE	result	29235	29588	f7a	i
+250	s167	"Based on these results , primary PAG immunoprecipitates obtained from lysates of unstimulated or pervanadate-treated hematopoietic cells were analyzed for the presence of the above cytoplasmic"	[]		p53	Results	FALSE	method	29589	29780	f7b|f7e	b
+251	s167	signaling molecules .	[]		p53	Results	FALSE	method	29781	29801	f7b|f7e	I
+252	s168	Small amounts of Fyn ( but not Lck ; not shown ) were found in PAG immunoprecipitates prepared from unstimulated peripheral blood T cells ( Fig. 7 B ) but not Jurkat or Raji cells ( not shown ) .	[inLink]	f7b	p53	Results	FALSE	result	29802	29989	f7b|f7e	I
+253	s169	"Moreover , Fyn and PAG also associated with each other"	[]		p53	Results	FALSE	result	29990	30043	f7b|f7e	
+254	s169	when coexpressed in COS cells ( Fig. 7 E ) .	[inLink]	f7e	p53	Results	FALSE	result	30044	30085	f7b|f7e	
+255	s170	"However , the interaction between Fyn and PAG seems"	[]		p53	Results	FALSE	result	30086	30136	f7b|f7e	
+256	s170	"to be independent from the tyrosine phosphorylation status of PAG , as it was not altered after PP1 treatment of the resting T cells ( which caused a strong decrease of PAG tyrosine phosphorylation ; Fig. 7B ) ."	[inLink]	f7b	p53	Results	FALSE	result	30137	30343	f7b|f7e	
+257	s171	"Besides Fyn , the only other candidate molecule reproducibly found to associate with PAG in a variety of cells ( resting T cells , Raji , and Jurkat cells ) was the PTK Csk ( Fig. 7 C ) ."	[inLink]	f7c	p54	Results	FALSE	result	30344	30523	f7b|f7c|f7d|f7e	
+258	s172	Analysis of PAG immunoprecipitates prepared from transfected COS cells indicated	[]		p54	Results	FALSE	method	30524	30604	f7b|f7c|f7d|f7e	
+259	s172	that the interaction between PAG and Csk requires tyrosine phosphorylation of PAG by Src kinases ( Fig. 7 D ) .	[inLink]	f7d	p54	Results	FALSE	result	30605	30713	f7b|f7c|f7d|f7e	
+260	s173	"Moreover , PP1-mediated dephosphorylation of PAG in peripheral blood T cells resulted in a significant loss of the PAG-associated Csk ( Fig. 7 B ) ."	[inLink]	f7b	p54	Results	FALSE	result	30714	30858	f7b|f7c|f7d|f7e	
+261	s174	"Finally , expression of PAG molecules in which the ten cytoplasmic tyrosine residues were individually mutated to phenylalanine further revealed"	[]		p54	Results	FALSE	result	30859	31002	f7b|f7c|f7d|f7e	
+262	s174	that the association between PAG and Csk is to a large extent mediated via the tyrosine residue Y317 ( Fig. 7 E ) .	[inLink]	f7e	p54	Results	FALSE	result	31003	31115	f7b|f7c|f7d|f7e	
+263	s175	"In contrast , under the same experimental conditions , Fyn bound to all of the PAG tyrosine mutants investigated ."	[]		p54	Results	FALSE	result	31116	31227	f7b|f7c|f7d|f7e	
+264	s176	This further confirms	[]		p54	Results	FALSE	implication	31228	31249	f7b|f7c|f7d|f7e	
+265	s176	that the PAG-Fyn interaction is probably phosphotyrosine independent .	[]		p54	Results	FALSE	implication	31250	31319	f7b|f7c|f7d|f7e	
+266	s177	"Taken together , these data indicate"	[]		p54	Results	FALSE	implication	31320	31355	f7b|f7c|f7d|f7e	
+267	s177	"that after phosphorylation by Src family PTKs , PAG recruits Csk to the plasma membrane via a mechanism involving Y317 and independent from an association between PAG and Fyn ."	[]		p54	Results	FALSE	implication	31356	31530	f7b|f7c|f7d|f7e	
+268	s178	Csk downregulates the activity of Src kinases via phosphorylation of negative regulatory tyrosine residues located at the COOH termini of the kinases .	[]		p55	Results	FALSE	result	31531	31681	f7d|f8a|f8b|f8c	
+269	s179	"To investigate whether membrane targeting of Csk by PAG would lead to altered substrate phosphorylation by Src family kinases , COS cells ( which express endogenous Csk ; Fig. 7 D ) were transiently transfected with cDNA constructs"	[inLink]	f7d	p55	Results	FALSE	goal	31682	31909	f7d|f8a|f8b|f8c	
+270	s179	"encoding a chimeric zeta molecule composed of the extracellular domain of CD25 ( Tac ) fused to the transmembrane and cytoplasmic domains of TCR zeta chain ( Tac/zeta/zeta ) , the Src family PTK Fyn , and FLAG-tagged PAG ."	[]		p55	Results	FALSE	method	31910	32125	f7d|f8a|f8b|f8c	
+271	s180	Cell lysates were subjected to CD25 immunoprecipitation followed by anti-P-Tyr Western blotting .	[]		p55	Results	FALSE	method	32126	32222	f7d|f8a|f8b|f8c	
+272	s181	"As shown in Fig. 8 A , when coexpressed with Fyn alone"	[inLink]	f8a	p55	Results	FALSE	result	32223	32276	f7d|f8a|f8b|f8c	
+273	s181	the Tac/zeta/zeta chimera readily became tyrosine phosphorylated .	[]		p55	Results	FALSE	result	32277	32343	f7d|f8a|f8b|f8c	
+274	s182	"However , when PAG was coexpressed with Fyn and Tac/zeta/zeta , the level of tyrosine phosphorylation of the Tac/zeta/zeta chimera markedly decreased"	[]		p55	Results	FALSE	result	32344	32491	f7d|f8a|f8b|f8c	
+275	s182	and this was accompanied by a strong recruitment of endogenously expressed Csk to PAG .	[]		p55	Results	FALSE	result	32492	32579	f7d|f8a|f8b|f8c	
+276	s183	"Similarly , expression of Csk and PAG resulted in impaired Fyn kinase activity"	[]		p55	Results	FALSE	result	32580	32657	f7d|f8a|f8b|f8c	
+277	s183	as judged from an experiment in which Fyn autophosphorylation was assessed by in vitro kinase assays of Fyn immunoprecipitates prepared from COS cells transfected with PAG and Csk cDNAs ( Fig. 8 B ) .	[inLink]	f8b	p55	Results	FALSE	result	32658	32855	f7d|f8a|f8b|f8c	
+278	s184	"These experiments indicate a negative regulatory role of PAG in T cell activation based on its ability to recruit Csk to the plasma membrane , followed by downregulation of Src family kinase ( s ) activity and inhibition of tyrosine phosphorylation of substrates such as zeta ."	[]		p55	Results	FALSE	implication	32856	33128	f7d|f8a|f8b|f8c	
+279	s185	In agreement with a negative regulatory role of PAG during T cell activation was the finding	[]		p55	Results	FALSE	result	33129	33221	f7d|f8a|f8b|f8c	
+280	s185	"that PAG , when transiently overexpressed in Jurkat cells , downregulated TCR-mediated activation of NF-AT ( Fig. 8 C ) , whereas overexpression of the cytoplasmic adaptor protein SLP-76 upregulated the response as reported previously 49 ."	"[inLink, exLink]"	f8c	p55	Results	FALSE	result	33222	33455	f7d|f8a|f8b|f8c	
+281	s186	To assess whether binding of Csk to PAG occurs after T cell activation ( which would indicate that the PAG-Csk complex serves to downregulate Src family kinase activity after T cell activation ) or whether it rather precedes T cell activation ( which would indicate that this complex serves to downregulate Src kinase activity in the absence of external stimuli )	[]		p56	Results	FALSE	goal	33456	33815	f9a|f9b	
+282	s186	we examined the phosphorylation status of PAG and its association with Csk in nontransformed human T lymphocytes .	[]		p56	Results	FALSE	method	33816	33930	f9a|f9b	
+283	s187	"To this end , PAG immunoprecipitates were prepared from resting or anti-CD3 plus anti-CD28-activated peripheral blood alpha/beta T cells and analyzed by anti-P-Tyr Western blotting ."	[]		p56	Results	FALSE	method	33931	34111	f9a|f9b	
+284	s188	"As shown in Fig. 9 B , the level of tyrosine phosphorylation of PAG and its association with Csk markedly decreased after activation ,"	[inLink]	f9b	p56	Results	FALSE	result	34112	34244	f9a|f9b	
+285	s188	whereas its association with Fyn remained essentially unchanged .	[]		p56	Results	FALSE	result	34245	34309	f9a|f9b	
+286	s189	"At the same time , moreover , the tyrosine phosphorylation of other polypeptides ( such as pp38 LAT ) strongly increased ( Fig. 9 A ) ."	[inLink]	f9a	p56	Results	FALSE	result	34310	34438	f9a|f9b	
+287	s190	"Thus , activation of resting peripheral blood alpha/beta T lymphocytes via the TCR-CD3 complex results in dephosphorylation of PAG and concomitant loss of its association with Csk ."	[]		p56	Results	FALSE	implication	34439	34618	f9a|f9b	
+288	s191	Discussion	[header-0]		title57	Discussion	FALSE	none	34619	34629		
+289	s192	"Most recently , major progress has been made in the understanding of the molecular mechanisms underlying translocation of"	[]		p58	Discussion	FALSE	fact	34630	34750		
+290	s192	"signaling molecules ( e.g. , phospholipase C gamma1 , SLP-76 , etc. ) from the cytosol to the plasma membrane upon T cell activation ."	[]		p58	Discussion	FALSE	fact	34751	34879		
+291	s193	"Thus , a novel group of transmembrane proteins has been identified"	[]		p58	Discussion	FALSE	fact	34880	34945		
+292	s193	whose cytoplasmic domains contain multiple tyrosine-based signaling motifs that provide docking sites for the SH2 domains of cytosolic effector molecules after phosphorylation by Src or Syk family PTKs .	[]		p58	Discussion	FALSE	fact	34946	35148		
+293	s194	These molecules have collectively been termed	[]		p58	Discussion	FALSE	fact	35149	35194		
+294	s194	"transmembrane adaptor proteins 47 . Until now , three transmembrane adaptor proteins have been identified , namely LAT 13 , TRIM 38 , and SHP2-interacting transmembrane adaptor protein 44 ."	[exLink]		p58	Discussion	FALSE	fact	35195	35378		
+295	s195	"In this report , we describe identification , purification , Nano ES MS/MS sequencing , and molecular cloning of a novel transmembrane adaptor protein"	[]		p58	Discussion	FALSE	method	35379	35525		
+296	s195	that we termed PAG .	[]		p58	Discussion	FALSE	method	35526	35545		
+297	s196	PAG is ubiquitously expressed ( Fig. 5 A ) .	[inLink]	f5a	p59	Discussion	FALSE	result	35546	35587		
+298	s197	"This characteristic ( as well as its phosphorylation status in nonstimulated cells , described below ) distinguishes it from the other transmembrane adaptor proteins"	[]		p59	Discussion	FALSE	implication	35588	35750		
+299	s197	whose expression seems to be largely restricted to hematopoietic cells .	[]		p59	Discussion	FALSE	implication	35751	35822		
+300	s198	The wide expression of PAG indicates	[]		p59	Discussion	FALSE	result	35823	35859		
+301	s198	that transmembrane adaptor proteins not only play important signaling functions within the hematopoietic system but also in other tissues .	[]		p59	Discussion	FALSE	implication	35860	35998		
+302	s199	PAG comprises a short 16-aa extracellular domain	[]		p60	Discussion	FALSE	fact	35999	36047		
+303	s199	that likely lacks an external ligand .	[]		p60	Discussion	FALSE	fact	36048	36085		
+304	s200	The cytoplasmic domain of PAG contains a dicysteine motif ( CSSC )	[]		p60	Discussion	FALSE	fact	36086	36150		
+305	s200	"that is located directly downstream of the transmembrane domain ( Fig. 2 C ) and could serve as a site for palmitoylation , thus allowing targeting of PAG to the GEMs 15 ."	"[inLink, exLink]"	f2c	p60	Discussion	FALSE	fact	36151	36318		
+306	s201	"Indeed , in Jurkat and Raji cells , PAG is expressed as a constitutively palmitoylated polypeptide ( Fig. 6 C ) ."	[inLink]	f6c	p60	Discussion	FALSE	result	36319	36427		
+307	s202	"However , at present we do not know"	[]		p60	Discussion	FALSE	problem	36428	36462		
+308	s202	"which of the two cysteines becomes palmitoylated , whether all PAG molecules become targeted to the GEMs via palmitoylation , and whether palmitoylation of PAG is essential for its function ."	[]		p60	Discussion	FALSE	problem	36463	36651		
+309	s203	The cytoplasmic domain of human PAG contains 10 potential sites for tyrosine phosphorylation .	[]		p61	Discussion	FALSE	fact	36652	36745		
+310	s204	Coexpression experiments performed in COS cells and	[]		p61	Discussion	FALSE	method	36746	36797		
+311	s204	analysis of various Jurkat variants suggest that the Src family PTK Lck might be responsible for basal tyrosine phosphorylation of PAG in T cells ( Fig. 4B and Fig. C ) .	[inLink]	f4b	p61	Discussion	FALSE	implication	36798	36965		
+312	s205	6 of the 10 tyrosines are found within three	[]		p61	Discussion	FALSE	result	36966	37010		
+313	s205	"signaling motifs exhibiting some similarity to ITAM sequences , but with longer central stretches of aa than in typical ITAMs ."	[]		p61	Discussion	FALSE	result	37011	37136		
+314	s206	"Consistent with these ITAM-like sequence motifs , in vitro pull-down assays using recombinant GST-SH2 domains revealed"	[]		p61	Discussion	FALSE	result	37137	37254		
+315	s206	that PAG is capable of binding the tandem SH2 domains of ZAP70 and Syk ( Fig. 7 A ) .	[inLink]	f7a	p61	Discussion	FALSE	implication	37255	37337		
+316	s207	"However , we have not as yet observed a direct interaction between PAG and these two PTKs ( or other tandem SH2 domain-containing signaling molecules such as SHP-1 or SHP-2 ) ,"	[]		p61	Discussion	FALSE	result	37338	37510		
+317	s207	even after pervanadate treatment of cells .	[]		p61	Discussion	FALSE	result	37511	37553		
+318	s208	These findings might indicate	[]		p61	Discussion	FALSE	implication	37554	37583		
+319	s208	that unknown signaling molecules exist whose tandem SH2 domains require different spacing between the two tyrosines for binding .	[]		p61	Discussion	FALSE	implication	37584	37712		
+320	s209	"The phosphorylation of PAG appears to be a tightly regulated process ,"	[]		p62	Discussion	FALSE	implication	37713	37782		
+321	s209	"as the Src-specific PTK inhibitor PP1 causes rapid dephosphorylation of PAG in T cells , which is obviously due to the unopposed activity of an as yet unidentified tyrosine phosphatase ( Fig. 4 D and Fig. 7 B ) ."	[inLink]	f4d|f7b	p62	Discussion	FALSE	implication	37783	37991		
+322	s210	We have excluded the possibility	[]		p62	Discussion	FALSE	implication	37992	38024		
+323	s210	"that the tyrosine phosphatase CD45 is dephosphorylating PAG in vivo , as PAG still becomes dephosphorylated in PP1-treated J45.01 Jurkat T cells that lack expression of CD45 ( our unpublished observations ) ."	[]		p62	Discussion	FALSE	implication	38025	38229		
+324	s211	Identification of this phosphatase might be of major importance for future research .	[]		p62	Discussion	FALSE	problem	38230	38314		
+325	s212	Tyrosine-phosphorylated PAG binds to a remarkable number of different SH2 domains in vitro ( Fig. 7 A ) .	[inLink]	f7a	p63	Discussion	FALSE	result	38315	38417		
+326	s213	This is consistent with the idea	[]		p63	Discussion	FALSE	implication	38418	38450		
+327	s213	"that several , if not all , of the potential tyrosine residues become phosphorylated in vivo , and that PAG is capable of binding to a variety of intracellular SH2 domain-containing signaling molecules ."	[]		p63	Discussion	FALSE	implication	38451	38650		
+328	s214	"However , the only two proteins"	[]		p63	Discussion	FALSE	result	38651	38681		
+329	s214	that we reproducibly found to interact with PAG were the PTKs Fyn and Csk ( Fig. 7 ) .	[inLink]	f7	p63	Discussion	FALSE	result	38682	38765		
+330	s215	A low-stoichiometry interaction between Fyn and PAG was observed in resting peripheral blood T cells ( Fig. 7 B and Fig. 9 B )	[inLink]	f7b|f9b	p64	Discussion	FALSE	result	38766	38890		
+331	s215	and both molecules interacted with each other when coexpressed in COS cells ( Fig. 7 E ) .	[inLink]	f7e	p64	Discussion	FALSE	result	38891	38979		
+332	s216	"However , this interaction is apparently not dependent on tyrosine phosphorylation of PAG ( Fig. 7B and Fig. E , and Fig. 9 B ) ,"	[inLink]	f7b|f9b	p64	Discussion	FALSE	result	38980	39104		
+333	s216	which might suggest that Fyn interacts with PAG via its SH3 domain .	[]		p64	Discussion	FALSE	implication	39105	39172		
+334	s217	"Indeed , two potential SH3-binding sites are present in PAG ."	[]		p64	Discussion	FALSE	fact	39173	39232		
+335	s218	"In contrast to Fyn , the PTK Csk was found to associate with tyrosine-phosphorylated PAG in all types of cells investigated by us ."	[]		p65	Discussion	FALSE	result	39233	39362		
+336	s219	This interaction involves a single tyrosine of PAG ( Y317 ) and is not mediated via Fyn ( Fig. 7 E ) .	[inLink]	f7e	p65	Discussion	FALSE	result	39363	39460		
+337	s220	"Together with the finding that PAG strongly binds to the isolated SH2 domain of Csk in vitro ( Fig. 7 A ) , this suggests"	[inLink]	f7a	p65	Discussion	FALSE	result	39461	39579		
+338	s220	that the interaction between PAG and Csk is mediated directly via the SH2 domain of Csk and Y317 of PAG .	[]		p65	Discussion	FALSE	implication	39580	39684		
+339	s221	"However , a possibility can not be ruled out"	[]		p65	Discussion	FALSE	hypothesis	39685	39727		
+340	s221	that an as yet unidentified molecule expressed in COS cells ( and in lymphocytes ) mediates the association between PAG and Csk .	[]		p65	Discussion	FALSE	hypothesis	39728	39854		
+341	s222	"Potential candidates might be the tyrosine phosphatases protein tyrosine phosphatase ( PTP ) -PEST or PEST-containing phosphatase ( PEP ) ,"	[]		p65	Discussion	FALSE	hypothesis	39855	39988		
+342	s222	which have been shown to bind to the SH3 domain of Csk 5051 .	[exLink]		p65	Discussion	FALSE	hypothesis	39989	40049		
+343	s223	"However , this possibility is unlikely ,"	[]		p65	Discussion	FALSE	hypothesis	40050	40088		
+344	s223	because neither of these phosphatases possess SH2 domains that would allow them to bind PAG in a phosphotyrosine-dependent manner .	[]		p65	Discussion	FALSE	hypothesis	40089	40219		
+345	s224	Csk is a ubiquitously	[]		p66	Discussion	FALSE	fact	40220	40241		
+346	s224	expressed major negative regulator of Src family kinases and phosphorylates a negative regulatory tyrosine residue near the COOH terminus of the enzymes 525354 .	[exLink]		p66	Discussion	FALSE	result	40242	40402		
+347	s225	"Csk-deficient mice die in utero because of abnormalities in neuronal development 5556 ,"	[exLink]		p66	Discussion	FALSE	result	40403	40489		
+348	s225	which are obviously due to uncontrolled activity of Src kinases .	[]		p66	Discussion	FALSE	implication	40490	40554		
+349	s226	"In addition , elimination of Csk in thymocytes results in development of CD4+ T cells independent from pre-TCR-mediated signals 57 ."	[exLink]		p66	Discussion	FALSE	result	40555	40685		
+350	s227	These data indicate	[]		p66	Discussion	FALSE	implication	40686	40705		
+351	s227	"that expression of Csk is required to maintain homeostasis in several tissues , including the immune system ."	[]		p66	Discussion	FALSE	implication	40706	40813		
+352	s228	"Csk per se is not a membrane-associated polypeptide ,"	[]		p66	Discussion	FALSE	fact	40814	40866		
+353	s228	"as it does not possess a membrane-targeting motif ( e.g. , myristylation or palmitoylation sites as those present in most Src kinases ) ."	[]		p66	Discussion	FALSE	fact	40867	41000		
+354	s229	"Thus , in order to regulate Src kinase activity , a fraction of Csk has"	[]		p66	Discussion	FALSE	hypothesis	41001	41070		
+355	s229	to translocate from the cytosol to the plasma membrane .	[]		p66	Discussion	FALSE	hypothesis	41071	41126		
+356	s230	We propose here	[]		p66	Discussion	FALSE	hypothesis	41127	41142		
+357	s230	that one such mechanism is based on Csk association with PAG .	[]		p66	Discussion	FALSE	hypothesis	41143	41204		
+358	s231	This model would be in agreement with recent data showing	[]		p66	Discussion	FALSE	implication	41205	41262		
+359	s231	that the SH2 domain of Csk is apparently involved in targeting of Csk to the plasma membrane and is required for Csk-mediated inhibition of T cell activation 58 .	[exLink]		p66	Discussion	FALSE	implication	41263	41424		
+360	s232	"In resting human T cells ( as well as in Jurkat T cells and in Raji B cells ) , PAG is expressed as a constitutively tyrosine-phosphorylated polypeptide and binds Csk in the absence of any stimuli ( Fig. 7B and Fig. C , and Fig. 9 B ) ."	[inLink]	f7b|f9b	p67	Discussion	FALSE	result	41425	41654		
+361	s233	"Moreover , immediately after T cell activation , PAG becomes dephosphorylated and releases Csk ( Fig. 9 B ) ."	[inLink]	f9b	p67	Discussion	FALSE	result	41655	41759		
+362	s234	"Together with our observation that PAG is an integral plasma membrane protein ( Fig. 6 A ) ,"	[inLink]	f6a	p67	Discussion	FALSE	result	41760	41849		
+363	s234	"these data would be compatible with a model proposing that in resting T cells , the constitutively tyrosine-phosphorylated PAG targets a fraction of Csk to the plasma membrane and thus brings it into proximity with its substrates , the Src family kinases ."	[]		p67	Discussion	FALSE	implication	41850	42103		
+364	s235	"Csk then can phosphorylate the COOH-terminal negative regulatory tyrosine residues , resulting in downregulation of the Src kinases enzymatic activity and , as a consequence , suppression of signal transduction ."	[]		p67	Discussion	FALSE	implication	42104	42312		
+365	s236	"In addition , Csk-associated polypeptides like PEP or PTP-PEST could simultaneously dephosphorylate additional key signaling molecules such as ZAP70 , the TCR zeta chains , and/or the autophosphorylation sites of Src kinases ,"	[]		p68	Discussion	FALSE	implication	42313	42535		
+366	s236	as was suggested recently 59 .	[exLink]		p68	Discussion	FALSE	implication	42536	42565		
+367	s237	"At present , we do not know"	[]		p68	Discussion	FALSE	problem	42566	42592		
+368	s237	"whether the PAG-associated Csk is complexed with other negative regulatory signaling proteins ( e.g. , PEP or PTP-PEST ) , either in T cells or in other cell types ."	[]		p68	Discussion	FALSE	problem	42593	42753		
+369	s238	"Therefore , we can not exclude the possibility"	[]		p68	Discussion	FALSE	hypothesis	42754	42798		
+370	s238	that the impaired tyrosine phosphorylation of the Tac zeta/zeta chimera and downregulation of the Fyn kinase activity observed after overexpression of PAG and Csk in COS cells ( Fig. 8 ) is not due only to Csk-mediated phosphorylation of the negative regulatory tyrosine of Fyn .	[inLink]	f8	p68	Discussion	FALSE	hypothesis	42799	43075		
+371	s239	"Nevertheless , our data indicate"	[]		p68	Discussion	FALSE	implication	43076	43107		
+372	s239	"that PAG binds Csk ( Fig. 7D and Fig. E ) , and that this results ( directly or indirectly ) in downregulation of Fyn tyrosine kinase activity and impaired tyrosine phosphorylation of the TCR zeta chain ( Fig. 8a and Fig. b ) ."	[inLink]	f7d|f8a	p68	Discussion	FALSE	implication	43108	43327		
+373	s240	It is also not yet clear	[]		p69	Discussion	FALSE	problem	43328	43352		
+374	s240	which Src family kinases are regulated by the PAG-associated Csk .	[]		p69	Discussion	FALSE	problem	43353	43418		
+375	s241	"In T cells , the two major candidates are Fyn and Lck ."	[]		p69	Discussion	FALSE	hypothesis	43419	43472		
+376	s242	Lck has been implicated as the major PTK in immunoreceptor-mediated phosphorylation of ITAMs present in the cytoplasmic domains of the TCR-associated CD3 complex and the zeta chains .	[]		p69	Discussion	FALSE	fact	43473	43655		
+377	s243	Our experiments so far did not address directly the question	[]		p69	Discussion	FALSE	problem	43656	43716		
+378	s243	whether Lck is the target of PAG function in T lymphocytes .	[]		p69	Discussion	FALSE	problem	43717	43776		
+379	s244	"However , overexpression of PAG in Jurkat T cells resulted in an ~50 % downregulation of TCR-mediated induction of the transcriptional activity of NF-AT ( Fig. 8 C ) , which is presumably mediated mainly via Lck"	[inLink]	f8c	p69	Discussion	FALSE	result	43777	43983		
+380	s244	this might indicate that PAG at least partially downregulates Lck-mediated signaling pathways in vivo .	[]		p69	Discussion	FALSE	hypothesis	43984	44087		
+381	s245	"Alternatively , PAG might also ( or even exclusively ) influence signals mediated via Fyn ."	[]		p70	Discussion	FALSE	hypothesis	44088	44175		
+382	s246	A preferential interaction between Fyn and PAG has been suggested previously 33 and was also demonstrated in this study .	[exLink]		p70	Discussion	FALSE	hypothesis	44176	44296		
+383	s247	"Importantly , Fyn has recently been implicated in"	[]		p70	Discussion	FALSE	result	44297	44345		
+384	s247	signaling processes induced by beta1 integrins in T lymphocytes .	[]		p70	Discussion	FALSE	result	44346	44410		
+385	s248	"Thus , stimulation of alpha4beta1 integrins by mAbs or natural ligand leads to rapid tyrosine phosphorylation of cytosolic proteins that have recently been reported to be selective substrates of Fyn"	[]		p70	Discussion	FALSE	result	44411	44609		
+386	s248	"e.g. , SLAP-130/FYB and Src kinase-associated phosphoprotein homolog ; references 60 , 61 ) ."	[exLink]		p70	Discussion	FALSE	result	44610	44698		
+387	s249	Overexpression of at least one of these Fyn-specific substrates ( SLAP-130 ) in T cells results in enhanced migration towards chemokines 61 .	[exLink]		p70	Discussion	FALSE	result	44699	44837		
+388	s250	"Thus , PAG might also be involved in regulating cellular adhesion and/or migration by"	[]		p70	Discussion	FALSE	hypothesis	44838	44922		
+389	s250	altering the enzymatic activity of Fyn .	[]		p70	Discussion	FALSE	hypothesis	44923	44962		
+390	s251	Further studies in PAG-deficient cell lines and knockout mice will help	[]		p70	Discussion	FALSE	goal	44963	45034		
+391	s251	to clarify this question .	[]		p70	Discussion	FALSE	goal	45035	45060		
+392	s252	"Nevertheless , our observation that PAG is expressed as a constitutively tyrosine-phosphorylated molecule that recruits Csk to the plasma membrane could indicate"	[]		p71	Discussion	FALSE	result	45061	45221		
+393	s252	"that in the absence of a stimulus ( e.g. , antigen ) , the PAG-Csk complex increases the signaling threshold required for initiating an immune response and/or helps to keep lymphocytes in a resting state ."	[]		p71	Discussion	FALSE	result	45222	45422		
+394	s253	It may be speculated	[]		p71	Discussion	FALSE	hypothesis	45423	45443		
+395	s253	"that abnormal alterations of the phosphorylation status of PAG under certain pathological conditions ( e.g. , at sites of local inflammation ) and thus decreased Csk binding may contribute to hyperactivity of T cells ( and other leukocytes as well ) ."	[]		p71	Discussion	FALSE	hypothesis	45444	45689		
+396	s254	"This could be a factor contributing to development of some autoimmune disorders , for example ."	[]		p71	Discussion	FALSE	hypothesis	45690	45783		
+397	s255	The phosphatase ( s ) involved in PAG dephosphorylation might thus be an interesting target for pharmacological intervention .	[]		p71	Discussion	FALSE	hypothesis	45784	45906		
+398	s256	"In any case , further analysis of PAG will help"	[]		p71	Discussion	FALSE	hypothesis	45907	45953		
+399	s256	to better understand how external signals become integrated at the intracellular level to yield an appropriate response of T cells ( and also other cell types ) towards externally applied stimuli .	[]		p71	Discussion	FALSE	goal	45954	46148		

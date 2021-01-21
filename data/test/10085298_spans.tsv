@@ -1,0 +1,530 @@
+	SentenceId	Clause Text	Codes	ExperimentValues	Paragraph	Headings	FloatingBox?	Discourse Type	Offset_Begin	Offset_End	fig_spans
+0	s1	"Protein Tyrosine Phosphatase-PEST Regulates Focal Adhesion Disassembly , Migration , and Cytokinesis in Fibroblasts"	[]		-		FALSE	fact	127	240	
+1	s2	"In this article , we show"	[]		p4		FALSE	result	941	965	
+2	s2	"that , in transfected COS-1 cells , protein tyrosine phosphatase ( PTP ) -PEST translocates to the membrane periphery following stimulation by the extracellular matrix protein fibronectin ."	[]		p4		FALSE	result	966	1149	
+3	s3	When plated on fibronectin	[]		p4		FALSE	result	1150	1176	
+4	s3	PTP-PEST ( -/- ) fibroblasts display a strong defect in motility .	[]		p4		FALSE	result	1177	1241	
+5	s4	3 h after	[]		p4		FALSE	result	1242	1251	
+6	s4	"plating on fibronectin , the number and size of vinculin containing focal adhesions were greatly increased in the homozygous PTP-PEST mutant cells as compared with heterozygous cells ."	[]		p4		FALSE	result	1252	1434	
+7	s5	This phenomenon appears	[]		p4		FALSE	implication	1435	1458	
+8	s5	"to be due in part to a constitutive increase in tyrosine phosphorylation of p130CAS , a known PTP-PEST substrate , paxillin , which associates with PTP-PEST in vitro , and focal adhesion kinase ( FAK ) ."	[]		p4		FALSE	implication	1459	1655	
+9	s6	"Another effect of this constitutive hyperphosphorylation , consistent with the focal adhesion regulation defect , is"	[]		p4		FALSE	fact	1656	1770	
+10	s6	that ( -/- ) cells spread faster than the control cell line when plated on fibronectin .	[]		p4		FALSE	fact	1771	1856	
+11	s7	"In the PTP-PEST ( -/- ) cells , an increase in affinity for the SH2 domains of Src and Crk towards p130CAS was also observed ."	[]		p4		FALSE	result	1857	1979	
+12	s8	"In ( -/- ) cells , we found a significant increase in the level of tyrosine phosphorylation of PSTPIP , a cleavage furrow-associated protein"	[]		p4		FALSE	result	1980	2116	
+13	s8	that interacts physically with all PEST family members .	[]		p4		FALSE	fact	2117	2172	
+14	s9	An effect of PSTPIP hyperphosphorylation appears	[]		p4		FALSE	result	2173	2221	
+15	s9	to be that some cells remain attached at the site of the cleavage furrow for an extended period of time .	[]		p4		FALSE	result	2222	2326	
+16	s10	"In conclusion , our data suggest"	[]		p4		FALSE	implication	2327	2358	
+17	s10	"PTP-PEST plays a dual role in cell cytoskeleton organization , by promoting the turnover of focal adhesions required for cell migration , and by directly or indirectly regulating the proline , serine , threonine phosphatase interacting protein ( PSTPIP ) tyrosine phosphorylation level which may be involved in regulating cleavage furrow formation or disassembly during normal cell division ."	[]		p4		FALSE	implication	2359	2744	
+18	s11	The process of cell migration is crucial for the correct development of a mammalian embryo .	[]		p5		FALSE	fact	2798	2889	
+19	s12	"In an adult organism , cell migration plays an important role in events such as the invasion of a wounded space by fibroblasts and endothelial cells , as well as translocation of lymphocytes and neutrophils to an inflammatory site ."	[]		p5		FALSE	fact	2890	3119	
+20	s13	"In cancer , tumor cells migrate to reach the circulatory system and metastasize throughout the organism"	[]		p5		FALSE	fact	3120	3223	
+21	s13	"for review see Lauffenburger and Horwitz , 1996 ) ."	[exLink]		p5		FALSE	fact	3224	3272	
+22	s14	"One of the driving forces for cell mobility is actin polymerization/depolymerization ,"	[]		p5		FALSE	fact	3273	3358	
+23	s14	"which is partly under the control of the Rho family of small GTPase proteins ( Nobes and Hall , 1995 ; Tapon and Hall , 1997 ) ."	[exLink]		p5		FALSE	fact	3359	3481	
+24	s15	"Focal adhesions are the sites of contact between the extracellular matrix and the cytoskeleton through the integrin family of transmembrane proteins ( Burridge and Chrzanowska-Wodnicka , 1996 ) ."	[exLink]		p6		FALSE	fact	3482	3673	
+25	s16	"They contain many structural proteins such as talin , tensin , and alpha-actinin , as well as tyrosine kinases such as focal adhesion kinase ( FAK ) , 1 Src , and Csk ,"	[]		p6		FALSE	fact	3674	3833	
+26	s16	that are activated upon extracellular matrix binding .	[]		p6		FALSE	fact	3834	3887	
+27	s17	Multimeric protein complexes are then formed	[]		p6		FALSE	fact	3888	3932	
+28	s17	"which contain many different adapter proteins , including p130CAS , Shc , Grb2 , Crk , and Nck ."	[]		p6		FALSE	fact	3933	4023	
+29	s18	"These interactions confer an important role to focal adhesions in signal transduction pathways ( Hanks and Polte , 1997 ; Schlaepfer et al. , 1997 ) ."	[exLink]		p6		FALSE	fact	4024	4168	
+30	s19	"They also represent a major site of tyrosine phosphorylation in a cell , to a point"	[]		p6		FALSE	fact	4169	4251	
+31	s19	"where , following plating of cells on extracellular components , focal adhesions can be clearly visualized using antiphosphotyrosine antibodies ."	[]		p6		FALSE	goal	4252	4394	
+32	s20	"If the identification of proteins involved in the formation and disassembly of focal adhesion proceeds at a rapid rate ( Gilmore and Burridge , 1996 )"	[exLink]		p6		FALSE	problem	4395	4542	
+33	s20	the roles that each play have only begun to be clarified .	[]		p6		FALSE	problem	4543	4601	
+34	s21	"Recent results show a direct correlation between FAK tyrosine kinase activity and migration rate in vitro , and"	[]		p6		FALSE	result	4602	4712	
+35	s21	"this effect was correlated with the hyperphosphorylation of p130CAS by the Src kinase ( Ilic et al. , 1995 ; Cary et al. , 1996 , 1998 ) ."	[exLink]		p6		FALSE	result	4713	4844	
+36	s22	"The viral form of Src , v-Src , also increases focal adhesion turnover in the transformed cell"	[]		p6		FALSE	result	4845	4937	
+37	s22	"and its catalytic activity was shown to be required for this effect ( Fincham and Frame , 1998 ) ."	[exLink]		p6		FALSE	result	4938	5033	
+38	s23	Much less is known about the roles of protein tyrosine phosphatases ( PTP ) in cell migration .	[]		p7		FALSE	problem	5034	5126	
+39	s24	"Recently , SHP-2 ( Yu et al. , 1998 ) was shown"	[exLink]		p7		FALSE	result	5127	5170	
+40	s24	"to regulate focal adhesions , cell spreading , and migration ."	[]		p7		FALSE	fact	5171	5230	
+41	s25	"Overexpression of a dominant negative mutant of PTP1B resulted in defect in integrin-mediated adhesion and signaling in fibroblasts ( Arregui et al. , 1998 ) ."	[exLink]		p7		FALSE	result	5231	5386	
+42	s26	"LAR , a transmembrane PTP , was found to localize to focal adhesions and postulated"	[]		p7		FALSE	result	5387	5468	
+43	s26	"to regulate their disassembly ( Serra-Pages et al. , 1995 ) ."	[exLink]		p7		FALSE	hypothesis	5469	5526	
+44	s27	"Another receptor-like PTP , PTP-alpha , was shown"	[]		p7		FALSE	result	5527	5574	
+45	s27	"to regulate the activity of Src and thus regulate cell-substratum adhesion ( Harder et al. , 1998 ) ."	[exLink]		p7		FALSE	result	5575	5672	
+46	s28	"Another example is the bacterial PTP , Yersinia YopH ,"	[]		p7		FALSE	result	5673	5725	
+47	s28	"that , once translocated into a cell , dephosphorylates p130CAS and FAK , and destabilizes focal adhesions ( Black and Bliska , 1997 ; Persson et al. , 1997 ) ."	[exLink]		p7		FALSE	result	5726	5877	
+48	s29	Another PTP	[]		p7		FALSE	fact	5878	5889	
+49	s29	"that dephosphorylates p130CAS is PTP-PEST ( Garton et al. , 1996 ) ."	[exLink]		p7		FALSE	fact	5890	5954	
+50	s30	PTP-PEST contains the typical tyrosine phosphatase catalytic domain flanked by proline-rich regions	[]		p7		FALSE	fact	5955	6054	
+51	s30	"that were shown to interact with several signaling proteins including Grb2 ( Charest et al. , 1997 ) , paxillin ( Shen et al. , 1998 ; Cote , J.-F. , C.E. Turner , and M.L. Tremblay , manuscript submitted for publication ) , as well as p130CAS ( Garton et al. , 1997 ) and its two related family members , Sin and Hef1 ( Cote et al. , 1998 ) ."	[exLink]		p7		FALSE	result	6055	6377	
+52	s31	"Furthermore , we found"	[]		p7		FALSE	result	6378	6399	
+53	s31	"that an NPLH motif on the COOH-terminal tail of PTP-PEST was responsible for a constitutive association with the PTB domain of the adaptor protein Shc ( Charest et al. , 1996 ) ."	[exLink]		p7		FALSE	result	6400	6574	
+54	s32	Dephosphorylation of p130CAS can counteract the migration effects of the FAK and Src kinases	[]		p7		FALSE	hypothesis	6575	6667	
+55	s32	and PTP-PEST is therefore a potential regulator of cell motility .	[]		p7		FALSE	hypothesis	6668	6734	
+56	s33	A cleavage furrow-associated protein	[]		p8		FALSE	fact	6735	6771	
+57	s33	"that is also a substrate for another PEST-like phosphatase , PTP-HSCF , was recently cloned ( Spencer et al. , 1997 ) ."	[exLink]		p8		FALSE	fact	6772	6885	
+58	s34	"This protein , called PSTPIP , associates via its putative coiled-coil domain with a proline-rich COOH-terminal domain on PTP-HSCF"	[]		p8		FALSE	fact	6886	7014	
+59	s34	that is conserved in all PEST-like PTPs .	[]		p8		FALSE	fact	7015	7055	
+60	s35	Alanine-scanning mutants of PSTPIP demonstrated	[]		p8		FALSE	result	7056	7103	
+61	s35	"that Trp in the putative coiled-coil region was essential for in vivo binding to PTP-HSCF , and that this mutant was still capable of association with the cortical cytoskeleton ( Dowbenko et al. , 1998 ) ."	[exLink]		p8		FALSE	result	7104	7304	
+62	s36	"More recently , the Src homology-3 ( SH3 ) domain of PSTPIP was shown to associate with the Wiskott-Aldrich syndrome protein ( WASP ) , another protein involved with the regulation of the actin-rich cortical cytoskeleton ."	[]		p8		FALSE	result	7305	7520	
+63	s37	"This interaction can be disrupted by tyrosine phosphorylation within the SH3 domain of PSTPIP , one of the two tyrosines modified by phosphorylation in response to v-Src cotransfection or pervanadate treatment ( Wu et al. , 1998b ) ."	[exLink]		p8		FALSE	result	7521	7749	
+64	s38	"PSTPIP is homologous to Schizosaccharomyces pombe CDC15p , a phosphorylated protein involved in"	[]		p8		FALSE	fact	7750	7844	
+65	s38	"mediating the cytoskeletal rearrangements of F-actin required for cytokinesis ( Fankhauser et al. , 1995 ) ."	[exLink]		p8		FALSE	fact	7845	7949	
+66	s39	When overexpressed in exponentially growing S. pombe	[]		p8		FALSE	result	7950	8002	
+67	s39	"PSTPIP colocalizes with actin in the cleavage furrow and acts as a dominant negative inhibitor of cytokinesis ( Spencer et al. , 1997 ) ."	[exLink]		p8		FALSE	result	8003	8137	
+68	s40	The present report shows	[]		p9		FALSE	implication	8138	8162	
+69	s40	"that when COS-1 cells were transfected with PTP-PEST , we could follow a translocation of this PTP to the membrane periphery following plating on the extracellular matrix fibronectin ."	[]		p9		FALSE	implication	8163	8345	
+70	s41	"We then analyzed ,"	[]		p9		FALSE	method	8346	8363	
+71	s41	"using a fibroblast cell line where PTP-PEST was removed by gene targeting ( Cote et al. , 1998 ) , migration capabilities , and the number of focal adhesions in cell lines homozygous ( -/- ) and heterozygous ( +/- ) for the PTP-PEST mutation ."	[exLink]		p9		FALSE	method	8364	8597	
+72	s42	Since the ( -/- ) cells showed a marked decrease in migration and increase in focal adhesions	[]		p9		FALSE	result	8598	8689	
+73	s42	we then verified the phosphorylation state of important tyrosine phosphorylated proteins found in focal adhesions .	[]		p9		FALSE	goal	8690	8805	
+74	s43	"In addition to p130CAS , a known substrate of PTP-PEST , other focal adhesion proteins were found"	[]		p9		FALSE	result	8806	8901	
+75	s43	"to be hyperphosphorylated , FAK and paxillin ."	[]		p9		FALSE	result	8902	8946	
+76	s44	"Paxillin was recently shown to be associated with PTP-PEST ( Shen et al. , 1998 ) but does not seem"	[exLink]		p9		FALSE	result	8947	9043	
+77	s44	"to be a direct physiological substrate for this PTP ( Cote , J.-F. , C.E. Turner , and M.L. Tremblay , manuscript submitted for publication ) ."	[]		p9		FALSE	result	9044	9180	
+78	s45	The constitutive hyperphosphorylation of these focal adhesion proteins also seems	[]		p9		FALSE	result	9181	9262	
+79	s45	to increase the spreading rate of ( -/- ) cells on fibronectin .	[]		p9		FALSE	result	9263	9324	
+80	s46	"Interestingly , we found an abnormal incidence of cytokinesing cells"	[]		p9		FALSE	result	9325	9392	
+81	s46	which were linked at their cleavage furrow site in the PTP-PEST ( -/- ) fibroblasts .	[]		p9		FALSE	result	9393	9475	
+82	s47	"Coincidentally , PSTPIP was found"	[]		p9		FALSE	result	9476	9508	
+83	s47	to be hyperphosphorylated in the same cell line .	[]		p9		FALSE	result	9509	9557	
+84	s48	"From these results , we conclude"	[]		p9		FALSE	implication	9558	9589	
+85	s48	"that PTP-PEST plays an important role in cell migration , possibly by helping the breakdown of focal adhesions via the dephosphorylation of paxillin and/or p130CAS , as well as in cytoskeletal rearrangement during cytokinesis , potentially by regulating the phosphorylation level of PSTPIP ."	[]		p9		FALSE	hypothesis	9590	9877	
+86	s49	Materials and Methods	[header-0]		title10	Materials and Methods	FALSE	none	9878	9899	
+87	s50	Antibodies	[header-1]		title11	Materials and Methods	FALSE	none	9900	9910	
+88	s51	Mouse polyclonal anti-PSTPIP-2 antibody is described in Wu et al. ( 1998a ) .	[exLink]		p12	Materials and Methods	FALSE	none	9911	9985	
+89	s52	Rabbit polyclonal anti-PTP-PEST antibody is described in Charest et al. ( 1995 ) .	[exLink]		p12	Materials and Methods	FALSE	none	9986	10065	
+90	s53	"Mouse monoclonal anticortactin is a gift from Dr. J. Thomas Parsons , University of Virginia , Charlottesville , VA ."	[]		p12	Materials and Methods	FALSE	none	10066	10179	
+91	s54	"The following antibodies were purchased as indicated : rabbit anti-FAK ( A17 ) from Santa Cruz Biotechnology , Inc. ; mouse antipaxillin from Transduction Laboratories ; mouse antivinculin ( hVIN-1 ) from Sigma Chemical Co. ; HRP-conjugated anti-mouse and -rabbit IgG antibodies and FITC-conjugated anti-mouse antibody from Jackson ImmunoResearch Laboratories , Inc ."	[]		p12	Materials and Methods	FALSE	method	10180	10536	
+92	s55	The antiphosphotyrosine antibodies used were mouse HRP-conjugated antiphosphotyrosine antibody ( PY20 ) from Transduction Laboratories and the mouse monoclonal 4G10 .	[]		p12	Materials and Methods	FALSE	method	10537	10700	
+93	s56	To raise polyclonal antibodies against PSTPIP and p130CAS	[]		p13	Materials and Methods	FALSE	goal	10701	10758	
+94	s56	rabbits were injected intramuscularly with either 100 mug of purified GST PSTPIP ( aa 247-415 ) or GST p130CAS ( aa 21-521 ) in PBS emulsified in complete Freund 's adjuvant .	[]		p13	Materials and Methods	FALSE	method	10759	10929	
+95	s57	Rabbits were boosted with the immunogens emulsified in incomplete Freund 's adjuvant every 3 wk .	[]		p13	Materials and Methods	FALSE	method	10930	11025	
+96	s58	"Between each injection , samples of serums from rabbits were collected and analyzed for their abilities"	[]		p13	Materials and Methods	FALSE	method	11026	11128	
+97	s58	to detect either PSTPIP or p130CAS in Western blotting experiments .	[]		p13	Materials and Methods	FALSE	method	11129	11196	
+98	s59	When the titer of the antibodies in the serum was judged satisfactory	[]		p13	Materials and Methods	FALSE	method	11197	11266	
+99	s59	the antibodies were further purified by protein A-Agarose columns ( Bio-Rad ) for use in Western blotting or used directly for immunoprecipitation experiments ( 5 mul ) .	[]		p13	Materials and Methods	FALSE	method	11267	11433	
+100	s60	The anti-PSTPIP antibody was conjugated	[]		p13	Materials and Methods	FALSE	method	11434	11473	
+101	s60	using a peroxidase labeling kit ( Boehringer Mannheim Corp. ) .	[]		p13	Materials and Methods	FALSE	method	11474	11534	
+102	s61	Cell Culture	[header-1]		title14	Materials and Methods	FALSE	none	11535	11547	
+103	s62	The PTP-PEST ( +/- ) and ( -/- ) cell lines are described in Cote et al. ( 1998 ) .	[exLink]		p15	Materials and Methods	FALSE	method	11548	11624	
+104	s63	"PTP-PEST ( -/- ) , PTP-PEST ( +/- ) , and"	[]		p15	Materials and Methods	FALSE	method	11625	11660	
+105	s63	COS-1 cells were maintained in DME supplemented with 10 % FBS and penicillin/streptomycin .	[]		p15	Materials and Methods	FALSE	method	11661	11750	
+106	s64	Stable Overexpression of PTP-PEST in PTP-PEST ( -/- ) Cells	[header-1]		title16	Materials and Methods	FALSE	none	11751	11808	
+107	s65	"Full-length , wild-type PTP-PEST was inserted in a vector containing a selectable Zeocin resistance marker , pcDNA3.1/Zeo"	[]		p17	Materials and Methods	FALSE	method	11809	11928	
+108	s66	( + ) ( Invitrogen Corp. ) .	[]		p17	Materials and Methods	FALSE	method	11929	11952	
+109	s67	Subconfluent PTP-PEST ( -/- ) cells were transfected with this recombinant vector using Lipofectamine Plus ( GIBCO BRL ) .	[]		p17	Materials and Methods	FALSE	method	11953	12070	
+110	s68	Cells were first cultured in DME plus 10 % serum for 48 h before selection with 25 mug/ml of Zeocin ( Invitrogen Corp. ) .	[]		p17	Materials and Methods	FALSE	method	12071	12189	
+111	s69	Zeocin-resistant clones were isolated and screened for expression of PTP-PEST by immunoblot analysis	[]		p17	Materials and Methods	FALSE	method	12190	12290	
+112	s69	as described below .	[]		p17	Materials and Methods	FALSE	method	12291	12310	
+113	s70	PTP-PEST Translocation in COS-1 Cells	[header-1]		title18	Materials and Methods	FALSE	none	12311	12348	
+114	s71	Exponentially growing COS-1 cells from a 15-cm tissue culture dish were transfected with 40 mug of	[]		p19	Materials and Methods	FALSE	method	12349	12447	
+115	s71	pACTAG PTP-PEST by electroporation as described in Charest et al. ( 1995 ) .	[exLink]		p19	Materials and Methods	FALSE	method	12448	12521	
+116	s72	The cells were then grown for 48 h on Falcon chamber slides ( Becton Dickinson and Co. ) in DME supplemented with 10 % FBS and antibiotics .	[]		p19	Materials and Methods	FALSE	method	12522	12658	
+117	s73	"For EGF treatment , cells were serum starved by incubation in DME 0.1 % FBS for 16 h followed by 10 min of treatment in 0.1 % medium containing 100 ng/ml EGF ( Upstate Biotechnology Inc. ) ."	[]		p19	Materials and Methods	FALSE	method	12659	12843	
+118	s74	"For integrin activation , the cells were trypsinized and washed twice with DME containing 10 % FBS and plated on fibronectin-coated slides ( described above ) for 45 min before fixing ."	[]		p19	Materials and Methods	FALSE	method	12844	13024	
+119	s75	Immunofluorescence was performed	[]		p19	Materials and Methods	FALSE	method	13025	13057	
+120	s75	"as described below , using 12CA5 ( 1:1 ,000 ) as a primary antibody ."	[]		p19	Materials and Methods	FALSE	method	13058	13122	
+121	s76	Migration Assays	[header-1]		title20	Materials and Methods	FALSE	none	13123	13139	
+122	s77	The capacity of each cell line	[]		p21	Materials and Methods	FALSE	method	13140	13170	
+123	s77	to migrate on fibronectin was monitored by two different assays .	[]		p21	Materials and Methods	FALSE	method	13171	13235	
+124	s78	"In the wound healing assay , Falcon chamber slides were coated overnight at 4degreesC with a solution of fibronectin ( 10 mug/ml ) in PBS , 10 mM sodium phosphate , 140 mM NaCl , pH 7.4 ."	[]		p21	Materials and Methods	FALSE	method	13236	13416	
+125	s79	Cells were plated at 60 % confluence in normal ( 10 % serum ) medium .	[]		p21	Materials and Methods	FALSE	method	13417	13482	
+126	s80	"After attachment , the monolayers were wounded by scoring with a sterile plastic 200 mul micropipette tip ."	[]		p21	Materials and Methods	FALSE	method	13483	13588	
+127	s81	Each well was then washed and fed daily with normal medium .	[]		p21	Materials and Methods	FALSE	method	13589	13648	
+128	s82	"After 24 h , cells were fixed with 4 % paraformaldehyde ( PFA ) in PBS for 5 min at room temperature and photographed"	[]		p21	Materials and Methods	FALSE	method	13649	13762	
+129	s82	using a low-magnification phase-contrast microscope .	[]		p21	Materials and Methods	FALSE	method	13763	13815	
+130	s83	The extent of migration into the wound area was evaluated qualitatively .	[]		p21	Materials and Methods	FALSE	method	13816	13888	
+131	s84	Transwell ( R ) chambers ( Corning-Costar ) migration assays were performed	[]		p22	Materials and Methods	FALSE	method	13889	13959	
+132	s84	as described in Klemke et al. ( 1998 ) .	[exLink]		p22	Materials and Methods	FALSE	method	13960	13997	
+133	s85	"In brief , the under surface of the polycarbonate membrane ( pore size , 8 mum ) was precoated with fibronectin ( 10 mug/ml in PBS ) overnight at 4degreesC ."	[]		p22	Materials and Methods	FALSE	method	13998	14148	
+134	s86	The membrane was washed	[]		p22	Materials and Methods	FALSE	method	14149	14172	
+135	s86	to remove excess ligand and the lower chamber filled with DME containing 10 % serum .	[]		p22	Materials and Methods	FALSE	method	14173	14256	
+136	s87	"PTP-PEST ( +/- ) , PTP-PEST ( -/- ) , and PTP-PEST ( -/- ) stably overexpressing PTP-PEST ( 105 in 100 mul of DME containing 10 % serum ) were added to the upper chamber , and left for 5 h at 37degreesC before"	[]		p22	Materials and Methods	FALSE	method	14257	14454	
+137	s87	fixing with 95 % methanol in PBS .	[]		p22	Materials and Methods	FALSE	method	14455	14487	
+138	s88	"Unmigrated cells on the upper side of the membrane were removed with a cotton tip applicator , and"	[]		p22	Materials and Methods	FALSE	method	14488	14585	
+139	s88	the migrated cells were stained with methylene blue and counted using an inverted microscope ( x40 ) .	[]		p22	Materials and Methods	FALSE	method	14586	14685	
+140	s89	Each determination represents the average of four individual wells	[]		p22	Materials and Methods	FALSE	method	14686	14752	
+141	s89	and error bars represent SD .	[]		p22	Materials and Methods	FALSE	method	14753	14781	
+142	s90	"As a control , the lower side of the membrane was coated with 0.5 % BSA ."	[]		p22	Materials and Methods	FALSE	result	14782	14852	
+143	s91	The background level of cell migration represented < 0.1 % of the individual experiments .	[]		p22	Materials and Methods	FALSE	result	14853	14940	
+144	s92	Immunofluorescence	[header-1]		title23	Materials and Methods	FALSE	none	14941	14959	
+145	s93	Cells were plated on fibronectin-coated slides ( described above ) for 20 min or 3 h .	[]		p24	Materials and Methods	FALSE	method	14960	15043	
+146	s94	"They were then fixed 20 min with 4 % ( wt/vol ) PFA in PBS , and permeabilized with 0.1 % ( vol/vol ) Triton X-100 in 4 % PFA for another 20 min ."	[]		p24	Materials and Methods	FALSE	method	15044	15181	
+147	s95	The slides were blocked with 1 % ( wt/vol ) BSA in PBS for 20 min .	[]		p24	Materials and Methods	FALSE	method	15182	15245	
+148	s96	"The cells were then incubated with the antivinculin antibody ( 1 : 400 dilution in PBS ) for 1 h at room temperature , washed three times with PBS , and stained with a mixture of FITC-conjugated anti-mouse antibody ( 1:200 ) and 4 mul/well of TRITC-conjugated phalloidin ( Molecular Probes Inc. ) ."	[]		p24	Materials and Methods	FALSE	method	15246	15534	
+149	s97	After	[]		p24	Materials and Methods	FALSE	method	15535	15540	
+150	s97	"being washed three times with PBS , the coverslips were mounted in a 1:1 mixture of glycerol and 2.5 % 1,4-diazabicyclo [ 2.2.2 ] octane ( DABCO ; Sigma Chemical Co. ) in PBS ."	[]		p24	Materials and Methods	FALSE	method	15541	15708	
+151	s98	The cells were visualized with a Nikon fluorescence microscope .	[]		p24	Materials and Methods	FALSE	method	15709	15772	
+152	s99	The number of focal adhesions in each cell was evaluated from photographs of the vinculin staining .	[]		p24	Materials and Methods	FALSE	method	15773	15872	
+153	s100	"For cleavage furrow staining , the cells were plated at low confluence on uncoated glass slides and left overnight in 10 % serum containing medium ."	[]		p25	Materials and Methods	FALSE	method	15873	16018	
+154	s101	"The cells were then fixed , permeabilized , blocked , and stained"	[]		p25	Materials and Methods	FALSE	method	16019	16081	
+155	s101	as described above .	[]		p25	Materials and Methods	FALSE	method	16082	16101	
+156	s102	The primary antibody used was PY20 .	[]		p25	Materials and Methods	FALSE	method	16102	16137	
+157	s103	Protein Immunoprecipitation and Immunoblotting	[header-1]		title26	Materials and Methods	FALSE	method	16138	16184	
+158	s104	"Dishes of cells were washed with PBS supplemented with 1 mM of sodium vanadate , harvested , lysed , and evaluated for protein content using the Bio-Rad protein assay ."	[]		p27	Materials and Methods	FALSE	method	16185	16349	
+159	s105	"For immunoprecipitations of paxillin and cortactin , cells were lysed in RIPA buffer ( 50 mM Tris-HCl , pH 7.2 , 150 mM NaCl , 0.1 % SDS , 0.5 % sodium deoxycholate , 1 % Nonidet P-40 ) ."	[]		p27	Materials and Methods	FALSE	method	16350	16525	
+160	s106	"For FAK , PSTPIP , and PSTPIP2 immunoprecipitations , cells were lysed by sonication in HNMETG ( 50 mM Hepes , pH 7.5 , 150 mM NaCl , 1.5 mM MgCl2 , 1 mM EGTA , 1 % Triton X-100 , 10 % glycerol ) ."	[]		p27	Materials and Methods	FALSE	method	16526	16709	
+161	s107	"For vinculin and p130CAS , the lysis buffer used was TNE buffer ( 10 mM Tris HCl , pH 7.5 , 1 mM EDTA , 150 mM NaCl , 1 % Nonidet P-40 ) ."	[]		p27	Materials and Methods	FALSE	method	16710	16839	
+162	s108	Lysis buffers were supplemented with 1 mM of sodium vanadate and Complete ( TM ) protease inhibitor mixture ( Boehringer Mannheim GmbH ) .	[]		p27	Materials and Methods	FALSE	method	16840	16972	
+163	s109	"For each immunoprecipitation , 500 mug of total cell lysate was incubated with 1 mug of antibody and 30 mul of protein G-Agarose ( GIBCO BRL ) to a total volume of 1 ml in their respective lysis buffer ( supplemented with vanadate and protease inhibitors ) at 4degreesC for 90 min ."	[]		p28	Materials and Methods	FALSE	method	16973	17249	
+164	s110	"The beads were then washed three times ( the last wash for 15 min at 4degreesC ) in their respective buffers , except FAK , PSTPIP , and PSTPIP2"	[]		p28	Materials and Methods	FALSE	method	17250	17389	
+165	s110	"which were washed in HNTG buffer ( 10 mM Hepes-KOH , pH 7.5 , 150 mM NaCl , 0.1 % Triton X-100 , 10 % glycerol ) , and resuspended in 30 mul of SDS-PAGE loading dye ."	[]		p28	Materials and Methods	FALSE	method	17390	17546	
+166	s111	Western blots were performed following common procedures .	[]		p29	Materials and Methods	FALSE	method	17547	17604	
+167	s112	"Proteins were resolved on SDS-PAGE , transferred onto a PVDF membrane , blocked , and probed with the corresponding antibody in the same blocking buffer ( 1 % BSA , 1 % [ vol/vol ] goat serum , 0.1 % Tween , in PBS ) ."	[]		p29	Materials and Methods	FALSE	method	17605	17809	
+168	s113	"The following dilutions were used for the primary antibodies : 1:3 ,000 for 4G10 and anti-PTP-PEST ; 1:10 ,000 for antipaxillin ; 1:1 ,000 for antivinculin , anti-p130CAS , anticortactin , and the HRP-conjugated pY20 ; 1:100 for anti-FAK ."	[]		p29	Materials and Methods	FALSE	method	17810	18038	
+169	s114	"Secondary antibodies were used at 1:10 ,000 ."	[]		p29	Materials and Methods	FALSE	method	18039	18082	
+170	s115	The Renaissance ( TM ) chemiluminescence kit ( New England Nuclear Life Science Products ) was used for detection .	[]		p29	Materials and Methods	FALSE	method	18083	18192	
+171	s116	Spreading Assay	[header-1]		title30	Materials and Methods	FALSE	none	18193	18208	
+172	s117	3.5-cm tissue culture dishes were coated with 1 mug/cm2 of fibronectin overnight at 4degreesC .	[]		p31	Materials and Methods	FALSE	method	18209	18303	
+173	s118	"Plates were washed with PBS , and"	[]		p31	Materials and Methods	FALSE	method	18304	18336	
+174	s118	1 ml of normal medium was prewarmed in a humidified 37degreesC incubator .	[]		p31	Materials and Methods	FALSE	method	18337	18410	
+175	s119	"Cells were trypsinized , counted , and"	[]		p31	Materials and Methods	FALSE	method	18411	18447	
+176	s119	5 x 105 cells were added with medium to the plates for a final volume of 2 ml .	[]		p31	Materials and Methods	FALSE	method	18448	18526	
+177	s120	"Random fields were photographed after 10 , 15 , and 30 min"	[]		p31	Materials and Methods	FALSE	method	18527	18583	
+178	s120	using a low magnification phase-contrast microscope .	[]		p31	Materials and Methods	FALSE	method	18584	18636	
+179	s121	Photographs were evaluated for the percentage of spread cells .	[]		p31	Materials and Methods	FALSE	method	18637	18699	
+180	s122	"Unspread cells were described as phase-bright and punctual ,"	[]		p31	Materials and Methods	FALSE	method	18700	18759	
+181	s122	"whereas spread cells were not phase-bright , with extensive visible membrane protrusions ."	[]		p31	Materials and Methods	FALSE	method	18760	18848	
+182	s123	The two kinds of cells were distinguishable	[]		p31	Materials and Methods	FALSE	method	18849	18892	
+183	s123	enough so that two independent counts of the same field gave the same result +/-2 % .	[]		p31	Materials and Methods	FALSE	method	18893	18976	
+184	s124	Four fields were counted for each cell line	[]		p31	Materials and Methods	FALSE	method	18977	19020	
+185	s124	"and , in each field , > 300 cells were counted ."	[]		p31	Materials and Methods	FALSE	method	19021	19065	
+186	s125	The experiment was repeated four times .	[]		p31	Materials and Methods	FALSE	method	19066	19105	
+187	s126	In Vitro Protein Binding Assays	[header-1]		title32	Materials and Methods	FALSE	none	19106	19137	
+188	s127	In	[]		p33	Materials and Methods	FALSE	method	19138	19140	
+189	s127	"vitro binding studies using glutathione S-transferase ( GST ) fusion proteins were performed as described elsewhere ( Charest et al. , 1996 ) ."	[exLink]		p33	Materials and Methods	FALSE	method	19141	19278	
+190	s128	"In brief , 0.5 mg of each cell lysate was precleared with GST bound to glutathione-Sepharose beads ( Pharmacia Biotech , Inc. ) for 1 h at 4degreesC ."	[]		p33	Materials and Methods	FALSE	method	19279	19424	
+191	s129	"The supernatants were then incubated with the GST-fusion protein prebound to glutathione-Sepharose beads in a total of 1 ml of TNE buffer supplemented with 0.1 mM vanadate for 90 min at 4degreesC , washed three times with TNE buffer , and resuspended in an equal volume of 2x SDS-PAGE loading buffer ."	[]		p33	Materials and Methods	FALSE	method	19425	19723	
+192	s130	Protein complexes were separated by SDS-PAGE and detected by	[]		p33	Materials and Methods	FALSE	method	19724	19784	
+193	s130	immunoblotting as described above .	[]		p33	Materials and Methods	FALSE	method	19785	19819	
+194	s131	The GST-Grb2 FL construct is described in Charest et al. ( 1997 ) .	[exLink]		p33	Materials and Methods	FALSE	none	19820	19884	
+195	s132	The GST-SH2 domains of Crk and Src are a generous gift from Dr. Park ( McGill University ) .	[]		p33	Materials and Methods	FALSE	none	19885	19974	
+196	s133	Results	[header-0]		title34	Results	FALSE	none	19975	19982	
+197	s134	"Following Fibronectin-induced Integrin Activation , PTP-PEST Relocalizes from the Cytoplasm to the Membrane Periphery in COS-1 Cells"	[header-1]		title35	Results	FALSE	fact	19983	20114	
+198	s135	"Because p130CAS is known to translocate to focal adhesions when phosphorylated by the integrin pathway ( Harte et al. , 1996 ) , and since PTP-PEST and p130CAS associate via an SH3 proline-rich domain interaction ( Garton et al. , 1997 )"	[exLink]		p36	Results	FALSE	fact	20115	20345	
+199	s135	we first verified if PTP-PEST could translocate within a cell following integrin stimulation .	[]		p36	Results	FALSE	hypothesis	20346	20440	
+200	s136	"COS-1 cells were transfected with a PTP-PEST construct tagged with the hemagglutinin antigen ( HA ) epitope ,"	[]		p36	Results	FALSE	method	20441	20547	1
+201	s136	allowing visualization by indirect immunofluorescence ( Fig. 1 ) .	[inLink]	1	p36	Results	FALSE	method	20548	20611	1
+202	s137	"Untransfected cells showed no immunofluorescence staining ( Fig. 1 b ) ,"	[inLink]	1b	p36	Results	FALSE	result	20612	20681	1b|1d
+203	s137	demonstrating the absence of nonspecific staining with the 12CA5 antibody .	[]		p36	Results	FALSE	implication	20682	20756	1b|1d
+204	s138	"In transfected cells ( Fig. 1 d ) , PTP-PEST localization was diffuse in the cytoplasm ,"	[inLink]	1d	p36	Results	FALSE	result	20757	20841	1d
+205	s138	"as previously described ( Charest et al. , 1995 ) ."	[exLink]		p36	Results	FALSE	result	20842	20889	1d
+206	s139	"When the cells were stimulated with 0.1 mug/ml of EGF , no significant change in PTP-PEST staining was observed ( Fig. 1 f ) ,"	[inLink]	1f	p36	Results	FALSE	result	20890	21012	1f
+207	s139	"although PTP-PEST was shown previously to associate with the EGF receptor via Grb2 ( Charest et al. , 1997 ) ."	[exLink]		p36	Results	FALSE	result	21013	21119	1f
+208	s140	"However , for a significant percentage of attached transfected cells plated on fibronectin-coated slides for 45 min , staining for the HA epitope showed a clear relocalization to the membrane periphery even with lower levels of protein expression ( Fig. 1 g ) ."	[inLink]	1g	p36	Results	FALSE	result	21120	21376	1g
+209	s141	These results prove	[]		p36	Results	FALSE	implication	21377	21396	1g
+210	s141	"that , in COS-1 cells , PTP-PEST can relocalize to the membrane periphery following integrin , but not EGF receptor , stimulation ."	[]		p36	Results	FALSE	implication	21397	21523	1g
+211	s142	PTP-PEST ( -/- ) Cells Have a Decreased Motility on Fibronectin	[header-1]		title37	Results	FALSE	fact	21524	21585	
+212	s143	Two recent reports suggested a correlation between p130CAS phosphorylation level and cell migration rate .	[]		p38	Results	FALSE	result	21586	21691	
+213	s144	"In both studies , a kinase was transfected in the cells ."	[]		p38	Results	FALSE	method	21692	21747	
+214	s145	"One used v-Src , for which p130CAS is a direct substrate ( Fincham and Frame , 1998 ) ,"	[exLink]		p38	Results	FALSE	method	21748	21830	
+215	s145	"while the other overexpressed FAK , that , once activated , binds both c-Src and its substrate p130CAS ( Cary et al. , 1998 ) ."	[exLink]		p38	Results	FALSE	method	21831	21951	
+216	s146	"In both studies , hyperphosphorylation of p130CAS was associated with an increase in rate of migration ."	[]		p38	Results	FALSE	result	21952	22054	
+217	s147	"Since p130CAS is a substrate for PTP-PEST ( Garton et al. , 1996 )"	[exLink]		p38	Results	FALSE	fact	22055	22118	
+218	s147	"removal of this PTP results in hyperphosphorylation of p130CAS ( Cote et al. , 1998 ) ."	[exLink]		p38	Results	FALSE	result	22119	22203	
+219	s148	We decided	[]		p38	Results	FALSE	goal	22204	22214	
+220	s148	to investigate whether the absence of this PTP would result in a change in the motility of these cells .	[]		p38	Results	FALSE	goal	22215	22318	
+221	s149	The two cell lines used were heterozygous and homozygous for the PTP-PEST deletion .	[]		p38	Results	FALSE	method	22319	22402	
+222	s150	To minimize any dominant negative effects from the targeted allele	[]		p38	Results	FALSE	goal	22403	22469	
+223	s150	comparisons were made between the homozygous and the heterozygous cell lines .	[]		p38	Results	FALSE	method	22470	22548	
+224	s151	One of the simplest assays	[]		p39	Results	FALSE	method	22549	22575	2
+225	s151	to qualitatively compare cell migration is the wound healing migration assay .	[]		p39	Results	FALSE	method	22576	22653	2
+226	s152	Fibroblast monolayers plated on fibronectin-coated slides were wounded at 37degreesC and fixed after 24 h .	[]		p39	Results	FALSE	method	22654	22760	2
+227	s153	Fig. 2 shows a typical region of the wound for each cell line obtained after five independent experiments .	[inLink]	2	p39	Results	FALSE	result	22761	22867	2
+228	s154	The PTP-PEST ( +/- ) cells were able	[]		p39	Results	FALSE	result	22868	22902	2d|2|2b
+229	s154	"to migrate into the wound at a rate greater than the front of cells pushed in by proliferation ( Fig. 2 b ) , whereas the ( -/- ) cells showed a complete absence of chemokinetism ( Fig. 2 d ) and were not able to actively invade the wounded area ."	[inLink]	2b|2d	p39	Results	FALSE	result	22903	23142	2d|2|2b
+230	s155	"A more quantitative assay for migration is the chamber mobility assay ,"	[]		p40	Results	FALSE	method	23143	23213	2e
+231	s155	where the ability of cells to translocate to the fibronectin-coated side of a perforated membrane is measured ( see Materials and Methods ) .	[]		p40	Results	FALSE	method	23214	23352	2e
+232	s156	"Once again , we compared the migration of PTP-PEST ( +/- ) and PTP-PEST ( -/- ) cells ."	[]		p40	Results	FALSE	method	23353	23434	2e
+233	s157	"As in the wound-healing assay , a significant decrease in motility was observed in the knockout cells ( Fig. 2 e ) ."	[inLink]	2e	p40	Results	FALSE	result	23435	23547	2e
+234	s158	To ensure that this effect is indeed due to the absence of PTP-PEST	[]		p40	Results	FALSE	goal	23548	23615	2e
+235	s158	PTP-PEST ( -/- ) cells were transfected with PTP-PEST and a stably overexpressing clone was obtained .	[]		p40	Results	FALSE	method	23616	23716	2e
+236	s159	"When tested in the same assay , these cells showed an increase in migration"	[]		p40	Results	FALSE	result	23717	23791	2e
+237	s159	that was significant but still not comparable with wild-type levels .	[]		p40	Results	FALSE	result	23792	23860	2e
+238	s160	One possibility is	[]		p40	Results	FALSE	hypothesis	23861	23879	
+239	s160	"that overexpression of PTP-PEST could also have deleterious effects on cell migration , as is the case with PTP1B ( Liu et al. , 1998 ) ."	[exLink]		p40	Results	FALSE	hypothesis	23880	24012	
+240	s161	"To test this hypothesis , we are currently trying"	[]		p40	Results	FALSE	goal	24013	24061	
+241	s161	"to obtain clones expressing more physiological levels of PTP-PEST , as well as different constructs and catalytically inactive mutants of the phosphatase , and verify the effects on this phenotype and the others described below ."	[]		p40	Results	FALSE	method	24062	24288	
+242	s162	"The two migration assays are complementary ,"	[]		p41	Results	FALSE	method	24289	24332	
+243	s162	since each has different limitations .	[]		p41	Results	FALSE	method	24333	24370	
+244	s163	"For instance , the wound healing assay is affected by the rates of cell proliferation and by cell-cell adhesive interactions"	[]		p41	Results	FALSE	method	24371	24494	
+245	s163	which restrict the ability of the cells to move into the wounded area .	[]		p41	Results	FALSE	method	24495	24565	
+246	s164	"In the chamber assay , differences in cell shape and size may alter the ability of the cells"	[]		p41	Results	FALSE	hypothesis	24566	24657	
+247	s164	to pass through the pores .	[]		p41	Results	FALSE	hypothesis	24658	24684	
+248	s165	"Taken together , the data suggest"	[]		p41	Results	FALSE	implication	24685	24717	
+249	s165	that the loss of PTP-PEST results in motility defects in embryonic fibroblast cell lines that can be reincreased by overexpression of PTP-PEST in the ( -/- ) cells .	[]		p41	Results	FALSE	implication	24718	24880	
+250	s166	PTP-PEST ( -/- ) Cells Have an Increase in Number of Focal Adhesions	[header-1]		title42	Results	FALSE	fact	24881	24947	
+251	s167	The cytoskeleton of the cell plays an important role in cell motility .	[]		p43	Results	FALSE	fact	24948	25018	
+252	s168	We investigated	[]		p43	Results	FALSE	hypothesis	25019	25034	
+253	s168	"whether this observed migration impairment of homozygous PTP-PEST mutant cells could be caused by an abnormal organization of the actin filaments , or by a visible difference in focal adhesions ."	[]		p43	Results	FALSE	hypothesis	25035	25228	
+254	s169	Cells from each cell line were plated on fibronectin .	[]		p43	Results	FALSE	method	25229	25282	3h|3c|3b|3a|3g|3f|3e|3d
+255	s170	"The actin filaments were stained with a rhodamine-conjugated phalloidin ( Fig. 3 , a , c , e , and g ) , and"	[inLink]	3a|3c|3e|3g	p43	Results	FALSE	method	25283	25384	3h|3c|3b|3a|3g|3f|3e|3d
+256	s170	"the focal adhesions were highlighted by indirect immunofluorescence using mouse mAb against vinculin ( Fig. 3 , b , d , f , and h ) ."	[inLink]	3b|3d|3f|3h	p43	Results	FALSE	result	25385	25731	3h|3c|3b|3a|3g|3f|3e|3d
+256a	s170a	"25 min after plating , both cell lines showed membrane ruffles and filopodia ( Fig. 3 , a and c ) , suggesting that the defect in migration was not caused by an incapacity to polymerize actin or to organize these structures ."	[inLink]	3a|3c	p43	Results	FALSE	result	25385	25731	3h|3c|3b|3a|3g|3f|3e|3d
+257	s171	"Large , immature focal adhesions were also found in each cell line ( Fig. 3 , b and d ) ,"	[inLink]	3b|3d	p43	Results	FALSE	result	25732	25816	3h|3c|3b|3a|3f|3d
+258	s171	showing that the initial pathways forming these contacts were intact in PTP-PEST ( -/- ) cells .	[]		p43	Results	FALSE	result	25817	25910	3h|3c|3b|3a|3f|3d
+259	s172	"However ,"	[]		p44	Results	FALSE	result	25911	25919	3h|3f
+260	s172	"when cells were left for 3 h on fibronectin before fixing and staining , the homozygous cells remained well spread , with numerous focal adhesions scattered throughout the ventral surface of the cell ( Fig. 3 h ) ."	[inLink]	3h	p44	Results	FALSE	result	25920	26129	3h|3f
+261	s173	"Surrounding the cells were small , hair-like actin fibers"	[]		p44	Results	FALSE	result	26130	26186	3h|3f|3g
+262	s173	that characterize cells in the early stages of apolar migration ( Fig. 3 g ) .	[inLink]	3g	p44	Results	FALSE	result	26187	26262	3h|3f|3g
+263	s174	"The PTP-PEST ( +/- ) cells , in contrast , were rounded , with well-defined edges and fewer focal contacts concentrated at the cell periphery ( Fig. 3 , e and f ) ."	[inLink]	3e|3f	p44	Results	FALSE	result	26263	26418	3f|3e
+264	s175	"The ( -/- ) cells also contained a higher number of stress fibers , a state"	[]		p44	Results	FALSE	result	26419	26491	3i|3f|3e
+265	s175	that is incompatible with cell migration .	[]		p44	Results	FALSE	implication	26492	26533	3i|3f|3e
+266	s176	"A quantitative evaluation of the number of focal adhesions after 3 h ,"	[]		p44	Results	FALSE	method	26534	26603	3i|3f|3e
+267	s176	"as counted on vinculin-staining photographs , is shown in Fig. 3 i ."	[inLink]	3i	p44	Results	FALSE	method	26604	26670	3i|3f|3e
+268	s177	"PTP-PEST ( -/- ) cells have , on average , > 85 focal contacts per cell , compared with ~25 in a ( +/- ) cell ."	[]		p44	Results	FALSE	result	26671	26773	3i
+269	s178	"Thus , the migration defect observed in the wound healing assay above may be in part due to disregulation of focal adhesion assembly and/or disassembly in the PTP-PEST cell lines ."	[]		p44	Results	FALSE	implication	26774	26952	3i
+270	s179	Constitutive Hyperphosphorylation of Paxillin and FAK in PTP-PEST ( -/- ) Cells	[header-1]		title45	Results	FALSE	none	26953	27030	4a
+271	s180	Attempting to understand the differences observed in the size and number of focal adhesions between the two cell lines which differ only by the presence or absence of PTP-PEST	[]		p46	Results	FALSE	goal	27031	27206	4a
+272	s180	we analyzed the tyrosine phosphorylation state of specific focal adhesion proteins ( Fig. 4 a ) .	[inLink]	4a	p46	Results	FALSE	method	27207	27302	4a
+273	s181	"The adapter protein p130CAS was previously shown to be hyperphosphorylated ( Cote et al. , 1998 ) ,"	[exLink]		p46	Results	FALSE	result	27303	27398	4a
+274	s181	"since it is a physiological substrate for PTP-PEST ( Garton et al. , 1996 ) ."	[exLink]		p46	Results	FALSE	implication	27399	27472	4a
+275	s182	The other proteins immunoprecipitated and analyzed for their phosphotyrosine status with an antiphosphotyrosine antibody included paxillin and cortactin .	[]		p46	Results	FALSE	method	27473	27626	4a
+276	s183	Paxillin was shown	[]		p46	Results	FALSE	result	27627	27645	4a
+277	s183	"to be hyperphosphorylated in FAK null cell lines , a mutation that was also associated with a decrease in cell mobility and increase in numbers of focal adhesions ( Ilic et al. , 1995 ) ."	[exLink]		p46	Results	FALSE	result	27646	27828	4a
+278	s184	Paxillin phosphorylation was also shown recently	[]		p46	Results	FALSE	result	27829	27877	
+279	s184	"to be required for cell spreading and focal adhesion formation ( Richardson et al. , 1997 ) ."	[exLink]		p46	Results	FALSE	result	27878	27967	
+280	s185	"In the present study , paxillin was found in a hyperphosphorylated state ( Fig. 4 a ) ."	[inLink]	4a	p46	Results	FALSE	result	27968	28051	4a
+281	s186	"Interestingly , paxillin was shown to physically associate with PTP-PEST ( Shen et al. , 1998 ) , but"	[exLink]		p46	Results	FALSE	result	28052	28148	
+282	s186	"experiments using trapping mutants suggest that paxillin is not a direct substrate for PTP-PEST ( Cote , J.-F. , C.E. Turner , and M.L. Tremblay , manuscript submitted for publication ) ."	[]		p46	Results	FALSE	result	28149	28329	
+283	s187	"Cortactin , like p130CAS , is a pp60Src substrate ( Wu et al. , 1991 ) ,"	[exLink]		p46	Results	FALSE	result	28330	28396	
+284	s187	although it is not associated with focal adhesions .	[]		p46	Results	FALSE	result	28397	28448	
+285	s188	"It interacts with the actin cytoskeleton ( Wu and Parsons , 1993 ) and is tyrosine phosphorylated following integrin-mediated cell adhesion to extracellular matrix ( Vuori and Ruoslahti , 1995 ) ."	[exLink]		p46	Results	FALSE	fact	28449	28638	
+286	s189	"However , Fig. 4 a shows that cortactin is not constitutively tyrosine hyperphosphorylated in the PTP-PEST ( -/- ) cells ,"	[inLink]	4a	p46	Results	FALSE	result	28639	28757	4a
+287	s189	suggesting that it is not a direct or indirect substrate for this phosphatase .	[]		p46	Results	FALSE	implication	28758	28836	4a
+288	s190	Vinculin is a structural protein	[]		p47	Results	FALSE	fact	28837	28869	
+289	s190	that links talin and actin when focal adhesions form .	[]		p47	Results	FALSE	fact	28870	28923	
+290	s191	"It can be tyrosine phosphorylated , but"	[]		p47	Results	FALSE	fact	28924	28962	
+291	s191	"this phosphorylation does not seem to be implicated in focal adhesion formation , the latter due to a conformational change in vinculin following phosphatidyl inositol biphosphate binding ( Burridge and Chrzanowska-Wodnicka , 1996 ) ."	[exLink]		p47	Results	FALSE	fact	28963	29192	
+292	s192	"There was no detectable basal level of tyrosine phosphorylation of vinculin in both cell lines , potentially due to the fact"	[]		p47	Results	FALSE	result	29193	29316	
+293	s192	that the cells were not stimulated .	[]		p47	Results	FALSE	fact	29317	29352	
+294	s193	Another focal adhesion component	[]		p48	Results	FALSE	goal	29353	29385	
+295	s193	to be investigated was FAK .	[]		p48	Results	FALSE	goal	29386	29413	
+296	s194	The role of p130CAS in migration was shown	[]		p48	Results	FALSE	result	29414	29456	
+297	s194	"to reside in the pathways triggered by FAK ( Cary et al. , 1998 ) , which is associated with the integrins and becomes active by transphosphorylation when they cluster ."	[exLink]		p48	Results	FALSE	result	29457	29621	
+298	s195	"Phosphorylation of Y397 on FAK , which is the binding site of the Src kinase , was shown"	[]		p48	Results	FALSE	result	29622	29708	
+299	s195	"to be crucial for its role in cell migration ( Cary et al. , 1998 ) ."	[exLink]		p48	Results	FALSE	result	29709	29774	
+300	s196	"Fig. 4 a shows that FAK is slightly hyperphosphorylated in the PTP-PEST null cells ,"	[inLink]	4a	p48	Results	FALSE	result	29775	29858	2e|4a
+301	s196	suggesting that this PTP may regulate its phosphorylation level .	[]		p48	Results	FALSE	implication	29859	29923	2e|4a
+302	s197	"Since FAK and PTP-PEST were never shown to interact directly , it is possible"	[]		p48	Results	FALSE	result	29924	30000	2e|4a
+303	s197	that this hyperphosphorylation is a consequence of p130CAS or paxillin hyperphosphorylation .	[]		p48	Results	FALSE	hypothesis	30001	30093	2e|4a
+304	s198	"Also , to follow our results showing that p130CAS is constitutively hyperphosphorylated in PTP-PEST ( -/- ) cells ( Cote et al. , 1998 ) , we verified"	[exLink]		p49	Results	FALSE	result	30094	30237	2e|4a
+305	s198	"if this hyperphosphorylation was decreased in the clone overexpressing wild-type PTP-PEST used in Fig. 2 e. p130CAS was immunoprecipitated from lysates of PTP-PEST ( +/- ) , ( -/- ) , and ( -/- ) overpressing PTP-PEST ."	[inLink]	2e	p49	Results	FALSE	result	30238	30448	2e|4a
+306	s199	The phosphorylation levels of p130CAS in each cell line were then evaluated as for the focal adhesion proteins described above .	[]		p49	Results	FALSE	method	30449	30576	2e|4b
+307	s200	Fig. 4 b shows	[inLink]	4b	p49	Results	FALSE	result	30577	30591	4b
+308	s200	that the phosphorylation of p130CAS is decreased to normal levels in the PTP-PEST ( -/- ) cells overexpressing PTP-PEST .	[]		p49	Results	FALSE	result	30592	30710	4b
+309	s201	"Taken together , these data suggest"	[]		p49	Results	FALSE	implication	30711	30745	4b
+310	s201	that PTP-PEST mediates the dephosphorylation of a specific subset of focal adhesion-associated proteins .	[]		p49	Results	FALSE	implication	30746	30850	4b
+311	s202	PTP-PEST ( -/- ) Cells Spread Faster on Fibronectin	[header-1]		title50	Results	FALSE	fact	30851	30900	
+312	s203	"This hyperphosphorylation of p130CAS , paxillin , and FAK is constitutive ,"	[]		p51	Results	FALSE	fact	30901	30973	
+313	s203	meaning the cells were not stimulated with growth factors or extracellular ligands .	[]		p51	Results	FALSE	result	30974	31057	
+314	s204	"Also , cell spreading was associated with paxillin tyrosine phosphorylation ( Richardson et al. , 1997 ) ."	[exLink]		p51	Results	FALSE	result	31058	31159	
+315	s205	"Finally , overexpression of PTP1B , a PTP"	[]		p51	Results	FALSE	method	31160	31199	
+316	s205	"for which p130CAS is a substrate ( Liu et al. , 1996 ) , caused inhibition of cell spreading ( Liu et al. , 1998 ) ."	[exLink]		p51	Results	FALSE	result	31200	31308	
+317	s206	These facts led	[]		p51	Results	FALSE	hypothesis	31309	31324	
+318	s206	"us to investigate whether the PTP-PEST ( -/- ) cells could be , on the contrary , more prone to attach on fibronectin since p130CAS , paxillin , and FAK are already hyperphosphorylated ."	[]		p51	Results	FALSE	hypothesis	31325	31504	
+319	s207	Normally growing cells were trypsinized and plated on fibronectin-coated tissue culture plates .	[]		p51	Results	FALSE	method	31505	31600	5
+320	s208	"After 10 , 15 , and 30 min , random fields were photographed and"	[]		p51	Results	FALSE	method	31601	31662	5
+321	s208	the cells were counted for the extent of cell spreading .	[]		p51	Results	FALSE	method	31663	31719	5
+322	s209	The results of two independent experiments with different populations of the two same PTP-PEST ( -/- ) and ( +/- ) clones	[]		p51	Results	FALSE	method	31720	31837	5
+323	s209	that were tested in the preceding experiments are shown in Fig. 5 .	[inLink]	5	p51	Results	FALSE	method	31838	31904	5
+324	s210	"After 10 min , more PTP-PEST ( -/- ) are opaque ,"	[]		p51	Results	FALSE	result	31905	31950	5a|5|5b
+325	s210	"which is a characteristic of spread cells under phase-contrast microscopy ( Fig. 5 , a and b ) ."	[inLink]	5a|5b	p51	Results	FALSE	method	31951	32043	5a|5|5b
+326	s211	"Photographs of fields after 30 min ( Fig. 5 , c and d ) as well as a quantitative curve of the spreading time course ( Fig. 5 e ) are also shown ."	[inLink]	5c|5d|5e	p51	Results	FALSE	method	32044	32184	5e|5d|5c
+327	s212	These results suggest	[]		p52	Results	FALSE	implication	32185	32206	5e|5d|5c
+328	s212	"that the PTP-PEST ( -/- ) cells are primed for attachment and spreading via integrin-stimulated pathways , and that PTP-PEST has a physiological role in regulating this event ."	[]		p52	Results	FALSE	implication	32207	32379	5e|5d|5c
+329	s213	The negative role of PTP-PEST in cell spreading is consistent with its role described above in cell migration via the breakdown of cell-substratum links .	[]		p52	Results	FALSE	implication	32380	32533	5e|5d|5c
+330	s214	"Increased Affinity for the SH2 Domains of Src and Crk toward p130CAS , but Not FAK or Paxillin , in the PTP-PEST ( -/- ) Cells"	[header-1]		title53	Results	FALSE	fact	32534	32656	
+331	s215	"To understand where the tyrosine residues hyperphosphorylated on p130CAS , paxillin , and FAK in the PTP-PEST ( -/- ) cells are , and to verify if these sites could be specific SH2-binding motifs"	[]		p54	Results	FALSE	goal	32657	32847	
+332	s215	we examined the physical association of each of these proteins with a panel of SH2 domains in vitro .	[]		p54	Results	FALSE	method	32848	32949	
+333	s216	"The three constructs tested were the GST fusion proteins of the Src and Crk SH2 domains , as well as the full-length Grb2 ( Charest et al. , 1997 ) ."	[exLink]		p54	Results	FALSE	method	32950	33094	
+334	s217	"These three SH2 domains were shown to bind phosphotyrosines on FAK ( Cantley and Songyang , 1994 ; Schaller et al. , 1994 ; Schlaepfer et al. , 1994 ; Schlaepfer and Hunter , 1996 ) , Src and Crk to p130CAS ( Sakai et al. , 1994 ) , and Crk to paxillin ( Turner and Miller , 1994 ) ."	[exLink]		p54	Results	FALSE	result	33095	33360	
+335	s218	Each cell lysate was first precleared with GST	[]		p55	Results	FALSE	method	33361	33407	6
+336	s218	alone to eliminate nonspecific binding ( see Materials and Methods ) .	[]		p55	Results	FALSE	method	33408	33475	6
+337	s219	0.5 mg of the remaining proteins was then incubated with each GST-fusion protein	[]		p55	Results	FALSE	method	33476	33556	6
+338	s219	and the bound proteins were resolved by SDS-PAGE ( Fig. 6 ) .	[inLink]	6	p55	Results	FALSE	method	33557	33615	6
+339	s220	"Between the PTP-PEST ( +/- ) and ( -/- ) cell lines , the greatest difference in affinity is observed between the SH2 domain of Src and p130CAS and , to a lesser extent , between the SH2 domain of Crk and p130CAS ,"	[]		p55	Results	FALSE	result	33616	33822	6
+340	s220	strongly suggesting that the tyrosines within these SH2-binding domains on p130CAS are hyperphosphorylated .	[]		p55	Results	FALSE	implication	33823	33930	6
+341	s221	"The other lanes show a small and fairly constant ( ~50 % ) increase in affinity ,"	[]		p55	Results	FALSE	result	33931	34008	6
+342	s221	that may or may not be indirect and could reflect a general constitutive increase in focal complexes in the PTP-PEST ( -/- ) cells .	[]		p55	Results	FALSE	implication	34009	34138	6
+343	s222	The exact tyrosines	[]		p55	Results	FALSE	problem	34139	34158	6
+344	s222	that are hyperphosphorylated on paxillin and FAK are still under investigation .	[]		p55	Results	FALSE	problem	34159	34238	6
+345	s223	"They may not be found in putative SH2-binding domains , but can play other roles in focal adhesion turnover ."	[]		p55	Results	FALSE	hypothesis	34239	34346	6
+346	s224	Hyperphosphorylation of PSTPIP in the PTP-PEST ( -/- ) Cells and Effects on Cleavage Furrow Formation	[header-1]		title56	Results	FALSE	none	34347	34446	
+347	s225	"While we investigated the effects of PTP-PEST targeting in cell migration , another protein involved with the actin cytoskeleton , PSTPIP , was cloned and shown"	[]		p57	Results	FALSE	method	34447	34604	
+348	s225	"to be a substrate for a PTP of the PEST family , PTP-HSCF ( Spencer et al. , 1997 ) ."	[exLink]		p57	Results	FALSE	result	34605	34685	
+349	s226	"A putative coiled-coil region of PSTPIP interacts with the COOH-terminal , proline-rich region of PTP-HSCF ( Dowbenko et al. , 1998 ) , a region"	[exLink]		p57	Results	FALSE	fact	34686	34825	
+350	s226	"that is conserved in all members of the PEST family , including PTP-PEST ."	[]		p57	Results	FALSE	fact	34826	34898	
+351	s227	Using a polyclonal antibody raised against PSTPIP	[]		p58	Results	FALSE	method	34899	34948	7
+352	s227	"we analyzed its tyrosine phosphorylation level in the PTP-PEST ( -/- ) and ( +/- ) cells by immunoprecipitation , followed by antiphosphotyrosine immunoblotting ."	[]		p58	Results	FALSE	method	34949	35106	7
+353	s228	Data from Spencer et al. ( 1997 ) suggested that PSTPIP tyrosine phosphorylation was controlled by the members of the PEST family of PTPs	[exLink]		p58	Results	FALSE	implication	35107	35242	7
+354	s228	and Fig. 7 shows that PSTPIP was hyperphosphorylated in the PTP-PEST knockout cell line .	[inLink]	7	p58	Results	FALSE	implication	35243	35332	7
+355	s229	"Taken together with the fact that PSTPIP is a direct substrate for PTP-HSCF ( Spencer et al. , 1997 ) , and that this substrate effect required the conserved COOH-terminal proline-rich binding domain"	[exLink]		p58	Results	FALSE	implication	35333	35528	
+356	s229	these results suggest that PSTPIP could be a substrate for PTP-PEST in fibroblasts .	[]		p58	Results	FALSE	hypothesis	35529	35613	
+357	s230	"The same experiment was performed on PSTPIP2 , a protein with high homology to PSTPIP"	[]		p58	Results	FALSE	method	35614	35698	
+358	s230	"which binds to the PEST type PTPs but does not contain the SH3 domain , and is not a substrate for the PEST family of PTPs ( Wu et al. , 1998a ) ."	[exLink]		p58	Results	FALSE	fact	35699	35840	
+359	s231	"The phosphorylation level of PSTPIP2 was similar in the ( +/- ) and the ( -/- ) cell lines ( data not shown ) , suggesting the presence of another level of specificity , such as substrate recognition/activity in PTP-PEST ."	[]		p58	Results	FALSE	result	35841	36054	
+360	s232	"PSTPIP is homologous to S. pombe CDC15 , an actin-associated protein"	[]		p59	Results	FALSE	fact	36055	36122	
+361	s232	"that is critically involved in the formation of the cleavage furrow during cell division ( Fankhauser et al. , 1995 ) ."	[exLink]		p59	Results	FALSE	fact	36123	36238	
+362	s233	"During our manipulations of the PTP-PEST ( -/- ) cells , we observed a high occurrence of cells"	[]		p59	Results	FALSE	result	36239	36331	8a
+363	s233	"that seemed blocked in a late stage of cytokinesis , with the two daughter cells almost independent , but still attached to each other by an actin-rich junction which appears to be derived from the cleavage furrow ."	[]		p59	Results	FALSE	result	36332	36544	8a
+364	s234	Fig. 8 a shows	[inLink]	8a	p59	Results	FALSE	result	36545	36559	8b|8a
+365	s234	the actin cleavage furrow rings of several of these cells as stained by rhodamine-phalloidin. Fig. 8 b represents the same cells showing the indirect antiphosphotyrosine immunostaining and revealing a clear band of tyrosine phosphorylated material at the cleavage furrow .	[inLink]	8b	p59	Results	FALSE	result	36560	36831	8b|8a
+366	s235	To eliminate the possibility of contamination of the rhodamine fluorescence through the FITC filter	[]		p59	Results	FALSE	goal	36832	36931	8b
+367	s235	"the same antiphosphotyrosine staining was performed in the absence of rhodamine-phalloidin , with the same result ."	[]		p59	Results	FALSE	method	36932	37046	8b
+368	s236	These cells were found in all PTP-PEST ( -/- ) cultures	[]		p59	Results	FALSE	result	37047	37100	8b
+369	s236	"that we observed , and were virtually absent from any other wild-type cell lines ."	[]		p59	Results	FALSE	result	37101	37181	8b
+370	s237	The rare PTP-PEST ( +/- ) cells found in this phase were also probed for antiphosphotyrosine	[]		p59	Results	FALSE	result	37182	37272	8b
+371	s237	and the cleavage furrow did reveal some staining .	[]		p59	Results	FALSE	result	37273	37322	8b
+372	s238	"Fig. 8 b does not represent a phenotype but shows the implication of tyrosine phosphorylation in cytokinesis ,"	[inLink]	8b	p59	Results	FALSE	result	37323	37432	8b
+373	s238	which can explain why a PTP could play a role in this event .	[]		p59	Results	FALSE	implication	37433	37493	8b
+374	s239	This phenomenon was postulated	[]		p59	Results	FALSE	hypothesis	37494	37524	8b
+375	s239	"to be the result of a longer M phase due to an impairment of the actin rearrangement during division , a process where tyrosine phosphorylation is involved ."	[]		p59	Results	FALSE	hypothesis	37525	37680	8b
+376	s240	Discussion	[header-0]		title60	Discussion	FALSE	none	37681	37691	
+377	s241	FAK activation and focal adhesions formation are closely related events .	[]		p61	Discussion	FALSE	fact	37692	37764	
+378	s242	"Until recently , the exact order"	[]		p61	Discussion	FALSE	problem	37765	37796	
+379	s242	in which they occur following integrin stimulation was greatly debated .	[]		p61	Discussion	FALSE	problem	37797	37868	
+380	s243	"Recent experiments ( Wilson et al. , 1995 ; Chrzanowska-Wodnicka and Burridge , 1996 ) showed"	[exLink]		p61	Discussion	FALSE	result	37869	37957	
+381	s243	that FAK activation is a result of focal adhesion formation .	[]		p61	Discussion	FALSE	implication	37958	38018	
+382	s244	"Due to the physical tension caused by the stress fiber formation in a cell , under the control of the Rho GTPase , the associated integrins cluster and associate with other structural proteins like alpha-actinin and tensin ( Burridge and Chrzanowska-Wodnicka , 1996 ) ."	[exLink]		p61	Discussion	FALSE	result	38019	38282	
+383	s245	FAK proteins are associated with integrins and can transphosphorylate in a manner similar to receptor tyrosine kinases following extracellular ligand	[]		p61	Discussion	FALSE	result	38283	38432	
+384	s245	binding .	[]		p61	Discussion	FALSE	result	38433	38441	
+385	s246	This phosphorylation activates FAK and provides docking sites for other signal transduction proteins	[]		p61	Discussion	FALSE	implication	38442	38542	
+386	s246	that propagate integrin-triggered pathways .	[]		p61	Discussion	FALSE	implication	38543	38586	
+387	s247	"However , the relationship between focal adhesion formation and FAK activation is apparently not strictly linear ."	[]		p62	Discussion	FALSE	problem	38587	38699	
+388	s248	"Among the signals sent by FAK , some were shown"	[]		p62	Discussion	FALSE	result	38700	38746	
+389	s248	to feed back and play a role in the turnover rate of focal adhesions .	[]		p62	Discussion	FALSE	result	38747	38816	
+390	s249	The existence of such signals was concluded	[]		p62	Discussion	FALSE	implication	38817	38860	
+391	s249	"when the FAK null cell lines showed an increase in focal adhesion size and number ( Ilic et al. , 1995 ) ."	[exLink]		p62	Discussion	FALSE	implication	38861	38963	
+392	s250	"However , these results did not take into account the effects of other members of the FAK family"	[]		p62	Discussion	FALSE	problem	38964	39059	
+393	s250	"that were later identified , such as Pyk2 ( Sasaki et al. , 1995 ) ."	[exLink]		p62	Discussion	FALSE	problem	39060	39123	
+394	s251	"Recently , FAK was shown"	[]		p62	Discussion	FALSE	result	39124	39147	
+395	s251	"to play a role in migration , an event that requires focal adhesion formation and breakdown ."	[]		p62	Discussion	FALSE	result	39148	39239	
+396	s252	"This increase in migration occurs via the tyrosine phosphorylation of an adapter protein , p130CAS ( Cary et al. , 1998 ) ."	[exLink]		p62	Discussion	FALSE	result	39240	39358	
+397	s253	"Also , gene disruption of a cytoplasmic tyrosine phosphatase with two SH2 domains , SHP-2 , was shown"	[]		p62	Discussion	FALSE	result	39359	39457	
+398	s253	"to impair the ability of fibroblasts to spread and migrate on fibronectin ( Yu et al. , 1998 ) ."	[exLink]		p62	Discussion	FALSE	result	39458	39550	
+399	s254	This phenotype was associated with a decrease in FAK dephosphorylation following cell detachment and suspension .	[]		p62	Discussion	FALSE	result	39551	39663	
+400	s255	"In this paper , we examined another cell line with a gene inactivated by homologous recombination , cytosolic PTP-PEST ."	[]		p62	Discussion	FALSE	goal	39664	39781	
+401	s256	"A major substrate for this enzyme in both mice and humans was shown to be p130CAS ( Garton et al. , 1996 ; Cote et al. , 1998 ) , and"	[exLink]		p62	Discussion	FALSE	result	39782	39909	
+402	s256	"we show in Fig. 1 that , in COS-1 cells , PTP-PEST can translocate to the membrane periphery following integrin activation , possibly in order to reach the p130CAS substrate which also translocates to focal adhesions when FAK is activated ( Nakamoto et al. , 1997 ) ."	"[inLink, exLink]"	1	p62	Discussion	FALSE	hypothesis	39910	40170	
+403	s257	"The effects of PTP-PEST removal on cell migration and focal adhesion number were similar to the phenotype of the FAK mutant cells ( Ilic et al. , 1995 ) ."	[exLink]		p63	Discussion	FALSE	result	40171	40321	
+404	s258	"Both showed a decrease in fibroblast migration using fibronectin as an extracellular matrix , and"	[]		p63	Discussion	FALSE	result	40322	40418	
+405	s258	the presence of numerous immature focal adhesions scattered on the ventral face of the cell ( Figs. 2 and 3 ) .	[inLink]	3	p63	Discussion	FALSE	result	40419	40527	
+406	s259	"Even though FAK and PTP-PEST have opposite catalytic activities on a common substrate , p130CAS"	[]		p63	Discussion	FALSE	result	40528	40622	
+407	s259	"PTP-PEST does not seem to antagonize the effects of FAK in cell migration , but rather to potentiate these effects ."	[]		p63	Discussion	FALSE	result	40623	40738	
+408	s260	This suggests a mechanism	[]		p63	Discussion	FALSE	hypothesis	40739	40764	
+409	s260	where both a formation and a breakdown pathway are triggered at the same time to increase the turnover rate of the focal adhesion structures .	[]		p63	Discussion	FALSE	hypothesis	40765	40906	
+410	s261	"Without the pathway required for focal adhesion breakdown ,"	[]		p63	Discussion	FALSE	hypothesis	40907	40965	
+411	s261	"the adhesive contacts between the extracellular matrix and the cell are too strong , and the cell adheres and does not migrate ( Schwarzbauer , 1997 ) ."	[exLink]		p63	Discussion	FALSE	hypothesis	40966	41113	
+412	s262	"In FAK ( -/- ) cells , the actin stress fibers were dense around the cell periphery rather than in the center ,"	[]		p63	Discussion	FALSE	result	41114	41221	
+413	s262	"where they can exert the transcellular tension necessary for cell migration ( Lauffenburger and Horwitz , 1996 ) ."	[exLink]		p63	Discussion	FALSE	implication	41222	41332	
+414	s263	"In contrast , in the PTP-PEST ( -/- ) cells , central stress fibers are omnipresent ,"	[]		p63	Discussion	FALSE	result	41333	41413	
+415	s263	suggesting that the cells can not turn them over .	[]		p63	Discussion	FALSE	implication	41414	41462	
+416	s264	This state is also incompatible with cell migration .	[]		p63	Discussion	FALSE	fact	41463	41515	
+417	s265	"The absence of differences in the early stages of cell attachment to fibronectin ( Fig. 3 , a-d ) suggests"	[inLink]	3a|3b|3c|3d	p63	Discussion	FALSE	result	41516	41619	
+418	s265	that PTP-PEST is not implicated in the initial formation of stress fibers or focal adhesions .	[]		p63	Discussion	FALSE	implication	41620	41713	
+419	s266	"However , at equilibrium , clear"	[]		p63	Discussion	FALSE	result	41714	41744	
+420	s266	"differences appear ( Fig. 3 , e-h ) ."	[inLink]	3e|3f|3g|3h	p63	Discussion	FALSE	result	41745	41778	
+421	s267	"The focal adhesions in the PTP-PEST ( -/- ) cells are numerous and scattered throughout the ventral ( i.e. , substrate-attached ) membrane of the cell ,"	[]		p63	Discussion	FALSE	result	41779	41925	
+422	s267	which can in part explain the absence of motility of the cells when tested in the wound healing assay .	[]		p63	Discussion	FALSE	result	41926	42028	
+423	s268	"In contrast , the heterozygous cells became rounded ,"	[]		p63	Discussion	FALSE	result	42029	42080	
+424	s268	"their focal adhesions were punctate and found only at the tips of their membranes , which is consistent with a migrating cell ."	[]		p63	Discussion	FALSE	result	42081	42206	
+425	s269	This led	[]		p63	Discussion	FALSE	hypothesis	42207	42215	
+426	s269	"us to believe that PTP-PEST is implicated in focal adhesion and stress fiber breakdown , a role that is the counterpart of FAK or Src but is required for the successful achievement of the same event , cell migration ."	[]		p63	Discussion	FALSE	hypothesis	42216	42430	
+427	s270	"In the PTP-PEST mutant cell line , p130CAS , paxillin , and FAK were found in a hyperphosphorylated state ."	[]		p64	Discussion	FALSE	result	42431	42534	
+428	s271	The phosphorylation of paxillin was shown	[]		p64	Discussion	FALSE	result	42535	42576	
+429	s271	"to be associated with cell spreading on an extracellular matrix ( Richardson et al. , 1997 ) , which is consistent with data reported here ."	[exLink]		p64	Discussion	FALSE	result	42577	42712	
+430	s272	"Paxillin can associate with PTP-PEST ( Shen et al. , 1998 ) , but it does not constitute a direct physiological substrate for this PTP"	[exLink]		p64	Discussion	FALSE	result	42713	42843	
+431	s272	"( Cote , J.-F. , C.E. Turner , and M.L. Tremblay , manuscript submitted for publication ) and the exact site that is hyperphosphorylated is still not clear ."	[]		p64	Discussion	FALSE	problem	42844	42994	
+432	s273	SH2-domain affinity assays shown in Fig. 4 strongly suggest	[inLink]	4	p65	Discussion	FALSE	implication	42995	43054	
+433	s273	the sites that are hyperphosphorylated on p130CAS are within the SH2-binding domains of Src and Crk .	[]		p65	Discussion	FALSE	implication	43055	43155	
+434	s274	One hypothesis is	[]		p65	Discussion	FALSE	hypothesis	43156	43173	
+435	s274	"that the only tyrosine that is substrate for PTP-PEST is the 762YDYV765 Src SH2-binding region on p130CAS , which binds Src in a tyrosine-dependant manner ( Sakai et al. , 1994 ) ."	[exLink]		p65	Discussion	FALSE	hypothesis	43174	43349	
+436	s275	"In PTP-PEST ( -/- ) cells , this can cause Src to constitutively bind p130CAS and hyperphosphorylate the Crk-binding motifs on p130CAS ."	[]		p65	Discussion	FALSE	hypothesis	43350	43482	
+437	s276	This would explain	[]		p65	Discussion	FALSE	hypothesis	43483	43501	
+438	s276	"why p130CAS is so hyperphosphorylated in the PTP-PEST ( -/- ) cells , and why the difference in affinity is greater with the Src SH2 domain compared with the Crk SH2 domain , even though there are 15 putative binding domains for Crk compared with only one for Src on p130CAS ."	[]		p65	Discussion	FALSE	hypothesis	43502	43773	
+439	s277	"In the same line of thought ,"	[]		p65	Discussion	FALSE	hypothesis	43774	43802	
+440	s277	"this could also be the cause for the small FAK hyperphosphorylation in the PTP-PEST ( -/- ) cells , since the SH3 domain of p130CAS can bind a proline-rich region on FAK ( Polte and Hanks , 1995 ) , and FAK is also a substrate for Src ( Calalb et al. , 1995 , 1996 ; Schlaepfer and Hunter , 1996 ) ."	[exLink]		p65	Discussion	FALSE	hypothesis	43803	44088	
+441	s278	This increased affinity between Crk and p130CAS in the PTP-PEST ( -/- ) cells can be related to the phenotypes observed in Figs. 2 and 3 .	[inLink]	3	p65	Discussion	FALSE	result	44089	44224	
+442	s279	The CAS/Crk coupling has been shown	[]		p65	Discussion	FALSE	result	44225	44260	
+443	s279	"to play a role in the induction of cell migration ( Klemke et al. , 1998 ) ."	[exLink]		p65	Discussion	FALSE	result	44261	44333	
+444	s280	"Thus , incorrect regulation of this molecular switch in the absence of PTP-PEST could lead"	[]		p65	Discussion	FALSE	hypothesis	44334	44423	
+445	s280	to aberrant cell migration .	[]		p65	Discussion	FALSE	hypothesis	44424	44451	
+446	s281	"These results provide a concrete , tyrosine phosphorylation-dependent way for PTP-PEST to regulate cell migration , and strongly suggest"	[]		p65	Discussion	FALSE	implication	44452	44586	
+447	s281	the phenotypes observed here are the result of the gene targeting .	[]		p65	Discussion	FALSE	implication	44587	44653	
+448	s282	"Still , reintroduction at physiological levels of different PTP-PEST constructs in the knockout cells"	[]		p65	Discussion	FALSE	result	44654	44754	
+449	s282	to differentially rescue the phenotypes described in this paper is currently under way in our laboratory .	[]		p65	Discussion	FALSE	result	44755	44860	
+450	s283	Studies using the PTP inhibitor phenylarsine oxide showed	[]		p66	Discussion	FALSE	result	44861	44918	
+451	s283	"that treatment of cells with this compound was sufficient to induce the formation of stress fibers even after starving them for 16 h ( Retta et al. , 1996 ) ."	[exLink]		p66	Discussion	FALSE	result	44919	45073	
+452	s284	Phenylarsine oxide reacts with two thiol groups of closely spaced cysteine residues in the active site of the phosphatase .	[]		p66	Discussion	FALSE	result	45074	45196	
+453	s285	"The PTP-PEST catalytic domain contains the sequence 231CSAGC235 ( Charest et al. , 1995 ) , the cysteine at position 231 being crucial for its catalytic activity ."	[exLink]		p66	Discussion	FALSE	fact	45197	45355	
+454	s286	"These studies also showed that focal adhesion disassembly results in stimulation of phosphatase activity ,"	[]		p66	Discussion	FALSE	result	45356	45461	
+455	s286	which could be assayed using FAK and paxillin as substrates .	[]		p66	Discussion	FALSE	method	45462	45522	
+456	s287	"That , and the fact that paxillin is hyperphosphorylated in the PTP-PEST knockout cell line , suggest"	[]		p66	Discussion	FALSE	result	45523	45622	
+457	s287	that PTP-PEST is a candidate PTP involved in the focal adhesion breakdown in the conditions studied in these experiments .	[]		p66	Discussion	FALSE	implication	45623	45744	
+458	s288	The role of a PTP in focal adhesion breakdown would suggest	[]		p67	Discussion	FALSE	hypothesis	45745	45804	
+459	s288	"that overexpression of the PTP would also inhibit cell migration , by impairing the formation of the focal adhesions at the leading edge of the cell ."	[]		p67	Discussion	FALSE	hypothesis	45805	45953	
+460	s289	"Experiments involving another PTP that can dephosphorylate p130CAS , PTP1B ( Liu et al. , 1996 ) , showed"	[exLink]		p67	Discussion	FALSE	result	45954	46054	
+461	s289	"that overexpression of this PTP in rat fibroblasts decreased cell migration while increasing the time required for the cell to spread on fibronectin ( Liu et al. , 1998 ) ."	[exLink]		p67	Discussion	FALSE	result	46055	46223	
+462	s290	This was linked to a disordered formation of focal adhesions .	[]		p67	Discussion	FALSE	result	46224	46285	
+463	s291	"In this article , we demonstrated"	[]		p67	Discussion	FALSE	result	46286	46318	
+464	s291	"that removal of a PTP that can dephosphorylate p130CAS , PTP-PEST , increased the spreading speed of targeted cells on the same extracellular matrix protein ( Fig. 5 ) ."	[inLink]	5	p67	Discussion	FALSE	result	46319	46483	
+465	s292	"Interestingly , the PTP1B-overexpressing cells eventually formed numerous , large focal complexes scattered over their ventral surface , like ones found in the PTP-PEST ( -/- ) cells ."	[]		p67	Discussion	FALSE	result	46484	46662	
+466	s293	These experiments and the ones presented in this paper suggest	[]		p67	Discussion	FALSE	implication	46663	46725	
+467	s293	"that an intermediate level of PTP activity towards p130CAS is required for the formation of normal focal adhesions and for cell migration , which is consistent with a role in focal adhesion turnover ."	[]		p67	Discussion	FALSE	implication	46726	46924	
+468	s294	PTP-PEST may also play a role in the regulation of the cell cytoskeleton	[]		p68	Discussion	FALSE	hypothesis	46925	46997	
+469	s294	this time via the cleavage furrow-associated protein PSTPIP .	[]		p68	Discussion	FALSE	hypothesis	46998	47059	
+470	s295	"PSTPIP was originally identified as a binding partner and a substrate for the phosphatase PTP-HSCF ( Spencer et al. , 1997 ) , a PEST tyrosine phosphatase ."	[exLink]		p68	Discussion	FALSE	result	47060	47211	
+471	s296	PTP-HSCF dephosphorylates tyrosine residues in PSTPIP	[]		p68	Discussion	FALSE	fact	47212	47265	
+472	s296	that are modified either by coexpression of the v-Src tyrosine kinase or in the presence of the unspecific PTP inhibitor pervanadate .	[]		p68	Discussion	FALSE	fact	47266	47399	
+473	s297	"One of these sites , within the SH3 domain of PSTPIP , was shown"	[]		p68	Discussion	FALSE	result	47400	47462	
+474	s297	"to regulate binding with the proline-rich region found on WASP ( Wu et al. , 1998 ) , and to control aspects of the actin cytoskeleton ."	[]		p68	Discussion	FALSE	result	47463	47594	
+475	s298	The possibility	[]		p69	Discussion	FALSE	hypothesis	47595	47610	
+476	s298	that tyrosine phosphorylation is involved in furrow development and the signaling events coordinating nuclear division was reported by Cool et al. ( 1992 ) .	[exLink]		p69	Discussion	FALSE	hypothesis	47611	47765	
+477	s299	Their data show	[]		p69	Discussion	FALSE	result	47766	47781	
+478	s299	"that BHK cells overexpressing a truncated PTP , namely T cell PTP , become highly multinucleate , apparently through a failure in cytokinesis ."	[]		p69	Discussion	FALSE	implication	47782	47921	
+479	s300	"This deletion mutant lacked the COOH-terminal extension responsible for its proper localization , and"	[]		p69	Discussion	FALSE	result	47922	48022	
+480	s300	the redistribution of the enzyme to the soluble fraction caused both a furrowing defect and an asynchronous entry into S phase of two nuclei within the same syncytial cell .	[]		p69	Discussion	FALSE	result	48023	48195	
+481	s301	It has not been shown	[]		p70	Discussion	FALSE	problem	48196	48217	
+482	s301	"whether PTP-PEST binds directly to PSTPIP , but peptides derived from the conserved proline-rich COOH terminus of PTP-PEST can compete the binding of PTP-HSCF to PSTPIP ( Spencer et al. , 1997 ) , consistent with the suggestion that PTP-PEST binds to PSTPIP in a manner similar to PTP-HSCF binding ."	[exLink]		p70	Discussion	FALSE	result	48218	48511	
+483	s302	"In addition , while no previous data had shown that PTP-PEST can dephosphorylate PSTPIP , the fact that PSTPIP is hyperphosphorylated in the PTP-PEST ( -/- ) cells ( Fig. 7 ) strongly suggests"	[inLink]	7	p70	Discussion	FALSE	result	48512	48698	
+484	s302	that PTP-PEST plays a direct role in modulating the tyrosine phosphorylation level of PSTPIP .	[]		p70	Discussion	FALSE	implication	48699	48792	
+485	s303	"PTP-HSCF and another member of the PEST family , PTP-PEP , are generally not expressed in fibroblasts , and"	[]		p70	Discussion	FALSE	result	48793	48897	
+486	s303	it is possible that PTP-PEST regulates PSTPIP in fibroblasts the way PTP-HSCF does in hematopoietic cells .	[]		p70	Discussion	FALSE	hypothesis	48898	49004	
+487	s304	"The exact site that is hyperphosphorylated on PSTPIP in PTP-PEST ( -/- ) cells is not known , and"	[]		p70	Discussion	FALSE	problem	49005	49099	
+488	s304	"the effects of this hyperphosphorylation on binding , for example , to WASP ( Wu et al. , 1998b ) are still under investigation ."	[exLink]		p70	Discussion	FALSE	problem	49100	49223	
+489	s305	One of the observable effects appears	[]		p70	Discussion	FALSE	result	49224	49261	
+490	s305	"to be an increase in the relative amount of cells found in the last stages of cytokinesis in a field of unsynchronized cells ( Fig. 8 ) , possibly due to the role of PSTPIP in cleavage furrow assembly or disassembly ."	[inLink]	8	p70	Discussion	FALSE	result	49262	49475	
+491	s306	It is also possible	[]		p70	Discussion	FALSE	hypothesis	49476	49495	
+492	s306	"that the increase of PSTPIP tyrosine phosphorylation is the result , and not the cause , of the increase of the number of cells in this phase ."	[]		p70	Discussion	FALSE	hypothesis	49496	49636	
+493	s307	The fact	[]		p71	Discussion	FALSE	fact	49637	49645	
+494	s307	that PTP-PEST ( -/- ) cells still divide and grow at rates comparable to other cells suggests the presence of other mechanisms involved in cell division .	[]		p71	Discussion	FALSE	implication	49646	49797	
+495	s308	"Isolation and characterization of cytokinesis-deficient mutants in Dictyostelium discoideum , a highly motile organism"	[]		p71	Discussion	FALSE	fact	49798	49915	
+496	s308	"that undergoes cell cleavage much like higher eukaryotes , provided examples of cell division occurring with impaired cytokinesis ( Vithalani et al. , 1996 ) ."	[exLink]		p71	Discussion	FALSE	fact	49916	50070	
+497	s309	"In particular , a mutation in the myosin gene"	[]		p71	Discussion	FALSE	fact	50071	50115	
+498	s309	"that prevents the protein assembly in thick filaments resulted in organisms clearly defective in the contractile events involved in cytokinesis ( Fukui et al. , 1990 ) ."	[exLink]		p71	Discussion	FALSE	fact	50116	50281	
+499	s310	"Another mutant , called 10BH2 , also had a complete defect in cytokinesis ( Vithalani et al. , 1996 ) ."	[exLink]		p71	Discussion	FALSE	result	50282	50379	
+500	s311	"However , both mutants , which showed cell division defects when grown in suspension , were able to divide"	[]		p71	Discussion	FALSE	result	50380	50483	
+501	s311	"when plated on solid substratum by pinching off a portion of their cytoplasm in a process known as traction-mediated cytofission ( Fukui et al. , 1990 ) ."	[exLink]		p71	Discussion	FALSE	result	50484	50634	
+502	s312	It is possible	[]		p71	Discussion	FALSE	hypothesis	50635	50649	
+503	s312	"that the PTP-PEST ( -/- ) cells in part rely on this event to normally grow , even if the defect in chemokinesis observed in the wound-healing assay could impair the required migration ."	[]		p71	Discussion	FALSE	hypothesis	50650	50832	
+504	s313	"Interestingly , another D. discoideum mutant , in the single gene encoding calmodulin , formed and constricted a contractile cleavage furrow ring"	[]		p71	Discussion	FALSE	result	50833	50975	
+505	s313	"but the midbody linking the daughter cells failed to completely close ( Liu et al. , 1992 ) ."	[exLink]		p71	Discussion	FALSE	result	50976	51066	
+506	s314	The resultant population contained	[]		p71	Discussion	FALSE	result	51067	51101	
+507	s314	cells resembling cells observed in the PTP-PEST ( -/- ) population .	[]		p71	Discussion	FALSE	result	51102	51167	
+508	s315	This cytoplasmic bridge could be broken by shear forces when the cells were grown in suspension cultures	[]		p71	Discussion	FALSE	hypothesis	51168	51272	
+509	s315	and the cells could multiply normally .	[]		p71	Discussion	FALSE	hypothesis	51273	51311	
+510	s316	This suggests	[]		p71	Discussion	FALSE	hypothesis	51312	51325	
+511	s316	"that cells in this state require little force to successfully complete division , and could explain the fact that the PTP-PEST ( -/- ) cells can still divide ."	[]		p71	Discussion	FALSE	hypothesis	51326	51481	
+512	s317	"In this article , we reported two roles"	[]		p72	Discussion	FALSE	hypothesis	51482	51520	
+513	s317	"that a specific PTP , PTP-PEST , could play in regulating the cytoskeleton of fibroblasts ."	[]		p72	Discussion	FALSE	hypothesis	51521	51609	
+514	s318	"The first , possibly via its capacity to dephosphorylate p130CAS , is"	[]		p72	Discussion	FALSE	hypothesis	51610	51677	
+515	s318	"to break down focal adhesions , an event which is required for cell migration on an extracellular matrix like fibronectin ."	[]		p72	Discussion	FALSE	hypothesis	51678	51799	
+516	s319	PTP-PEST was shown to localize at the membrane periphery when COS-1 cells were plated on fibronectin and	[]		p72	Discussion	FALSE	result	51800	51904	
+517	s319	this confers to PTP-PEST a physiological role in cell migration that is not a secondary effect of overexpression .	[]		p72	Discussion	FALSE	result	51905	52018	
+518	s320	"The fact that PTP-PEST is mostly found in a cytoplasmic pool ( Charest et al. , 1995 ) and can be recruited to the plasma membrane after fibronectin-mediated attachment provides the cell a mechanism"	[exLink]		p72	Discussion	FALSE	result	52019	52214	
+519	s320	"to increase its focal adhesions turnover rate proportional to the stimulus , even when FAK , p130CAS , or v-Src is overexpressed ( Akasaka et al. , 1995 ; Cary et al. , 1998 ; Fincham and Frame , 1998 ) ."	[exLink]		p72	Discussion	FALSE	result	52215	52408	
+520	s321	PTP-PEST also plays a role in	[]		p72	Discussion	FALSE	fact	52409	52438	
+521	s321	"modulating the phosphorylation level of PSTPIP , a protein that associates with the cytoskeleton ( Spencer et al. , 1997 ) ."	[exLink]		p72	Discussion	FALSE	fact	52439	52558	
+522	s322	"The role of this PTP-PEST activity is not known , but"	[]		p72	Discussion	FALSE	problem	52559	52611	
+523	s322	"it may involve the binding of WASP to PSTPIP ( Wu et al. , 1998b ) ."	[exLink]		p72	Discussion	FALSE	hypothesis	52612	52676	
+524	s323	Since WASP has been shown	[]		p72	Discussion	FALSE	result	52677	52702	
+525	s323	"to regulate actin fiber assembly and cytokinesis in both yeast ( Li , 1997 ) and mammalian ( Symons et al. , 1996 ) cells ."	[exLink]		p72	Discussion	FALSE	result	52703	52819	
+526	s324	These data suggest	[]		p72	Discussion	FALSE	implication	52820	52838	
+527	s324	that this interaction may be somehow modulated in the PTP-PEST ( -/- ) cells .	[]		p72	Discussion	FALSE	implication	52839	52914	

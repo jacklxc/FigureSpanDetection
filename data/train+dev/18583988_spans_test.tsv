@@ -1,0 +1,189 @@
+	SentenceId	Clause Text	Codes	ExperimentValues	Paragraph	Headings	FloatingBox?	Discourse Type	Offset_Begin	Offset_End	fig_spans
+0	s1	Phospho-dependent interactions between NBS1 and MDC1 mediate chromatin retention of the MRN complex at sites of DNA damage	[]		-		FALSE	implication	137	259	
+1	s2	Mammalian cells respond	[]		p3		FALSE	fact	1000	1023	
+2	s2	to DNA double-strand breaks ( DSBs ) by recruiting DNA repair and cell-cycle checkpoint proteins to such sites .	[]		p3		FALSE	fact	1024	1133	
+3	s3	Central to these DNA damage response ( DDR ) events is the DNA damage mediator protein MDC1 .	[]		p3		FALSE	fact	1134	1224	
+4	s4	"MDC1 interacts with several DDR proteins , including the MRE11-RAD50-NBS1 ( MRN ) complex ."	[]		p3		FALSE	fact	1225	1312	
+5	s5	"Here , we show"	[]		p3		FALSE	result	1313	1326	
+6	s5	that MDC1 is phosphorylated on a cluster of conserved repeat motifs by casein kinase 2 ( CK2 ) .	[]		p3		FALSE	result	1327	1420	
+7	s6	"Moreover , we establish"	[]		p3		FALSE	result	1421	1443	
+8	s6	"that this phosphorylation of MDC1 promotes direct , phosphorylation-dependent interactions with NBS1 in a manner that requires the closely apposed FHA and twin BRCT domains in the amino terminus of NBS1 ."	[]		p3		FALSE	result	1444	1646	
+9	s7	"Finally , we show"	[]		p3		FALSE	result	1647	1663	
+10	s7	that these CK2-targeted motifs in MDC1 are required to mediate NBS1 association with chromatin-flanking sites of unrepaired DSBs .	[]		p3		FALSE	result	1664	1793	
+11	s8	These findings provide a molecular explanation for the MDC1-MRN interaction and yield insights into	[]		p3		FALSE	implication	1794	1893	
+12	s8	how MDC1 coordinates the focal assembly and activation of several DDR factors in response to DNA damage .	[]		p3		FALSE	implication	1894	1998	
+13	s9	Introduction	[header-0]		title4	Introduction	FALSE	none	2039	2051	
+14	s10	To counter the threat to the genome from DNA-damaging agents	[]		p5	Introduction	FALSE	fact	2052	2112	
+15	s10	"cells use the DNA damage response ( DDR ) : a set of events involving activation of DNA repair mechanisms and cell-cycle ' checkpoint ' signalling ( Kastan & Bartek , 2004 ) ."	[exLink]		p5	Introduction	FALSE	fact	2113	2280	
+16	s11	DNA double-strand breaks ( DSBs ) -- the most cytotoxic DNA lesions -- activate	[]		p5	Introduction	FALSE	fact	2281	2354	
+17	s11	"the protein kinase ataxia telangiectasia mutated ( ATM ) to phosphorylate the carboxy-terminal tail of histone H2AX in the vicinity of the break ( Stucki & Jackson , 2006 ) ."	[exLink]		p5	Introduction	FALSE	fact	2355	2523	
+18	s12	"This chromatin modification is crucial for the relocalization of several proteins to sites flanking DSBs , generating"	[]		p5	Introduction	FALSE	fact	2524	2640	
+19	s12	"ionizing radiation-induced foci ( IRIF ) that promote efficient repair and sustained DNA damage signalling ( Fernandez-Capetillo et al , 2004 ; Stucki & Jackson , 2006 ) ."	[exLink]		p5	Introduction	FALSE	fact	2641	2804	
+20	s13	"A core IRIF component is the mediator of the DNA-damage checkpoint protein 1 ( MDC1 ; Goldberg et al , 2003 ; Lou et al , 2003 ; Stewart et al , 2003 ; Stucki et al , 2005 ) ."	[exLink]		p6	Introduction	FALSE	fact	2805	2969	
+21	s14	"MDC1 colocalizes with phospho-H2AX ( gammaH2AX ) owing to direct interactions between the C-terminal twin BRCT ( BRCT2 ) domains of MDC1 and the gammaH2AX phospho-epitope ( Stucki et al , 2005 ) ."	[exLink]		p6	Introduction	FALSE	fact	2970	3158	
+22	s15	"MDC1 then mediates IRIF formation by other DDR factors such as p53 binding protein 1 ( 53BP1 ) , breast cancer protein 1 ( BRCA1 ) and the MRE11-RAD50-NBS1 ( MRN ) complex ( Goldberg et al , 2003 ; Stewart et al , 2003 ) ."	[exLink]		p6	Introduction	FALSE	fact	3159	3368	
+23	s16	We and others have recently shown	[]		p6	Introduction	FALSE	result	3369	3402	
+24	s16	"that a cluster of repeated consensus ATM phosphorylation sites in MDC1 is crucial for the recruitment of BRCA1 and 53BP1 to IRIF , but not for NBS1 focus formation ( Huen et al , 2007 ; Kolas et al , 2007 ; Mailand et al , 2007 ) ."	[exLink]		p6	Introduction	FALSE	result	3403	3625	
+25	s17	"On phosphorylation , these motifs are bound by the FHA domain of the ubiquitin E3 ligase ring-finger protein 8 ( RNF8 ) , which"	[]		p6	Introduction	FALSE	result	3626	3749	
+26	s17	then generates ubiquitin conjugates at sites of DSBs that mediate BRCA1 and 53BP1 recruitment .	[]		p6	Introduction	FALSE	fact	3750	3844	
+27	s18	"Although MDC1 was shown to directly bind to MRN some years ago ( Goldberg et al , 2003 )"	[exLink]		p6	Introduction	FALSE	result	3845	3930	
+28	s18	the molecular basis of how MDC1 recruits MRN to IRIF has remained elusive .	[]		p6	Introduction	FALSE	problem	3931	4006	
+29	s19	"Here , we show"	[]		p6	Introduction	FALSE	implication	4007	4020	
+30	s19	"that a cluster of repeated motifs in MDC1 , which are phosphorylated by casein kinase 2 ( CK2 ) , are bound by MRN through phospho-dependent interactions with NBS1 that require its amino-terminal FHA and BRCT2 domains ."	[]		p6	Introduction	FALSE	implication	4021	4235	
+31	s20	"Furthermore , we show"	[]		p6	Introduction	FALSE	implication	4236	4256	
+32	s20	that this MDC1-NBS1 interaction is crucial for the targeting and retention of NBS1 on chromatin-flanking DNA DSBs .	[]		p6	Introduction	FALSE	implication	4257	4371	
+33	s21	Results	[header-0]		title7	Results	FALSE	none	4372	4379	
+34	s22	Phosphorylated SDTD repeats of MDC1 bind to MRN	[header-1]		title8	Results	FALSE	fact	4380	4427	
+35	s23	A search of published databases for the post-translational modifications of MDC1 identified many phosphorylation sites ;	[]		p9	Results	FALSE	fact	4428	4547	
+36	s23	"however , two studies ( Beausoleil et al , 2004 ; Olsen et al , 2006 ) identified eight sites within a cluster of short-repeat sequences that shared the consensus motif Ser-Asp-Thr-Asp ( SDTD ) in which both the serine and threonine are phosphorylated ."	[exLink]		p9	Results	FALSE	fact	4548	4792	
+37	s24	"This SDTD motif is repeated six times between Ser 218 and Asp 455 in human MDC1 , and"	[]		p9	Results	FALSE	fact	4793	4877	f1a
+38	s24	similar evolutionarily conserved motifs exist in MDC1 orthologues in other vertebrates ( Fig 1A ) .	[inLink]	f1a	p9	Results	FALSE	fact	4878	4974	f1a
+39	s25	"To investigate whether the SDTD motifs might interact with other DDR components , we generated a synthetic peptide"	[]		p10	Results	FALSE	goal	4975	5088	f1b
+40	s25	that corresponded to MDC1 residues 325-340 bearing dual phosphorylation on Ser 329 and Thr 331 .	[]		p10	Results	FALSE	method	5089	5184	f1b
+41	s26	This peptide and its unphosphorylated equivalent were coupled to beads and used	[]		p10	Results	FALSE	method	5185	5264	f1b
+42	s26	to retrieve interacting proteins from HeLa cell nuclear extracts .	[]		p10	Results	FALSE	method	5265	5330	f1b
+43	s27	This approach identified four prominent protein bands on a silver-stained gel	[]		p10	Results	FALSE	result	5331	5408	f1b
+44	s27	that bound in a phosphorylation-dependent manner ( Fig 1B ) .	[inLink]	f1b	p10	Results	FALSE	result	5409	5467	f1b
+45	s28	"Mass spectrometric analysis identified three of these as MRE11 , RAD50 and NBS1 ."	[]		p10	Results	FALSE	result	5468	5547	f1b
+46	s29	We noted	[]		p10	Results	FALSE	result	5548	5556	f1c
+47	s29	"that control binding assays with the gammaH2AX phospho-peptide retrieved MRN and MDC1 from nuclear extracts , whereas the phosphorylated SDTD peptide bound MRN only ( Fig 1C ) ."	[inLink]	f1c	p10	Results	FALSE	result	5557	5730	f1c
+48	s30	This indicates	[]		p10	Results	FALSE	implication	5731	5745	f1c
+49	s30	that the phosphorylated MDC1 SDTD peptide does not interact with MRN indirectly by bridging contacts with MDC1 .	[]		p10	Results	FALSE	implication	5746	5857	f1c
+50	s31	CK2 phosphorylation of MDC1 mediates MRN binding	[header-1]		title11	Results	FALSE	fact	5858	5906	
+51	s32	To study phosphorylation of the MDC1 SDTD region and to investigate its regulation	[]		p12	Results	FALSE	goal	5907	5989	f1a
+52	s32	we raised a rabbit polyclonal antiserum against a synthetic peptide corresponding to one of the MDC1 SDTD repeats phosphorylated on Ser 329 and Thr 331 ( supplementary Fig S1A online ) .	[inLink]	f1a	p12	Results	FALSE	method	5990	6174	f1a
+53	s33	This detected	[]		p12	Results	FALSE	result	6175	6188	f1a|f2a
+54	s33	"MDC1 isolated from HeLa nuclear extracts , indicating that MDC1 S329/T331 phosphorylation is present in proliferating human cells ( Fig 2A , left panels ) ."	[inLink]	f2a	p12	Results	FALSE	result	6189	6340	f1a|f2a
+55	s34	The signal from this antibody was lost	[]		p12	Results	FALSE	result	6341	6379	f2a
+56	s34	"when MDC1 precipitated with gammaH2AX peptide-coupled beads was treated with phosphatase , confirming its phospho-specificity ( Fig 2A , left panels ; detection of RAD50 indicates equal protein loading ) ."	[inLink]	f2a	p12	Results	FALSE	result	6380	6579	f2a
+57	s35	"Interestingly ,"	[]		p12	Results	FALSE	result	6580	6594	f2a
+58	s35	"although gamma-irradiation of osteosarcoma ( U2OS ) cells caused little change in the amount of MDC1 S329/T331 phosphorylation , it reduced the overall levels of MDC1 ( Fig 2A , right panels ) ."	[inLink]	f2a	p12	Results	FALSE	result	6595	6782	f2a
+59	s36	This suggests	[]		p12	Results	FALSE	implication	6783	6796	f2a
+60	s36	"that , after DNA damage , S329/T331-phosphorylated MDC1 is more stable than the unmodified protein ."	[]		p12	Results	FALSE	implication	6797	6894	f2a
+61	s37	"Consistent with these data , S329/T331-phosphorylated MDC1 was detected"	[]		p12	Results	FALSE	result	6895	6965	f2b
+62	s37	"by immunofluorescence in both control and gamma-irradiated cells ( Fig 2B ; note the absence of staining in cells treated with MDC1 small interfering RNA ( siRNA ) ) , confirming that SDTD-phosphorylated MDC1 is present in the absence of damage and also forms IRIF ."	[inLink]	f2b	p12	Results	FALSE	implication	6966	7225	f2b
+63	s38	"Notably , we did not detect any cell-cycle-dependent alteration of MDC1 S329/T331 phosphorylation relative to total MDC1 protein content by"	[]		p12	Results	FALSE	result	7226	7364	f2b|f1b
+64	s38	"using flow cytometry , which suggests that SDTD phosphorylation occurs throughout interphase ( supplementary Fig S1B online ) ."	[inLink]	f1b	p12	Results	FALSE	result	7365	7488	f2b|f1b
+65	s39	The MDC1 SDTD motif does not conform to consensus sequences targeted by ATM or other DDR kinases .	[]		p13	Results	FALSE	result	7489	7586	f2b|f1b
+66	s40	"Instead , both the serine and threonine residues in the SDTD sequence match the CK2 consensus motif of phosphorylated serine/threonine followed by an acidic residue at the +3 position"	[]		p13	Results	FALSE	result	7587	7770	f2b|f1b
+67	s40	p [ S/T ] xxD/E ) .	[]		p13	Results	FALSE	result	7771	7784	f2b|f1b
+68	s41	"Consistent with this , a bacterially expressed protein ( glutathione S-transferase ( GST ) -SDTD2 ) encompassing two MDC1 SDTD motifs ( contained within amino-acid residues 296-340 of MDC1 ) was efficiently"	[]		p13	Results	FALSE	result	7785	7983	f2c
+69	s41	"phosphorylated by recombinant CK2 in vitro , as shown by a marked decrease in electrophoretic mobility and detection by anti-MDC1 pS329/pT331 antiserum ( Fig 2C , upper and lower panels , respectively ) ."	[inLink]	f2c	p13	Results	FALSE	result	7984	8182	f2c
+70	s42	"By contrast , the equivalent protein bearing alanine substitutions of Thr 301 and"	[]		p13	Results	FALSE	result	8183	8263	f2c
+71	s42	"Thr 331 ( GST-SDAD2 ) , while being phosphorylated by CK2 to some degree ( presumably on CK2 consensus serine residues retained in the SDAD motifs present in this fusion protein ) , was detected only weakly with the anti-MDC1 pS329/pT331 antiserum ( Fig 2C ) ."	[inLink]	f2c	p13	Results	FALSE	result	8264	8515	f2c
+72	s43	"Moreover ,"	[]		p13	Results	FALSE	result	8516	8525	f2d
+73	s43	"although CK2-mediated phosphorylation of the GST-SDTD2 protein allowed it to retrieve MRN from HeLa nuclear extracts , the CK2-treated GST-SDAD2 mutant protein was unable to bind to MRN ( Fig 2D ) ."	[inLink]	f2d	p13	Results	FALSE	result	8526	8720	f2d
+74	s44	"To investigate whether CK2 phosphorylation of the MDC1 SDTD region promotes MRN binding in vivo , we transiently expressed"	[]		p14	Results	FALSE	goal	8721	8842	f1c
+75	s44	a haemagglutinin ( HA ) -tagged MDC1 SDTD fragment coupled to a nuclear localization sequence in U20S cells ( HA-SDTD6 ; supplementary Fig S1C online ) .	[inLink]	f1c	p14	Results	FALSE	method	8843	8989	f1c
+76	s45	Immunoblotting showed	[]		p14	Results	FALSE	result	8990	9011	f2e
+77	s45	"that treating these cells with the CK2 inhibitor 4,5,6,7-tetrabromo-benzimidazole increased the electrophoretic mobility of the MDC1 SDTD fragment and reduced the ability of the fragment to co-immunoprecipitate MRN ( Fig 2E ) ."	[inLink]	f2e	p14	Results	FALSE	result	9012	9236	f2e
+78	s46	NBS1 directly binds to CK2-phosphorylated MDC1	[header-1]		title15	Results	FALSE	fact	9237	9283	
+79	s47	"Next , we used the recombinant , purified MRN complex in peptide pull-down experiments ."	[]		p16	Results	FALSE	method	9284	9369	f3a
+80	s48	These showed	[]		p16	Results	FALSE	result	9370	9382	f3a
+81	s48	that MRN bound to the phosphorylated but not the unphosphorylated form of the SDTD peptide -- confirming the direct nature of the interaction -- yet did not bind to either version of the H2AX C-terminal peptide ( Fig 3A ) .	[inLink]	f3a	p16	Results	FALSE	result	9383	9599	f3a
+82	s49	This indicates the specificity of MRN for the phosphorylated MDC1 SDTD motif and also shows	[]		p16	Results	FALSE	implication	9600	9691	f3a
+83	s49	"that if , as previously reported , NBS1 binds to gammaH2AX directly ( Kobayashi et al , 2002 ) , this interaction must be less stable than MRN binding to the phosphorylated SDTD motif ."	[exLink]		p16	Results	FALSE	result	9692	9870	f3a
+84	s50	"Within MRN , only NBS1 contains phosphorylation-specific interaction domains :"	[]		p17	Results	FALSE	fact	9871	9947	
+85	s50	"an N-terminal FHA domain followed directly by a BRCT2 domain ( Durocher et al , 2000 ; Manke et al , 2003 ; Yu et al , 2003 ; Becker et al , 2006 ) ."	[exLink]		p17	Results	FALSE	fact	9948	10087	
+86	s51	"To investigate whether these domains bind to the phosphorylated SDTD motif of MDC1 , we expressed an N-terminal fragment of NBS1 containing these motifs ( residues 1-343 ; HA-fNBS1 ) in rabbit reticulocyte lysates ( despite many attempts"	[]		p17	Results	FALSE	method	10088	10320	
+87	s51	"using a wide range of expression constructs , we were unable to express soluble recombinant versions of the FHA or FHA/BRCT2 domains of NBS1 in bacteria ) ."	[]		p17	Results	FALSE	method	10321	10474	
+88	s52	We also generated versions of this NBS1 region	[]		p17	Results	FALSE	method	10475	10521	f3b
+89	s52	in which either the FHA domain ( fNBS1R28A and fNBS1H45A ) or the BRCT2 region ( fNBS1K160M ) was mutated to abolish phospho-dependent interactions .	[]		p17	Results	FALSE	method	10522	10666	f3b
+90	s53	These proteins were then tested for binding to an MDC1 fragment	[]		p17	Results	FALSE	method	10667	10730	f3b
+91	s53	encompassing the SDTD repeats ( GST-SDTD6 ) that had or had not been treated with CK2 ( Fig 3B ) .	[inLink]	f3b	p17	Results	FALSE	method	10731	10824	f3b
+92	s54	"Significantly , the wild-type NBS1 fragment bound specifically to CK2-phosphorylated -- but not unphosphorylated -- GST-SDTD6 ,"	[]		p17	Results	FALSE	result	10825	10946	f3b
+93	s54	whereas this binding was abolished by mutation of the FHA or BRCT2 domain of NBS1 ( Fig 3B ) .	[inLink]	f3b	p17	Results	FALSE	result	10947	11038	f3b
+94	s55	"Furthermore , CK2-phosphorylated GST-SDTD2 retrieved"	[]		p17	Results	FALSE	result	11039	11090	f2|f3c
+95	s55	"NBS1 and RAD50 from both MRC5 - and NBS1-complemented Nijmegen breakage syndrome ( NBS ) cell extracts , but did not mediate such interactions when the FHA domain mutant of NBS1 was expressed in NBS cells ( Fig 3C ; see supplementary Fig S2 online for expression levels ) ."	[inLink]	f2|f3c	p17	Results	FALSE	result	11091	11356	f2|f3c
+96	s56	"Taken together , these results indicate"	[]		p17	Results	FALSE	implication	11357	11395	
+97	s56	that the integrity of both the FHA and BRCT2 domains of NBS1 is needed for binding of NBS1 to the phosphorylated SDTD region of MDC1 .	[]		p17	Results	FALSE	implication	11396	11529	
+98	s57	MDC1 SDTD motifs retain MRN at DNA DSB sites	[header-1]		title18	Results	FALSE	fact	11530	11574	
+99	s58	"An analysis of the recruitment dynamics of fluorescently tagged proteins to laser-induced DNA damage showed similar recruitment kinetics for NBS1 and MDC1 , and highlighted the importance of the FHA domain of NBS in this recruitment ( Lukas et al , 2004 ) ."	[exLink]		p19	Results	FALSE	result	11575	11827	
+100	s59	"Therefore , we thought"	[]		p19	Results	FALSE	hypothesis	11828	11849	
+101	s59	"that the MDC1-MRN interaction , which depends on the FHA/BRCT2 domains of NBS1 , might promote retention of the MRN complex in IRIF ."	[]		p19	Results	FALSE	hypothesis	11850	11980	
+102	s60	"To test this , we used siRNA"	[]		p19	Results	FALSE	goal	11981	12008	f3a|f4a
+103	s60	to deplete endogenous MDC1 in U2OS cells stably expressing siRNA-resistant wild-type MDC1 ( MDC1WT ) or an MDC1 mutant without the SDTD region ( MDC1SDTDDelta ; Fig 4A ; supplementary Fig S3A online ) .	[inLink]	f3a|f4a	p19	Results	FALSE	method	12009	12204	f3a|f4a
+104	s61	"The wild-type MDC1 derivative efficiently co-immunoprecipitated MRN at physiological salt concentrations ,"	[]		p19	Results	FALSE	result	12205	12310	f4b
+105	s61	"whereas only low levels of MRN were recovered in immunoprecipitates of the MDC1SDTDDelta mutant ( Fig 4B ) , consistent with the SDTD region being the principal MRN interaction interface ."	[inLink]	f4b	p19	Results	FALSE	result	12311	12495	f4b
+106	s62	"This residual interaction with MRN shown by the MDC1SDTDDelta mutant raises the possibility of other MDC1-MRN interactions , and would be consistent with previous findings ( Goldberg et al , 2003 )"	[exLink]		p19	Results	FALSE	hypothesis	12496	12689	f3b
+107	s62	"however , it is noteworthy that this weaker interaction was undetectable under higher salt conditions ( supplementary Fig S3B online ) ."	[inLink]	f3b	p19	Results	FALSE	result	12690	12823	f3b
+108	s63	"Moreover ,"	[]		p19	Results	FALSE	result	12824	12833	f3c|f4c
+109	s63	"although both MDC1WT and MDC1SDTDDelta efficiently formed IRIF , MDC1WT , but not MDC1SDTDDelta , supported IRIF formation by NBS1 ( Fig 4C ; see supplementary Fig S3C online for quantification ) ."	[inLink]	f3c|f4c	p19	Results	FALSE	result	12834	13024	f3c|f4c
+110	s64	"By contrast , IRIF formation by 53BP1 and BRCA1 was normal after expression of either form of MDC1 ( Fig 4D ; supplementary Fig S4A online ) ."	[inLink]	f4a|f4d	p19	Results	FALSE	result	13025	13162	f4a|f4d
+111	s65	"This is consistent with 53BP1 and BRCA1 requiring the RNF8-binding motifs of MDC1 that are still intact in the MDC1SDTDDelta mutant ( Fig 4A ) , and shows"	[inLink]	f4a	p19	Results	FALSE	implication	13163	13314	f4a|f4d
+112	s65	that the SDTD region of MDC1 specifically mediates IRIF formation by NBS1 by promoting efficient MDC1-MRN interactions .	[]		p19	Results	FALSE	implication	13315	13434	f4a|f4d
+113	s66	To examine further the NBS1 recruitment defect of cells expressing MDC1SDTDDelta	[]		p20	Results	FALSE	goal	13435	13515	
+114	s66	"we used the ' laser scissors ' technique to generate DNA DSBs along defined sub-micrometre tracks in live cells ( Limoli & Ward , 1993 ) ."	[exLink]		p20	Results	FALSE	method	13516	13649	
+115	s67	"In MDC1WT-expressing cells , the extent of NBS1 recruitment closely resembled that of MDC1 ( Fig 4Ea ) ."	[inLink]	f4e	p20	Results	FALSE	result	13650	13750	f4e
+116	s68	"By contrast ,"	[]		p20	Results	FALSE	result	13751	13763	f4e
+117	s68	"although MDC1SDTDDelta recruitment was indistinguishable from that of the MDC1WT protein , the NBS1 recruitment pattern was altered ."	[]		p20	Results	FALSE	result	13764	13895	f4e
+118	s69	"Thus ,"	[]		p20	Results	FALSE	implication	13896	13901	f4e
+119	s69	"in MDC1SDTDDelta cells , although NBS1 was recruited to the laser path , its pattern no longer resembled the broad distribution of MDC1 ; instead , NBS1 was restricted to a discrete micro-focal pattern lying within the broader track of MDC1 staining ( Fig 4Eb ) ."	[inLink]	f4e	p20	Results	FALSE	implication	13902	14158	f4e
+120	s70	This indicates	[]		p20	Results	FALSE	implication	14159	14173	f4e
+121	s70	"that SDTD phosphorylation of MDC1 is required to retain NBS1 on gammaH2AX-coupled chromatin , but that NBS1 might recognize other structures induced by laser microirradiation independently of MDC1 ."	[]		p20	Results	FALSE	implication	14174	14370	f4e
+122	s71	"Consistent with these results , and in line with our finding that the FHA domain of NBS1 is required for MDC1 SDTD binding"	[]		p20	Results	FALSE	implication	14371	14492	
+123	s71	"similar micro-focal patterns of NBS1 recruitment were observed in MDC1-depleted cells and in cells in which the FHA domain of NBS1 was mutated ( Lukas et al , 2004 ) ."	[exLink]		p20	Results	FALSE	result	14493	14657	
+124	s72	Discussion	[header-0]		title21	Discussion	FALSE	none	14658	14668	
+125	s73	"MDC1 binds to gammaH2AX flanking unrepaired DNA DSBs , and then acts as a ' mediator '"	[]		p22	Discussion	FALSE	fact	14669	14752	
+126	s73	"to recruit other DDR factors to such sites ( Stucki & Jackson , 2006 ) ."	[exLink]		p22	Discussion	FALSE	fact	14753	14821	
+127	s74	"For example , the ATM-phosphorylated TQXF motifs on MDC1 are recognized by the ubiquitin E3 ligase enzyme RNF8 ( Huen et al , 2007 ; Kolas et al , 2007 ; Mailand et al , 2007 ) ."	[exLink]		p22	Discussion	FALSE	fact	14822	14991	
+128	s75	RNF8 then generates ubiquitin adducts on histone H2A -- and possibly other chromatin components	[]		p22	Discussion	FALSE	fact	14992	15086	
+129	s75	"which lead to IRIF formation by 53BP1 and BRCA1 ( Huen et al , 2007 ; Mailand et al , 2007 ) ."	[exLink]		p22	Discussion	FALSE	fact	15087	15175	
+130	s76	This paper describes	[]		p22	Discussion	FALSE	implication	15176	15196	
+131	s76	"how MDC1 facilitates the accumulation and retention of the MRN complex in IRIF , indicating a new mechanism for MDC1 mediator function ."	[]		p22	Discussion	FALSE	implication	15197	15331	
+132	s77	Specifically -- and in contrast to the situation for 53BP1 and BRCA1 -- our work highlights	[]		p22	Discussion	FALSE	implication	15332	15419	
+133	s77	how phospho-dependent interactions between MDC1 and MRN might precede the detection and signalling of DNA damage .	[]		p22	Discussion	FALSE	implication	15420	15533	
+134	s78	This characteristic of MDC1-MRN binding might therefore allow this complex	[]		p22	Discussion	FALSE	hypothesis	15534	15608	
+135	s78	"to be efficiently and rapidly recruited to sites of DNA damage , thus ensuring that the DDR is launched without delay ."	[]		p22	Discussion	FALSE	hypothesis	15609	15726	
+136	s79	"By contrast , the ATM - and RNF8-dependent nature of 53BP1 and BRCA1 recruitment means"	[]		p22	Discussion	FALSE	implication	15727	15811	
+137	s79	"that it is likely to happen more slowly , possibly to ensure that the chromatin alterations and other processes triggered by these proteins are invoked only at the right time and in the correct chromatin context ."	[]		p22	Discussion	FALSE	implication	15812	16023	
+138	s80	This model	[]		p22	Discussion	FALSE	implication	16024	16035	
+139	s80	"in which various factors are recruited with different kinetics and factor dependencies -- suggests a more complex , hierarchical and highly regulated DDR than has hitherto been apparent ."	[]		p22	Discussion	FALSE	implication	16036	16219	
+140	s81	"Together with data obtained from proteomics screens ( Beausoleil et al , 2004 ; Olsen et al , 2006 ) , our findings indicate"	[exLink]		p23	Discussion	FALSE	result	16220	16338	
+141	s81	"that CK2 phosphorylates several sites on MDC1 , often at dual phosphorylation sites within the SDTD motif ."	[]		p23	Discussion	FALSE	implication	16339	16444	
+142	s82	These findings are in agreement with previous work showing	[]		p23	Discussion	FALSE	implication	16445	16503	
+143	s82	that CK2 has an impact on various DDR events .	[]		p23	Discussion	FALSE	implication	16504	16549	
+144	s83	"For example , it was previously shown"	[]		p23	Discussion	FALSE	result	16550	16586	
+145	s83	"that CK2-dependent phosphorylation of the adaptor/mediator proteins XRCC1 and XRCC4 promotes the recruitment of polynucleotide kinase ( PNK ) , Aprataxin , and Aprataxin - and PNK-like factor ( APLF ) to sites of chromosomal damage to facilitate the repair of DSBs and DNA single-strand breaks , respectively ( Clements et al , 2004 ; Loizou et al , 2004 ; Iles et al , 2007 ) ."	[exLink]		p23	Discussion	FALSE	result	16587	16949	
+146	s84	"Interestingly , in these studies , CK2 was found"	[]		p23	Discussion	FALSE	result	16950	16996	
+147	s84	"to mediate factor recruitment through direct interactions between the CK2 phosphorylation sites on XRCC1/XRCC4 and the FHA domains of PNK , Aprataxin and APLF ."	[]		p23	Discussion	FALSE	result	16997	17155	
+148	s85	It is noteworthy	[]		p23	Discussion	FALSE	result	17156	17172	
+149	s85	"that the NBS1 recruitment defects we observed in MDC1SDTDDelta mutant cells are similar to those reported for cells containing NBS1 with mutations in its FHA domain ( Lukas et al , 2004 ) , suggesting that the FHA domain of NBS1 binds to MDC1 ."	[exLink]		p23	Discussion	FALSE	result	17173	17412	
+150	s86	"Although our data support this idea , the fact"	[]		p23	Discussion	FALSE	result	17413	17458	
+151	s86	that mutations in either the FHA or BRCT2 domain of NBS1 impair the NBS1-MDC1 interaction suggests that both domains are intimately involved in making such contacts .	[]		p23	Discussion	FALSE	implication	17459	17624	
+152	s87	It might be	[]		p23	Discussion	FALSE	hypothesis	17625	17636	
+153	s87	"that these domains are orientated such that they are able to simultaneously bind to both the phosphorylated serine and the phosphorylated threonine of a single SDTD motif , or to two adjacent SDTD motifs in the MDC1 protein ."	[]		p23	Discussion	FALSE	hypothesis	17637	17860	
+154	s88	This dual-interaction mode might provide a greater degree of binding selectivity and discrimination	[]		p23	Discussion	FALSE	hypothesis	17861	17960	
+155	s88	than would be possible by phospho-dependent interactions involving either domain alone .	[]		p23	Discussion	FALSE	hypothesis	17961	18048	
+156	s89	"Alternatively , it is possible"	[]		p23	Discussion	FALSE	hypothesis	18049	18078	
+157	s89	"that the proximity of the FHA and BRCT2 domains of NBS1 makes them conformationally inter-dependent , so that mutation of one affects the structure and function of the other ."	[]		p23	Discussion	FALSE	hypothesis	18079	18252	
+158	s90	"The tightly interconnected FHA/BRCT2 domain architecture is conserved in virtually all known NBS1 counterparts ( Becker et al , 2006 ) ,"	[exLink]		p23	Discussion	FALSE	fact	18253	18385	
+159	s90	pointing to this relationship being of crucial functional importance .	[]		p23	Discussion	FALSE	fact	18386	18455	
+160	s91	"Resolution of the above issues will await structural determinations of the N terminus of NBS1 , both alone and in a complex with the phosphorylated MDC1 SDTD motif ."	[]		p23	Discussion	FALSE	problem	18456	18619	
+161	s92	"After DNA damage , we have consistently observed"	[]		p24	Discussion	FALSE	result	18620	18667	
+162	s92	"stabilization of the CK2-phosphorylated MDC1 relative to the total MDC1 pool , which is downregulated ."	[]		p24	Discussion	FALSE	result	18668	18769	
+163	s93	"This is consistent with a recent study showing 26S proteasome-dependent turnover of the mediator proteins topoisomerase II binding protein 1 ( TOPBP1 ) , Claspin , 53BP1 and MDC1 following DNA damage ( Zhang et al , 2006 ) ."	[exLink]		p24	Discussion	FALSE	result	18770	18986	
+164	s94	"Whether CK2 phosphorylation itself , or MRN binding to the phosphorylated SDTD motifs , protects a sub-pool of MDC1 from proteolytic degradation"	[]		p24	Discussion	FALSE	problem	18987	19129	
+165	s94	remains to be determined .	[]		p24	Discussion	FALSE	problem	19130	19155	
+166	s95	It is also noteworthy	[]		p24	Discussion	FALSE	result	19156	19177	
+167	s95	"that CK2 phosphorylations on XRCC1 mediate binding to PNK , Aprataxin and APLF ( Clements et al , 2004 ; Loizou et al , 2004 ; Iles et al , 2007 ) and , conversely , that FHA domain-containing proteins such as PNK , Aprataxin and APLF are able to bind to CK2 phosphorylation sites on both XRCC1 and XRCC4 ."	[exLink]		p24	Discussion	FALSE	result	19178	19472	
+168	s96	This raises the possibility	[]		p24	Discussion	FALSE	hypothesis	19473	19500	
+169	s96	"that the phosphorylated SDTD regions of MDC1 might interact with proteins in addition to NBS1 , and that the FHA/BRCT2 region of NBS1 might have more than one physiological target ."	[]		p24	Discussion	FALSE	hypothesis	19501	19680	
+170	s97	"Finally ,"	[]		p25	Discussion	FALSE	result	19681	19689	
+171	s97	"a recent study of MDC1-deficient mouse cells complemented with various MDC1 domain-deletion constructs showed the central repeat region of MDC1 and FHA and BRCT2 domains are important for DSB repair by sister-chromatid recombination ( Xie et al , 2007 ) ."	[exLink]		p25	Discussion	FALSE	result	19690	19941	
+172	s98	This work also showed	[]		p25	Discussion	FALSE	result	19942	19963	
+173	s98	"that MDC1-dependent recruitment of BRCA1 and 53BP1 to IRIF was not required for this repair , or for 53BP1-dependent DSB repair by non-homologous end-joining ."	[]		p25	Discussion	FALSE	implication	19964	20121	
+174	s99	"So far , a functional role for the marked redistribution of DDR factors to regions surrounding DSBs has not been defined ."	[]		p25	Discussion	FALSE	problem	20122	20242	
+175	s100	Perhaps future studies using the MDC1 separation-of-function mutants created in this study will help	[]		p25	Discussion	FALSE	goal	20243	20343	
+176	s100	"to explain the different and possibly overlapping functional contributions made by recruiting BRCA1 , 53BP1 and the MRN complex to gammaH2AX-associated chromatin ."	[]		p25	Discussion	FALSE	goal	20344	20505	
+177	s101	Methods	[header-0]		title26	Methods	FALSE	none	20506	20513	
+178	s102	See the supplementary information online for details .	[inLink]		p27	Methods	FALSE	none	20514	20567	
+179	s103	Supplementary information is available at EMBO reports online ( http : //www.emboreports.org ) .	[]		p28	Methods	FALSE	none	20568	20659	
+180	s104	Note added in proof .	[]		p29	Methods	FALSE	none	20660	20680	
+181	s105	"While this work was under revision , two related papers have been published :"	[]		p29	Methods	FALSE	none	20681	20756	
+182	s105	"Melander F , Bekker-Jensen S , Falck J , Bartek J , Mailand N , Lukas J ( 2008 ) Phosphorylation of SDT repeats in the MDC1 N terminus triggers retention of NBS1 at the DNA damage-modified chromatin ."	[]		p29	Methods	FALSE	none	20757	20949	
+183	s106	"J Cell Biol 181 : 213-226 ; Spycher C , Miller ES , Townsend K , Pavic L , Morrice NA , Janscak P , Stewart GS , Stucki M ( 2008 ) Constitutive phosphorylation of MDC1 physically links"	[]		p29	Methods	FALSE	none	20950	21123	
+184	s106	the MRE11-RAD50-NBS1 complex to damaged chromatin .	[]		p29	Methods	FALSE	none	21124	21174	
+185	s107	J Cell Biol 181 : 227-240 .	[]		p29	Methods	FALSE	none	21175	21200	
+186	s108	Supplementary Material	[header-0]		title30	Supplementary Material	FALSE	none	21201	21223	
+187	s109	Supplementary Materials	[]		p31	Supplementary Material	FALSE	none	21224	21247	

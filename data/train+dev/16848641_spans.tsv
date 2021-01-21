@@ -1,0 +1,360 @@
+	SentenceId	Clause Text	Codes	ExperimentValues	Paragraph	Headings	FloatingBox?	Discourse Type	Offset_Begin	Offset_End	fig_spans
+0	s1	Macrophage Pro-Inflammatory Response to Francisella novicida Infection Is Regulated by SHIP	[]		-		FALSE	implication	232	323	
+1	s2	"Francisella tularensis , a Gram-negative facultative intracellular pathogen infecting principally macrophages and monocytes , is the etiological agent of tularemia ."	[]		p3		FALSE	fact	1424	1586	
+2	s3	"Macrophage responses to F. tularensis infection include the production of pro-inflammatory cytokines such as interleukin ( IL ) -12 ,"	[]		p3		FALSE	fact	1587	1716	
+3	s3	which is critical for immunity against infection .	[]		p3		FALSE	fact	1717	1766	
+4	s4	Molecular mechanisms regulating production of these inflammatory mediators are poorly understood .	[]		p3		FALSE	fact	1767	1864	
+5	s5	Herein we report that the SH2 domain-containing inositol phosphatase ( SHIP ) is phosphorylated upon infection of primary murine macrophages with the genetically related F. novicida	[]		p3		FALSE	fact	1865	2044	
+6	s5	and negatively regulates F. novicida-induced cytokine production .	[]		p3		FALSE	fact	2045	2111	
+7	s6	Analyses of the molecular details revealed	[]		p3		FALSE	method	2112	2154	
+8	s6	"that in addition to activating the MAP kinases , F. novicida infection also activated the phosphatidylinositol 3-kinase ( PI3K ) /Akt pathway in these cells ."	[]		p3		FALSE	result	2155	2308	
+9	s7	"Interestingly , SHIP-deficient macrophages displayed enhanced Akt activation upon F. novicida infection ,"	[]		p3		FALSE	result	2309	2412	
+10	s7	suggesting elevated PI3K-dependent activation pathways in absence of SHIP .	[]		p3		FALSE	result	2413	2487	
+11	s8	Inhibition of PI3K/Akt resulted in suppression of F. novicida-induced cytokine production through the inhibition of NFkappaB .	[]		p3		FALSE	result	2488	2613	
+12	s9	"Consistently , macrophages lacking SHIP displayed enhanced NFkappaB-driven gene transcription ,"	[]		p3		FALSE	result	2614	2707	
+13	s9	whereas overexpression of SHIP led to decreased NFkappaB activation .	[]		p3		FALSE	result	2708	2776	
+14	s10	"Thus , we propose"	[]		p3		FALSE	hypothesis	2777	2793	
+15	s10	that SHIP negatively regulates F. novicida-induced inflammatory cytokine response by antagonizing the PI3K/Akt pathway and suppressing NFkappaB-mediated gene transcription .	[]		p3		FALSE	hypothesis	2794	2966	
+16	s11	A detailed analysis of phosphoinositide signaling may provide valuable clues for	[]		p3		FALSE	problem	2967	3047	
+17	s11	better understanding the pathogenesis of tularemia .	[]		p3		FALSE	problem	3048	3099	
+18	s12	Synopsis	[header-?]		title4		FALSE	none	3100	3108	
+19	s13	Francisella tularensis is an intracellular Gram-negative bacterium	[]		p5		FALSE	fact	3109	3175	
+20	s13	that causes the disease tularemia .	[]		p5		FALSE	fact	3176	3210	
+21	s14	The bacteria infect macrophages and replicate within the host cell .	[]		p5		FALSE	fact	3211	3278	
+22	s15	Macrophages respond to the infection by	[]		p5		FALSE	fact	3279	3318	
+23	s15	producing pro-inflammatory cytokines in an effort to combat the infection .	[]		p5		FALSE	fact	3319	3393	
+24	s16	The intracellular signaling events	[]		p5		FALSE	problem	3394	3428	
+25	s16	that are involved in host cell responses are not fully understood .	[]		p5		FALSE	problem	3429	3495	
+26	s17	Much less understood are mechanisms	[]		p5		FALSE	problem	3496	3531	
+27	s17	that regulate these responses .	[]		p5		FALSE	problem	3532	3562	
+28	s18	"In this study , the authors define"	[]		p5		FALSE	hypothesis	3563	3596	
+29	s18	a negative regulatory role for the inositol phosphatase SHIP during Francisella infection of mouse macrophages .	[]		p5		FALSE	hypothesis	3597	3708	
+30	s19	The study demonstrates	[]		p5		FALSE	implication	3709	3731	
+31	s19	that SHIP is activated in infected cells and serves to down-regulate pro-inflammatory cytokine production .	[]		p5		FALSE	implication	3732	3838	
+32	s20	"The authors have examined the molecular mechanism underlying this negative regulation , and show"	[]		p5		FALSE	implication	3839	3934	
+33	s20	"that SHIP acts upstream of NFkappaB , an important transcription factor involved in inflammatory cytokine gene transcription , and dampens its activation ."	[]		p5		FALSE	implication	3935	4087	
+34	s21	This effect of SHIP appears	[]		p5		FALSE	implication	4088	4115	
+35	s21	to be mediated through the regulation of the PI3 kinase pathway .	[]		p5		FALSE	implication	4116	4180	
+36	s22	This study establishes a novel and critical role for SHIP in the regulation of macrophage inflammatory response to Francisella bacteria .	[]		p5		FALSE	implication	4181	4317	
+37	s23	Introduction	[header-0]		title6	Introduction	FALSE	none	4552	4564	
+38	s24	"Francisella tularensis , causative agent of the zoonotic disease tularemia , is a Gram-negative intracellular pathogen ."	[]		p7	Introduction	FALSE	fact	4565	4682	
+39	s25	There are four different subspecies of F. tularensis .	[]		p7	Introduction	FALSE	fact	4683	4736	
+40	s26	The F. tularensis subspecies	[]		p7	Introduction	FALSE	fact	4737	4765	
+41	s26	tularensis is the most virulent of the four with a 50 % lethal dose ( LD50 ) less than 10 colony forming units ( CFUs ) for humans [ 1 ] .	[exLink]		p7	Introduction	FALSE	fact	4766	4896	
+42	s27	"Other less virulent subspecies of F. tularensis include novicida , holoarctica , and mediasiatica ."	[]		p7	Introduction	FALSE	fact	4897	4993	
+43	s28	F. tularensis infects primarily monocytes and macrophages .	[]		p8	Introduction	FALSE	fact	4994	5052	
+44	s29	The survival strategy adopted by F. tularensis in the host cell is	[]		p8	Introduction	FALSE	fact	5053	5119	
+45	s29	to avoid phago-lysosomal fusion .	[]		p8	Introduction	FALSE	fact	5120	5152	
+46	s30	"After a few hours of phagocytosis of the organism , the membrane of the phagosome ruptures and F. tularensis is released into the host cell cytosol"	[]		p8	Introduction	FALSE	fact	5153	5299	
+47	s30	"[ 1,2 ] ."	[exLink]		p8	Introduction	FALSE	none	5300	5306	
+48	s31	The release of the pathogen into the cytosol requires expression of bacterial proteins such as IglC and MglA [ 3-5 ] .	[exLink]		p8	Introduction	FALSE	fact	5307	5422	
+49	s32	"On the other hand , bacterial escape is inhibited by interferon-gamma ( IFNgamma ) treatment of the cells infected with F. tularensis [ 6-8 ] ."	[exLink]		p8	Introduction	FALSE	result	5423	5560	
+50	s33	The host cell responses to F. tularensis infection are not clearly understood .	[]		p9	Introduction	FALSE	problem	5561	5639	
+51	s34	Interleukin ( IL ) -12 and IFNgamma have been reported	[]		p9	Introduction	FALSE	implication	5640	5691	
+52	s34	to be critical for immunity against Francisella infection [ 9 ] .	[exLink]		p9	Introduction	FALSE	implication	5692	5754	
+53	s35	Although natural killer ( NK ) cells are thought to be the major source of IFNgamma	[]		p9	Introduction	FALSE	fact	5755	5836	
+54	s35	IL-12 is produced by infected macrophages [ 10 ] .	[exLink]		p9	Introduction	FALSE	fact	5837	5885	
+55	s36	"Further , IL-12 also appears"	[]		p9	Introduction	FALSE	fact	5886	5913	
+56	s36	to strongly induce IFNgamma production .	[]		p9	Introduction	FALSE	fact	5914	5953	
+57	s37	"Attesting to the importance of IL-12 in immunity against F. tularensis LVS infection , IL-12 knockout animals , or animals treated with IL-12 neutralizing antibodies are unable to clear the bacteria [ 11 ] ."	[exLink]		p9	Introduction	FALSE	result	5954	6156	
+58	s38	"Macrophages also produce several other pro-inflammatory cytokines/chemokines upon infection [ 8,12,13 ] ."	[exLink]		p9	Introduction	FALSE	result	6157	6259	
+59	s39	Intracellular signaling molecules involved in macrophage response to Francisella are not well defined .	[]		p9	Introduction	FALSE	problem	6260	6362	
+60	s40	Although pathways involving NFkappaB and the MAPKs p38 and JNK have been reported to be activated during F. tularensis LVS infection	[]		p9	Introduction	FALSE	result	6363	6495	
+61	s40	the exact role of these signaling pathways in macrophage responses is not clear [ 13 ] .	[exLink]		p9	Introduction	FALSE	problem	6496	6582	
+62	s41	The Src homology 2 ( SH2 ) domain-containing	[]		p10	Introduction	FALSE	fact	6583	6625	
+63	s41	"inositol 5 ' phosphatase ( SHIP ) is a hematopoietic cell-specific phosphatase that negatively regulates phosphatidylinositol 3-kinase ( PI3K ) pathway by consuming the lipid products of PI3K [ 14,15 ] ."	[exLink]		p10	Introduction	FALSE	fact	6626	6821	
+64	s42	SHIP is a constitutively active enzyme located in cytosol .	[]		p10	Introduction	FALSE	fact	6822	6880	
+65	s43	Membrane translocation of SHIP is required for access to its substrates .	[]		p10	Introduction	FALSE	fact	6881	6953	
+66	s44	"Upon stimulation of immunoreceptors , growth factor/cytokine receptors or toll-like receptors , SHIP translocates to the membrane"	[]		p10	Introduction	FALSE	fact	6954	7081	
+67	s44	where it is phosphorylated by membrane-associated Src kinases [ 16-19 ] .	[exLink]		p10	Introduction	FALSE	fact	7082	7152	
+68	s45	"In addition to the central catalytic domain , SHIP also contains an N-terminal SH2 domain , a C-terminal proline-rich domain , and two NPxY motifs ,"	[]		p10	Introduction	FALSE	fact	7153	7297	
+69	s45	which can all associate with other cellular signaling proteins .	[]		p10	Introduction	FALSE	fact	7298	7361	
+70	s46	"Thus , SHIP mediates its functions by both its catalytic domain and its protein-protein interaction domains ."	[]		p10	Introduction	FALSE	fact	7362	7469	
+71	s47	"For example , the catalytic domain of SHIP regulates cellular responses by"	[]		p10	Introduction	FALSE	fact	7470	7543	
+72	s47	"hydrolyzing PI3,4,5P3 into PI3,4P2 , thus antagonizing the PI3K pathway [ 15 ] ) ."	[exLink]		p10	Introduction	FALSE	fact	7544	7621	
+73	s48	SHIP is also reported	[]		p10	Introduction	FALSE	result	7622	7643	
+74	s48	"to suppress activation of the Ras pathway , in some cases , by virtue of its interaction with Dok , a Ras GAP activator [ 20 ] , and/or its interactions with the Ras adapter Shc [ 21-23 ] ."	[exLink]		p10	Introduction	FALSE	result	7644	7824	
+75	s49	Herein	[]		p11	Introduction	FALSE	method	7825	7831	
+76	s49	we have investigated the role of SHIP in F. novicida-induced cytokine response in murine macrophages .	[]		p11	Introduction	FALSE	method	7832	7934	
+77	s50	We report	[]		p11	Introduction	FALSE	implication	7935	7944	
+78	s50	"that SHIP negatively regulates the production of IL-12 , IL-6 , and RANTES by F. novicida-infected macrophages ."	[]		p11	Introduction	FALSE	implication	7945	8054	
+79	s51	Our current studies indicate	[]		p11	Introduction	FALSE	implication	8055	8083	
+80	s51	that the production of these cytokines requires the activation of the PI3K pathway and involves NFkappaB activation .	[]		p11	Introduction	FALSE	implication	8084	8200	
+81	s52	These studies also demonstrate	[]		p11	Introduction	FALSE	implication	8201	8231	
+82	s52	that F. novicida-induced pro-inflammatory cytokine production is negatively regulated by SHIP by opposing the PI3K pathway and NFkappaB-driven transcriptional activation .	[]		p11	Introduction	FALSE	implication	8232	8402	
+83	s53	"Thus , we conclude"	[]		p11	Introduction	FALSE	implication	8403	8420	
+84	s53	that SHIP is a regulator of macrophage innate immune responses to F. novicida infection .	[]		p11	Introduction	FALSE	implication	8421	8509	
+85	s54	Results	[header-0]		title12	Results	FALSE	none	8510	8517	
+86	s55	F. novicida-Induced Pro-Inflammatory Cytokine Response Is Down-Regulated by SHIP	[header-1]		title13	Results	FALSE	implication	8518	8598	
+87	s56	The inositol phosphatase SHIP plays an important role in	[]		p14	Results	FALSE	fact	8599	8655	
+88	s56	"regulating macrophage innate immune responses to IgG immune complexes and bacterial products [ 16,24-29 ] ."	[exLink]		p14	Results	FALSE	fact	8656	8760	
+89	s57	Recent studies have indicated	[]		p14	Results	FALSE	result	8761	8790	
+90	s57	"that while SHIP negatively regulates TLR2 function [ 30 ] , it promotes TLR4 function [ 16,27,29 ] ."	[exLink]		p14	Results	FALSE	result	8791	8885	
+91	s58	"SHIP is a constitutively active , cytoplasmic enzyme"	[]		p14	Results	FALSE	fact	8886	8937	
+92	s58	"that must translocate to the membrane where it accesses its substrate PI3,4,5P3 ."	[]		p14	Results	FALSE	fact	8938	9018	
+93	s59	Membrane translocation of SHIP is accompanied by tyrosine phosphorylation of SHIP by membrane-associated Src kinases .	[]		p14	Results	FALSE	fact	9019	9136	
+94	s60	"Thus , tyrosine phosphorylation of SHIP is often used as an indicator of SHIP translocation to the membrane [ 16 ] ."	[exLink]		p14	Results	FALSE	fact	9137	9249	
+95	s61	To address the role of SHIP in F.	[]		p14	Results	FALSE	goal	9250	9283	f1a
+96	s61	"novicida-stimulated host cell response , RAW 264.7 murine macrophage cells were infected with F. novicida ."	[]		p14	Results	FALSE	method	9284	9389	f1a
+97	s62	"SHIP proteins were immunoprecipitated from uninfected and infected cells , and analyzed by Western blotting with phosphotyrosine antibody ( Figure 1A , upper panel ) ."	[inLink]	f1a	p14	Results	FALSE	method	9390	9552	f1a
+98	s63	The same membrane was reprobed with SHIP antibody	[]		p14	Results	FALSE	method	9553	9603	f1a
+99	s63	lower panel ) .	[]		p14	Results	FALSE	method	9604	9617	f1a
+100	s64	Results indicate	[]		p14	Results	FALSE	result	9618	9634	f1a
+101	s64	"that SHIP is tyrosine phosphorylated in cells infected with F. novicida , and that robust phosphorylation of SHIP occurs at the later time points ( 30 and 60 min post infection ) ."	[]		p14	Results	FALSE	result	9635	9811	f1a
+102	s65	Having determined the time course of SHIP phosphorylation in RAW 264.7 cells	[]		p14	Results	FALSE	method	9812	9888	
+103	s65	we next tested whether these findings could be validated in primary cells .	[]		p14	Results	FALSE	method	9889	9964	
+104	s66	"Here murine bone marrow-derived macrophages ( BMMs ) were infected with F. novicida for varying times , and"	[]		p14	Results	FALSE	method	9965	10069	f1b
+105	s66	"phosphorylation of SHIP was analyzed by Western blotting with a phospho-specific SHIP antibody ( Figure 1B , upper panel ) ."	[inLink]	f1b	p14	Results	FALSE	method	10070	10190	f1b
+106	s67	Results indicated	[]		p14	Results	FALSE	result	10191	10208	f1b
+107	s67	that infection of BMMs by F. novicida induces tyrosine phosphorylation of SHIP ( Figure 1B ) .	[inLink]	f1b	p14	Results	FALSE	result	10209	10300	f1b
+108	s68	To ensure equal loading of protein in all lanes	[]		p14	Results	FALSE	goal	10301	10348	
+109	s68	the same membrane was reprobed with anti-SHIP antibody .	[]		p14	Results	FALSE	method	10349	10405	
+110	s69	These results suggest a potential involvement of SHIP in F. novicida-induced macrophage signaling .	[]		p14	Results	FALSE	implication	10406	10504	
+111	s70	"In order to probe the functional consequence of SHIP activation , F. novicida-induced"	[]		p15	Results	FALSE	goal	10505	10589	
+112	s70	cytokine production was compared in BMMs obtained from SHIP+/+ and SHIP-/ - littermate mice .	[]		p15	Results	FALSE	method	10590	10681	
+113	s71	"Thus , SHIP+/+ and SHIP-/ - BMMs were infected with F. novicida , and"	[]		p15	Results	FALSE	method	10682	10748	
+114	s71	"cell supernatants from uninfected and infected cells were harvested 8 h post infection and analyzed by enzyme-linked immunosorbent assay ( ELISA ) for IL-12 , IL-6 , and RANTES ."	[]		p15	Results	FALSE	method	10749	10922	
+115	s72	"As seen in Figure 1C , SHIP-/"	[inLink]	f1c	p15	Results	FALSE	result	10923	10951	f1c
+116	s72	BMMs produced significantly elevated levels of pro-inflammatory mediators compared to their wild-type counterparts .	[]		p15	Results	FALSE	result	10952	11068	f1c
+117	s73	"Similar results were obtained with peritoneal macrophages isolated from SHIP+/+ and SHIP-/ - littermates , and indicate"	[]		p15	Results	FALSE	result	11069	11186	f1c
+118	s73	that SHIP-deficient macrophages make more IL-12 and IL-6 ( unpublished data ; p < 0.05 ) .	[]		p15	Results	FALSE	implication	11187	11273	f1c
+119	s74	Protein-matched cell lysates from SHIP+/+ and SHIP-/ -	[]		p15	Results	FALSE	method	11274	11327	f1d
+120	s74	BMMs were analyzed by Western blotting with SHIP antibody to confirm the genotype of these cells ( Figure 1D ) .	[inLink]	f1d	p15	Results	FALSE	goal	11328	11437	f1d
+121	s75	These data indicate	[]		p15	Results	FALSE	implication	11438	11457	f1d
+122	s75	"that SHIP is a negative regulator of IL-12 , IL-6 , and RANTES secretion by F. novicida-infected macrophages ."	[]		p15	Results	FALSE	implication	11458	11565	f1d
+123	s76	"The regulatory influence of SHIP on F. novicida-induced IL-12 , IL-6 , and RANTES was also observed at different multiplicities of infection ( MOIs ; Figure 2A-2C ) ,"	[inLink]	f2a|f2b|f2c	p16	Results	FALSE	result	11566	11726	f2a|f2b|f2c
+124	s76	suggesting that the negative regulatory effect of SHIP is independent of bacterial numbers infecting the macrophages .	[]		p16	Results	FALSE	implication	11727	11844	f2a|f2b|f2c
+125	s77	"In addition , the viability of the bacteria is not essential for the negative influence of SHIP"	[]		p16	Results	FALSE	implication	11845	11939	f2d|f2f
+126	s77	as macrophages infected with heat-killed bacteria displayed similar cytokine responses as those infected with live bacteria ( Figure 2D-2F ) .	[inLink]	f2d|f2f	p16	Results	FALSE	result	11940	12079	f2d|f2f
+127	s78	"Likewise , SHIP also down-regulated"	[]		p16	Results	FALSE	result	12080	12114	f2d|f2f
+128	s78	"F. tularensis LVS-induced IL-12 , IL-6 , and RANTES production ( Figure 2D-2F ) ."	[inLink]	f2d|f2f	p16	Results	FALSE	result	12115	12191	f2d|f2f
+129	s79	We next examined	[]		p17	Results	FALSE	hypothesis	12192	12208	
+130	s79	whether internalization of bacteria is a requisite for the down-regulatory influence of SHIP on F. novicida-induced cytokine/chemokine production .	[]		p17	Results	FALSE	hypothesis	12209	12355	
+131	s80	"For this ,"	[]		p17	Results	FALSE	method	12356	12365	f2d|f2f
+132	s80	"cells were treated with cytochalasin D , an actin polymerization inhibitor , prior to infection , and cell supernatants were assayed for the secretion of IL-12 , IL-6 , and RANTES by ELISA ."	[]		p17	Results	FALSE	method	12366	12550	f2d|f2f
+133	s81	The results are shown in Figure 2D-2F .	[inLink]	f2d|f2f	p17	Results	FALSE	result	12551	12589	f2d|f2f
+134	s82	The release of RANTES and the negative influence of SHIP on RANTES production were not influenced by failure of internalization .	[]		p17	Results	FALSE	result	12590	12718	f2d|f2f
+135	s83	"However , treatment of either SHIP+/+ or SHIP-/ - BMM with cytochalasin D significantly suppressed the release of IL-12 and IL-6 ,"	[]		p17	Results	FALSE	result	12719	12846	
+136	s83	suggesting that either internalization of bacteria or actin cytoskeletal rearrangements are essential for the secretion of these two cytokines .	[]		p17	Results	FALSE	result	12847	12990	
+137	s84	"Failure of internalization of F. novicida did not influence the activation of either the MAPK or the PI3K/Akt pathways ( unpublished data ) ,"	[]		p17	Results	FALSE	result	12991	13129	
+138	s84	suggesting that surface contact of Francisella bacteria is sufficient to trigger the signaling response .	[]		p17	Results	FALSE	implication	13130	13234	
+139	s85	We then examined whether the increased production of cytokine mediators by SHIP-/	[]		p18	Results	FALSE	hypothesis	13235	13316	f2g
+140	s85	macrophages is due to enhanced uptake of F. novicida .	[]		p18	Results	FALSE	hypothesis	13317	13371	f2g
+141	s86	The uptake of bacteria was determined by CFU assays	[]		p18	Results	FALSE	method	13372	13423	f2g
+142	s86	and the results are shown in Figure 2G .	[inLink]	f2g	p18	Results	FALSE	result	13424	13464	f2g
+143	s87	The uptake of F. novicida by SHIP+/+ and SHIP-/ - BMM was equivalent .	[]		p18	Results	FALSE	result	13465	13533	f2g
+144	s88	"These findings are also supported by transmission electron microscopy ( TEM ) analysis ( SHIP+/+ and SHIP-/ - macrophages ingested 2.95 and 3.2 bacteria/cell , respectively ) ."	[]		p18	Results	FALSE	method	13534	13703	f2g
+145	s89	PI3K/Akt Pathway Is Activated upon F. novicida Infection of Macrophages	[header-1]		title19	Results	FALSE	implication	13704	13775	
+146	s90	To examine the mechanism by which SHIP down-regulates pro-inflammatory cytokine production by F. novicida-infected macrophages	[]		p20	Results	FALSE	goal	13776	13902	f3a
+147	s90	cell signaling events activated in infected macrophages were first analyzed .	[]		p20	Results	FALSE	method	13903	13980	f3a
+148	s91	"Here , murine BMMs were infected with F. novicida for varying time points , and"	[]		p20	Results	FALSE	method	13981	14058	f3a
+149	s91	the following analyses were performed with the cell lysates and cell supernatants .	[]		p20	Results	FALSE	method	14059	14141	f3a
+150	s92	"First , activation of the MAP kinases"	[]		p20	Results	FALSE	method	14142	14178	f3a
+151	s92	"Erk , p38 , and JNK was analyzed by Western blotting protein-matched lysates with phospho-specific antibodies ( Figure 3A ) ."	[inLink]	f3a	p20	Results	FALSE	method	14179	14299	f3a
+152	s93	All membranes were reprobed with antibody	[]		p20	Results	FALSE	method	14300	14341	f3a
+153	s93	to actin to ensure equal loading of protein in all lanes .	[]		p20	Results	FALSE	method	14342	14399	f3a
+154	s94	Results indicated	[]		p20	Results	FALSE	result	14400	14417	f3a
+155	s94	that all three MAPKs were activated in response to F. novicida infection as previously reported [ 13 ] .	[exLink]		p20	Results	FALSE	result	14418	14519	f3a
+156	s95	"The phosphorylation levels of MAPKs peaked at 30 min and gradually diminished , but were still persistent even at 8 h post infection ."	[]		p20	Results	FALSE	result	14520	14652	f3a
+157	s96	"Second , we examined the activation of the PI3K pathway by"	[]		p20	Results	FALSE	goal	14653	14710	f3b
+158	s96	analyzing phosphorylation status of the PI3K-dependent serine/threonine kinase Akt .	[]		p20	Results	FALSE	method	14711	14794	f3b
+159	s97	The results shown in Figure 3B indicate	[inLink]	f3b	p20	Results	FALSE	result	14795	14834	f3b
+160	s97	that the PI3K/Akt pathway is also activated during F. novicida infection .	[]		p20	Results	FALSE	result	14835	14908	f3b
+161	s98	"Finally , cell supernatants were analyzed for pro-inflammatory cytokines by ELISA ."	[]		p20	Results	FALSE	method	14909	14990	f3c
+162	s99	"As seen in Figure 3C , BMMs infected with F. novicida produced significant amounts of the pro-inflammatory mediators IL-12 , IL-6 , and RANTES ,"	[inLink]	f3c	p20	Results	FALSE	result	14991	15131	f3c
+163	s99	which became detectable at about 5 h post infection .	[]		p20	Results	FALSE	result	15132	15184	f3c
+164	s100	SHIP Regulates F. novicida-Induced Activation of the PI3K/Akt Pathway	[header-1]		title21	Results	FALSE	implication	15185	15254	
+165	s101	Having identified cellular signaling events activated by F. novicida infection	[]		p22	Results	FALSE	method	15255	15333	f4
+166	s101	we next examined the influence of SHIP on these events .	[]		p22	Results	FALSE	goal	15334	15390	f4
+167	s102	"For this ,"	[]		p22	Results	FALSE	method	15391	15400	f4
+168	s102	"BMMs from SHIP+/+ and SHIP-/ - littermate mice were infected with F. novicida for the times indicated in Figure 4 , and activation of MAPKs and Akt was analyzed ."	[inLink]	f4	p22	Results	FALSE	method	15401	15560	f4
+169	s103	"Infection by F. novicida induced robust phosphorylation of Erk1/2 , JNK , p38 , and Akt ."	[]		p22	Results	FALSE	result	15561	15646	f4
+170	s104	"However , SHIP+/+ and SHIP-/ - BMMs displayed no significant differences in the activation of the MAPKs at any of the time points tested ."	[]		p22	Results	FALSE	result	15647	15782	f4
+171	s105	"On the other hand , SHIP-/ - BMMs showed enhanced phosphorylation of Akt compared to SHIP+/+ BMMs ."	[]		p22	Results	FALSE	result	15783	15879	f4
+172	s106	These results indicate	[]		p22	Results	FALSE	implication	15880	15902	f4
+173	s106	"that although SHIP may not regulate F. novicida-induced activation of the MAPKs , SHIP down-regulates activation of Akt ."	[]		p22	Results	FALSE	implication	15903	16022	f4
+174	s107	"Together , these data suggest"	[]		p22	Results	FALSE	implication	16023	16051	
+175	s107	that the PI3K/Akt pathway may play a critical role in F. novicida-induced macrophage pro-inflammatory responses .	[]		p22	Results	FALSE	implication	16052	16164	
+176	s108	Influence of PI3K Pathway on F. novicida-Induced Macrophage Inflammatory Response	[header-1]		title23	Results	FALSE	none	16165	16246	
+177	s109	A role for the PI3K/Akt pathway in macrophage response to F. novicida infection has thus far not been described .	[]		p24	Results	FALSE	problem	16247	16359	
+178	s110	The above observations of enhanced cytokine production and enhanced activation of Akt in SHIP-/ - BMMs suggest a potential role for the PI3K/Akt pathway in F. novicida-induced inflammatory response .	[]		p24	Results	FALSE	hypothesis	16360	16557	
+179	s111	"To test this notion , we next treated"	[]		p24	Results	FALSE	goal	16558	16594	f5
+180	s111	"F. novicida infected cells with the pharmacologic inhibitor of PI3K LY294002 , and monitored the release of IL-12 , IL-6 , and RANTES by ELISA ."	[]		p24	Results	FALSE	method	16595	16735	f5
+181	s112	"The results are displayed in Figure 5 . Inhibition of the PI3K pathway significantly decreased the production of IL-12 ( p < 0.009 ) , IL-6 ( p < 0.003 ) , and RANTES ( p < 0.03 ) by F. novicida-infected BMMs ,"	[inLink]	f5	p24	Results	FALSE	result	16736	16936	f5
+182	s112	indicating that the PI3K pathway is involved in the production of pro-inflammatory mediators in response to F. novicida infection .	[]		p24	Results	FALSE	implication	16937	17067	f5
+183	s113	The PI3K/Akt Pathway Promotes Macrophage Inflammatory Response to F. novicida through Its Influence on Downstream NFkappaB Activation	[header-1]		title25	Results	FALSE	implication	17068	17201	
+184	s114	We next examined the molecular mechanism by	[]		p26	Results	FALSE	method	17202	17245	
+185	s114	which PI3K/Akt influences F. novicida-induced cytokine response .	[]		p26	Results	FALSE	method	17246	17310	
+186	s115	It has been previously reported	[]		p26	Results	FALSE	result	17311	17342	
+187	s115	"that F. novicida induces the activation of NFkappaB , and that activation of this transcription factor may play an important role in the secretion of pro-inflammatory cytokines ."	[]		p26	Results	FALSE	hypothesis	17343	17519	
+188	s116	Hence we wanted	[]		p26	Results	FALSE	hypothesis	17520	17535	f6a
+189	s116	"to test the involvement of NFkappaB in the secretion of IL-12 , IL-6 , and RANTES in response to F. novicida infection , and the influence of PI3K on NFkappaB activation ."	[]		p26	Results	FALSE	hypothesis	17536	17703	f6a
+190	s117	"For this , we first transiently transfected RAW 264.7 cells with a construct encoding luciferase reporter gene under the influence of NFkappaB binding ( NFkappaB-luciferase construct ) ."	[]		p26	Results	FALSE	method	17704	17886	f6a
+191	s118	"Twelve hours post transfection , cells were infected with F. novicida for the times indicated in Figure 6A"	[inLink]	f6a	p26	Results	FALSE	method	17887	17992	f6a
+192	s118	and luciferase activity in the cell lysate was determined .	[]		p26	Results	FALSE	method	17993	18052	f6a
+193	s119	Results indicated	[]		p26	Results	FALSE	result	18053	18070	f6a
+194	s119	that NFkappaB activation is induced in response to F. novicida infection .	[]		p26	Results	FALSE	result	18071	18144	f6a
+195	s120	"Second ,"	[]		p27	Results	FALSE	method	18145	18152	f6b
+196	s120	"to test whether PI3K influences F. novicida-induced activation of NFkappaB , transfected cells were treated with LY294002 , or an inhibitor of NFkappaB SN50 , and expression of luciferase enzyme in response to F. novicida infection was measured ."	[]		p27	Results	FALSE	method	18153	18395	f6b
+197	s121	The results are shown in Figure 6B .	[inLink]	f6b	p27	Results	FALSE	result	18396	18431	f6b
+198	s122	"Inhibition of PI3K with LY294002 significantly decreased expression of the NFkappaB-driven reporter gene in response to F. novicida infection ( p < 0.0001 ) ,"	[]		p27	Results	FALSE	result	18432	18587	f6b
+199	s122	suggesting that the activation of PI3K pathway is necessary for induction of NFkappaB activation .	[]		p27	Results	FALSE	implication	18588	18685	f6b
+200	s123	"Finally , inhibition of NFkappaB , using the pharmacologic inhibitor SN50 , in murine BMMs infected with F. novicida resulted in significant inhibition of IL-12 ( p < 0.009 ) , IL-6 ( p < 0.007 ) , and RANTES ( p < 0.02 ) production ( Figure 6C ) ."	[inLink]	f6c	p28	Results	FALSE	result	18686	18920	f6c
+201	s124	The Western blots shown in Figure 6D demonstrate	[inLink]	f6d	p28	Results	FALSE	result	18921	18969	f6d
+202	s124	"that although treatment of cells with the PI3K inhibitor completely abrogated downstream Akt phosphorylation , Akt phosphorylation was not influenced by the NFkappaB inhibitor SN50 , indicating that SN50 inhibition has occurred downstream of Akt ."	[]		p28	Results	FALSE	result	18970	19214	f6d
+203	s125	"Collectively , these data provide evidence"	[]		p28	Results	FALSE	implication	19215	19256	
+204	s125	that PI3K influences F. novicida-induced macrophage pro-inflammatory response through its influence on NFkappaB activation .	[]		p28	Results	FALSE	implication	19257	19380	
+205	s126	"Of note , the activation of NFkappaB is unaffected in macrophages pre-treated with cytochalasin D ,"	[]		p28	Results	FALSE	implication	19381	19478	f6e
+206	s126	suggesting that internalization of F. novicida is not required ( Figure 6E ) .	[inLink]	f6e	p28	Results	FALSE	implication	19479	19554	f6e
+207	s127	SHIP Negatively Regulates F. novicida-Induced NFkappaB Activation	[header-1]		title29	Results	FALSE	implication	19555	19620	
+208	s128	Requirement of PI3K activity for F. novicida-induced NFkappaB activation suggested	[]		p30	Results	FALSE	hypothesis	19621	19703	
+209	s128	that SHIP may regulate F. novicida-stimulated NFkappaB activation .	[]		p30	Results	FALSE	hypothesis	19704	19770	
+210	s129	To test this prediction	[]		p30	Results	FALSE	goal	19771	19794	
+211	s129	RAW 264.7 cells were transfected with NFkappaB-luciferase construct alone along with either a construct encoding SHIP or the corresponding empty vector .	[]		p30	Results	FALSE	method	19795	19948	
+212	s130	"Transfectants were then infected with F. novicida , and"	[]		p30	Results	FALSE	method	19949	20003	
+213	s130	luciferase activity in the cell lysates was measured as an indicator of NFkappaB activation .	[]		p30	Results	FALSE	method	20004	20096	
+214	s131	As expected	[]		p30	Results	FALSE	result	20097	20108	f7a
+215	s131	overexpression of SHIP significantly ( p < 0.04 ) suppressed NFkappaB-dependent reporter gene expression ( Figure 7A ) .	[inLink]	f7a	p30	Results	FALSE	result	20109	20225	f7a
+216	s132	Overexpression of SHIP in the transfected cells was confirmed by Western blotting SHIP immunoprecipitates with SHIP antibody ( Figure 7B ) .	[inLink]	f7b	p30	Results	FALSE	result	20226	20363	f7b
+217	s133	"As an additional approach , murine BMMs obtained from SHIP +/+ and SHIP -/"	[]		p31	Results	FALSE	method	20364	20437	
+218	s133	mice were transiently transfected with the NFkappaB-luciferase construct .	[]		p31	Results	FALSE	result	20438	20512	
+219	s134	"Transfection of BMMs using the amaxa Nucleofector ( Solution T , program T-20 ; amaxa biosystems , Cologne , Germany ) yielded comparable transfection efficiency for both SHIP+/+ and SHIP-/ - cells , as determined with plasmid encoding EGFP ( enhanced green fluorescent protein ; unpublished data ) ."	[]		p31	Results	FALSE	result	20513	20801	
+220	s135	Transfected BMMs were subsequently infected with F. novicida and assayed for luciferase activity .	[]		p31	Results	FALSE	method	20802	20899	f7c
+221	s136	"BMMs lacking SHIP displayed significantly higher levels ( p < 0.05 ) of luciferase activity than the SHIP+/+ BMMs ,"	[]		p31	Results	FALSE	result	20900	21012	f7c
+222	s136	indicating that SHIP negatively regulates F. novicida-induced activation of NFkappaB ( Figure 7C ) .	[inLink]	f7c	p31	Results	FALSE	implication	21013	21110	f7c
+223	s137	SHIP Positively Regulates F. novicida-Induced IL-10 Production	[header-1]		title32	Results	FALSE	implication	21111	21173	
+224	s138	To determine whether SHIP regulates the production of anti-inflammatory cytokines by infected macrophages	[]		p33	Results	FALSE	goal	21174	21279	
+225	s138	we next measured IL-10 production .	[]		p33	Results	FALSE	method	21280	21315	
+226	s139	Here SHIP+/+ and SHIP-/ - BMMs were infected with F. novicida for 8 h .	[]		p33	Results	FALSE	method	21316	21385	
+227	s140	Cell supernatants from uninfected and infected cells were analyzed by ELISA for IL-10 .	[]		p33	Results	FALSE	method	21386	21472	
+228	s141	The results shown in Figure 8 demonstrate	[inLink]	f8	p33	Results	FALSE	result	21473	21514	f8
+229	s141	that SHIP+/+ BMMs produce significantly higher levels of IL-10 than the SHIP-/ - cells .	[]		p33	Results	FALSE	result	21515	21601	f8
+230	s142	Discussion	[header-0]		title34	Discussion	FALSE	none	21602	21612	
+231	s143	The molecular details of host response to F. tularensis infection are not clearly understood .	[]		p35	Discussion	FALSE	problem	21613	21706	
+232	s144	Both innate and adaptive immune responses provide protection against this infection .	[]		p35	Discussion	FALSE	fact	21707	21791	
+233	s145	"Early protection against F. tularensis is dependent upon the production of IFNgamma , TNF-alpha , and IL-12 ,"	[]		p35	Discussion	FALSE	fact	21792	21898	
+234	s145	"all of which are produced within a day after infection [ 7,9,31,32 ] ."	[exLink]		p35	Discussion	FALSE	fact	21899	21966	
+235	s146	"To date , regulatory mechanisms controlling the production of pro-inflammatory molecules have not been established ."	[]		p35	Discussion	FALSE	problem	21967	22081	
+236	s147	SHIP is a critical regulator of hematopoietic cell functions ;	[]		p35	Discussion	FALSE	fact	22082	22143	
+237	s147	hence we have investigated the role of SHIP in F. novicida-induced inflammatory response .	[]		p35	Discussion	FALSE	goal	22144	22233	
+238	s148	Our data indicate	[]		p35	Discussion	FALSE	implication	22234	22251	
+239	s148	"that SHIP is a negative regulator of Francisella-induced IL-12 , IL-6 , and RANTES production by BMMs ."	[]		p35	Discussion	FALSE	implication	22252	22352	
+240	s149	SHIP has been shown	[]		p36	Discussion	FALSE	result	22353	22372	
+241	s149	to influence hematopoietic cell functions through its inhibitory effect on the PI3K pathway as well as the MAPK pathways [ 15 ] .	[exLink]		p36	Discussion	FALSE	result	22373	22499	
+242	s150	Since previous studies and our current studies have demonstrated the activation of MAPKs in Francisella-infected macrophages	[]		p36	Discussion	FALSE	result	22500	22624	
+243	s150	we examined whether SHIP influenced activation of the MAPKs .	[]		p36	Discussion	FALSE	goal	22625	22686	
+244	s151	"However , our studies indicate"	[]		p36	Discussion	FALSE	result	22687	22716	
+245	s151	that the molecular mechanism by which SHIP influences macrophage response to Francisella does not involve inhibition of the MAPKs .	[]		p36	Discussion	FALSE	result	22717	22847	
+246	s152	"Thus , we did not observe any significant differences in the activation levels of MAPKs at any of the time points tested ,"	[]		p36	Discussion	FALSE	result	22848	22968	
+247	s152	ranging from 5 min to 8 h ( Figure 4A and unpublished data ) .	[inLink]	f4a	p36	Discussion	FALSE	result	22969	23028	
+248	s153	"However , we observed significantly elevated Akt activation in SHIP-deficient macrophages infected with Francisella ."	[]		p36	Discussion	FALSE	result	23029	23144	
+249	s154	The hyperactivation of Akt in SHIP-deficient macrophages suggested	[]		p36	Discussion	FALSE	result	23145	23211	
+250	s154	that the PI3K pathway may play a role in macrophage response to Francisella .	[]		p36	Discussion	FALSE	hypothesis	23212	23288	
+251	s155	"Consistently , inhibition of PI3K attenuated F. novicida-induced activation of NFkappaB and the subsequent production of pro-inflammatory cytokines ."	[]		p36	Discussion	FALSE	result	23289	23436	
+252	s156	Activation of the PI3K/Akt pathway by Francisella has not been previously reported .	[]		p37	Discussion	FALSE	problem	23437	23520	
+253	s157	"However , other intracellular pathogens such as Salmonella enterica have been shown to modulate host cell phosphoinositide pathways and downstream Akt activation [ 33 ] ."	[exLink]		p37	Discussion	FALSE	result	23521	23687	
+254	s158	"In the latter case , the functional consequence of phosphoinositide signaling is unclear ."	[]		p37	Discussion	FALSE	problem	23688	23776	
+255	s159	"Interestingly , pharmacologic inhibition of PI3K failed to prevent invasion of Salmonella ,"	[]		p37	Discussion	FALSE	result	23777	23866	
+256	s159	"suggesting that PI3K may not play a role in internalization of some intracellular pathogens , which use a type III secretion-mediated mechanism to gain entry into the host cell [ 33,34 ] ."	[exLink]		p37	Discussion	FALSE	hypothesis	23867	24051	
+257	s160	This is in contrast to receptor-mediated phagocytosis	[]		p37	Discussion	FALSE	fact	24052	24105	
+258	s160	in which PI3K activation is critical .	[]		p37	Discussion	FALSE	fact	24106	24143	
+259	s161	Macrophage receptors that sense Francisella and mediate phagocytosis are just being defined [ 35 ]	[exLink]		p38	Discussion	FALSE	problem	24144	24240	
+260	s161	but the linkages between receptors and intracellular signaling pathways are essentially unknown .	[]		p38	Discussion	FALSE	problem	24241	24338	
+261	s162	Earlier studies suggested	[]		p38	Discussion	FALSE	fact	24339	24364	
+262	s162	"that , since there is a lack of macrophage inflammatory response to the LPS of Francisella , it is unlikely that TLR4 is involved [ 36-38 ] ."	[exLink]		p38	Discussion	FALSE	fact	24365	24501	
+263	s163	Other studies propose	[]		p38	Discussion	FALSE	hypothesis	24502	24523	
+264	s163	that TLR2 may be important [ 39 ] .	[exLink]		p38	Discussion	FALSE	hypothesis	24524	24556	
+265	s164	Recent work also suggests a role for intracellular recognition of the pathogen [ 39 ] .	[exLink]		p38	Discussion	FALSE	hypothesis	24557	24641	
+266	s165	The role of SHIP in pro-inflammatory cytokine response elicited by TLR4 or TLR2 engagement has been studied .	[]		p38	Discussion	FALSE	method	24642	24750	
+267	s166	"Thus , studies by Strassheim et al. demonstrated"	[]		p38	Discussion	FALSE	result	24751	24798	
+268	s166	that SHIP negatively regulates TLR2 signaling [ 30 ] .	[exLink]		p38	Discussion	FALSE	result	24799	24850	
+269	s167	"In contrast , the presence of SHIP appears"	[]		p38	Discussion	FALSE	fact	24851	24892	
+270	s167	to enhance TLR4-induced inflammatory response .	[]		p38	Discussion	FALSE	fact	24893	24939	
+271	s168	"In an earlier study , we have demonstrated"	[]		p38	Discussion	FALSE	result	24940	24981	
+272	s168	that SHIP-deficient macrophages are hyporesponsive to TLR4 engagement compared to their wild-type counterparts [ 16 ] .	[exLink]		p38	Discussion	FALSE	result	24982	25098	
+273	s169	"These findings are supported by recent reports by Rauh et al. [ 27,29 ] ."	[exLink]		p38	Discussion	FALSE	result	25099	25169	
+274	s170	Although the latter group earlier reported a negative regulatory role for SHIP [ 40 ]	[exLink]		p38	Discussion	FALSE	result	25170	25253	
+275	s170	these findings were later attributed by the same group to in vitro culture conditions of macrophages in their study [ 29 ] .	[exLink]		p38	Discussion	FALSE	result	25254	25376	
+276	s171	Our current findings that SHIP negatively regulates	[]		p38	Discussion	FALSE	implication	25377	25428	
+277	s171	Francisella-induced inflammatory response are consistent with a role for TLR2 in Francisella-induced signaling .	[]		p38	Discussion	FALSE	implication	25429	25540	
+278	s172	Additional studies are required	[]		p38	Discussion	FALSE	problem	25541	25572	
+279	s172	to test this notion .	[]		p38	Discussion	FALSE	problem	25573	25593	
+280	s173	SHIP is a cytosolic enzyme	[]		p39	Discussion	FALSE	fact	25594	25620	
+281	s173	that must undergo membrane translocation to access its lipid substrates .	[]		p39	Discussion	FALSE	fact	25621	25693	
+282	s174	Previous reports indicate	[]		p39	Discussion	FALSE	result	25694	25719	
+283	s174	"that the N-terminal SH2 domain of SHIP is critical for this translocation under certain stimulation conditions , whereas the C-terminal region may be more important under other conditions [ 15 ] ."	[exLink]		p39	Discussion	FALSE	implication	25720	25912	
+284	s175	"Indeed , the C-terminal proline-rich region of SHIP has been shown"	[]		p39	Discussion	FALSE	result	25913	25978	
+285	s175	"to be required for stabilization of SHIP at the membrane [ 41,42 ] ."	[exLink]		p39	Discussion	FALSE	result	25979	26044	
+286	s176	Additional studies are required	[]		p39	Discussion	FALSE	problem	26045	26076	
+287	s176	to understand the mechanism by which SHIP translocates to the membrane in response to Francisella infection .	[]		p39	Discussion	FALSE	problem	26077	26185	
+288	s177	A thorough understanding of the role of SHIP in Francisella-induced signaling events may shed light on regulatory mechanisms controlling the production of inflammatory mediators	[]		p39	Discussion	FALSE	problem	26186	26363	
+289	s177	that are essential for protection against Francisella infection .	[]		p39	Discussion	FALSE	problem	26364	26428	
+290	s178	The production of pro-inflammatory cytokines such as IL-12 by monocytes/macrophages contributes further to immunity against Francisella infection by augmenting NK cell IFNgamma production .	[]		p40	Discussion	FALSE	fact	26429	26617	
+291	s179	"In a recent report , we have demonstrated that production of IFNgamma by NK cells in response to stimulation by monokines"	[]		p40	Discussion	FALSE	result	26618	26738	
+292	s179	"( IL-12 , IL-15 , and IL-18 ) is augmented in the absence of SHIP [ 43,44 ] ."	[exLink]		p40	Discussion	FALSE	result	26739	26809	
+293	s180	"Thus , it is conceivable"	[]		p40	Discussion	FALSE	hypothesis	26810	26833	
+294	s180	"that SHIP not only regulates macrophage responses to Francisella infection , but also the subsequent NK cell responses , thereby regulating overall defense against intracellular pathogens ."	[]		p40	Discussion	FALSE	hypothesis	26834	27020	
+295	s181	"In conclusion , this study unravels novel roles for PI3K and SHIP in"	[]		p41	Discussion	FALSE	implication	27021	27088	
+296	s181	regulating intracellular signaling events involved in macrophage innate immune response to Francisella infection .	[]		p41	Discussion	FALSE	implication	27089	27202	
+297	s182	Materials and Methods	[header-0]		title42	Materials and Methods	FALSE	none	27203	27224	
+298	s183	"Cells , antibodies , and reagents ."	[header-1]		title43	Materials and Methods	FALSE	none	27225	27257	
+299	s184	"RAW 264.7 murine macrophage cells were obtained from ATCC ( Washington , D. C. , United States ) and maintained in RPMI with 3.5 % heat-inactivated fetal bovine serum ( FBS ) ."	[]		p44	Materials and Methods	FALSE	method	27258	27426	
+300	s185	"Antibodies specific for phospho-Erk , phospho-JNK , phospho-SHIP , phospho-Akt , and phospho-p38 were purchased from Cell Signaling Technology ( Beverly , Massachusetts , United States ) ."	[]		p44	Materials and Methods	FALSE	method	27427	27606	
+301	s186	"Actin , phosphotyrosine , and Akt antibodies were from Santa Cruz Biotechnology ( Santa Cruz , California , United States ) ."	[]		p44	Materials and Methods	FALSE	method	27607	27725	
+302	s187	Rabbit polyclonal SHIP	[]		p44	Materials and Methods	FALSE	method	27726	27748	
+303	s187	"antibody was a generous gift from Dr. K. Mark Coggeshall ( Oklahoma Medical Research Foundation , Oklahoma City , Oklahoma , United States ) ."	[]		p44	Materials and Methods	FALSE	method	27749	27885	
+304	s188	F. novicida U112 ( JSG1819 ) was used in all experiments .	[]		p44	Materials and Methods	FALSE	method	27886	27941	
+305	s189	Bacteria were grown on Chocolate II agar plates at 37 degreesC .	[]		p44	Materials and Methods	FALSE	method	27942	28005	
+306	s190	Culture of murine bone marrow macrophages .	[header-1]		title45	Materials and Methods	FALSE	none	28006	28048	
+307	s191	"SHIP+/ - animals were generously provided by Dr. G. Krystal ( BC Cancer Agency , Vancouver , British Columbia , Canada ) ."	[]		p46	Materials and Methods	FALSE	method	28049	28164	
+308	s192	Heterozygotes were bred	[]		p46	Materials and Methods	FALSE	method	28165	28188	
+309	s192	to obtain SHIP+/+ and SHIP-/ - mice .	[]		p46	Materials and Methods	FALSE	method	28189	28224	
+310	s193	BMMs were derived from these animals	[]		p46	Materials and Methods	FALSE	method	28225	28261	
+311	s193	as previously described [ 16 ] .	[exLink]		p46	Materials and Methods	FALSE	method	28262	28291	
+312	s194	"Briefly , bone marrow cells were cultured in RPMI"	[]		p46	Materials and Methods	FALSE	method	28292	28340	
+313	s194	containing 10 % fetal bovine serum plus 10 mug/ml polymixin B and supplemented with 20 ng/ml CSF-1 for 7 d before they were used in experiments .	[]		p46	Materials and Methods	FALSE	method	28341	28484	
+314	s195	"BMMs derived in this manner were more than 99 % positive for Mac-1 ,"	[]		p46	Materials and Methods	FALSE	method	28485	28551	
+315	s195	as determined by flow cytometry .	[]		p46	Materials and Methods	FALSE	method	28552	28584	
+316	s196	"Cell stimulation , lysis , and Western blotting ."	[header-1]		title47	Materials and Methods	FALSE	none	28585	28631	
+317	s197	BMMs were plated in six-well culture dishes .	[]		p48	Materials and Methods	FALSE	method	28632	28676	
+318	s198	"Macrophages were infected either with F. novicida ( at 1 . 10 , or 100 MOI ) or with F. tularensis LVS ( 100 MOI ) that"	[]		p48	Materials and Methods	FALSE	method	28677	28790	
+319	s198	"were scraped from Chocolate II agar plates , resuspended , and diluted in RPMI ."	[]		p48	Materials and Methods	FALSE	method	28791	28868	
+320	s199	"For some experiments , bacteria were killed by heat at 98 degreesC for 10 min prior to"	[]		p48	Materials and Methods	FALSE	method	28869	28954	
+321	s199	adding to the macrophages .	[]		p48	Materials and Methods	FALSE	method	28955	28981	
+322	s200	To prevent internalization of bacteria	[]		p48	Materials and Methods	FALSE	goal	28982	29020	
+323	s200	cells were treated with 5 mug/ml of cytochalasin D for 30 min at 37 degreesC and 5 % C02 prior to infection .	[]		p48	Materials and Methods	FALSE	method	29021	29129	
+324	s201	"Uninfected and infected cells were lysed in TN1 buffer ( 50 mM Tris [ pH 8.0 ] , 10 mM EDTA , 10m M Na4P2O7 , 10 mM NaF , 1 % Triton-X 100 , 125 mM NaCl , 10 mM Na3VO4 , 10 mug/ml each aprotinin and leupeptin ) ."	[]		p48	Materials and Methods	FALSE	method	29130	29329	
+325	s202	"Postnuclear lysates were boiled in Laemmli Sample Buffer and were separated by SDS/PAGE , transferred"	[]		p48	Materials and Methods	FALSE	method	29330	29430	
+326	s202	"to nitrocellulose filters , probed with the antibody of interest , and developed by enhanced chemiluminescence ( ECL ) ."	[]		p48	Materials and Methods	FALSE	method	29431	29546	
+327	s203	CFU assays .	[header-1]		title49	Materials and Methods	FALSE	method	29547	29558	
+328	s204	SHIP+/+ and SHIP-/ - BMMs were infected with F. novicida ( 100 MOI ) .	[]		p50	Materials and Methods	FALSE	method	29559	29625	
+329	s205	"Two hours post infection , cells were washed two times and incubated with 50 mug/ml of gentamicin for 30 min at 37 degreesC and 5 % CO2 ."	[]		p50	Materials and Methods	FALSE	method	29626	29760	
+330	s206	The cells were subsequently washed twice and lysed in 0.1 % SDS for 5 min .	[]		p50	Materials and Methods	FALSE	method	29761	29834	
+331	s207	"Immediately , 10-fold serial dilutions were made , and"	[]		p50	Materials and Methods	FALSE	method	29835	29887	
+332	s207	appropriate dilutions were plated on Chocolate II agar plates .	[]		p50	Materials and Methods	FALSE	method	29888	29950	
+333	s208	Assays were performed in triplicate for each test group .	[]		p50	Materials and Methods	FALSE	method	29951	30007	
+334	s209	"Transmission electron microscopy ( TEM ) : SHIP+/+ and SHIP-/ - BMMs were infected with F. novicida , and"	[]		p51	Materials and Methods	FALSE	method	30008	30108	
+335	s209	"2 h post infection , the cells were washed , fixed , and prepared for TEM analysis as described previously ."	[]		p51	Materials and Methods	FALSE	method	30109	30213	
+336	s210	Bacterial count in 20 SHIP+/+ and SHIP-/	[]		p51	Materials and Methods	FALSE	result	30214	30254	
+337	s210	BMMs was assessed and averaged [ 45 ] .	[exLink]		p51	Materials and Methods	FALSE	result	30255	30292	
+338	s211	ELISA measurement of cytokine production .	[header-1]		title52	Materials and Methods	FALSE	method	30293	30334	
+339	s212	BMMs were infected with F. novicida for varying time points .	[]		p53	Materials and Methods	FALSE	method	30335	30395	
+340	s213	"Cell supernatants were harvested , centrifuged to remove dead cells , and analyzed by ELISA"	[]		p53	Materials and Methods	FALSE	method	30396	30485	
+341	s213	"using cytokine-specific kits from R & D Systems ( Minneapolis , Minnesota , United States ) ."	[]		p53	Materials and Methods	FALSE	method	30486	30574	
+342	s214	Data were analyzed	[]		p53	Materials and Methods	FALSE	method	30575	30593	
+343	s214	using a paired Student t-test .	[]		p53	Materials and Methods	FALSE	method	30594	30624	
+344	s215	A p-value < 0.05 was considered	[]		p53	Materials and Methods	FALSE	method	30625	30656	
+345	s215	as significant .	[]		p53	Materials and Methods	FALSE	method	30657	30672	
+346	s216	Transfection and luciferase assays .	[header-1]		title54	Materials and Methods	FALSE	none	30673	30708	
+347	s217	BMMs and RAW 264.7 cells were transfected with the appropriate plasmid DNA using the Amaxa Nucleofector apparatus ( amaxa biosystems )	[]		p55	Materials and Methods	FALSE	method	30709	30841	
+348	s217	"as previously described [ 46,47 ] ."	[exLink]		p55	Materials and Methods	FALSE	method	30842	30874	
+349	s218	"Briefly , 5 x 106 cells were resuspended in 100 mul Nucelofector Solution ( T for BMMs and V for RAW 264.7 cells ) , and were nucelofected with 1 mug of NFkappaB-luc alone or with 5 mug of empty vector or plasmid"	[]		p55	Materials and Methods	FALSE	method	30875	31083	
+350	s218	encoding WT-SHIP .	[]		p55	Materials and Methods	FALSE	method	31084	31101	
+351	s219	"Immediately post nucleofection , 500 mul of pre-warmed RPMI was added to the transfection mix before"	[]		p55	Materials and Methods	FALSE	method	31102	31201	
+352	s219	transferring to 12-well plates containing 1.5-ml pre-warmed RPMI per well .	[]		p55	Materials and Methods	FALSE	method	31202	31276	
+353	s220	Plates were incubated for 12 h at 37 degreesC .	[]		p55	Materials and Methods	FALSE	method	31277	31323	
+354	s221	Transfected cells were either left	[]		p55	Materials and Methods	FALSE	method	31324	31358	
+355	s221	uninfected or were infected for 5 h with F. novicida .	[]		p55	Materials and Methods	FALSE	method	31359	31412	
+356	s222	"Cells were lysed in 100 mul of Luciferase Cell Culture Lysis Reagent ( Promega , Madison , Wisconsin , United States ) ."	[]		p55	Materials and Methods	FALSE	method	31413	31527	
+357	s223	Luciferase activity was then measured	[]		p55	Materials and Methods	FALSE	method	31528	31565	
+358	s223	"using Luciferase Assay Reagent ( Promega ) , as previously described [ 24 ] ."	[exLink]		p55	Materials and Methods	FALSE	method	31566	31637	

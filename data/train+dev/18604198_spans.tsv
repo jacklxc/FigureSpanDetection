@@ -1,0 +1,378 @@
+	SentenceId	Clause Text	Codes	ExperimentValues	Paragraph	Headings	FloatingBox?	Discourse Type	Offset_Begin	Offset_End	fig_spans
+0	s1	Regulation of TORC1 by Rag GTPases in nutrient response	[]		-		FALSE	none	139	194	
+1	s2	TORC1 ( Target of rapamycin complex 1 ) has a critical role in the regulation of cell growth and cell size .	[]		p7		FALSE	fact	823	928	
+2	s3	"A wide range of signals , including amino acids , is known to activate TORC1 ."	[]		p7		FALSE	fact	929	1004	
+3	s4	"Here , we report the identification of Rag GTPases as novel activators of TORC1 in response to amino acid signals ."	[]		p7		FALSE	hypothesis	1005	1118	
+4	s5	Knockdown of Rag gene expression suppressed the stimulatory effect of amino acids on TORC1 in Drosophila S2 cells .	[]		p7		FALSE	result	1119	1233	
+5	s6	Expression of constitutively active ( GTP-bound ) Rag in mammalian cells enhances TORC1 in the absence of amino acids	[]		p7		FALSE	result	1234	1349	
+6	s6	while expression of dominant negative Rag blocks the stimulatory effects of amino acids on TORC1 .	[]		p7		FALSE	result	1350	1447	
+7	s7	Drosophila genetic studies also show	[]		p7		FALSE	result	1448	1484	
+8	s7	"that the Rag GTPases regulate cell growth , autophagy , and animal viability under starvation ."	[]		p7		FALSE	result	1485	1577	
+9	s8	"Together , our studies establish a novel function of Rag GTPases in TORC1 activation in response to amino acid signals ."	[]		p7		FALSE	implication	1578	1696	
+10	s9	Introduction	[header-0]		title8	Introduction	FALSE	none	1900	1912	
+11	s10	A wide range of signals regulates the activity of Target of rapamycin ( TOR )	[]		p9	Introduction	FALSE	fact	1913	1988	
+12	s10	to control cell growth .	[]		p9	Introduction	FALSE	fact	1989	2012	
+13	s11	"TOR exists in two distinct complexes1 , 2 , TORC1 and TORC2 ,"	[exLink]		p9	Introduction	FALSE	fact	2013	2071	
+14	s11	which share mTOR and mLST8 and have each their unique subunits .	[]		p9	Introduction	FALSE	fact	2072	2135	
+15	s12	"TORC1 is directly inhibited by rapamycin3 ,"	[exLink]		p9	Introduction	FALSE	fact	2136	2178	
+16	s12	while TORC2 is not4-6 .	[exLink]		p9	Introduction	FALSE	fact	2179	2201	
+17	s13	TORC1 positively regulates cell growth and cell size by	[]		p9	Introduction	FALSE	fact	2202	2257	
+18	s13	"promoting anabolic processes such as protein synthesis1 , 7 and inhibiting catabolic processes such as autophagy8-10 ."	[exLink]		p9	Introduction	FALSE	fact	2258	2374	
+19	s14	The S6-kinase and translation factor	[]		p9	Introduction	FALSE	fact	2375	2411	
+20	s14	"4EBP1 are phosphorylated upon TORC1 activation to mediate TOR-induced translational regulation11 , 12 and their phosphorylations have been used to assess TOR activation in vivo"	[exLink]		p9	Introduction	FALSE	fact	2412	2587	
+21	s15	"TORC1 is regulated by mitogenic growth factors , cellular energy levels , and"	[]		p10	Introduction	FALSE	fact	2588	2663	
+22	s15	"amino acids1 , 2 . The mechanisms of TORC1 regulation by growth factors and energy levels have been characterized ."	[exLink]		p10	Introduction	FALSE	fact	2664	2776	
+23	s16	"For example , growth factors activate TORC1 partly through PI3K , Akt , TSC1/TSC2 , and Rheb13-15 , a small GTPase of the Ras family"	[exLink]		p10	Introduction	FALSE	fact	2777	2904	
+24	s16	that directly binds to and stimulates TORC1 activity16-18 .	[exLink]		p10	Introduction	FALSE	fact	2905	2963	
+25	s17	Amino acids are potent activators of TORC119 however	[exLink]		p10	Introduction	FALSE	fact	2964	3016	
+26	s17	the mechanism of TORC1 activation by amino acids is largely unknown .	[]		p10	Introduction	FALSE	fact	3017	3086	
+27	s18	"Although studies have implicated the VPS34 PI3 kinase in nutrient response20 , 21"	[exLink]		p10	Introduction	FALSE	result	3087	3167	
+28	s18	its precise function in TORC1 activation remains to be established .	[]		p10	Introduction	FALSE	problem	3168	3236	
+29	s19	Gtr1 and Gtr2 are unique members of the Ras GTPase family in yeast22	[exLink]		p11	Introduction	FALSE	fact	3237	3305	
+30	s19	"that have a long C-terminal extension which is required for Gtr1/Gtr2 heterodimer formation23 , 24 ."	[exLink]		p11	Introduction	FALSE	fact	3306	3404	
+31	s20	"In yeast , Gtr1/Gtr2 act in a multifunctional protein complex involved in nuclear transport regulation , intracellular protein trafficking , microautophagy , and exit from rapamycin-induced growth arrest22 , 24-26 ."	[exLink]		p11	Introduction	FALSE	fact	3405	3614	
+32	s21	RagA and RagB are mammalian homologues of Gtr1	[]		p11	Introduction	FALSE	fact	3615	3661	
+33	s21	"while RagC and RagD are corresponding homologues of Gtr227 , 28 ."	[exLink]		p11	Introduction	FALSE	fact	3662	3725	
+34	s22	"Although the physiological functions of Rag family GTPases are largely unknown , RagA and RagB can form heterodimers with RagC and RagD28"	[exLink]		p11	Introduction	FALSE	fact	3726	3862	
+35	s22	"and Rag complexes may functionally interact with Ran to modulate nuclear transport22 , 29 ."	[exLink]		p11	Introduction	FALSE	fact	3863	3952	
+36	s23	"Here , we identify Rag GTPases as novel regulators of TORC1 in cultured mammalian cells and Drosophila ."	[]		p11	Introduction	FALSE	hypothesis	3953	4055	
+37	s24	Our data indicate	[]		p11	Introduction	FALSE	implication	4056	4073	
+38	s24	that Rag promotes cell growth and inhibits autophagy by activating TORC1 in response to amino acid signals .	[]		p11	Introduction	FALSE	implication	4074	4181	
+39	s25	Results	[header-0]		title12	Results	FALSE	none	4182	4189	
+40	s26	dRagA and dRagC are positive regulators of S6K phosphorylation in Drosophila S2 cells	[header-1]		title13	Results	FALSE	fact	4190	4275	
+41	s27	The GTPase family proteins are involved in almost every aspects of cellular signaling .	[]		p14	Results	FALSE	fact	4276	4362	
+42	s28	We hypothesized	[]		p14	Results	FALSE	hypothesis	4363	4378	
+43	s28	that amino acid signaling to TORC1 may involve a GTPase ( s ) .	[]		p14	Results	FALSE	hypothesis	4379	4438	
+44	s29	We performed	[]		p14	Results	FALSE	method	4439	4451	f1a
+45	s29	a RNA interference ( RNAi ) screen of 132 annotated Drosophila GTPases using Drosophila S2 cells and looking for the GTPases whose silencing prevents amino acid-induced phosphorylation and mobility shift of dS6K in S2 cells ( Fig. 1a ) .	[inLink]	f1a	p14	Results	FALSE	method	4452	4684	f1a
+46	s30	CG11968 and CG8707 were identified as important for dS6K phosphorylation in response to amino acids ( Fig. 1a ) .	[inLink]	f1a	p14	Results	FALSE	result	4685	4795	f1a
+47	s31	Sequence comparison analyses show	[]		p14	Results	FALSE	result	4796	4829	f1a
+48	s31	"that CG11968 is most closely homologous to the yeast Gtr1 and mammalian RagA and RagB , while CG8707 is homologous to the yeast Gtr2 and mammalian RagC and RagD and therefore named them dRagA and dRagC , respectively ( Fig. 1a ) ."	[inLink]	f1a	p14	Results	FALSE	result	4830	5055	f1a
+49	s32	Consistent with results in yeast and mammalian cells	[]		p14	Results	FALSE	result	5056	5108	f1a
+50	s32	these proteins were previously found to interact in large scale two hybrid screens30 .	[exLink]		p14	Results	FALSE	result	5109	5195	f1a
+51	s33	"Knockdown of many other GTPases , such as the Rho family members , had no effect on dS6K phosphorylation ( Fig. 1a ) ."	[inLink]	f1a	p14	Results	FALSE	result	5196	5309	f1a
+52	s34	Rheb was also isolated in our screen .	[]		p15	Results	FALSE	result	5310	5347	f1a
+53	s35	"It is worth noting that Rheb knockdown reproducibly caused a stronger inhibition of S6K phosphorylation than dRagA and dRagC ( Fig. 1a ) , consistent with the notion that Rheb is a direct activator of TORC117"	"[inLink, exLink]"	f1a	p15	Results	FALSE	result	5348	5553	f1a
+54	s35	"18 . Knockdown of several other GTPases , such as Rab5 and Ran , also decreased dS6K phosphorylation ."	[exLink]		p15	Results	FALSE	result	5554	5653	f1a
+55	s36	"However , knockdown of Rab5 and Ran significantly decreased cell numbers as well ( data not shown ) ,"	[]		p15	Results	FALSE	result	5654	5751	
+56	s36	indicating a general effect of these GTPases on cell proliferation/apoptosis .	[]		p15	Results	FALSE	implication	5752	5829	
+57	s37	"Therefore , we focused our efforts on the Rag GTPases ."	[]		p15	Results	FALSE	goal	5830	5883	
+58	s38	Amino acids are known	[]		p16	Results	FALSE	fact	5884	5905	
+59	s38	to stimulate TORC1 but not TORC22 .	[exLink]		p16	Results	FALSE	fact	5906	5940	
+60	s39	"In fact , amino acid starvation indirectly elevates TORC2 activity"	[]		p16	Results	FALSE	implication	5941	6006	f1b
+61	s39	"because inactivation of S6K by amino acid starvation relieves the feedback inhibition on TORC231 , 32 ( Fig. 1b ) ."	"[inLink, exLink]"	f1b	p16	Results	FALSE	result	6007	6118	f1b
+62	s40	We tested the effect of	[]		p16	Results	FALSE	method	6119	6142	f1b
+63	s40	"dRag on dAkt phosphorylation , a TORC2 substrate ."	[]		p16	Results	FALSE	method	6143	6191	f1b
+64	s41	Knockdown of dRagA or dRagC caused a significant increase of dAkt phosphorylation ( Fig. 1b ) .	[inLink]	f1b	p16	Results	FALSE	result	6192	6284	f1b
+65	s42	These data are consistent with the notion	[]		p16	Results	FALSE	implication	6285	6326	f1b
+66	s42	that dRagA and dRagC play a positive role in TORC1 activation but not TORC2 activation .	[]		p16	Results	FALSE	implication	6327	6414	f1b
+67	s43	To determine the functional relationship between dRag and the components of TOR signaling pathway	[]		p17	Results	FALSE	goal	6415	6512	
+68	s43	"we performed knockdown of dTSC2 and dPTEN , two negative regulators of dTOR , in combination with dRag ."	[]		p17	Results	FALSE	method	6513	6615	
+69	s44	As expected	[]		p17	Results	FALSE	method	6616	6627	f1c
+70	s44	dTSC2 knockdown increased dS6K phosphorylation ( Fig. 1c ) .	[inLink]	f1c	p17	Results	FALSE	result	6628	6686	f1c
+71	s45	Knockdown of either dRagA or dRagC compromised the effect of TSC2 knockdown on dS6K phosphorylation ( Fig. 1c ) .	[inLink]	f1c	p17	Results	FALSE	result	6687	6797	f1c
+72	s46	Of note is that	[]		p17	Results	FALSE	result	6798	6813	f1c
+73	s46	knockdown of dRagA or dRagC did not decrease dS6K phosphorylation below the basal level when dTSC2 was also knocked down .	[]		p17	Results	FALSE	result	6814	6935	f1c
+74	s47	"In contrast , dRheb knockdown eliminated dS6K phosphorylation"	[]		p17	Results	FALSE	result	6936	6996	f1c
+75	s47	even when dTSC2 was knocked down ( data not shown ) .	[]		p17	Results	FALSE	result	6997	7047	f1c
+76	s48	Similar results between dRag and dPTEN were observed ( Fig. 1c ) .	[inLink]	f1c	p17	Results	FALSE	result	7048	7111	f1c
+77	s49	These data suggest	[]		p17	Results	FALSE	implication	7112	7130	f1c
+78	s49	that RagA and RagC may function in parallel to PTEN and TSC2 to activate TORC1 .	[]		p17	Results	FALSE	implication	7131	7210	f1c
+79	s50	Rag	[header-1]		title18	Results	FALSE	implication	7211	7214	
+80	s50	GTPases regulate mammalian TORC1	[header-1]		title18	Results	FALSE	implication	7215	7247	
+81	s51	We next examined the function of Rag GTPases in regulation of mammalian TORC1 in cultured cells .	[]		p19	Results	FALSE	method	7248	7344	
+82	s52	Human RagA shares over 90 % sequence identity with RagB but only 25 % sequence identity with RagC and RagD	[]		p19	Results	FALSE	fact	7345	7449	
+83	s52	while RagC shares 87 % sequence identity with RagD28 .	[exLink]		p19	Results	FALSE	fact	7450	7502	
+84	s53	Wild type as well as constitutively active and dominant negative mutants of human RagA	[]		p19	Results	FALSE	method	7503	7589	
+85	s53	"B , C , and D were constructed ."	[]		p19	Results	FALSE	method	7590	7620	
+86	s54	In vivo labeling of RagA showed that	[]		p19	Results	FALSE	result	7621	7657	f1
+87	s54	both wild type and RagA Q66L contained high levels of GTP while RagA T21N bound little nucleotide ( Supplementary Fig. S1 ) .	[inLink]	f1	p19	Results	FALSE	result	7658	7780	f1
+88	s55	"We found that expression of Rag , especially the constitutively active RagA Q66L and RagB Q99L , increased phosphorylation of co-transfected HA-S6K ( Fig. 2a ) ."	[inLink]	f2a	p19	Results	FALSE	result	7781	7937	f2a
+89	s56	"In contrast , expression of dominant negative RagA T21N and RagB T54N decreased S6K phosphorylation ."	[]		p19	Results	FALSE	result	7938	8037	f2a
+90	s57	The effect of dominant negative RagA and RagB expression on S6K was also evident	[]		p19	Results	FALSE	result	8038	8118	f2a
+91	s57	as shown by an increase in S6K mobility ( Fig. 2a ) .	[inLink]	f2a	p19	Results	FALSE	result	8119	8169	f2a
+92	s58	"On the other hand , expression of constitutively active and dominant negative RagC or RagD had only a minor effect on S6K phosphorylation ( Fig. 2a ) ."	[inLink]	f2a	p19	Results	FALSE	result	8170	8317	f2a
+93	s59	"Surprisingly , the dominant negative mutants RagC S75N and RagD S76N decreased S6K mobility ( Fig. 2a ) ,"	[inLink]	f2a	p19	Results	FALSE	result	8318	8419	f2a
+94	s59	indicating a possible increase of phosphorylation ( see results later ) .	[]		p19	Results	FALSE	implication	8420	8490	f2a
+95	s60	We confirmed the physical interaction between RagA and RagC ( data not shown ) .	[]		p20	Results	FALSE	result	8491	8568	
+96	s61	The relationship between RagA and RagC in S6K phosphorylation was further investigated .	[]		p20	Results	FALSE	goal	8569	8656	f2b
+97	s62	As shown in Fig. 2b	[inLink]	f2b	p20	Results	FALSE	result	8657	8676	f2b
+98	s62	RagA T21N dominantly inhibited S6K phosphorylation regardless of the nucleotide binding status of the co-expressed RagC .	[]		p20	Results	FALSE	result	8677	8798	f2b
+99	s63	"Moreover , RagA Q66L dominantly activated S6K phosphorylation regardless of the nucleotide binding status of the co-transfected RagC ."	[]		p20	Results	FALSE	result	8799	8931	f2b
+100	s64	"Notably , RagA T21N and RagC S75N were poorly expressed"	[]		p20	Results	FALSE	result	8932	8986	f2b
+101	s64	when they were transfected alone .	[]		p20	Results	FALSE	result	8987	9020	f2b
+102	s65	"However , when they were co-transfected with either wild type or mutant versions of RagC or RagA , the expression levels were markedly increased ( Fig. 2b ) ,"	[inLink]	f2b	p20	Results	FALSE	result	9021	9174	f2b
+103	s65	"suggesting dimer formation stabilizes the dominant negative mutants of RagA and RagC , which are unstable ."	[]		p20	Results	FALSE	implication	9175	9280	f2b
+104	s66	To further examine the role of Rag GTPases in mTORC1 regulation	[]		p21	Results	FALSE	goal	9281	9344	f2c
+105	s66	"we determined the phosphorylation status of the S6K site T421/S424 , which is not directly phosphorylated by mTORC1 , and 4EBP1 , another direct substrate of mTORC1 ."	[]		p21	Results	FALSE	method	9345	9508	f2c
+106	s67	RagA T21N did not decrease	[]		p21	Results	FALSE	result	9509	9535	f2c
+107	s67	S6K T421/S424 phosphorylation as much as T389 .	[]		p21	Results	FALSE	result	9536	9582	f2c
+108	s68	"In contrast , RagAT21N completely blocked 4EBP1 phosphorylation ( S65 ) and also caused a dramatic mobility shift of the co-transfected 4EBP1 ( Fig. 2c ) ."	[inLink]	f2c	p21	Results	FALSE	result	9583	9732	f2c
+109	s69	"On the other hand ,"	[]		p21	Results	FALSE	result	9733	9751	
+110	s69	"Rag had little effect on AKT ( S473 ) phosphorylation , a TORC2 substrate 33 ."	[exLink]		p21	Results	FALSE	result	9752	9826	
+111	s70	These results support the notion	[]		p21	Results	FALSE	implication	9827	9859	
+112	s70	that Rag GTPases specifically activate mTORC1 but not mTORC2 .	[]		p21	Results	FALSE	implication	9860	9921	
+113	s71	Rag	[header-1]		title22	Results	FALSE	implication	9922	9925	
+114	s71	GTPases regulate amino acid response	[header-1]		title22	Results	FALSE	implication	9926	9962	
+115	s72	The stimulatory effect of constitutively active RagA on S6K phosphorylation was not dramatic in normal culture medium ( Fig. 2 ) .	[inLink]	f2	p23	Results	FALSE	result	9963	10090	f2
+116	s73	"Previously , we had also observed"	[]		p23	Results	FALSE	result	10091	10123	
+117	s73	that stimulation of S6K phosphorylation by Rheb was not dramatic in rich medium but was greatly enhanced under nutrient poor conditions34 .	[exLink]		p23	Results	FALSE	result	10124	10262	
+118	s74	"Therefore , we tested S6K phosphorylation under amino acid deprivation ."	[]		p23	Results	FALSE	method	10263	10333	
+119	s75	Co-expression of constitutively active RagA Q66L increased S6K phosphorylation	[]		p23	Results	FALSE	result	10334	10412	f3a
+120	s75	while wild type RagA or dominant negative RagA T21N did not ( Fig. 3a ) .	[inLink]	f3a	p23	Results	FALSE	result	10413	10483	f3a
+121	s76	"Moreover , expression of RagA T21N and RagC Q120L completely blocked S6K phosphorylation in response to amino acid stimulation ( Fig. 3b ) ."	[inLink]	f3b	p23	Results	FALSE	result	10484	10620	f3a|f3b
+122	s77	"Surprisingly , expression of dominant negative RagC S75N but not constitutively active RagC Q120L reproducibly increased S6K phosphorylation ( Fig. 3a ) ."	[inLink]	f3a	p23	Results	FALSE	result	10621	10771	f3a|f3b
+123	s78	"Although the effect was less dramatic , given the low expression of RagC S75N"	[]		p23	Results	FALSE	result	10772	10848	f3a|f3b
+124	s78	the S6K activation caused by RagC S75N was in fact rather significant .	[]		p23	Results	FALSE	result	10849	10920	f3a|f3b
+125	s79	"Transfection with as little as 20ng of RagA Q66L DNA strongly increased S6K phosphorylation in the absence of amino acids and this effect lasted over 12hrs ( Fig. S2a , data not shown ) ."	[inLink]	f2a	p23	Results	FALSE	result	10921	11104	f2a
+126	s80	Expression of RagA T21N strongly blocked amino acid stimulation	[]		p23	Results	FALSE	result	11105	11168	f2a
+127	s80	even though the expression level was low ( Fig. S2a ) .	[inLink]	f2a	p23	Results	FALSE	result	11169	11221	f2a
+128	s81	We tested	[]		p24	Results	FALSE	hypothesis	11222	11231	
+129	s81	whether RagA Q66L can overcome inhibition by osmotic stress .	[]		p24	Results	FALSE	hypothesis	11232	11292	
+130	s82	As shown in Fig. S2b	[inLink]	f2b	p24	Results	FALSE	result	11293	11313	f2b
+131	s82	osmotic stress still inhibited RagA Q66L-induced S6K phosphorylation .	[]		p24	Results	FALSE	result	11314	11384	f2b
+132	s83	We found	[]		p24	Results	FALSE	result	11385	11393	f2b
+133	s83	"that neither RagA Q66L nor RagA T21N affected AMPK phosphorylation ( data not shown ) , excluding an involvement of AMPK ."	[]		p24	Results	FALSE	result	11394	11512	f2b
+134	s84	"In the absence of amino acids , the ability of insulin to stimulate S6K was significantly compromised ( Fig. S3 ) 8 , 19 ."	"[inLink, exLink]"	f3	p25	Results	FALSE	result	11513	11629	f3|f3c
+135	s85	We therefore examined the effect of Rag on insulin signaling .	[]		p25	Results	FALSE	method	11630	11691	f3|f3c
+136	s86	Co-expression of RagA T21N and RagC Q120L potently diminished the ability of insulin	[]		p25	Results	FALSE	result	11692	11776	f3|f3c
+137	s86	"to stimulate S6K phosphorylation ( Fig. 3c ) , similar to the results obtained under amino acid starvation conditions ( Fig. S3 ) ."	[inLink]	f3|f3c	p25	Results	FALSE	result	11777	11902	f3|f3c
+138	s87	"In contrast , the insulin-induced AKT phosphorylation was not affected by Rag ( Fig. 3c ) ."	[inLink]	f3c	p25	Results	FALSE	result	11903	11990	f3|f3c
+139	s88	These data further support the notion	[]		p25	Results	FALSE	implication	11991	12028	f3|f3c
+140	s88	that the Rag GTPases may be specifically involved in amino acid signaling .	[]		p25	Results	FALSE	implication	12029	12103	f3|f3c
+141	s89	Rag	[header-1]		title26	Results	FALSE	fact	12104	12107	
+142	s89	GTPases regulate cell size in Drosophila	[header-1]		title26	Results	FALSE	fact	12108	12148	
+143	s90	"TOR signaling has been well established in the regulation of cell and organ size in Drosophila35 , 36 ."	[exLink]		p27	Results	FALSE	fact	12149	12250	
+144	s91	This led	[]		p27	Results	FALSE	method	12251	12259	
+145	s91	us to examine the contribution of dRagA and dRagC to cell growth in vivo .	[]		p27	Results	FALSE	method	12260	12333	
+146	s92	"dRagA wild type , constitutively active mutant dRagA Q61L , and dominant negative mutant dRagA T16N were each expressed in posterior wing compartments"	[]		p27	Results	FALSE	method	12334	12482	
+147	s92	using the posterior driver en-GAL4 .	[]		p27	Results	FALSE	method	12483	12518	
+148	s93	We found	[]		p27	Results	FALSE	result	12519	12527	f4a
+149	s93	that expression of the constitutively active dRagA Q61L but not the wild type dRagA significantly increased posterior compartment size relative to that of the control anterior compartment ( Fig. 4a ) .	[inLink]	f4a	p27	Results	FALSE	result	12528	12726	f4a
+150	s94	"In contrast , expression of the dominant negative dRagA T16N decreased posterior wing compartment size ."	[]		p27	Results	FALSE	result	12727	12829	f4b
+151	s95	"Consistent with these results , expression of dRagA Q61L increased individual cell size of the wing ,"	[]		p27	Results	FALSE	result	12830	12929	f4b
+152	s95	while expression of dRagA T16N reduced cell size ( Fig. 4b ) .	[inLink]	f4b	p27	Results	FALSE	result	12930	12989	f4b
+153	s96	We also expressed dRagA in the dorsal wing surface of the wing	[]		p27	Results	FALSE	result	12990	13052	f4a|f4b
+154	s96	using the dorsal specific ap-GAL4 .	[]		p27	Results	FALSE	result	13053	13087	f4a|f4b
+155	s97	As predicted	[]		p27	Results	FALSE	result	13088	13100	f4a|f4b
+156	s97	"expression of dRagA Q61L or dRagA T16N caused wing curvature downward or upward , respectively ( Fig. S4a , b ) ."	[inLink]	f4a|f4b	p27	Results	FALSE	result	13101	13210	f4a|f4b
+157	s98	These results support	[]		p27	Results	FALSE	implication	13211	13232	f4a|f4b
+158	s98	that high activity of dRagA promotes cell growth and low activity of dRagA inhibits cell growth .	[]		p27	Results	FALSE	implication	13233	13329	f4a|f4b
+159	s99	The Drosophila larval fat body is involved in TOR-dependent nutrient sensing as well as in	[]		p28	Results	FALSE	fact	13330	13420	
+160	s99	relaying a nutritional response during development37 .	[exLink]		p28	Results	FALSE	fact	13421	13474	
+161	s100	We thus examined the role of dRagA in cell size regulation in this tissue on regular food or after 48-hour amino acid starvation .	[]		p28	Results	FALSE	method	13475	13604	f4c|f4d
+162	s101	"Under starvation conditions , clonal overexpression of wild type dRagA resulted in a modest increase in individual cell size ,"	[]		p28	Results	FALSE	result	13605	13729	f4c|f4d
+163	s101	"whereas expression of constitutively active dRagA Q61L resulted in a dramatic 3-fold increase in cell size compared to neighboring cells under starvation conditions ( Fig. 4c , d ) ."	[inLink]	f4c|f4d	p28	Results	FALSE	result	13730	13908	f4c|f4d
+164	s102	"Interestingly , however , expression of wild type and dRagA Q61L had little effect on cell size under normal fed conditions ( Fig. 4c ) , consistent with a specific effect of dRagA in nutrient response ."	[inLink]	f4c	p28	Results	FALSE	result	13909	14106	f4c|f4d
+165	s103	"Furthermore , expression of dRagA T16N potently decreased cell size , and"	[]		p28	Results	FALSE	result	14107	14178	f4c|f4d
+166	s103	"this effect was visible only under nutrient sufficiency but not under nutrient starvation ( Fig. 4c , d ) ."	[inLink]	f4c|f4d	p28	Results	FALSE	result	14179	14282	f4c|f4d
+167	s104	"Together , these data are consistent with the effect of RagA on S6K phosphorylation observed in mammalian cells"	[]		p28	Results	FALSE	implication	14283	14394	f4c|f4d
+168	s104	active RagA increases S6K in amino acid free medium and dominant negative RagA inhibits S6K in rich medium ) and strongly support a role of dRagA specifically involved in nutrient response .	[]		p28	Results	FALSE	result	14395	14583	f4c|f4d
+169	s105	To investigate the function of endogenous dRag	[]		p29	Results	FALSE	goal	14584	14630	f4c|f4d
+170	s105	we identified a P element insertion in the 5 ' untranslated region of the dRagC gene .	[]		p29	Results	FALSE	method	14631	14716	f4c|f4d
+171	s106	Animals homozygous	[]		p29	Results	FALSE	result	14717	14735	f4c|f4d
+172	s106	"for this insertion were found to arrest growth at the early third instar larval stage , similar to the growth arrest observed in Tor loss of function mutants36 , and could be restored to viability upon mobilization of the P element ( data not shown ) ."	[exLink]		p29	Results	FALSE	result	14736	14983	f4c|f4d
+173	s107	"In the larval fat body , clones of cells homozygous for this dRagC mutation showed a statistically significant reduction in cell size under fed but not starved conditions ( Fig. 4c , d ) ,"	[inLink]	f4c|f4d	p29	Results	FALSE	result	14984	15167	f4c|f4d
+174	s107	highlighting a requirement for endogenous dRagC in cell growth regulation and nutrient response .	[]		p29	Results	FALSE	implication	15168	15264	f4c|f4d
+175	s108	Rag and TSC1/2 function independently and in parallel	[header-1]		title30	Results	FALSE	implication	15265	15318	
+176	s108	to promote TORC1 signaling	[header-1]		title30	Results	FALSE	implication	15319	15345	
+177	s109	We next examined the relationship between Rag and TORC1 pathway components in further detail .	[]		p31	Results	FALSE	method	15346	15439	f5a
+178	s110	"In mammalian cells , rapamycin treatment completely blocked RagA Q66L/RagC S75N induced S6K phosphorylation ( Fig. 5a ) ."	[inLink]	f5a	p31	Results	FALSE	result	15440	15557	f5a
+179	s111	"Consistent with this , co-expression of an mTOR kinase dead mutant ( mTOR-KD ) also effectively inhibited RagA Q66L/RagC S75N induced S6K phosphorylation ."	[]		p31	Results	FALSE	result	15558	15709	f5a
+180	s112	These results show that Rag functions upstream of mTOR .	[]		p31	Results	FALSE	implication	15710	15765	f5a
+181	s113	"On the other hand , expression of TSC1/TSC2 partially inhibited the stimulatory effect of RagA Q66L/RagC S75N ( Fig. 5b ) ."	[inLink]	f5b	p31	Results	FALSE	result	15766	15885	f5b
+182	s114	"Conversely , expression of RagA Q66L/RagC S75N partially reversed the inhibitory effect of TSC1/TSC2 ."	[]		p31	Results	FALSE	result	15886	15986	f5b
+183	s115	To further investigate the relationship between Rag and TSC	[]		p31	Results	FALSE	goal	15987	16046	
+184	s115	we examined the endogenous proteins .	[]		p31	Results	FALSE	method	16047	16084	
+185	s116	Both RagA and RagB genes are expressed in HeLa cells ( data not shown ) .	[]		p31	Results	FALSE	result	16085	16155	
+186	s117	Knockdown of both RagA and RagB decreased S6K phosphorylation and also compromised the increase of S6K phosphorylation caused by TSC2 knockdown ( Fig. 5c ) .	[inLink]	f5c	p31	Results	FALSE	result	16156	16310	f5c
+187	s118	These results indicate	[]		p31	Results	FALSE	implication	16311	16333	f5c
+188	s118	that Rag and TSC1/2 may function in parallel pathways to independently regulate mTORC1 activity .	[]		p31	Results	FALSE	implication	16334	16430	f5c
+189	s119	We then tested the effect of RagA T21N on Rheb induced S6K phosphorylation .	[]		p32	Results	FALSE	method	16431	16506	f5d
+190	s120	Expression of RagA T21N and RagC Q120L potently blocked basal S6K phosphorylation but did not inhibit Rheb-induced S6K phosphorylation ( Fig. 5d ) .	[inLink]	f5d	p32	Results	FALSE	result	16507	16652	f5d
+191	s121	Amino acid starvation also failed	[]		p32	Results	FALSE	result	16653	16686	
+192	s121	to block the stimulatory effect of Rheb on S6K phosphorylation ( data not shown ) .	[]		p32	Results	FALSE	result	16687	16767	
+193	s122	These data exclude a model	[]		p32	Results	FALSE	implication	16768	16794	
+194	s122	that Rag functions downstream of Rheb but are consistent with Rag acting either parallel or upstream of Rheb .	[]		p32	Results	FALSE	implication	16795	16904	
+195	s123	We also investigated the functional relationship between Rag and Rheb in vivo through genetic studies in Drosophila .	[]		p33	Results	FALSE	goal	16905	17021	f6a|f6b
+196	s124	To test whether dRagC is required for Rheb to stimulate cell growth	[]		p33	Results	FALSE	goal	17022	17089	f6a|f6b
+197	s124	the effect of Rheb overexpression on fat body cell size was examined in dRagC-/ - cells .	[]		p33	Results	FALSE	method	17090	17178	f6a|f6b
+198	s125	"Mutation of dRagC did not block the growth stimulatory effect of Rheb overexpression ( Fig. 6a , b ) ."	[inLink]	f6a|f6b	p33	Results	FALSE	result	17179	17277	f6a|f6b
+199	s126	"In fact , Rheb overexpression induced a greater relative cell size increase in a dRagC-/ - genetic background ."	[]		p33	Results	FALSE	result	17278	17386	f6a|f6b
+200	s127	"Similarly , Rheb overexpression has been shown to have a stronger effect on cell size under starvation conditions38 ,"	[exLink]		p33	Results	FALSE	result	17387	17502	
+201	s127	further suggesting that nutrient signaling is impaired in dRagC mutants .	[]		p33	Results	FALSE	implication	17503	17575	
+202	s128	"We also examined the effect of Rheb loss of function under conditions of dRagA Q61L activation , and found"	[]		p33	Results	FALSE	method	17576	17681	f6c|f6d
+203	s128	"that Rheb mutant cells were smaller than neighboring wild type cells both in control animals and in animals ubiquitously expressing dRagA Q61L throughout the fat body ( Fig 6c , d ) ."	[inLink]	f6c|f6d	p33	Results	FALSE	result	17682	17861	f6c|f6d
+204	s129	These data indicate	[]		p33	Results	FALSE	implication	17862	17881	f6c|f6d
+205	s129	that dRagA and dRagC are not required for Rheb to stimulate cell growth .	[]		p33	Results	FALSE	implication	17882	17954	f6c|f6d
+206	s130	We also found	[]		p33	Results	FALSE	result	17955	17968	
+207	s130	"that the increase in cell size in response to dRagA Q61L expression was partially or completely suppressed in two different Rheb hypomorphic mutant backgrounds ( data not shown ) , indicating that Rheb activity may be required for the growth effects of dRagA ."	[]		p33	Results	FALSE	result	17969	18225	
+208	s131	"Together , these data suggest"	[]		p33	Results	FALSE	implication	18226	18254	
+209	s131	that Rag acts parallel or upstream of Rheb to stimulate cell growth .	[]		p33	Results	FALSE	implication	18255	18323	
+210	s132	Tsc1 mutant animals die at an early larval stage due to hyperactive TOR signaling	[]		p34	Results	FALSE	fact	18324	18405	
+211	s132	"and this lethality can be rescued by heterozygous mutation of TOR or dS6K 39 , 40 ."	[exLink]		p34	Results	FALSE	fact	18406	18488	
+212	s133	"Similarly , we observed"	[]		p34	Results	FALSE	result	18489	18511	f4c|f4d
+213	s133	"that heterozygous disruption of dRagC partially suppressed the early larval lethality caused by Tsc1 mutation ( Fig. S4c , d ) ."	[inLink]	f4c|f4d	p34	Results	FALSE	result	18512	18636	f4c|f4d
+214	s134	This incomplete rescue suggests	[]		p34	Results	FALSE	implication	18637	18668	f4c|f4d
+215	s134	that dRagC may be somewhat responsive to Tsc1/Tsc2 signaling .	[]		p34	Results	FALSE	implication	18669	18730	f4c|f4d
+216	s135	Rag	[header-1]		title35	Results	FALSE	fact	18731	18734	
+217	s135	proteins regulate starvation responses in Drosophila	[header-1]		title35	Results	FALSE	fact	18735	18787	
+218	s136	Autophagy is strongly induced in the Drosophila fat body in response to starvation	[]		p36	Results	FALSE	fact	18788	18870	
+219	s136	and this is dependent upon downregulation of TOR signaling .	[]		p36	Results	FALSE	fact	18871	18931	
+220	s137	Autophagy can be readily imaged in vivo	[]		p36	Results	FALSE	result	18932	18971	
+221	s137	using markers such as GFP-Atg8 and Lysotracker 41 .	[]		p36	Results	FALSE	result	18972	19022	
+222	s138	We found	[]		p36	Results	FALSE	result	19023	19031	f7a|f7b|f7c|f7d
+223	s138	that overexpression of dRagA Q61L strongly inhibited starvation-induced punctate Lysotracker and GFP-Atg8a staining ( Fig. 7a-d ) in response to starvation in Drosophila .	[inLink]	f7a|f7b|f7c|f7d	p36	Results	FALSE	result	19032	19200	f7a|f7b|f7c|f7d
+224	s139	This observation indicates	[]		p36	Results	FALSE	implication	19201	19227	f7a|f7b|f7c|f7d
+225	s139	"that active dRagA suppresses the nutrient starvation response , suggesting that high dRagA activity may generate false signals mimicking nutrient sufficiency , thereby suppressing autophagy ."	[]		p36	Results	FALSE	implication	19228	19416	f7a|f7b|f7c|f7d
+226	s140	"LC3 , the mammalian Atg8 homolog , undergoes a set of modifications resulting in conversion from LC3I to LC3II during autophagy 42 ."	[exLink]		p37	Results	FALSE	fact	19417	19546	
+227	s141	To further test the function of Rag in autophagy	[]		p37	Results	FALSE	goal	19547	19595	f7e
+228	s141	we examined the LC3 modification in HEK293 cells .	[]		p37	Results	FALSE	method	19596	19646	f7e
+229	s142	Expression of RagA QL and RagC SN inhibited LC3 conversion in response to amino acid starvation ( Fig. 7e ) .	[inLink]	f7e	p37	Results	FALSE	result	19647	19753	f7e
+230	s143	"Furthermore , expression of RagA TN and RagC QL enhanced LC3 conversion even in the presence of amino acids ."	[]		p37	Results	FALSE	result	19754	19861	f7e
+231	s144	These results are consistent with the data observed in Drosophila and further demonstrate a role of the Rag GTPases in autophagy regulation in response to nutrient signals .	[]		p37	Results	FALSE	implication	19862	20034	f7e
+232	s145	"Since proper response to nutrient limitation is also important for organisms to survive under unfavorable conditions 43 , 44"	[exLink]		p38	Results	FALSE	fact	20035	20158	f8a|f8b
+233	s145	we investigated the effect of dRagA activity on adult animal viability in response to starvation .	[]		p38	Results	FALSE	method	20159	20257	f8a|f8b
+234	s146	"Targeted expression of constitutively active dRagA Q61L to the fat body had no significant effect on survival in animals given a normal diet , but resulted in a significantly accelerated rate of death under starvation conditions ( Fig. 8a , b ) ."	[inLink]	f8a|f8b	p38	Results	FALSE	result	20258	20499	f8a|f8b
+235	s147	"In contrast , animals expressing the dominant negative dRagA T16N were more resistant to death induced by starvation ."	[]		p38	Results	FALSE	result	20500	20616	
+236	s148	Similar effects on starvation survival were observed with ubiquitous expression of dRagA transgenes ( data not shown ) .	[]		p38	Results	FALSE	result	20617	20734	
+237	s149	Taken together these data suggest	[]		p38	Results	FALSE	implication	20735	20768	
+238	s149	that the activity of dRagA is important for signaling in response to nutrient starvation and also is critical for animal survival .	[]		p38	Results	FALSE	implication	20769	20899	
+239	s150	Discussion	[header-0]		title39	Discussion	FALSE	none	20900	20910	
+240	s151	Amino acids are critical activators of TORC1	[]		p40	Discussion	FALSE	fact	20911	20955	
+241	s151	however the mechanism of amino acid signaling is largely unresolved .	[]		p40	Discussion	FALSE	problem	20956	21024	
+242	s152	"Although VPS34 was proposed to mediate nutrient signals to TOR20 , 21"	[exLink]		p40	Discussion	FALSE	hypothesis	21025	21093	
+243	s152	we recently found that Drosophila with Vps34 null mutations have normal TOR activity45 .	[exLink]		p40	Discussion	FALSE	result	21094	21182	
+244	s153	Vps34 knockdown had no effect on dS6K phosphorylation ( data not shown ) .	[]		p40	Discussion	FALSE	result	21183	21254	
+245	s154	"In this report , we have identified Rag GTPases as important novel activators of TORC1 pathway in response to amino acids both in Drosophila and in mammals ."	[]		p40	Discussion	FALSE	result	21255	21410	
+246	s155	Knockdown of dRagA or dRagC dramatically decreased dS6K phosphorylation in response to amino acid stimulation .	[]		p40	Discussion	FALSE	result	21411	21521	
+247	s156	"Overexpression of constitutively active dRagA Q61L increased cell size in fat body and wings , especially in starved Drosophila ."	[]		p40	Discussion	FALSE	result	21522	21649	
+248	s157	Expression of dominant negative dRagA T16N decreased	[]		p40	Discussion	FALSE	result	21650	21702	
+249	s157	cell size and this effect was stronger when nutrients were sufficient .	[]		p40	Discussion	FALSE	result	21703	21773	
+250	s158	"Furthermore , dRagA Q61L expression and dRagC mutation suppressed starvation-induced autophagy and the lethality of Tsc1 mutant animals , respectively ."	[]		p40	Discussion	FALSE	result	21774	21923	
+251	s159	"In mammalian cells , overexpression of constitutively active RagA activated TORC1 even in the absence of amino acids , and expression of dominant negative RagA blocked TORC1 activation in response to amino acid stimulation ."	[]		p40	Discussion	FALSE	result	21924	22145	
+252	s160	The relationship between Rag and amino acids is rather specific	[]		p40	Discussion	FALSE	implication	22146	22209	
+253	s160	because constituvely active RagA could not overcome osmotic stress .	[]		p40	Discussion	FALSE	result	22210	22277	
+254	s161	Rag physiological role in nutrient response is further supported by the fact	[]		p41	Discussion	FALSE	implication	22278	22354	
+255	s161	"that flies expressing dRagA Q61L die earlier than the controls during starvation , presumably due to a failure to attenuate their metabolic activity and growth owing to a false sense of nutrient sufficiency ."	[]		p41	Discussion	FALSE	result	22355	22561	
+256	s162	"Additionally , animals expressing dRagA T16N are more resistant"	[]		p41	Discussion	FALSE	result	22562	22624	
+257	s162	to starvation and survive longer in the absence of nutrients .	[]		p41	Discussion	FALSE	result	22625	22686	
+258	s163	Our data indicate	[]		p42	Discussion	FALSE	result	22687	22704	
+259	s163	that dimer formation between RagA/B and RagC/D is important for TORC1 activation .	[]		p42	Discussion	FALSE	implication	22705	22786	
+260	s164	"Within the dimer , the function of RagA/B is dominant ."	[]		p42	Discussion	FALSE	result	22787	22840	
+261	s165	"In other words , RagA Q66L dominantly activates and"	[]		p42	Discussion	FALSE	implication	22841	22891	
+262	s165	RagA T21N dominantly inhibits TORC1 regardless of the nucleotide binding status of the RagC/D in the complex .	[]		p42	Discussion	FALSE	implication	22892	23001	
+263	s166	"Nevertheless , RagC/D is likely"	[]		p42	Discussion	FALSE	hypothesis	23002	23032	
+264	s166	"to be critical for the dimer function , given the effects of dRagC knockdown in S2 cells and the phenotypes of dRagC mutant animals ."	[]		p42	Discussion	FALSE	hypothesis	23033	23164	
+265	s167	"Interestingly , the yeast Gtr1 and Gtr2 need"	[]		p42	Discussion	FALSE	fact	23165	23208	
+266	s167	"to be in GTP-bound and GDP-bound status , respectively , to function26 ."	[exLink]		p42	Discussion	FALSE	fact	23209	23278	
+267	s168	Our results suggest	[]		p42	Discussion	FALSE	result	23279	23298	
+268	s168	that the relationship between RagA and RagC is similar to that between Gtr1 and Gtr2 .	[]		p42	Discussion	FALSE	implication	23299	23384	
+269	s169	"In addition , RagC may have a GTPase-independent role in"	[]		p42	Discussion	FALSE	hypothesis	23385	23440	
+270	s169	"stabilizing RagA and may regulate RagA localization or activity , or aid in TORC1 activation ."	[]		p42	Discussion	FALSE	hypothesis	23441	23533	
+271	s170	Studies in yeast have shown	[]		p43	Discussion	FALSE	method	23534	23561	
+272	s170	"that Gtr1/Gtr2 could control intracellular protein trafficking , thereby regulating the localization of the general amino acid permease Gap126 ."	[exLink]		p43	Discussion	FALSE	implication	23562	23704	
+273	s171	This observation suggests a possible mechanism	[]		p43	Discussion	FALSE	implication	23705	23751	
+274	s171	whereby Gtr1/2 activate TORC1 by promoting amino acid import and thus regulating nutrient availability .	[]		p43	Discussion	FALSE	hypothesis	23752	23855	
+275	s172	"However , our data from mammalian cells are not consistent with this model : complete and extended amino acids depletion"	[]		p43	Discussion	FALSE	implication	23856	23974	
+276	s172	fails to inhibit TORC1 activity in cells overexpressing RagA Q66L .	[]		p43	Discussion	FALSE	result	23975	24041	
+277	s173	"Second , we found"	[]		p43	Discussion	FALSE	result	24042	24058	
+278	s173	that the amino acid import was not significantly affected by RagA expression ( Fig. S5 ) .	[inLink]	f5	p43	Discussion	FALSE	result	24059	24146	
+279	s174	"Therefore , it is unlikely"	[]		p43	Discussion	FALSE	hypothesis	24147	24172	
+280	s174	that Rag regulates TORC1 by promoting the availability of nutrients .	[]		p43	Discussion	FALSE	hypothesis	24173	24241	
+281	s175	"Instead , we favor a model"	[]		p43	Discussion	FALSE	hypothesis	24242	24267	
+282	s175	in which Rag acts between amino acids and TORC1 in a pathway parallel to the TSC-Rheb axis ( Fig. 8c ) .	[inLink]	f8c	p43	Discussion	FALSE	hypothesis	24268	24369	
+283	s176	An interesting possibility is	[]		p43	Discussion	FALSE	hypothesis	24370	24399	
+284	s176	that Rag regulates localization of TORC1 pathway components .	[]		p43	Discussion	FALSE	hypothesis	24400	24460	
+285	s177	This study identifies Rag GTPases as novel positive regulators of TORC1 in amino acid signaling	[]		p44	Discussion	FALSE	implication	24461	24556	
+286	s177	a conclusion supported by biochemical studies in mammalian cells and genetic studies in Drosophila .	[]		p44	Discussion	FALSE	result	24557	24657	
+287	s178	Future study	[]		p44	Discussion	FALSE	goal	24658	24670	
+288	s178	to elucidate the molecular mechanism of Rag in amino acid sensing and TORC1 activation will shed new insight into this important pathway .	[]		p44	Discussion	FALSE	goal	24671	24808	
+289	s179	Methods	[header-0]		title45	Methods	FALSE	none	24809	24816	
+290	s180	"Antibodies , Plasmids , and Reagents"	[header-1]		title46	Methods	FALSE	none	24817	24851	
+291	s181	"Anti-Drosophila S6 kinase antibody was generously provided by Dr. Mary Stewart ( University of North Dakota State University , Fargo , ND ) ."	[]		p47	Methods	FALSE	 method	24852	24988	
+292	s182	"Anti-phospho Drosophila S6K , anti-S6K , anti-phospho S6K , anti-Akt , anti-phospho Akt , and antiphospho 4EBP1 antibodies were from Cell Signaling Inc ( Beverly , MA ) ."	[]		p47	Methods	FALSE	 method	24989	25150	
+293	s183	"Anti-mTOR and anti-Myc antibodies were from Santa Cruz Biotechnology ( Santa Cruz , CA ) ."	[]		p47	Methods	FALSE	 method	25151	25237	
+294	s184	"Anti-HA and anti-Flag antibodies from Covance ( Philadelphia , PA ) and Sigma ( St. Louis , MO ) , respectively ."	[]		p47	Methods	FALSE	 method	25238	25343	
+295	s185	The cDNAs encoding human RagA and	[]		p47	Methods	FALSE	 method	25344	25377	
+296	s185	"RagC were obtained from American Tissue Culture Collection ( Manassas , VA ) and PCR amplified ."	[]		p47	Methods	FALSE	 method	25378	25470	
+297	s186	RagA was subcloned into BamHI/XhoI restriction enzyme site of pcDNA3-HA and pcDNA3-FLAG and	[]		p47	Methods	FALSE	 method	25471	25562	
+298	s186	RagC was subcloned into BamHI/EcoRI restriction enzyme site of pcDNA3-HA and Myc-pRK5 vectors .	[]		p47	Methods	FALSE	 method	25563	25657	
+299	s187	The cDNAs encoding	[]		p47	Methods	FALSE	 method	25658	25676	
+300	s187	"RagB and RagD were PCR amplified from human brain cDNA library and cDNA library generated from HEK293 cells , respectively ."	[]		p47	Methods	FALSE	 method	25677	25799	
+301	s188	"RagB and RagD were subcloned into EcoRV/XhoI and BamHI/EcoRI site of pcDNA3-FLAG and pRK5-Myc vectors , respectively ."	[]		p47	Methods	FALSE	 method	25800	25916	
+302	s189	"All mutant constructs of RagA , B , C , and D were created by PCR mutagenesis and were verified by DNA sequencing ."	[]		p47	Methods	FALSE	 method	25917	26028	
+303	s190	"Primers used for Rag constructs cloning are listed in Supplementary Information , Table S1 ."	[inLink]	f1	p47	Methods	FALSE	 method	26029	26119	
+304	s191	"All other DNA constructs , including HA-S6K , Myc-4EBP1 , GST-AKT , Flag-mTOR KD , HA-TSC1 , HA-TSC2 , Myc-Rheb , were laboratory stock ."	[]		p47	Methods	FALSE	 method	26120	26248	
+305	s192	"Insulin and rapamycin were obtained from Sigma and Cell Signaling , respectively ."	[]		p47	Methods	FALSE	 method	26249	26329	
+306	s193	"siRNAs targeting human TSC2 , RagA , and RagB were obtained from Dharmacon , Inc. ( Lafayette , CO )"	[]		p47	Methods	FALSE	 method	26330	26424	
+307	s194	Cell Culture	[header-1]		title48	Methods	FALSE	none	26425	26437	
+308	s195	"Drosophila S2 cells ( Invitrogen , Carlsbad , CA ) were cultured in Drosophila SFM ( Invitrogen ) supplemented with L-glutamine ( 45ml of 200mM L-Glutamine/500ml media ) in 27degreesC incubator ."	[]		p49	Methods	FALSE	method	26438	26624	
+309	s196	"HEK293 cells and HeLa cells were cultured in Dulbecco 's modified Eagle 's medium ( DMEM ) ( Invitrogen , Cat ."	[]		p49	Methods	FALSE	method	26625	26729	
+310	s197	No. 12430 ) supplemented with 10 % fetal bovine serum ( FBS ) in 37degreesC humidified incubator under 5 % CO2 .	[]		p49	Methods	FALSE	method	26730	26836	
+311	s198	Amino acid ( AA ) containing ( SDMK ) - or AA free ( SDMK-AA ) -media used for Drosophila S2 cells were made based on Schneider 's Drosophila Medium ( Invitrogen ) formulation .	[]		p50	Methods	FALSE	method	26837	27002	
+312	s199	"Stocks for AA ( 2X ) , inorganic salts ( 2.5X ) , and other components ( 5X ) were made individually and mixed together to final concentration of 1X SDMK or 1X SDMK-AA ."	[]		p50	Methods	FALSE	method	27003	27163	
+313	s200	"For SDMK-AA , ddH2O was added instead of AA ."	[]		p50	Methods	FALSE	method	27164	27207	
+314	s201	"Final pH and osmolality was adjusted to 6.6-6.8 and 345-365 mOsm/kg , respectively ."	[]		p50	Methods	FALSE	method	27208	27290	
+315	s202	"SDMK and SDMK-AA were used for AA stimulation and AA starvation , respectively for Drosophila S2 cells ."	[]		p50	Methods	FALSE	method	27291	27393	
+316	s203	"Amino acid ( AA ) containing ( DMEMK ) - or AA free ( DMEMK-AA ) -media used for HEK293 and HeLa cells were made based on DMEM medium ( Invitrogen , Cat ."	[]		p51	Methods	FALSE	method	27394	27537	
+317	s204	No. 12430 ) formulation .	[]		p51	Methods	FALSE	method	27538	27561	
+318	s205	"Stocks for AA ( 10X ) , inorganic salts and other components ( 2X ) were made individually ."	[]		p51	Methods	FALSE	method	27562	27648	
+319	s206	"For vitamins , MEM vitamin solution ( Invitrogen , 100X ) was used in 1:25 dilution ( final concentration=4X ) ."	[]		p51	Methods	FALSE	method	27649	27754	
+320	s207	Stocks were mixed together to final concentration of 1X DMEMK or 1X DMEMK-AA .	[]		p51	Methods	FALSE	method	27755	27832	
+321	s208	"For DMEMK-AA , ddH2O was added instead of AA ."	[]		p51	Methods	FALSE	method	27833	27877	
+322	s209	Final pH and osmolality was adjusted to 7.0-7.4	[]		p51	Methods	FALSE	method	27878	27925	
+323	s210	"and 295-340 mOsm/kg , respectively ."	[]		p51	Methods	FALSE	method	27926	27960	
+324	s211	"DMEMK and DMEMK-AA were used for AA stimulation and AA starvation , respectively for HEK293 and HeLa cells ."	[]		p51	Methods	FALSE	method	27961	28067	
+325	s212	RNA Interference	[header-1]		title52	Methods	FALSE	none	28068	28084	
+326	s213	Drosophila RNA interference ( RNAi ) experiments were performed	[]		p53	Methods	FALSE	method	28085	28146	
+327	s213	as described with minor modifications46 .	[exLink]		p53	Methods	FALSE	method	28147	28187	
+328	s214	"Briefly , primers flanked with T7 RNA polymerase binding site ( GAATTAATACGACTCACTATAGGGAGA ) at the 5 ' end followed by gene specific sequences ( Table S2 ) were designed"	[inLink]	f2	p53	Methods	FALSE	method	28188	28353	
+329	s214	to amplify approximately 600 bp of the coding region of the gene of interest .	[]		p53	Methods	FALSE	goal	28354	28431	
+330	s215	Each individual DNA fragment was amplified with this primer by PCR from Drosophila genomic DNA and resulted	[]		p53	Methods	FALSE	method	28432	28539	
+331	s215	"PCR products were purified by using the High pure PCR purification kit ( Roche , Indianapolis , IN ) ."	[]		p53	Methods	FALSE	method	28540	28637	
+332	s216	"Using the purified PCR products as templates , In vitro transcription was performed to produce dsRNA by"	[]		p53	Methods	FALSE	method	28638	28740	
+333	s216	"using a MEGAscript T7 transcription kit ( Ambion , Austin , TX ) ."	[]		p53	Methods	FALSE	method	28741	28802	
+334	s217	The transcribed RNAs were annealed in vitro by incubation at 65degreesC for 30 min followed by slow	[]		p53	Methods	FALSE	method	28803	28902	
+335	s217	cooling down to room temperature .	[]		p53	Methods	FALSE	method	28903	28936	
+336	s218	dsRNA were analyzed by 1 % agarose gel electrophoresis for the integrity as well as length and quantified .	[]		p53	Methods	FALSE	method	28937	29042	
+337	s219	Drosophila S2 cells were cultured in 12-well plates for 4 days with a starting density of 2 x 105 cells per well .	[]		p53	Methods	FALSE	method	29043	29156	
+338	s220	"On days 1 and 3 , 4 mug of dsRNA targeting the gene of interest was added directly to the culture wells ."	[]		p53	Methods	FALSE	method	29157	29260	
+339	s221	"Cells were lysed at the end of day 4 , with 150 mul per well of the mild lysis buffer ( 10 mM Tris-HCl [ pH 7.5 ] , 100 mM NaCl , 1 % NP-40 , 50 mM NaF , 2 mM EDTA [ pH 8.0 ] , 1 mM DTT , 1 mM PMSF , 10 mug/ml leupeptin , and 10 mug/ml aprotinin ) ."	[]		p53	Methods	FALSE	method	29261	29493	
+340	s222	Cell lysates were subjected to SDS-PAGE .	[]		p53	Methods	FALSE	method	29494	29534	
+341	s223	"For RNAi experiments in HeLa cells , cells were diluted and plated into 6-well plates at about 30 % confluency ."	[]		p54	Methods	FALSE	method	29535	29644	
+342	s224	"24 hrs later , 20 muM of siRNA ( final concentration ) were transfected"	[]		p54	Methods	FALSE	method	29645	29713	
+343	s224	using Lipofectamine ( Invitrogen ) following manufacturer 's protocol .	[]		p54	Methods	FALSE	method	29714	29781	
+344	s225	Transfection and Western Blot Analysis	[header-1]		title55	Methods	FALSE	none	29782	29820	
+345	s226	Transfection was performed in serum-free conditions	[]		p56	Methods	FALSE	method	29821	29872	
+346	s226	using Lipofectamine ( TM ) reagent ( Invitrogen ) as described by the manufacturer .	[]		p56	Methods	FALSE	method	29873	29951	
+347	s227	"Cells were lysed in mild lysis buffer ( 10 mM Tris-HCl [ pH 7.5 ] , 100 mM NaCl , 1 % NP-40 , 50 mM NaF , 2 mM EDTA [ pH 8.0 ] , 1 mM DTT , 1 mM PMSF , 10 mug/ml leupeptin , and 10 mug/ml aprotinin ) ."	[]		p56	Methods	FALSE	method	29952	30137	
+348	s228	"Samples were resolved by SDS-PAGE , transferred"	[]		p56	Methods	FALSE	method	30138	30184	
+349	s228	"to polyvinylidene difluoride membrane , and then blotted with the desired antibodies ."	[]		p56	Methods	FALSE	method	30185	30269	
+350	s229	Drosophila Stocks and Genetic Manipulations	[header-1]		title57	Methods	FALSE	none	30270	30313	
+351	s230	"ESTs GH04846 and GH16429 encoding dRagA/CG11968 and dRagC/CG8707 , respectively , were purchased from the Drosophila Genomics Resource Center ( Bloomington , IN ) ."	[]		p58	Methods	FALSE	method	30314	30472	
+352	s231	"Wild type and PCR-generated mutant versions of these cDNAs were subcloned into pUAST and injected into w1118 embryos by standard procedures ( Model System Genomics , Duke University ) ."	[]		p58	Methods	FALSE	method	30473	30654	
+353	s232	P [ EPgy2 ] EY11726 is a lethal insertion in the 5-UTR of dRagC/CG8707 .	[]		p58	Methods	FALSE	method	30655	30722	
+354	s233	Transposase-mediated excision of this line resulted in complete restoration of viability .	[]		p58	Methods	FALSE	method	30723	30812	
+355	s234	To generate homozyogous dRagC clones	[]		p58	Methods	FALSE	method	30813	30849	
+356	s234	the EY11726 element was recombined with FRT42D .	[]		p58	Methods	FALSE	method	30850	30898	
+357	s235	Clones of	[]		p58	Methods	FALSE	method	30899	30908	
+358	s235	cells for dRagCEY11726 or Rheb2D1 mutant or expressing dRag transgenes were generated as described47 .	[exLink]		p58	Methods	FALSE	method	30909	31010	
+359	s236	Flies were cultured on standard cornmeal/molasses/agar medium at 25 degreesC .	[]		p58	Methods	FALSE	method	31011	31088	
+360	s237	Histology and Size Quantification	[header-1]		title59	Methods	FALSE	none	31089	31122	
+361	s238	"Culture and starvation of larvae , fat body dissection , Texas Red-phalloidin treatment and Lysotracker staining were performed as described48 ."	[exLink]		p60	Methods	FALSE	method	31123	31264	
+362	s239	GFP-Atg8a was expressed in spontaneous larval fat body clones as described45 .	[exLink]		p60	Methods	FALSE	method	31265	31342	
+363	s240	Images were captured	[]		p60	Methods	FALSE	method	31343	31363	
+364	s240	using ACT1 software to run a DXM 1200 Nikon digital camera attached to a Zeiss Axioscope 2 epifluorescence microscope with Plan-Neoflar 5x and 40X objective lens .	[]		p60	Methods	FALSE	method	31364	31526	
+365	s241	Average area of mutant and surrounding control fat body cells was determined	[]		p60	Methods	FALSE	method	31527	31603	
+366	s241	using the histogram function of Adobe Photoshop 7.0 .	[]		p60	Methods	FALSE	method	31604	31656	
+367	s242	To quantify transgene effects on adult wing cell and compartment size	[]		p60	Methods	FALSE	goal	31657	31726	
+368	s242	the average area and number of cells within a representative anterior region ( area between wing margin and L1 ) and a representative posterior region ( area between L3 and L4 ) was determined using Photoshop 7.0 .	[]		p60	Methods	FALSE	method	31727	31937	
+369	s243	Statistical analyses were performed on a minimum of six samples per genotype	[]		p60	Methods	FALSE	method	31938	32014	
+370	s243	and significance was determined using Student 's 2-tailed unpaired t-test .	[]		p60	Methods	FALSE	method	32015	32089	
+371	s244	Viability Assays	[header-1]		title61	Methods	FALSE	none	32090	32106	
+372	s245	Fifty female adult flies	[]		p62	Methods	FALSE	method	32107	32131	
+373	s245	"expressing the indicated UAS-dRag transgenes using the fat body specific cg-GAL4 driver were fed on regular food for 24-48 hours post eclosion , and then transferred to vials containing either plain agar ( starved ) or standard fly media ( fed ) ."	[]		p62	Methods	FALSE	method	32132	32373	
+374	s246	Viable flies were counted and transferred to fresh vials every 24 hours .	[]		p62	Methods	FALSE	method	32374	32446	
+375	s247	These experiments were carried out in triplicate .	[]		p62	Methods	FALSE	method	32447	32496	
+376	s248	Supplementary Material	[header-0]		title63	Supplementary Material	FALSE	none	32497	32519	

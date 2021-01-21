@@ -1,0 +1,483 @@
+	SentenceId	Clause Text	Codes	ExperimentValues	Paragraph	Headings	FloatingBox?	Discourse Type	Offset_Begin	Offset_End	fig_spans
+0	s1	Purified Wnt5a Protein Activates or Inhibits beta-Catenin-TCF Signaling Depending on Receptor Context	[]		-		FALSE	implication	287	388	
+1	s2	The Wnts comprise a large class of secreted proteins	[]		p0		FALSE	fact	1194	1246	
+2	s2	"that control essential developmental processes such as embryonic patterning , cell growth , migration , and differentiation ."	[]		p0		FALSE	fact	1247	1368	
+3	s3	"In the most well-understood "" canonical "" Wnt signaling pathway , Wnt binding to Frizzled receptors induces beta-catenin protein stabilization and entry into the nucleus ,"	[]		p0		FALSE	fact	1369	1536	
+4	s3	where it complexes with T-cell factor/lymphoid enhancer factor transcription factors to affect the transcription of target genes .	[]		p0		FALSE	fact	1537	1666	
+5	s4	"In addition to the canonical pathway , evidence for several other Wnt signaling pathways has accumulated , in particular for Wnt5a ,"	[]		p0		FALSE	fact	1667	1796	
+6	s4	which has therefore been classified as a noncanonical Wnt family member .	[]		p0		FALSE	fact	1797	1869	
+7	s5	To study the alternative mechanisms by which Wnt proteins signal	[]		p0		FALSE	goal	1870	1934	
+8	s5	we purified the Wnt5a protein to homogeneity .	[]		p0		FALSE	method	1935	1981	
+9	s6	We find	[]		p0		FALSE	result	1982	1989	
+10	s6	"that purified Wnt5a inhibits Wnt3a protein-induced canonical Wnt signaling in a dose-dependent manner , not by influencing beta-catenin levels but by downregulating beta-catenin-induced reporter gene expression ."	[]		p0		FALSE	result	1990	2200	
+11	s7	"The Wnt5a signal is mediated by the orphan tyrosine kinase Ror2 , is pertussis toxin insensitive , and does not influence cellular calcium levels ."	[]		p0		FALSE	fact	2201	2345	
+12	s8	"We show that in addition to its inhibitory function , Wnt5a can also activate beta-catenin signaling in the presence of the appropriate Frizzled receptor , Frizzled 4 . Thus"	[]		p0		FALSE	implication	2346	2516	
+13	s8	this study shows for the first time that a single Wnt ligand can initiate discrete signaling pathways through the activation of two distinct receptors .	[]		p0		FALSE	implication	2517	2669	
+14	s9	"Based on these and additional observations , we propose a model"	[]		p0		FALSE	hypothesis	2670	2732	
+15	s9	wherein receptor context dictates Wnt signaling output .	[]		p0		FALSE	hypothesis	2733	2788	
+16	s10	"In this model ,"	[]		p0		FALSE	hypothesis	2789	2803	
+17	s10	signaling by different Wnt family members is not intrinsically regulated by the Wnt proteins themselves but by receptor availability .	[]		p0		FALSE	hypothesis	2804	2937	
+18	s11	Understanding signaling by Wnt proteins	[]		p1		FALSE	problem	2938	2977	
+19	s11	has been hampered by a history of conflicting data .	[]		p1		FALSE	problem	2978	3029	
+20	s12	The authors reconcile previous findings concerning Wnt signaling by	[]		p1		FALSE	method	3030	3097	
+21	s12	using purified Wnt5a to probe the signaling pathways it activates .	[]		p1		FALSE	method	3098	3164	
+22	s13	Introduction	[header-0]		title2	Introduction	FALSE	none	3165	3177	
+23	s14	"Wnt signaling controls a variety of adult and developmental processes , largely by"	[]		p3	Introduction	FALSE	fact	3178	3259	
+24	s14	modulating gene transcription [ 1 ] .	[exLink]		p3	Introduction	FALSE	fact	3260	3295	
+25	s15	The necessity of precise regulation to prevent the inappropriate activation of Wnt signaling is underscored by the fact	[]		p3	Introduction	FALSE	hypothesis	3296	3415	
+26	s15	that misregulation of several components of the canonical Wnt signal transduction pathway leads to tumorigenesis [ 2 ] .	[exLink]		p3	Introduction	FALSE	hypothesis	3416	3534	
+27	s16	Wnt signaling is also thought	[]		p3	Introduction	FALSE	hypothesis	3535	3564	
+28	s16	to play a key role in controlling stem cell fate [ 3 ] .	[exLink]		p3	Introduction	FALSE	hypothesis	3565	3619	
+29	s17	"Thus , understanding the mechanisms"	[]		p3	Introduction	FALSE	problem	3620	3654	
+30	s17	that regulate Wnt signaling is of critical importance .	[]		p3	Introduction	FALSE	problem	3655	3709	
+31	s18	Wnt proteins are found in all metazoan organisms and	[]		p4	Introduction	FALSE	fact	3710	3762	
+32	s18	as many as 19 mammalian homologs are known ( Wnt home page : http : //www.stanford.edu/~rnusse/wntwindow.html ) .	[]		p4	Introduction	FALSE	fact	3763	3870	
+33	s19	While homologs have a high degree of sequence similarity	[]		p4	Introduction	FALSE	fact	3871	3927	
+34	s19	expression of different Wnt proteins can lead to vastly different developmental outcomes .	[]		p4	Introduction	FALSE	fact	3928	4018	
+35	s20	"In the most well-understood "" canonical "" Wnt/beta-catenin signaling pathway , in the absence of a Wnt ligand , the main mediator of the signal relay , beta-catenin , is bound in a cytosolic protein complex containing Axin , the adenomatous polyposis coli gene product ( APC ) , glycogen synthase kinase-3beta ( GSK-3beta ) , and other proteins ."	[]		p4	Introduction	FALSE	fact	4019	4351	
+36	s21	Axin and APC serve as	[]		p4	Introduction	FALSE	fact	4352	4373	
+37	s21	"scaffolding proteins that enable GSK-3beta to phosphorylate beta-catenin , thereby targeting it for ubiquitination by betaTrCP ( beta-transducin repeat-containing homologue protein ) and subsequent degradation in the proteasome ."	[]		p4	Introduction	FALSE	fact	4374	4599	
+38	s22	Cytosolic beta-catenin protein levels are thus kept low in the absence of ligand stimulation .	[]		p4	Introduction	FALSE	fact	4600	4693	
+39	s23	Wnt protein binding	[]		p4	Introduction	FALSE	fact	4694	4713	
+40	s23	"to cognate Frizzled ( Fz ) and low-density lipoprotein ( LDL ) receptor-related protein ( LRP ) 5/6 coreceptors leads to the activation of the Dishevelled ( Dvl ) protein , which then inhibits GSK-3beta-mediated phosphorylation of beta-catenin ."	[]		p4	Introduction	FALSE	fact	4714	4948	
+41	s24	Cytosolic beta-catenin protein becomes	[]		p4	Introduction	FALSE	fact	4949	4987	
+42	s24	stabilized and newly synthesized beta-catenin is able to accumulate and then translocate to the nucleus where binding to T-cell factor ( TCF ) /lymphoid enhancer factor ( LEF ) transcription factors leads to the activation of target gene expression [ 1 ] .	[exLink]		p4	Introduction	FALSE	fact	4988	5237	
+43	s25	"Prior to the discovery of the Fz and LRP coreceptors , Wnt proteins were classified into two functional groups based on the observation"	[]		p5	Introduction	FALSE	fact	5238	5372	
+44	s25	"that ectopic expression of some Wnts , such as Wnt1 and Wnt3a , is sufficient to induce a secondary dorsal-ventral axis in Xenopus embryos and morphologically transform C57MG mouse mammary epithelial cells , whereas expression of "" Wnt5a class "" Wnts , including Wnts 4 , 5a , and 11 , is not sufficient [ 4 - 8 ] ."	[exLink]		p5	Introduction	FALSE	fact	5373	5676	
+45	s26	One hypothesis for	[]		p5	Introduction	FALSE	hypothesis	5677	5695	
+46	s26	"how the structurally similar , although functionally distinct , extracellular Wnt ligands trigger different developmental outcomes is that the two classes of Wnts signal via different intracellular pathways ."	[]		p5	Introduction	FALSE	hypothesis	5696	5901	
+47	s27	"Indeed , experiments in"	[]		p5	Introduction	FALSE	result	5902	5924	
+48	s27	"zebrafish and Xenopus embryos using mRNA injection to activate Wnt signaling have suggested that expression of Wnt5a stimulates intracellular calcium ( Ca 2+ ) flux leading to the activation of Ca 2+-dependent effector molecules such as calcium/calmodulin-dependent kinase II ( CamKII ) , nuclear factor associated with T cells ( NFAT ) , and protein kinase C ( PKC ) in a pertussis toxin ( PTX ) -sensitive manner [ 9 - 12 ] ."	[exLink]		p5	Introduction	FALSE	result	5925	6336	
+49	s28	"However , due to the lack of active soluble Wnt5a protein , direct activation of "" Wnt/Ca 2+ "" pathway signaling in mammalian cell culture systems has not been fully investigated ."	[]		p5	Introduction	FALSE	problem	6337	6512	
+50	s29	In	[]		p6	Introduction	FALSE	hypothesis	6513	6515	
+51	s29	"addition to activating alternative signaling pathways , Wnt5a may also inhibit Wnt/beta-catenin signaling ."	[]		p6	Introduction	FALSE	hypothesis	6516	6621	
+52	s30	Early experiments in Xenopus embryos showed	[]		p6	Introduction	FALSE	result	6622	6665	
+53	s30	that coexpression of XWnt5a with XWnt8 abrogates the ability of XWnt8 to induce a secondary axis [ 13 - 15 ] .	[exLink]		p6	Introduction	FALSE	result	6666	6773	
+54	s31	"Wnt5a knockout mice show increased beta-catenin signaling in the distal limb ,"	[]		p6	Introduction	FALSE	result	6774	6851	
+55	s31	indicating that Wnt5a may inhibit beta-catenin stabilization [ 16 ] .	[exLink]		p6	Introduction	FALSE	implication	6852	6919	
+56	s32	"In contrast , experiments from Ishitani et al. have shown"	[]		p6	Introduction	FALSE	result	6920	6976	
+57	s32	that Wnt5a-induced Ca 2+ flux blocks canonical signaling downstream of beta-catenin stabilization by inhibiting TCF-mediated transcription in a PTX-sensitive manner [ 16 - 18 ] .	[exLink]		p6	Introduction	FALSE	result	6977	7152	
+58	s33	"As Wnt5a heterozygous mice develop myeloid leukemias and B-cell lymphomas , an intriguing hypothesis is"	[]		p6	Introduction	FALSE	fact	7153	7255	
+59	s33	that Wnt5a serves as a tumor suppressor in part by preventing excess Wnt/beta-catenin signaling [ 19 ] .	[exLink]		p6	Introduction	FALSE	hypothesis	7256	7358	
+60	s34	While most Wnt signaling has been attributed to the activation of Fz receptors	[]		p7	Introduction	FALSE	fact	7359	7437	
+61	s34	an alternative possibility is that Wnts carry out their diverse roles by signaling via different receptors .	[]		p7	Introduction	FALSE	hypothesis	7438	7546	
+62	s35	"One such receptor is Ror2 , an orphan tyrosine kinase possessing an extracellular cysteine-rich Wnt binding domain ( CRD ) [ 20 - 23 ] ."	[exLink]		p7	Introduction	FALSE	fact	7547	7677	
+63	s36	"Wnt5a and mRor2 have overlapping expression patterns , their knockout phenotypes are similar , and recently"	[]		p7	Introduction	FALSE	result	7678	7783	
+64	s36	mRor2 has been shown to act synergistically with Wnt5a to activate Jun kinase [ 23 - 26 ] .	[exLink]		p7	Introduction	FALSE	result	7784	7872	
+65	s37	"Thus , Wnt5a may be mediating its inhibitory role through the activation of this novel receptor ."	[]		p7	Introduction	FALSE	hypothesis	7873	7968	
+66	s38	There are conflicting data in the literature regarding the mechanism	[]		p8	Introduction	FALSE	problem	7969	8037	
+67	s38	by which Wnt5a and other so-called noncanonical Wnt protein signals .	[]		p8	Introduction	FALSE	problem	8038	8106	
+68	s39	To understand how signals like Wnts influence cells	[]		p8	Introduction	FALSE	goal	8107	8158	
+69	s39	one must discriminate between early and late effects and measure those effects in a concentration-dependent manner .	[]		p8	Introduction	FALSE	method	8159	8275	
+70	s40	"To that end , we have purified active Wnt5a protein and established quantitative assays for"	[]		p8	Introduction	FALSE	method	8276	8366	
+71	s40	signaling .	[]		p8	Introduction	FALSE	method	8367	8377	
+72	s41	We show for the first time	[]		p8	Introduction	FALSE	result	8378	8404	
+73	s41	that soluble Wnt5a protein is able to directly inhibit canonical Wnt signaling .	[]		p8	Introduction	FALSE	result	8405	8484	
+74	s42	Treatment of cells with purified protein over short time intervals is sufficient	[]		p8	Introduction	FALSE	result	8485	8565	
+75	s42	to inhibit the activation of the TCF/LEF-driven luciferase reporter SuperTopFlash ( STF ) .	[]		p8	Introduction	FALSE	result	8566	8654	
+76	s43	The inhibition observed	[]		p8	Introduction	FALSE	result	8655	8678	
+77	s43	"is dose responsive , occurs downstream of beta-catenin stabilization , and is PTX insensitive ."	[]		p8	Introduction	FALSE	result	8679	8771	
+78	s44	We also show	[]		p8	Introduction	FALSE	implication	8772	8784	
+79	s44	"that an alternative Wnt receptor , Ror2 , is required for Wnt5a-mediated inhibition of canonical signaling and that the extracellular , cysteine-rich Wnt binding domain and intracellular , cytoplasmic domain are crucial for the receptor 's inhibitory function ."	[]		p8	Introduction	FALSE	implication	8785	9040	
+80	s45	"Whereas Wnt5a protein is usually associated with noncanonical Wnt signaling , we show"	[]		p8	Introduction	FALSE	fact	9041	9125	
+81	s45	that Wnt5a can activate Wnt/beta-catenin signaling in the presence of Fz 4 and LRP5 .	[]		p8	Introduction	FALSE	result	9126	9210	
+82	s46	"Based on these and other observations , we propose a model wherein receptor context dictates Wnt signaling output ,"	[]		p8	Introduction	FALSE	hypothesis	9211	9324	
+83	s46	suggesting a new layer of regulatory complexity in the Wnt signaling cascade with important implications in development and disease .	[]		p8	Introduction	FALSE	problem	9325	9457	
+84	s47	Results	[header-0]		title9	Results	FALSE	none	9458	9465	
+85	s48	Purification of Wnt5a Protein : Evidence that	[header-1]		title10	Results	FALSE	none	9466	9510	
+86	s48	It Is Cleaved from a Precursor	[header-1]		title10	Results	FALSE	none	9511	9541	
+87	s49	We purified the Wnt5a protein from cells overexpressing the mouse Wnt5a gene using methods derived from those developed for other members of the Wnt family with	[]		p11	Results	FALSE	method	9542	9702	f1a
+88	s49	several modifications ( Figure1A ) [ 27 ] .	[exLink]	f1a	p11	Results	FALSE	method	9703	9742	f1a
+89	s50	"Throughout the purification , we followed the Wnt5a protein"	[]		p11	Results	FALSE	method	9743	9801	f1a
+90	s50	using an antibody that detects Wnt5a on a Western blot .	[]		p11	Results	FALSE	method	9802	9857	f1a
+91	s51	Later steps in the purification were also monitored by activity assays	[]		p11	Results	FALSE	method	9858	9929	f1a
+92	s51	see below ) .	[]		p11	Results	FALSE	method	9930	9941	f1a
+93	s52	To unambiguously identify the purified protein as the product of the Wnt5a gene	[]		p11	Results	FALSE	goal	9942	10021	
+94	s52	we determined the amino-terminal sequence .	[]		p11	Results	FALSE	method	10022	10065	
+95	s53	We found	[]		p11	Results	FALSE	result	10066	10074	
+96	s53	"that the mature protein starts with a sequence IIGAQPLCSQLAGLSQGQKKL , a sequence beginning 62 amino acids downstream from the predicted initiator methionine of Wnt5a and 24 amino acids from the predicted signal cleavage site between amino acids 37 and 38 [ 28 ] ."	[exLink]		p11	Results	FALSE	result	10075	10336	
+97	s54	While all Wnt proteins contain signal sequences required for secretion from cells	[]		p11	Results	FALSE	fact	10337	10418	
+98	s54	generally they are not internally cleaved at a site downstream from the signal sequence .	[]		p11	Results	FALSE	fact	10419	10508	
+99	s55	"The exception , interestingly , is the Drosophila ortholog of Wnt5a ;"	[]		p11	Results	FALSE	fact	10509	10575	
+100	s55	"DWnt5 protein is made as a precursor of more than 1,000 amino acids weighing 140 kDa and cleaved into a smaller mature protein of 80 kDa [ 29 ] ."	[exLink]		p11	Results	FALSE	fact	10576	10719	
+101	s56	It is not known	[]		p11	Results	FALSE	fact	10720	10735	
+102	s56	whether the processing of the Wnt5a molecule involves specific proteases .	[]		p11	Results	FALSE	fact	10736	10809	
+103	s57	"We find that , similar to other Wnt proteins that we have purified , the Wnt5a protein is hydrophobic"	[]		p12	Results	FALSE	implication	10810	10909	
+104	s57	as it requires detergent to stay in solution and partitions in a detergent phase when subjected to extraction ( unpublished data ) [ 27 ] .	[exLink]		p12	Results	FALSE	implication	10910	11045	
+105	s58	"We presume that the protein , like Wnt3a , is modified by the covalent attachment of a palmitate"	[]		p12	Results	FALSE	fact	11046	11140	
+106	s58	but we have not examined this further .	[]		p12	Results	FALSE	fact	11141	11180	
+107	s59	"Significantly , the cysteine residue"	[]		p12	Results	FALSE	result	11181	11216	
+108	s59	"that is modified by palmitoylation in Wnt3a is conserved in Wnt5a , even after the internal cleavage of the protein ."	[]		p12	Results	FALSE	result	11217	11332	
+109	s60	Purified Wnt5a Protein Inhibits Canonical Wnt Reporter Activation	[header-1]		title13	Results	FALSE	fact	11333	11398	
+110	s61	"Standard readouts for the activity of various Wnt family members include an increase in the level of the beta-catenin protein and the activation of reporter genes , in particular , the Topflash reporter"	[]		p14	Results	FALSE	fact	11399	11599	f1b
+111	s61	that contains TCF binding sites upstream of a luciferase transgene .	[]		p14	Results	FALSE	fact	11600	11667	f1b
+112	s62	We found	[]		p14	Results	FALSE	result	11668	11676	f1b
+113	s62	"that when transiently transfected into 293 cells , the SuperTopflash ( STF ) luciferase reporter variant [ 30 ] is robustly activated in response to Wnt3a treatment and exhibits dose-dependency ."	[exLink]		p14	Results	FALSE	result	11677	11867	f1b
+114	s63	"As shown in Figure1B , Wnt3a protein treatment induces a 100-fold increase in reporter activation and a linear dose response"	[]	f1b	p14	Results	FALSE	result	11868	11991	f1b
+115	s63	when the concentration is lowered .	[]		p14	Results	FALSE	result	11992	12026	f1b
+116	s64	"In accordance with other groups , we observe that Wnt5a protein by itself does not lead to the activation of the STF reporter in 293 cells"	[]		p14	Results	FALSE	result	12027	12164	f1c|f2a
+117	s64	"nor does it alter levels of beta-catenin protein ( Figures 1C and 2A ) [ 16 , 31 ] ."	"[inLink, exLink]"	f1c|f2a	p14	Results	FALSE	result	12165	12246	f1c|f2a
+118	s65	"Based on reports from Ishitani et al. and others [ 14 , 17 , 32 , 33 ] , we then tested"	[exLink]		p14	Results	FALSE	hypothesis	12247	12329	f1c|f2a
+119	s65	whether the addition of Wnt5a protein could inhibit Wnt3a-induced reporter activity .	[]		p14	Results	FALSE	hypothesis	12330	12414	f1c|f2a
+120	s66	Using a concentration of Wnt3a protein within the linear range of reporter activation ( 50 ng/ml )	[]		p14	Results	FALSE	method	12415	12511	f1c|f2a
+121	s66	Wnt5a protein was added to cells concomitantly with Wnt3a .	[]		p14	Results	FALSE	method	12512	12571	f1c|f2a
+122	s67	As shown in Figure 1C	[inLink]	f1c	p14	Results	FALSE	result	12572	12593	f1c|f2a
+123	s67	Wnt5a elicits a dose-responsive decrease in Wnt3a-mediated reporter activation .	[]		p14	Results	FALSE	result	12594	12674	f1c|f2a
+124	s68	Wnt5a protein inhibits Wnt3a signaling at the earliest time points following reporter activation .	[]		p15	Results	FALSE	result	12675	12772	f1d|f1e
+125	s69	When cells are pretreated with Wnt3a protein for 1 or 3 h prior to Wnt5a treatment	[]		p15	Results	FALSE	result	12773	12855	f1d|f1e
+126	s69	Wnt5a can inhibit Wnt3a-induced reporter activation within 1 h of exposure ( Figure 1D ) .	[inLink]	f1d	p15	Results	FALSE	result	12856	12945	f1d|f1e
+127	s70	"In addition , Wnt5a pretreatment of cells for 8 h followed by washing has no effect on either Wnt3a-induced STF reporter activation or Wnt5a-mediated inhibition , suggesting"	[]		p15	Results	FALSE	result	12946	13117	f1d|f1e
+128	s70	that Wnt5a does not induce the accumulation of an inhibitory factor ( Figure 1E ) .	[inLink]	f1e	p15	Results	FALSE	implication	13118	13199	f1d|f1e
+129	s71	These data taken together indicate	[]		p15	Results	FALSE	implication	13200	13234	f1d|f1e
+130	s71	that purified Wnt5a protein is sufficient to rapidly inhibit canonical Wnt signaling in a potentially post-translational fashion .	[]		p15	Results	FALSE	implication	13235	13364	f1d|f1e
+131	s72	Wnt5a Does Not Affect beta-Catenin Protein Stabilization	[header-1]		title16	Results	FALSE	fact	13365	13421	
+132	s73	One possible explanation for the observed abrogation of reporter activation is	[]		p17	Results	FALSE	implication	13422	13500	
+133	s73	that Wnt5a protein competes with Wnt3a for Fz receptor binding sites .	[]		p17	Results	FALSE	implication	13501	13570	
+134	s74	"Alternatively , Wnt5a has been proposed"	[]		p17	Results	FALSE	hypothesis	13571	13609	
+135	s74	"to inhibit canonical Wnt signaling via upregulation of Siah-2 , which targets beta-catenin for betaTrCP-independent proteasomal degradation [ 16 ] ."	[exLink]		p17	Results	FALSE	hypothesis	13610	13755	
+136	s75	"In both of these models , beta-catenin protein levels should be reduced following concomitant Wnt5a treatment compared to Wnt3a protein treatment alone ;"	[]		p17	Results	FALSE	hypothesis	13756	13907	
+137	s75	"in the former case , signal transduction is blocked at the level of the receptor , whereas in the latter , any beta-catenin protein stabilized due to Wnt3a signal activation should be appreciably degraded by the opposing effects of Wnt5a ."	[]		p17	Results	FALSE	hypothesis	13908	14143	
+138	s76	To assess the levels of accumulated beta-catenin protein	[]		p18	Results	FALSE	goal	14144	14200	f2a
+139	s76	"we prepared cytosolic extracts from 293 cells treated for 3 h with Wnt3a protein , Wnt5a protein , or both ."	[]		p18	Results	FALSE	method	14201	14307	f2a
+140	s77	Cellular fractionation is necessary	[]		p18	Results	FALSE	hypothesis	14308	14343	f2a
+141	s77	to ensure that only cytosolic beta-catenin protein stabilized due to active Wnt signaling is observed as opposed to the relatively stable membrane-associated pool of beta-catenin protein .	[]		p18	Results	FALSE	hypothesis	14344	14531	f2a
+142	s78	Although a particularly low dose of Wnt3a protein ( 10 ng/ml ) was used in this analysis to ensure that subtle differences in beta-catenin protein levels could be discerned	[]		p18	Results	FALSE	method	14532	14702	f2a
+143	s78	"no appreciable reduction in beta-catenin accumulation was observed ( Figure 2A ) , even when concentrations of Wnt5a protein ( 200 ng/ml ) sufficient to inhibit the STF reporter 5-fold were used ."	[inLink]	f2a	p18	Results	FALSE	result	14703	14895	f2a
+144	s79	These data show	[]		p18	Results	FALSE	implication	14896	14911	f2a
+145	s79	"that the Wnt3a signal is initiated in the presence of Wnt5a protein , indicating that Wnt5a does not efficiently compete with Wnt3a for receptor binding sites ."	[]		p18	Results	FALSE	implication	14912	15070	f2a
+146	s80	To determine whether Wnt5a treatment inhibits beta-catenin nuclear entry	[]		p19	Results	FALSE	goal	15071	15143	f2b
+147	s80	cell-staining experiments were performed ( Figure 2B ) .	[inLink]	f2b	p19	Results	FALSE	method	15144	15199	f2b
+148	s81	The 293 cells treated with vehicle or Wnt5a protein alone display	[]		p19	Results	FALSE	result	15200	15265	f2b
+149	s81	a membrane-associated staining pattern ( arrowheads ) consistent with beta-catenin 's role in cell adhesion .	[]		p19	Results	FALSE	result	15266	15371	f2b
+150	s82	"By contrast , cells treated with Wnt3a protein alone appeared brighter than vehicle-treated cells , with beta-catenin observed in the cytoplasm and nuclei ( arrows ) ."	[]		p19	Results	FALSE	result	15372	15534	f2b
+151	s83	No significant difference in beta-catenin signal intensity or localization was observed	[]		p19	Results	FALSE	result	15535	15622	f2b
+152	s83	when cells were treated with Wnt3a in combination with Wnt5a protein ( Figure 2B ) .	[inLink]	f2b	p19	Results	FALSE	result	15623	15705	f2b
+153	s84	The observation that Wnt3a-mediated beta-catenin stabilization and nuclear entry appear unaffected by Wnt5a treatment suggests	[]		p19	Results	FALSE	result	15706	15832	f2b
+154	s84	"that upregulation of Siah-2 , and subsequent degradation of beta-catenin , is not the primary mechanism of Wnt5a protein-mediated inhibition of gene transcription in these cells ."	[]		p19	Results	FALSE	implication	15833	16009	f2b
+155	s85	Wnt5a-Mediated Inhibition of Canonical Signaling Is Not Associated with Wnt-Stimulated Ca 2+ Flux	[header-1]		title20	Results	FALSE	fact	16010	16107	
+156	s86	"Past studies in zebrafish and Xenopus embryos have suggested that overexpression of Wnt5a can trigger intracellular Ca 2+ flux ,"	[]		p21	Results	FALSE	result	16108	16235	
+157	s86	"leading to the activation of Ca 2+-dependent effector molecules such as CamKII [ 9 , 34 , 35 ] ."	[exLink]		p21	Results	FALSE	result	16236	16328	
+158	s87	It has been proposed that active CamKII protein	[]		p21	Results	FALSE	hypothesis	16329	16376	
+159	s87	"can then initiate the mammalian TGF-beta-activated kinase 1 ( TAK ) /Nemo-like kinase ( NLK ) mitogen-activated protein kinase signaling cascade , resulting in NLK-mediated phosphorylation of TCF/LEF transcription factors ."	[]		p21	Results	FALSE	hypothesis	16377	16592	
+160	s88	"This phosphorylation of TCF/LEF prevents the beta-catenin-TCF/LEF transcriptional complex from binding to DNA [ 17 , 18 , 36 ] ."	[exLink]		p21	Results	FALSE	result	16593	16717	
+161	s89	"In this model , inhibition of Wnt/beta-catenin signaling due"	[]		p21	Results	FALSE	implication	16718	16777	
+162	s89	to Wnt5a-stimulated Ca 2+ flux occurs downstream of beta-catenin stabilization and at the level of TCF-mediated transcription .	[]		p21	Results	FALSE	implication	16778	16904	
+163	s90	"In a variety of organisms and assays , Ca 2+ signaling induced by Wnts has consistently been shown"	[]		p21	Results	FALSE	fact	16905	17002	
+164	s90	"to be PTX sensitive , as the Fz receptor described as transmitting the inhibitory Wnt signal ( RFz2 ) is thought to be coupled to a PTX-sensitive G protein [ 8 , 37 , 38 ] ."	[exLink]		p21	Results	FALSE	fact	17003	17169	
+165	s91	To determine whether Wnt5a protein inhibits beta-catenin signaling via the direct activation of intracellular Ca 2+ flux downstream of heterotrimeric G proteins	[]		p22	Results	FALSE	goal	17170	17330	f3a|f3b
+166	s91	293 cells transiently transfected with the STF reporter were treated with 50 ng/ml W3a protein and increasing doses of Wnt5a protein following 24-h pretreatment with vehicle or 100 ng/ml ( 0.1 muM ) PTX. Figure 3A shows that Wnt5a protein-mediated inhibition of the STF reporter was not affected by PTX treatment .	[inLink]	f3a	p22	Results	FALSE	method	17331	17643	f3a|f3b
+167	s92	"The PTX used was active in these cells , as lysophosphatidic acid ( LPA )"	[]		p22	Results	FALSE	result	17644	17714	f3a|f3b
+168	s92	"treatment of cells following pretreatment with PTX was unable to stimulate the phosphorylation of the mitogen-activated protein kinases Erk1 and Erk2 , a known PTX-sensitive process in 293 cells [ 39 ] ( Figure 3B ) ."	"[inLink, exLink]"	f3b	p22	Results	FALSE	result	17715	17928	f3a|f3b
+169	s93	These data are consistent with Topol et al. 's [ 16 ] findings	[exLink]		p22	Results	FALSE	result	17929	17989	f3a|f3b
+170	s93	"that overexpression of a dominant negative version of CamKII , and treatment of cells with a specific inhibitor of CamKII , does not perturb Wnt5a-mediated inhibition of Wnt/beta-catenin signaling in 293 cells ."	[]		p22	Results	FALSE	result	17990	18198	f3a|f3b
+171	s94	Wnt5a protein was also assayed for its ability	[]		p23	Results	FALSE	method	18199	18245	f3c
+172	s94	to directly stimulate intracellular calcium flux .	[]		p23	Results	FALSE	method	18246	18295	f3c
+173	s95	Figure 3C shows	[inLink]	f3c	p23	Results	FALSE	result	18296	18311	f3c
+174	s95	"that Wnt5a protein treatment at high doses does not alter the intracellular concentration of Ca 2+ in 293 cells , although subsequent ionomycin treatment of the same cells promotes robust Ca 2+ flux ."	[]		p23	Results	FALSE	result	18312	18510	f3c
+175	s96	Similar results were observed in 293 cells stably expressing mouse Fz4 ( mFz4 ) ;	[]		p23	Results	FALSE	result	18511	18589	f3c
+176	s96	a Wnt receptor thought to be involved in Wnt-stimulated calcium flux ( Figure 3C ) [ 40 ] .	"[inLink, exLink]"	f3c	p23	Results	FALSE	implication	18590	18678	f3c
+177	s97	"In addition , transient treatment with Wnt5a protein does not activate other Ca 2+-sensitive reporter constructs such as an NFAT-responsive luciferase reporter ( unpublished data ) ."	[]		p23	Results	FALSE	result	18679	18857	f3c
+178	s98	These data taken together strongly suggest	[]		p23	Results	FALSE	implication	18858	18900	f3c
+179	s98	that Wnt-stimulated Ca 2+ flux is not the direct mechanism utilized by Wnt5a to inhibit canonical Wnt signaling .	[]		p23	Results	FALSE	implication	18901	19013	f3c
+180	s99	Wnt5a Protein Activates beta-Catenin Signaling Depending on Receptor Context	[header-1]		title24	Results	FALSE	fact	19014	19090	
+181	s100	"Although we show that Wnt5a protein can inhibit canonical Wnt signaling , the question remains of"	[]		p25	Results	FALSE	hypothesis	19091	19187	
+182	s100	whether Wnt5a can activate Wnt/beta-catenin signaling in mammalian systems .	[]		p25	Results	FALSE	hypothesis	19188	19263	
+183	s101	"Multiple Fz receptors , including mFz4 , mFz6 , mFz7 , and mFz8 , were assayed for their ability"	[]		p25	Results	FALSE	method	19264	19355	
+184	s101	to transduce Wnt5a-mediated canonical Wnt signaling ( unpublished data ) .	[]		p25	Results	FALSE	method	19356	19427	
+185	s102	We found that Wnt5a could indeed activate Wnt/beta-catenin signaling when cells overexpressed mFz4	[]		p25	Results	FALSE	result	19428	19526	f4a
+186	s102	none of the other overexpressed receptors could transduce the Wnt5a signal .	[]		p25	Results	FALSE	result	19527	19603	f4a
+187	s103	Western blot analysis of cytosolic extracts probed for beta-catenin ( Figure 4A ) shows	[inLink]	f4a	p25	Results	FALSE	result	19604	19690	f4a
+188	s103	"that while Wnt5a has no effect on cytosolic beta-catenin levels in the parental 293 cell line , Wnt5a can induce modest beta-catenin accumulation in cells stably expressing a FLAG-tagged mFz4 construct ( 293Fz4 ) ."	[]		p25	Results	FALSE	result	19691	19901	f4a
+189	s104	These results are in accordance with observations by Umbhauer et al. [ 41 ]	[exLink]		p25	Results	FALSE	result	19902	19976	f4a
+190	s104	that coinjection of Xwnt5a RNA with Xfz4 RNA leads to the synergistic activation of Wnt/beta-catenin target genes in Xenopus animal caps .	[]		p25	Results	FALSE	result	19977	20114	f4a
+191	s105	We next tested	[]		p26	Results	FALSE	hypothesis	20115	20129	f4b
+192	s105	whether Wnt5a could activate the STF reporter in 293Fz4 cells .	[]		p26	Results	FALSE	hypothesis	20130	20192	f4b
+193	s106	Neither Wnt5a protein treatment at high doses nor transfection of Wnt5a DNA into cells expressing mFz4 could activate the STF reporter .	[]		p26	Results	FALSE	result	20193	20328	f4b
+194	s107	"However , as"	[]		p26	Results	FALSE	result	20329	20340	f4b
+195	s107	"shown in Figure 4B , when LRP5 is coexpressed with mFz4 , Wnt5a protein is able to activate the luciferase reporter ."	[inLink]	f4b	p26	Results	FALSE	result	20341	20455	f4b
+196	s108	"Thus , Wnt5a can activate TCF/beta-catenin signaling given the expression of the appropriate receptors ."	[]		p26	Results	FALSE	implication	20456	20558	f4b
+197	s109	"Interestingly , Wnt5a is unable"	[]		p26	Results	FALSE	result	20559	20589	f4b
+198	s109	"to activate the STF reporter in 293Fz4 cells transiently transfected with LRP6 , indicating the specificity of the Wnt5a/Fz4/LRP5 signaling complex ( unpublished data ) ."	[]		p26	Results	FALSE	result	20590	20756	f4b
+199	s110	To determine whether Wnt5a protein can inhibit Wnt3a-mediated STF reporter activation in 293Fz4 cells	[]		p27	Results	FALSE	goal	20757	20858	f4c|f4d
+200	s110	293 and 293Fz4 cells were transiently transfected with the STF reporter and then treated with Wnt proteins over the course of 24 h .	[]		p27	Results	FALSE	method	20859	20991	f4c|f4d
+201	s111	Whereas Wnt5a protein potently inhibits the STF reporter in parental 293 cells	[]		p27	Results	FALSE	result	20992	21070	f4c|f4d
+202	s111	Wnt5a no longer inhibits Wnt3a-induced reporter activation in 293Fz4 cells ( Figure 4C ) .	[inLink]	f4c	p27	Results	FALSE	result	21071	21160	f4c|f4d
+203	s112	"This effect was specific to mFz4 ,"	[]		p27	Results	FALSE	result	21161	21194	f4c|f4d
+204	s112	as stable expression of mFz8 was not sufficient to abrogate Wnt5a-mediated inhibition of STF reporter activation ( Figure 4D ) .	[inLink]	f4d	p27	Results	FALSE	result	21195	21321	f4c|f4d
+205	s113	"Additionally , Wnt5a does not stabilize beta-catenin protein in the presence of mFz8 ( unpublished data ) ."	[]		p27	Results	FALSE	result	21322	21425	f4c|f4d
+206	s114	"Thus , specifically in the context of mFz4 and LRP5 expression , Wnt5a is unable"	[]		p27	Results	FALSE	implication	21426	21504	f4c|f4d
+207	s114	to inhibit Wnt3a-mediated beta-catenin signaling and instead induces beta-catenin accumulation and STF reporter activation .	[]		p27	Results	FALSE	implication	21505	21628	f4c|f4d
+208	s115	"An Alternative Wnt Receptor , mRor2 , Mediates Wnt5a 's Inhibitory Activity"	[header-1]		title28	Results	FALSE	fact	21629	21701	
+209	s116	One explanation for why Wnt5a is unable to inhibit Wnt3a-mediated beta-catenin signaling when mFz4 is overexpressed is	[]		p29	Results	FALSE	hypothesis	21702	21820	
+210	s116	"that in 293Fz4 cells , increased mFz4 receptor binding sites may titrate available Wnt5a protein away from an alternative receptor carrying out its inhibitory function ."	[]		p29	Results	FALSE	hypothesis	21821	21988	
+211	s117	To investigate this hypothesis	[]		p29	Results	FALSE	goal	21989	22019	
+212	s117	"we turned to the orphan receptor mRor2 , a single-pass transmembrane tyrosine kinase with proposed kinase-dependent and -independent activities [ 25 , 42 ] ."	[exLink]		p29	Results	FALSE	method	22020	22174	
+213	s118	mRor2 is an appealing candidate receptor mediating Wnt5a 's inhibitory activity because Wnt5a and mRor2 have overlapping expression patterns	[]		p29	Results	FALSE	fact	22175	22314	
+214	s118	"their knockout phenotypes are similar , and mRor2 has been shown previously to act synergistically with Wnt5a to activate Jun kinase [ 22 - 26 ] ."	[exLink]		p29	Results	FALSE	fact	22315	22458	
+215	s119	"In addition , CAM-1 , the C. elegans Ror2 homolog , has been shown to inhibit canonical Wnt signaling-mediated cell migration ,"	[]		p29	Results	FALSE	result	22459	22582	
+216	s119	although the Wnt ligand mediating this inhibition remains to be determined [ 21 ] .	[exLink]		p29	Results	FALSE	result	22583	22664	
+217	s120	To determine whether Wnt5a mediates its inhibitory effects through the mRor2 receptor	[]		p30	Results	FALSE	goal	22665	22750	f5a|f4c
+218	s120	293 cells stably expressing the full-length mRor2 receptor ( 293mRor2 ) were treated with Wnt proteins over the course of 24 h .	[]		p30	Results	FALSE	method	22751	22877	f5a|f4c
+219	s121	As shown in Figure 5A	[inLink]	f5a	p30	Results	FALSE	none	22878	22899	f5a|f4c
+220	s121	Wnt3a protein treatment robustly activates the STF reporter in the presence of mRor2 .	[]		p30	Results	FALSE	result	22900	22986	f5a|f4c
+221	s122	"However , at every time point measured , Wnt5a protein-mediated inhibition of Wnt/beta-catenin signaling is synergistically enhanced by mRor2 overexpression as compared to the parental cell line"	[]		p30	Results	FALSE	result	22987	23180	f5a|f4c
+222	s122	compare to Figure 4C and see Figure S1 ) .	[inLink]	f4c	p30	Results	FALSE	result	23181	23221	f5a|f4c
+223	s123	We next assayed	[]		p31	Results	FALSE	hypothesis	23222	23237	
+224	s123	whether mRor2 was carrying out its inhibitory function through direct binding to Wnt5a .	[]		p31	Results	FALSE	hypothesis	23238	23325	
+225	s124	Two variants of the extracellular cysteine-rich Wnt binding domain ( CRD ) of mRor2 were cloned in frame amino-terminal to an immunoglobulin heavy chain domain ( IgG )	[]		p31	Results	FALSE	method	23326	23489	
+226	s124	as previously described and expressed in 293 cells [ 43 ] .	[exLink]		p31	Results	FALSE	method	23490	23547	
+227	s125	One variant is comprised of the Ror2 CRD alone cloned downstream of an exogenous signal sequence ( Ror2 CRD-IgG ) ;	[]		p31	Results	FALSE	method	23548	23660	
+228	s125	the other variant utilizes the endogenous Ror2 signal sequence and possesses the full amino terminus of the Ror2 protein ending at the carboxyl terminus of the CRD ( Ror2 NT CRD-IgG ) .	[]		p31	Results	FALSE	method	23661	23843	
+229	s126	"The secreted mRor2 CRD-IgG fusion proteins were then purified from conditioned media , bound"	[]		p31	Results	FALSE	method	23844	23935	
+230	s126	"to protein A beads , and tested for their ability to bind to purified Wnt proteins ."	[]		p31	Results	FALSE	method	23936	24018	
+231	s127	"The Smoothened receptor is a Fz family member that possesses a CRD domain but ,"	[]		p31	Results	FALSE	fact	24019	24097	
+232	s127	"rather than playing a role in Wnt signaling , it functions exclusively Hedgehog signal transmission ."	[]		p31	Results	FALSE	fact	24098	24197	
+233	s128	"As a negative control , purified Smoothened ( Smo ) CRD-IgG protein was also bound to beads and assayed for Wnt binding ."	[]		p31	Results	FALSE	method	24198	24315	f5b
+234	s129	Figure 5B shows	[inLink]	f5b	p31	Results	FALSE	result	24316	24331	f5b
+235	s129	"that Wnt5a protein specifically binds to the purified Ror2 and Fz4 CRD domains , whereas only background binding to the Smoothened CRD occurs ."	[]		p31	Results	FALSE	result	24332	24473	f5b
+236	s130	Wnt3a protein shows specific binding only to the Fz4 CRD-IgG protein ( unpublished data ) .	[]		p31	Results	FALSE	result	24474	24562	f5b
+237	s131	We next utilized	[]		p32	Results	FALSE	method	24563	24579	f5c
+238	s131	a Ror2 deletion construct that lacks the extracellular cysteine-rich Wnt-binding domain ( mRor2DeltaCRD ) to determine whether the CRD domain was necessary for Wnt5a signal transmission .	[]		p32	Results	FALSE	goal	24580	24764	f5c
+239	s132	When transiently transfected into 293 cells in conjunction with the STF reporter	[]		p32	Results	FALSE	result	24765	24845	f5c
+240	s132	mRor2DeltaCRD does not enhance Wnt5a-mediated inhibition of the STF reporter ( Figure 5C ) .	[inLink]	f5c	p32	Results	FALSE	result	24846	24937	f5c
+241	s133	"Thus , the CRD domain binds directly to Wnt5a and is required for Ror2"	[]		p32	Results	FALSE	implication	24938	25007	f5c
+242	s133	to transduce Wnt5a 's inhibitory activity .	[]		p32	Results	FALSE	implication	25008	25049	f5c
+243	s134	Expression of mRor2 Is Required for Wnt5a-Mediated Inhibition of Canonical Signaling	[header-1]		title33	Results	FALSE	implication	25050	25134	
+244	s135	We next tested	[]		p34	Results	FALSE	hypothesis	25135	25149	f6a
+245	s135	whether increased mRor2 expression was necessary to shift the balance of Wnt5a-mediated activation versus inhibition of Wnt/beta-catenin signaling in cells overexpressing mFz4 .	[]		p34	Results	FALSE	hypothesis	25150	25326	f6a
+246	s136	293 and 293Fz4 cells were transiently transfected with the STF reporter and mRor2 and then treated with the indicated Wnt proteins .	[]		p34	Results	FALSE	method	25327	25458	f6a
+247	s137	Figure 6A shows	[inLink]	f6a	p34	Results	FALSE	result	25459	25474	f6a
+248	s137	that Wnt5a-induced reporter activation in the presence of mFz4 and LRP5 is abrogated when mRor2 is expressed .	[]		p34	Results	FALSE	result	25475	25584	f6a
+249	s138	"In addition ,"	[]		p34	Results	FALSE	result	25585	25597	f6a
+250	s138	"while Wnt5a protein is unable to inhibit Wnt/beta-catenin signaling in the presence of mFz4 , as compared to parental 293 cells , mRor2 overexpression synergistically enhances Wnt5a 's ability to inhibit the reporter gene in both cell lines ."	[]		p34	Results	FALSE	result	25598	25836	f6a
+251	s139	"Once again , inhibition of Wnt3a-mediated reporter activation was observed only in the presence of Wnt5a ;"	[]		p34	Results	FALSE	result	25837	25941	f6a
+252	s139	"mRor2 expression alone did not reduce Wnt3a-mediated reporter activation , indicating that the inhibitory activity is dependent on the presence of Wnt5a ."	[]		p34	Results	FALSE	result	25942	26094	f6a
+253	s140	"Wnt5a 's inhibitory activity was also tested in another cell line , mouse L cells ."	[]		p35	Results	FALSE	method	26095	26175	f6b
+254	s141	Whereas Wnt5a protein treatment in parental 293 cells robustly inhibits the Wnt3a-mediated activation of the STF reporter	[]		p35	Results	FALSE	result	26176	26297	f6b
+255	s141	Wnt5a treatment has little to no inhibitory affect in L cells ( Figure 6B ) .	[inLink]	f6b	p35	Results	FALSE	result	26298	26374	f6b
+256	s142	To assess whether this is due to reduced expression of mRor2	[]		p35	Results	FALSE	goal	26375	26435	f6b
+257	s142	L cells were transfected with mRor2 and then treated with Wnt proteins .	[]		p35	Results	FALSE	method	26436	26508	f6b
+258	s143	As	[]		p35	Results	FALSE	result	26509	26511	f6b
+259	s143	"shown in Figure 6B , when mRor2 is overexpressed , Wnt5a protein potently inhibits the Wnt3a-induced reporter activation in L cells ."	[inLink]	f6b	p35	Results	FALSE	result	26512	26642	f6b
+260	s144	"Again , mRor2 expression has no inhibitory effect on Wnt3a-stimulated reporter activation in the absence of Wnt5a ."	[]		p35	Results	FALSE	result	26643	26756	f6b
+261	s145	Although Wnt5a is able to activate the luciferase reporter in L cells stably expressing mFz4 and transiently transfected with LRP5	[]		p35	Results	FALSE	result	26757	26887	f6b
+262	s145	mRor2 cotransfection effectively inhibits Wnt5a 's canonical signaling ability ( Figure 6B ) .	[inLink]	f6b	p35	Results	FALSE	result	26888	26980	f6b
+263	s146	Quantitative RT-PCR analysis was performed	[]		p36	Results	FALSE	method	26981	27023	f6c
+264	s146	to ascertain the expression of Ror2 in 293 and L cells .	[]		p36	Results	FALSE	goal	27024	27079	f6c
+265	s147	"A specific Ror2 transcript in the L cell sample did not emerge until after 40 cycles of amplification ,"	[]		p36	Results	FALSE	result	27080	27182	f6c
+266	s147	indicating that Ror2 is expressed in almost immeasurably low abundance in L cells .	[]		p36	Results	FALSE	implication	27183	27265	f6c
+267	s148	Quantification of the real-time data revealed	[]		p36	Results	FALSE	result	27266	27311	f6c
+268	s148	that Ror2 transcripts were over 700 times more abundant in 293 cells than in L cells ( Figure 6C ) .	[inLink]	f6c	p36	Results	FALSE	result	27312	27410	f6c
+269	s149	mRor2 expression thus appears	[]		p36	Results	FALSE	implication	27411	27440	f6c
+270	s149	to be required for Wnt5a-mediated inhibition of Wnt/beta-catenin signaling in mouse L cells .	[]		p36	Results	FALSE	implication	27441	27533	f6c
+271	s150	It has been proposed	[]		p37	Results	FALSE	hypothesis	27534	27554	f6d
+272	s150	"that the C. elegans Ror protein CAM-1 has tyrosine kinase-independent functions [ 42 , 44 ] and that Xenopus XRor2 can function in the absence of its cytoplasmic domain [ 45 ] ."	[exLink]		p37	Results	FALSE	hypothesis	27555	27728	f6d
+273	s151	We thus created a membrane-tethered variant of mRor2 ( mRor2-GPI )	[]		p37	Results	FALSE	method	27729	27793	f6d
+274	s151	to assay whether mRor2 could still function in the absence of its transmembrane and cytoplasmic domains .	[]		p37	Results	FALSE	goal	27794	27898	f6d
+275	s152	Expression of mRor2-GPI reduced Wnt5a 's ability to inhibit Wnt3a-induced STF reporter activation	[]		p37	Results	FALSE	result	27899	27995	f6d
+276	s152	when transfected into 293 cells as compared to cells transfected with the reporters alone ( Figure 6D ) .	[inLink]	f6d	p37	Results	FALSE	result	27996	28099	f6d
+277	s153	"In addition , when Ror2-GPI was transfected into cells in conjunction with wild-type mRor2 , mRor2-GPI blocked wild-type mRor2 's enhancement of Wnt5a-mediated inhibition ,"	[]		p37	Results	FALSE	result	28100	28268	f6d
+278	s153	suggesting that the membrane-tethered variant of mRor2 serves as a dominant negative .	[]		p37	Results	FALSE	implication	28269	28354	f6d
+279	s154	The fact that expression of mRor2-GPI alone did not enhance Wnt5a-mediated inhibition indicates	[]		p37	Results	FALSE	result	28355	28450	f6d
+280	s154	"that the cytoplasmic , and potentially the transmembrane , domain is required for mRor2 to carry out its inhibitory function ."	[]		p37	Results	FALSE	implication	28451	28574	f6d
+281	s155	"To assess the role the mRor2 transmembrane domain plays in mediating the Wnt5a signal , we created a mRor2 construct"	[]		p38	Results	FALSE	goal	28575	28690	f6e
+282	s155	that contains the endogenous extracellular and transmembrane domains of the protein but lacks the cytoplasmic domain ( Ror2-TM ) .	[]		p38	Results	FALSE	method	28691	28818	f6e
+283	s156	We find	[]		p38	Results	FALSE	result	28819	28826	f6e
+284	s156	"that similar to the mRor2-GPI construct , expression of Ror2-TM was sufficient to inhibit wild-type mRor2 's ability to enhance Wnt5a signaling ( Figure 6E ) ."	[inLink]	f6e	p38	Results	FALSE	result	28827	28982	f6e
+285	s157	"Unlike the mRor2-GPI construct , however , the mRor2-TM construct did not reduce Wnt5a 's ability"	[]		p38	Results	FALSE	result	28983	29077	f6e
+286	s157	to inhibit Wnt3a-induced STF reporter activation when transfected into 293 cells alone .	[]		p38	Results	FALSE	result	29078	29165	f6e
+287	s158	Western blot analysis indicates	[]		p38	Results	FALSE	result	29166	29197	f6e
+288	s158	"that wild-type mRor2 expression is unaffected by cotransfection with mRor2-GPI or mRor2-TM , further strengthening the idea that these constructs serve as dominant negative variants of mRor2 ."	[]		p38	Results	FALSE	result	29198	29388	f6e
+289	s159	These data taken together suggest	[]		p38	Results	FALSE	implication	29389	29422	f6e
+290	s159	that mRor2 does not simply present Wnt5a to another receptor but rather that Wnt5a binding initiates Ror2-induced cytoplasmic signaling events .	[]		p38	Results	FALSE	implication	29423	29566	f6e
+291	s160	Discussion	[header-0]		title39	Discussion	FALSE	none	29567	29577	
+292	s161	"Due to early overexpression studies in Xenopus embryos , the Wnts were grouped into various classes based on their canonical Wnt signaling ability without regard for the cellular context"	[]		p40	Discussion	FALSE	problem	29578	29763	
+293	s161	in which they were overexpressed .	[]		p40	Discussion	FALSE	problem	29764	29797	
+294	s162	"Receptor expression , however , clearly plays a role in determining signaling output ;"	[]		p40	Discussion	FALSE	fact	29798	29881	
+295	s162	"when coexpressed with the appropriate Fz receptor , the prototypical "" noncanonical "" Wnt , XWnt5a , can signal in a canonical fashion to induce the formation of a secondary axis [ 46 ] ."	[exLink]		p40	Discussion	FALSE	result	29882	30062	
+296	s163	"Whereas some have argued that the lack of functional interaction with LRP distinguishes Wnt5a from so-called canonical Wnts in mammalian cells [ 31 ] , previous studies and our present work confirm"	[exLink]		p40	Discussion	FALSE	hypothesis	30063	30258	
+297	s163	"that Wnt signaling output is not intrinsically related to the Wnt protein itself but rather due to a combination of factors including receptor availability [ 41 , 46 ] ."	[exLink]		p40	Discussion	FALSE	hypothesis	30259	30425	
+298	s164	Several controversies exist in the literature today regarding the mechanisms	[]		p41	Discussion	FALSE	problem	30426	30502	
+299	s164	by which Wnt proteins signal .	[]		p41	Discussion	FALSE	problem	30503	30532	
+300	s165	"Much of the conflicting data , however , can be attributed to the variety of cellular and organismal systems studied coupled with the previous lack of soluble , active Wnt proteins ."	[]		p41	Discussion	FALSE	problem	30533	30711	
+301	s166	"In the case of Wnt5a , for example , one report has shown"	[]		p41	Discussion	FALSE	result	30712	30767	
+302	s166	that overexpression of Wnt5a inhibits canonical signaling by promoting the degradation of beta-catenin protein [ 16 ] .	[exLink]		p41	Discussion	FALSE	result	30768	30885	
+303	s167	"By contrast , we found"	[]		p41	Discussion	FALSE	result	30886	30907	
+304	s167	"that , in accordance with other groups , Wnt5a protein treatment has no affect on beta-catenin protein levels but rather inhibits canonical Wnt signaling at the level of TCF transcription [ 17 , 18 , 33 ] ."	[exLink]		p41	Discussion	FALSE	result	30908	31108	
+305	s168	Although our data are in agreement with Wnt5a overexpression studies by Ishitani et al. [ 17 ] with respect to the inhibition occurring downstream of beta-catenin protein stabilization	[exLink]		p41	Discussion	FALSE	result	31109	31292	
+306	s168	we found that Wnt5a does not stimulate Ca 2+ flux and that Wnt5a-mediated inhibition is not sensitive to pertussis toxin treatment .	[]		p41	Discussion	FALSE	result	31293	31425	
+307	s169	These data effectively eliminate G protein-mediated activation of calcium signaling as the primary mechanism of Wnt5a-mediated inhibition .	[]		p41	Discussion	FALSE	implication	31426	31564	
+308	s170	Fz receptor signaling capabilities have also often been debated .	[]		p42	Discussion	FALSE	fact	31565	31629	
+309	s171	Previous studies pertaining to Fz4 's role in the disease familial exudative vitreoretinopathy have suggested	[]		p42	Discussion	FALSE	hypothesis	31630	31738	
+310	s171	"that the Fz4 receptor does not mediate Wnt/beta-catenin signaling but rather elicits intracellular calcium flux that subsequently activates downstream calcium effector molecules [ 34 , 40 ] ."	[exLink]		p42	Discussion	FALSE	implication	31739	31927	
+311	s172	"By contrast , we show here"	[]		p42	Discussion	FALSE	result	31928	31953	
+312	s172	"that in multiple cell lines , Fz4 allows Wnt5a to specifically activate TCF/Lef transcription in the presence of LRP5 and that mFz4 expression does not enhance calcium flux ( Figure 3C ) ."	[inLink]	f3c	p42	Discussion	FALSE	result	31954	32139	
+313	s173	"The true signaling capabilities of the Fz4 receptor may have been previously overlooked due to the use of an inappropriate Wnt ligand in the analysis , Wnt1 as opposed to Wnt5a ."	[]		p42	Discussion	FALSE	problem	32140	32316	
+314	s174	"Additionally ,"	[]		p42	Discussion	FALSE	problem	32317	32330	
+315	s174	"as calcium signaling capabilities were attributed to Fz4 in the absence of exogenous ligand stimulation , it remains to be seen whether Wnt ligands are required for Fz-mediated Ca 2+ flux ."	[]		p42	Discussion	FALSE	problem	32331	32518	
+316	s175	We observe	[]		p43	Discussion	FALSE	result	32519	32529	
+317	s175	"that when mFz4 is overexpressed alone , Wnt5a protein treatment is sufficient to induce beta-catenin protein stabilization but not STF reporter activation ."	[]		p43	Discussion	FALSE	result	32530	32684	
+318	s176	It is possible	[]		p43	Discussion	FALSE	hypothesis	32685	32699	
+319	s176	that Wnt5a does not activate a transcriptional response when mFz4 is expressed alone in 293 cells due to the endogenous expression of mRor2 .	[]		p43	Discussion	FALSE	hypothesis	32700	32840	
+320	s177	"In addition , coreceptor expression and heterodimerization following ligand stimulation have previously been shown"	[]		p43	Discussion	FALSE	result	32841	32954	
+321	s177	"to enhance ligand binding and signal transduction in other systems [ 47 , 48 ] ."	[exLink]		p43	Discussion	FALSE	result	32955	33032	
+322	s178	As Wnt5a-induced beta-catenin stabilization in cells expressing mFz4 is less robust than Wnt3a-induced stabilization	[]		p43	Discussion	FALSE	fact	33033	33149	
+323	s178	overexpression of both mFz4 and LRP5 may be necessary for full potentiation of the canonical signal resulting in transcriptional activation .	[]		p43	Discussion	FALSE	hypothesis	33150	33291	
+324	s179	"Furthermore , previous reports have suggested"	[]		p43	Discussion	FALSE	implication	33292	33336	
+325	s179	"that the accumulation of beta-catenin and Wnt signal transduction are separable events by showing that beta-catenin protein levels alone do not dictate signal output but rather the phosphorylation state of beta-catenin [ 49 , 50 ] ."	[exLink]		p43	Discussion	FALSE	implication	33337	33566	
+326	s180	"Coexpression of LRP5 may be necessary for the dephosphorylation , and hence full activation , of beta-catenin resulting in optimal signal transduction ."	[]		p43	Discussion	FALSE	hypothesis	33567	33716	
+327	s181	The disparities between previous reports and our current observations may be due to the fact	[]		p44	Discussion	FALSE	hypothesis	33717	33809	
+328	s181	"that in this study , the effects of Wnt5a could be monitored immediately following Wnt5a protein addition as opposed to several hours or cell divisions following cellular expression , thereby allowing us to separate early and late effects of Wnt5a treatment ."	[]		p44	Discussion	FALSE	hypothesis	33810	34066	
+329	s182	"Activation of downstream transcriptional targets of Wnt5a , such as Siah-2 , may contribute to the overall Wnt5a-mediated inhibition of Wnt/beta-catenin"	[]		p44	Discussion	FALSE	hypothesis	34067	34217	
+330	s182	signaling subsequent to the initial signaling events that we observed [ 16 ] .	[exLink]		p44	Discussion	FALSE	result	34218	34294	
+331	s183	"Additionally , in the proposed Wnt/Ca 2+ signaling model , Wnt5a-stimulated Ca 2+ flux leading"	[]		p44	Discussion	FALSE	result	34295	34387	
+332	s183	to NLK activation is required for transcriptional inhibition [ 17 ] .	[exLink]		p44	Discussion	FALSE	result	34388	34455	
+333	s184	"However , Wnt1 has recently been shown"	[]		p44	Discussion	FALSE	result	34456	34493	
+334	s184	"to inhibit beta-catenin-TCF-mediated transcription via activation of NLK , although Wnt1 has never been shown to induce Ca 2+ flux [ 33 ] ."	[exLink]		p44	Discussion	FALSE	result	34494	34630	
+335	s185	"Thus , Wnt5a may exert its inhibitory effects through the activation of NLK in a similar Ca 2+-independent manner ."	[]		p44	Discussion	FALSE	hypothesis	34631	34744	
+336	s186	Further experimentation into the mechanism	[]		p44	Discussion	FALSE	goal	34745	34787	
+337	s186	by which Wnt5a inhibits canonical signaling is therefore necessary and will be addressed in subsequent reports .	[]		p44	Discussion	FALSE	goal	34788	34899	
+338	s187	"In this study , we show"	[]		p45	Discussion	FALSE	implication	34900	34922	
+339	s187	that one Wnt ligand can function in two discreet pathways based on receptor availability ( Figure 7 ) .	[inLink]	f7	p45	Discussion	FALSE	implication	34923	35024	
+340	s188	Data in the literature suggest	[]		p45	Discussion	FALSE	hypothesis	35025	35055	
+341	s188	that this may also apply to other Wnts .	[]		p45	Discussion	FALSE	hypothesis	35056	35095	
+342	s189	"For example , Wnt1 is known"	[]		p45	Discussion	FALSE	fact	35096	35122	
+343	s189	to activate canonical Wnt signaling through beta-catenin and TCF and act as an oncogene [ 51 ] .	[exLink]		p45	Discussion	FALSE	fact	35123	35217	
+344	s190	"However ,"	[]		p45	Discussion	FALSE	result	35218	35226	
+345	s190	"using overexpression in various cell lines , Smit et al. presented evidence that Wnt1 inhibits TCF activity [ 33 ] ."	[exLink]		p45	Discussion	FALSE	result	35227	35340	
+346	s191	"Another example is Wnt11 ,"	[]		p45	Discussion	FALSE	result	35341	35366	
+347	s191	which has been implicated in the noncanonical convergence-extension pathway in zebrafish [ 52 ] .	[exLink]		p45	Discussion	FALSE	result	35367	35462	
+348	s192	"Recent work , by contrast , demonstrates"	[]		p45	Discussion	FALSE	result	35463	35501	
+349	s192	"that Wnt11 is the long-sought ligand that activates the beta-catenin pathway in the early Xenopus embryo , showing that one Wnt can activate two different pathways , possibly also by activating different receptors [ 53 ] ."	[exLink]		p45	Discussion	FALSE	implication	35502	35720	
+350	s193	"Although the ability of one Wnt ligand to function in two distinct pathways based on receptor context is novel for the Wnt field , we note"	[]		p46	Discussion	FALSE	fact	35721	35858	
+351	s193	"that in an entirely different system , opposing effects brought about by a single ligand have also been explained by the use of different receptor classes ."	[]		p46	Discussion	FALSE	fact	35859	36013	
+352	s194	"This example is formed by the Netrins , ligands"	[]		p46	Discussion	FALSE	fact	36014	36060	
+353	s194	that can either attract or repel axons depending on whether they interact with the DCC ( deleted in colorectal carcinoma ) or UNC5 ( UNCoordinated family member 5 ) families of receptors [ 54 - 56 ] .	[exLink]		p46	Discussion	FALSE	fact	36061	36254	
+354	s195	"Thus , ligands engaging multiple receptors"	[]		p46	Discussion	FALSE	fact	36255	36296	
+355	s195	to effect different signaling outcomes is not unprecedented in nature .	[]		p46	Discussion	FALSE	fact	36297	36367	
+356	s196	"With as many as 19 mammalian homologs known , the question of"	[]		p47	Discussion	FALSE	fact	36368	36428	
+357	s196	whether all Wnt family members have evolved to signal in the same fashion is an important one .	[]		p47	Discussion	FALSE	fact	36429	36523	
+358	s197	"In this report , we address controversies in the literature regarding"	[]		p47	Discussion	FALSE	goal	36524	36592	
+359	s197	"how one Wnt family member , Wnt5a , functions ."	[]		p47	Discussion	FALSE	goal	36593	36637	
+360	s198	"Through quantitative kinetic analyses , we provide evidence for the first time"	[]		p47	Discussion	FALSE	method	36638	36715	
+361	s198	that Wnt5a protein can directly inhibit canonical Wnt/beta-catenin signaling and that the single-pass transmembrane receptor Ror2 is required to mediate this activity .	[]		p47	Discussion	FALSE	implication	36716	36883	
+362	s199	Although Wnt5a can inhibit canonical Wnt signaling when Ror2 is expressed at detectable levels	[]		p47	Discussion	FALSE	implication	36884	36978	
+363	s199	Fz 4 and LRP5 coreceptor expression allows Wnt5a to signal in a canonical fashion .	[]		p47	Discussion	FALSE	implication	36979	37062	
+364	s200	This ability of Wnt5a to toggle between two considerably diverse forms of signaling is particularly intriguing	[]		p47	Discussion	FALSE	problem	37063	37173	
+365	s200	when one considers that Wnt5a has been classified as both a tumor suppressor and an oncogene in various cell types [ 57 - 59 ] .	[exLink]		p47	Discussion	FALSE	fact	37174	37299	
+366	s201	"While previously somewhat paradoxical , it is now clear"	[]		p47	Discussion	FALSE	implication	37300	37354	
+367	s201	"that in the former role , Wnt5a expression may inhibit uncontrolled Wnt/beta-catenin signaling in the presence of Ror2 , whereas in the latter , Wnt5a could promote canonical Wnt signaling when Fz4 and LRP5 are expressed ."	[]		p47	Discussion	FALSE	implication	37355	37573	
+368	s202	Future study into specific receptor-ligand interactions will thus contribute to	[]		p47	Discussion	FALSE	goal	37574	37653	
+369	s202	understanding the complexities of Wnt signaling .	[]		p47	Discussion	FALSE	goal	37654	37702	
+370	s203	Materials and Methods	[header-0]		title48	Materials and Methods	FALSE	none	37703	37724	
+371	s204	Wnt5a purification	[header-1]		title49	Materials and Methods	FALSE	none	37725	37743	
+372	s205	Wnt5a protein was purified from 6 L of media conditioned by	[]		p50	Materials and Methods	FALSE	method	37744	37803	
+373	s205	"mouse L cells stably overexpressing mouse Wnt5a ( CRL-2814 ; American Type Culture Collection [ ATCC ] , Manassas , Virginia , United States ) created in the laboratory as previously described [ 27 ] with the addition of a fourth purification step ."	[exLink]		p50	Materials and Methods	FALSE	method	37804	38044	
+374	s206	"Briefly , following a gel filtration sizing step , partially purified Wnt5a protein was bound to a copper-chelated resin and eluted with increasing concentrations of Imidazole ( HiTrap Chelating HP ; Amersham Biosciences , Little Chalfont , United Kingdom ) ."	[]		p50	Materials and Methods	FALSE	method	38045	38296	
+375	s207	Peak fractions were then further purified by heparin affinity chromatography	[]		p50	Materials and Methods	FALSE	method	38297	38373	
+376	s207	as previously described .	[]		p50	Materials and Methods	FALSE	method	38374	38398	
+377	s208	Typical yields of Wnt5a protein following final heparin affinity step range from 25 to 50 ng/mul	[]		p50	Materials and Methods	FALSE	method	38399	38495	
+378	s208	as assessed by Coomassie blue staining .	[]		p50	Materials and Methods	FALSE	method	38496	38535	
+379	s209	CRD protein purification	[header-1]		title51	Materials and Methods	FALSE	none	38536	38560	
+380	s210	Serum-free media conditioned from 293 cells stably secreting CRD-IgG proteins was collected and bound to a Hitrap Protein A HP 1-ml column ( Amersham Biosciences ) .	[]		p52	Materials and Methods	FALSE	method	38561	38723	
+381	s211	"Bound proteins were eluted with 100 mM citric acid ( pH 3.0 ) and immediately made pH to neutral with 800 mM HEPES , 300 mM NaCl ( pH 7.5 ) buffer supplemented with protease inhibitors ."	[]		p52	Materials and Methods	FALSE	method	38724	38904	
+382	s212	Protein from the peak fraction was incubated with protein A-Sepharose beads for 4 h at 4 degreesC and then washed 4 times with TNT buffer	[]		p52	Materials and Methods	FALSE	method	38905	39043	
+383	s212	see below ) .	[]		p52	Materials and Methods	FALSE	method	39044	39055	
+384	s213	CRD-bound beads then incubated overnight at 4 degreesC with Wnt proteins .	[]		p52	Materials and Methods	FALSE	method	39056	39129	
+385	s214	"Beads were washed 4 times with TNT buffer , brought up in sample buffer , and analyzed for coimmunoprecipitation via Western blotting ."	[]		p52	Materials and Methods	FALSE	method	39130	39262	
+386	s215	cDNA constructs and antibodies	[header-1]		title53	Materials and Methods	FALSE	none	39263	39293	
+387	s216	pcDNA3-mRor2 and mRor2DeltaCRD constructs were obtained from the Minami lab	[]		p54	Materials and Methods	FALSE	method	39294	39369	
+388	s216	[ 23 ] .	[exLink]		p54	Materials and Methods	FALSE	method	39370	39376	
+389	s217	We generated	[]		p54	Materials and Methods	FALSE	method	39377	39389	
+390	s217	the mRor2 CRD-IgG construct by fusing the Fz8 signal sequence ( bases 1 to 100 ) to the mRor2 CRD ( bases 505 to 909 of the complementary DNA of mRor2 ) in frame with IgG as previously described [ 43 ] .	[exLink]		p54	Materials and Methods	FALSE	method	39390	39587	
+391	s218	The mRor2NT CRD-IgG	[]		p54	Materials and Methods	FALSE	method	39588	39607	
+392	s218	construct corresponds to bases 1 to 909 of mRor2 fused to IgG. pRK5-mRor2-GPI construct was generated by fusing bases 1 to 1221 of mRor2 in frame to DAF-GPI .	[]		p54	Materials and Methods	FALSE	method	39608	39765	
+393	s219	pRK5-DAF-GPI fusion protein vector was provided by the Nathans lab	[]		p54	Materials and Methods	FALSE	method	39766	39832	
+394	s219	[ 43 ] . pEF1-mRor2-TM corresponds to bases 1 to 1303 of mRor2 .	[exLink]		p54	Materials and Methods	FALSE	fact	39833	39894	
+395	s220	Human LRP5 and LRP6 constructs in the CS2+ vector were obtained from	[]		p54	Materials and Methods	FALSE	method	39895	39963	
+396	s220	the He lab [ 60 ] . pcDNA3.1-	[exLink]		p54	Materials and Methods	FALSE	method	39964	39991	
+397	s221	Fz 4 ( FLAG-tagged ) was provided by the Lefkowitz lab	[]		p54	Materials and Methods	FALSE	method	39992	40044	
+398	s221	[ 15 ] .	[exLink]		p54	Materials and Methods	FALSE	none	40045	40051	
+399	s222	Fz	[]		p54	Materials and Methods	FALSE	none	40052	40054	
+400	s222	"8 complementary DNA was subcloned into the pEF1-myc/his A vector ( Invitrogen , Carlsbad , California , United States ) and pEF1a-LacZ ( Invitrogen ) was used for beta-galactosidase activity normalization ."	[]		p54	Materials and Methods	FALSE	method	40055	40253	
+401	s223	STF was obtained from the Moon lab	[]		p54	Materials and Methods	FALSE	method	40254	40288	
+402	s223	[ 30 ] .	[exLink]		p54	Materials and Methods	FALSE	none	40289	40295	
+403	s224	All DNA segments generated by PCR were sequenced	[]		p54	Materials and Methods	FALSE	method	40296	40344	
+404	s224	to rule out spurious mutations .	[]		p54	Materials and Methods	FALSE	goal	40345	40376	
+405	s225	"Antibodies were used at the following concentrations : rabbit anti-Wnt5A ( 1:1 ,000 ) , rabbit anti-Fz4 ( 1:1 ,000 ) , mouse 9E10 ( 1:200 ; Developmental Studies Hybridoma Bank at the University of Iowa , Iowa City , Iowa , United States ) , mouse anti-beta-catenin ( 1:500 ; Santa Cruz Biotechnology , Santa Cruz , California , United States ) , mouse anti-GSK-3beta ( 1:2 ,000 ; Transduction Labs , BD Biosciences Pharmingen , San Diego , California , United States ) , anti-phospho p44/p42 ( 1:1 ,000 , Cell Signaling Technology , Beverly , Massachusetts , United States ) , and anti-total p44/p42 ( 1:1 ,000 ; Cell Signaling Technology ) ."	[]		p55	Materials and Methods	FALSE	method	40377	40975	
+406	s226	Proteins were detected	[]		p55	Materials and Methods	FALSE	method	40976	40998	
+407	s226	using HRP-conjugated secondary antibodies ( Santa Cruz Biotechnology ) with ECL Western blot detection reagents ( Amersham Biosciences ) .	[]		p55	Materials and Methods	FALSE	method	40999	41132	
+408	s227	Anti-mouse Wnt5a antibody was generated by	[]		p55	Materials and Methods	FALSE	method	41133	41175	
+409	s227	cloning a 167-base pair fragment corresponding to bases 757 to 924 of the complementary DNA of mWnt5a into the pGEX4T-1 vector .	[]		p55	Materials and Methods	FALSE	method	41176	41303	
+410	s228	Purified mWnt5a-GST fusion protein was then injected into a rabbit following standard procedures ( Josman Laboratories ) .	[]		p55	Materials and Methods	FALSE	method	41304	41423	
+411	s229	The final bleed was subsequently affinity purified .	[]		p55	Materials and Methods	FALSE	method	41424	41475	
+412	s230	"Cell culture , mammalian cell transfection , and luciferase assays"	[header-1]		title56	Materials and Methods	FALSE	method	41476	41540	
+413	s231	"HEK293 cells , mouse L cells , and their variants were cultured in DMEM , 10 % FBS , and antibiotics ."	[]		p57	Materials and Methods	FALSE	method	41541	41637	
+414	s232	"To generate cell lines stably expressing Fz receptors , cells grown on 10-cm plates were transfected"	[]		p58	Materials and Methods	FALSE	method	41638	41737	
+415	s232	using LipofectAMINE2000 according to the manufacturer 's instructions ( Invitrogen ) .	[]		p58	Materials and Methods	FALSE	method	41738	41820	
+416	s233	"At 24 h post-transfection , cells were plated out in"	[]		p58	Materials and Methods	FALSE	method	41821	41872	
+417	s233	limiting dilution and cultured under neomycin selection ( 1 mg/ml G418 ) for 10 to 14 d .	[]		p58	Materials and Methods	FALSE	method	41873	41959	
+418	s234	At least 20 single cell clones were screened for expression via Western blot analysis .	[]		p58	Materials and Methods	FALSE	method	41960	42046	
+419	s235	"Transient transfections were performed with LipofectAMINE2000 ( Invitrogen ) on 293 cells , L cells , or stable cell line variants in six-well plates ."	[]		p59	Materials and Methods	FALSE	method	42047	42193	
+420	s236	"Empty vector , CS2+-hLrp5 , pcDNA3-mRor2 , or derivatives were transfected"	[]		p59	Materials and Methods	FALSE	method	42194	42265	
+421	s236	( 1 mug/well ) together with the STF luciferase reporter ( 1 mug/well ) and beta-galactosidase ( 0.33 mug ) ( pEF-1alpha-LacZ ; Invitrogen ) plasmids .	[]		p59	Materials and Methods	FALSE	method	42266	42407	
+422	s237	"At 24 h post-transfection , cells were replated into a 96-well plate , allowed"	[]		p59	Materials and Methods	FALSE	method	42408	42484	
+423	s237	"to recover for 6 to 8 h , and then treated in duplicate or triplicate with Wnt proteins as described in the text ."	[]		p59	Materials and Methods	FALSE	method	42485	42597	
+424	s238	Luciferase assays were performed	[]		p59	Materials and Methods	FALSE	method	42598	42630	
+425	s238	using Dual-Light reporter gene assay system ( Applied Biosystems ) .	[]		p59	Materials and Methods	FALSE	method	42631	42696	
+426	s239	Relative luciferase units were measured and normalized against beta-galactosidase activity at 48 h post-transfection .	[]		p59	Materials and Methods	FALSE	method	42697	42814	
+427	s240	"Error bars represent standard deviation , and"	[]		p59	Materials and Methods	FALSE	method	42815	42859	
+428	s240	each assay was performed at least two times .	[]		p59	Materials and Methods	FALSE	method	42860	42904	
+429	s241	Cell extraction and Western blotting	[header-1]		title60	Materials and Methods	FALSE	method	42905	42941	
+430	s242	For	[]		p61	Materials and Methods	FALSE	method	42942	42945	
+431	s242	"assaying Fz expression , cells were lysed in TNT buffer on ice ( 50 mM Tris-HCl , 150 mM NaCl , 1 % Triton X-100 ) ."	[]		p61	Materials and Methods	FALSE	method	42946	43055	
+432	s243	After	[]		p61	Materials and Methods	FALSE	method	43056	43061	
+433	s243	"clearing lysates with high-speed spin , protein supernatants were diluted into SDS sample buffer ."	[]		p61	Materials and Methods	FALSE	method	43062	43158	
+434	s244	"In Erk1,2 phosphorylation assays , cells were lysed in hot sample buffer ( 62.5 mM Tris , 2 % SDS , 10 % glycerol , 50 mM DTT , 0.01 % bromophenol blue ) supplemented with protease inhibitors ( Complete Inhibitors ; Roche , Basel , Switzerland ) and then passaged 10 times through a 25-gauge syringe ."	[]		p61	Materials and Methods	FALSE	method	43159	43444	
+435	s245	"For visualization of beta-Catenin accumulation in 293 cells , cells were lysed by hypotonic lysis :"	[]		p61	Materials and Methods	FALSE	method	43445	43542	
+436	s245	"cells were scraped into hypotonic buffer ( 10 mM Tris-HCl , 0.2 mM MgCl 2 [ pH 7.4 ] ) supplemented with protease and phosphatase inhibitors , incubated on ice for 10 min , and homogenized using a tight-fitting glass dounce ."	[]		p61	Materials and Methods	FALSE	method	43543	43760	
+437	s246	"Sucrose and EDTA were added to final concentrations of 0.25 M and 1 mM , respectively ."	[]		p61	Materials and Methods	FALSE	method	43761	43846	
+438	s247	"Lysates were then centrifuged at 20,000 x g for 1 h at 4 degreesC ."	[]		p61	Materials and Methods	FALSE	method	43847	43913	
+439	s248	Supernatant representing cytosolic cell fraction was then diluted into SDS sample buffer .	[]		p61	Materials and Methods	FALSE	method	43914	44003	
+440	s249	"For immunoblotting , samples were resolved on SDS-10 % polyacrylamide gels and transferred"	[]		p62	Materials and Methods	FALSE	method	44004	44092	
+441	s249	to nitrocellulose .	[]		p62	Materials and Methods	FALSE	method	44093	44111	
+442	s250	The membranes were incubated for 1 h in blocking solution	[]		p62	Materials and Methods	FALSE	method	44112	44170	
+443	s250	"1 % BSA , 3 % nonfat dry milk in Tris-buffered saline containing 0.2 % Tween-20 ) and then overnight at 4 degreesC with antibody in blocking solution ."	[]		p62	Materials and Methods	FALSE	method	44171	44316	
+444	s251	Quantitative RT-PCR analysis	[header-1]		title63	Materials and Methods	FALSE	method	44317	44345	
+445	s252	"Qiagen RNeasy midi-kit ( Valencia , California , United States ) was used with on-column DNase step"	[]		p64	Materials and Methods	FALSE	method	44346	44441	
+446	s252	to prepare total RNA from each cell line .	[]		p64	Materials and Methods	FALSE	method	44442	44483	
+447	s253	Then 1 mug of total RNA was converted to cDNA	[]		p64	Materials and Methods	FALSE	method	44484	44529	
+448	s253	using random hexamer priming ( Thermoscript RT-PCR System ; Invitrogen ) .	[]		p64	Materials and Methods	FALSE	method	44530	44600	
+449	s254	Quantitative real-time PCR analysis was performed in a Roche LightCycler 2.0	[]		p64	Materials and Methods	FALSE	method	44601	44677	
+450	s254	using LightCycler FastStart DNA Master PLUS SYBR Green I kit ( Roche ) with 0.5 mul of prepared cDNA and 0.5 muM forward and reverse primers per reaction .	[]		p64	Materials and Methods	FALSE	method	44678	44830	
+451	s255	The primers for real-time PCR were designed	[]		p64	Materials and Methods	FALSE	method	44831	44874	
+452	s255	using LightCycler Probe Design Software 2.0 .	[]		p64	Materials and Methods	FALSE	method	44875	44919	
+453	s256	"Following 45 cycles of amplification , Ror2 expression in each cell line was normalized"	[]		p64	Materials and Methods	FALSE	method	44920	45006	
+454	s256	to HPRT expression following primer efficiency analysis .	[]		p64	Materials and Methods	FALSE	method	45007	45063	
+455	s257	Reactions were performed in triplicate at least two times .	[]		p64	Materials and Methods	FALSE	method	45064	45122	
+456	s258	Primers used	[header-1]		title65	Materials and Methods	FALSE	method	45123	45135	
+457	s259	Primers used were human Ror2 F : 5 ' - ATGGAACTGTGTGACGTACCC-3 ' ; mouse Ror2 F : 5 ' - TGGAACTGTGTGACGTACCC-3 ' ; human/mouse Ror2 R : 5 ' - GCGAGGCCATCAGCTG-3 ' ; human HPRT F : 5 ' - CAAGTTTGTTGTAGGATATGCCC-3 ' ; human HPRT R : 3 ' - CGATGTCAATAGGACTCCAGA-3 ' ; mouse HPRT F : 5 ' - TGTTGTTGGATATGCCCTTG-3 ' ; and mouse HPRT R : 3 ' - TTGCGCTCATCTTAGGCTTT-3 ' .	[]		p66	Materials and Methods	FALSE	method	45136	45465	
+458	s260	Immunofluorescence staining	[header-1]		title67	Materials and Methods	FALSE	none	45466	45493	
+459	s261	"For immunofluorescence microscopy , cells were grown on glass coverslips , fixed with 4 % paraformaldehyde at 4 degreesC for 10 min , and permeabilized in methanol at 20 degreesC for 20 sec ."	[]		p68	Materials and Methods	FALSE	method	45494	45680	
+460	s262	"The coverslips were then exposed to primary antibodies , followed by Cy3-conjugated secondary antibodies ."	[]		p68	Materials and Methods	FALSE	method	45681	45785	
+461	s263	"Slides were mounted with Vectashield mounting media with Dapi ( Vector Laboratories , Burlingame , California , United States ) and fluorescence examined with a Zeiss Axioplan 2 microscope ."	[]		p68	Materials and Methods	FALSE	method	45786	45970	
+462	s264	Calcium flux assays	[header-1]		title69	Materials and Methods	FALSE	none	45971	45990	
+463	s265	"The 293 cells plated onto glass chamber slides ( Nalge Nunc International , Rochester , New York , United States ) were loaded with 1 muM fura-2 AM ( Molecular Probes , Eugene , Oregon , United States ) for 20 min prior to imaging ."	[]		p70	Materials and Methods	FALSE	method	45991	46212	
+464	s266	The cells were washed and then	[]		p70	Materials and Methods	FALSE	method	46213	46243	
+465	s266	imaging was carried out on a previously described microscope system [ 61 ] .	[exLink]		p70	Materials and Methods	FALSE	method	46244	46318	
+466	s267	"For time-lapse experiments , image pairs were collected at 340 - and 380-nm excitation wavelength ( 510-nm emission ) at 15-s intervals for 15 min following the addition of Wnt5a protein ( 500 ng/ml ) ."	[]		p70	Materials and Methods	FALSE	method	46319	46514	
+467	s268	"Following Wnt protein incubation , cells were treated with ionomycin ( 1 muM ) and immediately imaged for an additional 5 min ."	[]		p70	Materials and Methods	FALSE	method	46515	46638	
+468	s269	"The ratio image , a pixel-by-pixel match of both excitation wavelengths , was calculated by computer software"	[]		p70	Materials and Methods	FALSE	method	46639	46746	
+469	s269	and the sequence of ratio images was processed .	[]		p70	Materials and Methods	FALSE	method	46747	46794	
+470	s270	"Microscope control , data acquisition , and image analysis were performed in MetaMorph ( Universal Imaging , Molecular Dynamics , Sunnyvale , California , United States ) ."	[]		p70	Materials and Methods	FALSE	method	46795	46958	
+471	s271	Supporting Information	[header-0]		title71	Supporting Information	FALSE	none	46959	46981	
+472	s272	Figure S1	[label]		label72	Supporting Information	FALSE	none	46982	46991	
+473	s273	mRor2 Enhances Wnt5a-Mediated Inhibition of Canonical Wnt Signaling	[header-?]		title73	Supporting Information	FALSE	result	46992	47059	
+474	s274	( A-C ) Although Wnt5a protein shows inhibitory activity in 293 cells	[]		p74	Supporting Information	FALSE	result	47060	47127	
+475	s274	it does not inhibit the STF reporter in 293Fz4 cells .	[]		p74	Supporting Information	FALSE	result	47128	47182	
+476	s275	Wnt5a-mediated inhibition is enhanced	[]		p74	Supporting Information	FALSE	result	47183	47220	
+477	s275	when mRor2 is stably expressed .	[]		p74	Supporting Information	FALSE	result	47221	47252	
+478	s276	"At 24 h post-transfection , 293 , 293Fz4 , and 293Ror2 cells were treated with Wnt proteins for the indicated time points ."	[]		p74	Supporting Information	FALSE	method	47253	47372	
+479	s277	Data are represented as relative light units ( RLUs ) +/ - SD rather than as average fold change .	[]		p74	Supporting Information	FALSE	method	47373	47467	
+480	s278	( 140 KB PDF )	[]		p75	Supporting Information	FALSE	none	47468	47480	
+481	s279	Click here for additional data file .	[]		p76	Supporting Information	FALSE	none	47481	47517	

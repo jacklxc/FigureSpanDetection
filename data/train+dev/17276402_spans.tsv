@@ -1,0 +1,148 @@
+	SentenceId	Clause Text	Codes	ExperimentValues	Paragraph	Headings	FloatingBox?	Discourse Type	Offset_Begin	Offset_End	fig_spans	
+0	s1	AMP-activated protein kinase mediates VEGF-stimulated endothelial NO production	[]		-		FALSE	fact	177	256		
+1	s2	Vascular endothelial growth factor ( VEGF ) is an important regulator of endothelial cell function .	[]		p3		FALSE	fact	845	942		
+2	s3	"VEGF stimulates NO production , proposed to be a result of phosphorylation and activation of endothelial NO synthase ( eNOS ) at Ser1177 ."	[]		p3		FALSE	hypothesis	943	1077		
+3	s4	Phosphorylation of eNOS at this site also occurs after activation of AMP-activated protein kinase ( AMPK ) in cultured endothelial cells .	[]		p3		FALSE	hypothesis	1078	1213		
+4	s5	We therefore determined	[]		p3		FALSE	goal	1214	1237		
+5	s5	whether AMPK mediates VEGF-stimulated NO synthesis in endothelial cells .	[]		p3		FALSE	goal	1238	1310		
+6	s6	"VEGF caused a rapid , dose-dependent stimulation of AMPK activity , with a concomitant increase in phosphorylation of eNOS at Ser1177 ."	[]		p3		FALSE	result	1311	1443		
+7	s7	Infection of endothelial cells with an adenovirus expressing a dominant negative mutant AMPK partially inhibited both VEGF-stimulated eNOS Ser1177 phosphorylation and NO production .	[]		p3		FALSE	result	1444	1625		
+8	s8	"VEGF-stimulated AMPK activity was completely inhibited by the Ca2+/calmodulin-dependent protein kinase kinase inhibitor , STO-609 ."	[]		p3		FALSE	result	1626	1755		
+9	s9	Stimulation of AMPK via Ca2+/calmodulin-dependent protein kinase kinase represents	[]		p3		FALSE	result	1756	1838		
+10	s9	a novel signalling mechanism utilised by VEGF in endothelial cells that contributes to eNOS phosphorylation and NO production .	[]		p3		FALSE	implication	1839	1965		
+11	s10	"VEGF is a key regulator of angiogenesis , stimulating differentiation , survival , migration , proliferation , and vascular permeability of endothelial cells [ 1,2 ] ."	[exLink]		p5		FALSE	fact	2064	2223		
+12	s11	"VEGF binds to VEGF receptor tyrosine kinases ,"	[]		p5		FALSE	fact	2224	2269		
+13	s11	"which have been demonstrated to stimulate a diverse array of signalling pathways , including phospholipase C ( PLC ) -gamma , phosphatidylinositol 3'-kinase ( PI3K ) , and Src [ 1,2 ] ."	[exLink]		p5		FALSE	fact	2270	2444		
+14	s12	"VEGF rapidly stimulates endothelial NO synthesis [ 3-5 ] , proposed to be the result of PI3K-mediated activation of protein kinase B ( PKB , also known as Akt ) ,"	[exLink]		p6		FALSE	fact	2445	2600		
+15	s12	"which directly phosphorylates and activates eNOS at Ser1177 [ 4,6 ] ."	[exLink]		p6		FALSE	fact	2601	2667		
+16	s13	"However , VEGF-stimulated NO production has been reported to be only partially inhibited by wortmannin ,"	[]		p6		FALSE	result	2668	2770		
+17	s13	"suggesting that VEGF-stimulated NO production is mediated by both PI3K/PKB and a PI3K-independent kinase [ 3,5,7 ] ."	[exLink]		p6		FALSE	implication	2771	2884		
+18	s14	"In addition to PKB , AMPK has been shown"	[]		p7		FALSE	result	2885	2924		
+19	s14	"to phosphorylate and activate eNOS at Ser1177 in cultured endothelial cells [ 8,9 ] ."	[exLink]		p7		FALSE	result	2925	3007		
+20	s15	"AMPK is activated by phosphorylation at Thr172 by at least two recently characterised upstream kinases , LKB1 and Ca2+/calmodulin-dependent protein kinase kinase ( CaMKK ) , especially the beta isoform [ 10-13 ] ."	[exLink]		p7		FALSE	result	3008	3214		
+21	s16	It has been proposed that the phosphorylation of AMPK by LKB1 is triggered by metabolic stresses that increase the intracellular AMP	[]		p7		FALSE	hypothesis	3215	3347		
+22	s16	"ATP ratio [ 10,11 ] , while phosphorylation and activation of AMPK by CaMKK is Ca2+-dependent and independent of changes in cellular AMP [ 11-13 ] ."	[exLink]		p7		FALSE	hypothesis	3348	3490		
+23	s17	"A key role of AMPK in the mediation of eNOS phosphorylation has been demonstrated in response to hypoxia , metformin , adiponectin , and shear stress"	[]		p7		FALSE	result	3491	3637		
+24	s17	"[ 9,14-17 ] ."	[exLink]		p7		FALSE	result	3638	3648		
+25	s18	"In addition , AMPK has been proposed"	[]		p7		FALSE	hypothesis	3649	3684		
+26	s18	"to mediate angiogenesis stimulated by adiponectin and hypoxia [ 15,18 ] ."	[exLink]		p7		FALSE	hypothesis	3685	3755		
+27	s19	"AMPK , therefore , represents a candidate PI3K-independent kinase"	[]		p7		FALSE	hypothesis	3756	3819		
+28	s19	that underlies VEGF-stimulated eNOS phosphorylation .	[]		p7		FALSE	hypothesis	3820	3872		
+29	s20	"In this study , we have investigated"	[]		p7		FALSE	hypothesis	3873	3908		
+30	s20	"whether VEGF-stimulated NO production is mediated , in part , by AMPK in cultured human aortic endothelial cells ( HAECs ) ."	[]		p7		FALSE	hypothesis	3909	4028		
+31	s21	Methods	[header-0]		title8	Methods	FALSE	none	4029	4036		
+32	s22	Materials .	[]		p9	Methods	FALSE	none	4037	4047		
+33	s23	"HAECs and endothelial cell culture media were obtained from TCS Cellworks ( Botolph Claydon , Bucks , UK ) ."	[]		p9	Methods	FALSE	method	4048	4151		
+34	s24	"VEGF165 and U73122 were supplied by Sigma ( Poole , Dorset , UK ) ."	[]		p9	Methods	FALSE	method	4152	4214		
+35	s25	"STO-609 was from Tocris ( Ellisville , MO , USA ) ."	[]		p9	Methods	FALSE	method	4215	4261		
+36	s26	"PP1 was a generous gift from Prof. G. Milligan , University of Glasgow , UK Rabbit anti-acetyl CoA carboxylase ( ACC ) and anti-phospho-ACC Ser79 ( rat ACC1 sequence )"	[]		p9	Methods	FALSE	method	4262	4423		
+37	s26	"antibodies were supplied by Upstate ( Lake Placid NY , USA ) ."	[]		p9	Methods	FALSE	method	4424	4482		
+38	s27	"Goat anti-CaMKKalpha and mouse anti-CaMKKbeta antibodies were supplied by Santa Cruz Biotechnology ( Heidelberg , Germany ) ."	[]		p9	Methods	FALSE	method	4483	4604		
+39	s28	"Rabbit anti-phospho-AMPK Thr172 antibodies were obtained from Cell Signaling Technology ( Beverly MA , USA ) ."	[]		p9	Methods	FALSE	method	4605	4711		
+40	s29	"SAMS peptide ( HMRSAMSGLHLVKRR ) was synthesised by Pepceuticals Ltd. ( Nottingham , UK ) ."	[]		p9	Methods	FALSE	method	4712	4797		
+41	s30	All other reagents were from sources described previously	[]		p9	Methods	FALSE	method	4798	4855		
+42	s30	[ 9 ] .	[exLink]		p9	Methods	FALSE	method	4856	4860		
+43	s31	Cell culture .	[]		p10	Methods	FALSE	none	4861	4874		
+44	s32	HAECs were grown in large vessel endothelial cell medium at 37 degreesC in 5 % CO2 and used for experiments between passages 3 and 6 .	[]		p10	Methods	FALSE	method	4875	5007		
+45	s33	Preparation of cell lysates and AMPK assay .	[]		p11	Methods	FALSE	method	5008	5051		
+46	s34	"Cells were preincubated for 2 h at 37 degreesC in 5 ml Krebs Ringer Hepes ( KRH ) buffer ( 119 mM NaCl , 20 mM Hepes , pH 7.4 , 5 mM NaHCO3 , 4.7 mM KCl , 1.3 mM CaCl2 , 1.2 mM MgSO4 , 1 mM KH2PO4 , 0.1 mM l-arginine , 5 mM glucose ) ."	[]		p11	Methods	FALSE	method	5052	5273		
+47	s35	"After addition of test substances for various durations , lysates were prepared , AMPK was immunoprecipitated and assayed"	[]		p11	Methods	FALSE	method	5274	5393		
+48	s35	using the SAMS substrate peptide as described previously [ 9 ] .	[exLink]		p11	Methods	FALSE	method	5394	5455		
+49	s36	Adenoviruses and infection of HAECs .	[]		p12	Methods	FALSE	none	5456	5492		
+50	s37	Control ( Ad.Null ) and recombinant adenovirus	[]		p12	Methods	FALSE	method	5493	5537		
+51	s37	"expressing dominant negative AMPK ( Ad.alpha1DN ) were generous gifts from Dr. F. Foufelle , Centre Biomedical des Cordeliers , Paris ."	[]		p12	Methods	FALSE	method	5538	5668		
+52	s38	"Viruses were propagated , purified , and stored"	[]		p12	Methods	FALSE	method	5669	5714		
+53	s38	as described previously [ 9 ] .	[exLink]		p12	Methods	FALSE	method	5715	5743		
+54	s39	HAECs were infected with 25 Pfu/cell adenovirus and cultured for 24 h prior to experimentation .	[]		p12	Methods	FALSE	method	5744	5839		
+55	s40	"Within 24 h of infection with a GFP-expressing virus , the majority ( > 95 % ) of HAECs expressed"	[]		p12	Methods	FALSE	result	5840	5932		
+56	s40	GFP as previously described [ 9 ] .	[exLink]		p12	Methods	FALSE	result	5933	5965		
+57	s41	Assay of NO production in endothelial cells .	[]		p13	Methods	FALSE	method	5966	6010		
+58	s42	Cells cultured in 6-well plates were preincubated for 2 h at 37 degreesC in 0.5 ml/well KRH buffer at 37 degreesC .	[]		p13	Methods	FALSE	method	6011	6125		
+59	s43	"The medium was removed and replaced with 0.4 ml fresh KRH buffer in the presence or absence of VEGF ( 10 ng/ml ) , wortmannin ( 100 nM ) and/or l-NAME ( 1 mM ) for 15 min ."	[]		p13	Methods	FALSE	method	6126	6290		
+60	s44	"The medium was removed , NO-specific chemiluminescence was analysed and"	[]		p13	Methods	FALSE	method	6291	6361		
+61	s44	l-NAME-sensitive NO production calculated as described previously [ 9 ] .	[exLink]		p13	Methods	FALSE	method	6362	6432		
+62	s45	Immunoprecipitation of CaMKKbeta .	[]		p14	Methods	FALSE	method	6433	6466		
+63	s46	HAEC lysates ( 100 mug ) were added to 0.5 mug mouse anti-CaMKKbeta antibody and mixed overnight at 4 degreesC .	[]		p14	Methods	FALSE	method	6467	6576		
+64	s47	Protein G-Sepharose ( 20 mul of 25 % slurry ) was added	[]		p14	Methods	FALSE	method	6577	6629		
+65	s47	the volume adjusted to 300 mul with lysis buffer and mixed for 4 h at 4 degreesC .	[]		p14	Methods	FALSE	method	6630	6712		
+66	s48	"The mixture was centrifuged ( 14,000g , 30 s , 4 degreesC )"	[]		p14	Methods	FALSE	method	6713	6768		
+67	s48	and the pellet was washed three times in lysis buffer .	[]		p14	Methods	FALSE	method	6769	6823		
+68	s49	Statistics .	[]		p15	Methods	FALSE	none	6824	6835		
+69	s50	Unless stated otherwise	[]		p15	Methods	FALSE	method	6836	6859		
+70	s50	results are expressed as means +/ - SD .	[]		p15	Methods	FALSE	method	6860	6899		
+71	s51	"Statistically significant differences were determined using a Student 's t-test ,"	[]		p15	Methods	FALSE	method	6900	6979		
+72	s51	using p < 0.05 as significant using Statview software .	[]		p15	Methods	FALSE	method	6980	7034		
+73	s52	Results and discussion	[header-0]		title16	Results and discussion	FALSE	none	7035	7057		
+74	s53	To investigate whether AMPK mediates VEGF-stimulated NO synthesis	[]		p17	Results and discussion	FALSE	goal	7058	7123		
+75	s53	we first determined the effects of physiological concentrations of VEGF on AMPK activity and eNOS Ser1177 phosphorylation in HAECs .	[]		p17	Results and discussion	FALSE	method	7124	7256		
+76	s54	"VEGF ( 10 ng/ml ) elicited a transient , concomitant activation of AMPK and eNOS phosphorylation at Ser1177 ,"	[]		p17	Results and discussion	FALSE	result	7257	7362		
+77	s54	"which reached a maximum 2.8 - and 3.6-fold stimulation , respectively , after 5 min ."	[]		p17	Results and discussion	FALSE	result	7363	7444		
+78	s55	Both AMPK activity and eNOS phosphorylation rapidly returned to basal levels ( Fig. 1A ) .	[inLink]	f1a	p17	Results and discussion	FALSE	result	7445	7532	f1a	
+79	s56	"In addition , activation of AMPK and phosphorylation of eNOS at Ser1177 by VEGF shared"	[]		p17	Results and discussion	FALSE	result	7533	7618	f1b	
+80	s56	"a similar dose-dependence , such that AMPK activity and eNOS Ser1177 phosphorylation were stimulated maximally ( 2.5 - and 3.6-fold , respectively ) by 10 ng/ml VEGF , a concentration at which all further experiments were performed ( Fig. 1B ) ."	[inLink]	f1b	p17	Results and discussion	FALSE	result	7619	7855	f1b	
+81	s57	Previous studies have reported	[]		p17	Results and discussion	FALSE	result	7856	7886		
+82	s57	"that stimulation of human umbilical vein endothelial cells ( HUVECs ) with VEGF for 6 h or bovine aortic endothelial cells ( BAECs ) with VEGF for 10 min was without effect on phosphorylation of AMPK at Thr172 [ 15,19 ] ."	[exLink]		p17	Results and discussion	FALSE	result	7887	8101		
+83	s58	These studies are in agreement with the present study	[]		p17	Results and discussion	FALSE	result	8102	8155		
+84	s58	in which VEGF-stimulated AMPK activity peaked after 5 min incubation and returned to basal values within 15 min .	[]		p17	Results and discussion	FALSE	result	8156	8268		
+85	s59	"PI3K , PLC , and c-Src are known effectors of VEGF signalling in endothelial cells and"	[]		p18	Results and discussion	FALSE	fact	8269	8353		
+86	s59	"previous studies have suggested that AMPK stimulation is downstream of PI3K and c-Src activation in peroxynitrite - and metformin-treated BAECs [ 16,19 ] ."	[exLink]		p18	Results and discussion	FALSE	implication	8354	8505		
+87	s60	"In the current study , inhibition of either PI3K or c-Src had no effect on VEGF-stimulated AMPK activity in HAECs ,"	[]		p18	Results and discussion	FALSE	result	8506	8619	f2a	
+88	s60	suggesting that neither PI3K nor c-Src mediate VEGF-stimulated AMPK activation ( Fig. 2A ) .	[inLink]	f2a	p18	Results and discussion	FALSE	implication	8620	8709	f2a	
+89	s61	"Preincubation with U73122 completely inhibited VEGF-stimulated AMPK activity ( Fig. 2 ) ,"	[inLink]	f2	p18	Results and discussion	FALSE	result	8710	8796	f2	
+90	s61	suggesting that VEGF stimulates AMPK in a PLC-dependent manner .	[]		p18	Results and discussion	FALSE	implication	8797	8860	f2	
+91	s62	"Similarly , histamine has previously been reported to activate AMPK in HUVECs in a PI3K-independent , PLC-dependent manner [ 20 ] ."	[exLink]		p18	Results and discussion	FALSE	result	8861	8987		
+92	s63	It is now apparent	[]		p19	Results and discussion	FALSE	result	8988	9006		
+93	s63	that CaMKKbeta can act as an alternate upstream kinase to LKB1 that activates AMPK in a Ca2+-dependent and AMP-independent manner [ 11-13 ] .	[exLink]		p19	Results and discussion	FALSE	result	9007	9145		
+94	s64	A recent report indicates	[]		p19	Results and discussion	FALSE	result	9146	9171		
+95	s64	"that CaMKK mediates thrombin-stimulated AMPK activation in HUVECs , but that AMPK does not underlie thrombin-stimulated eNOS Ser1177 phosphorylation [ 21 ] ."	[exLink]		p19	Results and discussion	FALSE	result	9172	9325		
+96	s65	"As VEGF is known to stimulate PLCgamma-mediated increases in intracellular Ca2+ [ 3,22 ] and VEGF-stimulated AMPK activity is inhibited by the PLC inhibitor U73122 ( Fig. 2A )"	"[inLink, exLink]"	f2a	p19	Results and discussion	FALSE	fact	9326	9497	f2a	
+97	s65	"we examined whether VEGF-stimulated AMPK activity was mediated by CaMKK activation by using the CaMKK inhibitor , STO-609 ."	[]		p19	Results and discussion	FALSE	method	9498	9620	f2a	
+98	s66	"Preincubation of HAECs with STO-609 reduced VEGF-stimulated AMPK activity to basal levels ( Fig. 2A ) , without"	[inLink]	f2a	p19	Results and discussion	FALSE	result	9621	9729	f2a	
+99	s66	"altering AICAR-stimulated AMPK activity , which is mediated by LKB1 ( data not shown ) ."	[]		p19	Results and discussion	FALSE	result	9730	9814	f2a	
+100	s67	VEGF-stimulated AMPK Thr172 phosphorylation was similarly reduced to basal levels after preincubation with STO-609 ( Fig. 2B ) .	[inLink]	f2b	p19	Results and discussion	FALSE	result	9815	9940	f2b	
+101	s68	"STO-609 inhibits both CaMKKalpha and CaMKKbeta , yet"	[]		p19	Results and discussion	FALSE	fact	9941	9992	f2b	
+102	s68	the expression of these isoforms in endothelial cells has not previously been determined .	[]		p19	Results and discussion	FALSE	hypothesis	9993	10082	f2b	
+103	s69	Using isoform-specific anti-CaMKK antibodies	[]		p19	Results and discussion	FALSE	method	10083	10127	f2c	
+104	s69	we demonstrated expression of both CaMKKalpha and CaMKKbeta in HAECs ( Fig. 2C ) .	[inLink]	f2c	p19	Results and discussion	FALSE	method	10128	10208	f2c	
+105	s70	These data indicate	[]		p19	Results and discussion	FALSE	implication	10209	10228		
+106	s70	"that VEGF stimulates CaMKK via PLC-mediated Ca2+ mobilisation , and that CaMKK , rather than LKB1 is the upstream kinase responsible for AMPK activation in response to VEGF in endothelial cells ."	[]		p19	Results and discussion	FALSE	implication	10229	10421		
+107	s71	To determine the functional effects of VEGF-stimulated AMPK activity	[]		p20	Results and discussion	FALSE	goal	10422	10490		
+108	s71	we investigated the role of AMPK in VEGF-stimulated eNOS phosphorylation and NO production .	[]		p20	Results and discussion	FALSE	method	10491	10583		
+109	s72	"Previous studies have proposed that VEGF-stimulated eNOS phosphorylation at Ser1177 is mediated by PKB [ 5,6 ] , yet complete inhibition of PKB with the PI3K inhibitor"	[exLink]		p20	Results and discussion	FALSE	result	10584	10748		
+110	s72	"wortmannin only partially inhibited VEGF-stimulated NO production [ 3,5,7 ] ."	[exLink]		p20	Results and discussion	FALSE	result	10749	10824		
+111	s73	"In agreement with this , preincubation of HAECs with the PI3K inhibitor wortmannin incompletely but significantly reduced VEGF-stimulated NO production by ~65 % ( Fig. 3 ) at a concentration"	[inLink]	f3	p20	Results and discussion	FALSE	result	10825	11011	f3	
+112	s73	that completely inhibited phosphorylation of PKB at Ser473 ( data not shown ) .	[]		p20	Results and discussion	FALSE	result	11012	11088	f3	
+113	s74	These data suggest	[]		p20	Results and discussion	FALSE	implication	11089	11107	f3	
+114	s74	that both PI3K/PKB and a PI3K-independent kinase mediate VEGF-stimulated NO production .	[]		p20	Results and discussion	FALSE	implication	11108	11195	f3	
+115	s75	Infection of HAECs with Ad.alpha1DN caused a significant ( ~40 % ) reduction in VEGF-stimulated NO production ( Fig. 3 ) .	[inLink]	f3	p20	Results and discussion	FALSE	result	11196	11312	f3	
+116	s76	"In the presence of wortmannin , infection with Ad.alpha1DN significantly reduced VEGF-stimulated NO production to basal levels ."	[]		p20	Results and discussion	FALSE	result	11313	11439	f3	
+117	s77	Quantification of eNOS phosphorylation status in Ad.alpha1DN-infected cells revealed	[]		p20	Results and discussion	FALSE	result	11440	11524	f4	
+118	s77	VEGF-stimulated phosphorylation at Ser1177 was significantly reduced by approximately 70 % ( Fig. 4 ) .	[inLink]	f4	p20	Results and discussion	FALSE	result	11525	11624	f4	
+119	s78	ACC is phosphorylated by AMPK at Ser80 in ACC1 and Ser220 in ACC2 ( human sequence ) .	[]		p21	Results and discussion	FALSE	fact	11625	11708	f4	
+120	s79	"Using an antibody that recognises both phosphorylated species , we demonstrated that VEGF stimulates phosphorylation of ACC"	[]		p21	Results and discussion	FALSE	result	11709	11831	f4	
+121	s79	an effect completely inhibited in HAECs infected with Ad.alpha1DN ( Fig. 4 ) .	[inLink]	f4	p21	Results and discussion	FALSE	result	11832	11908	f4	
+122	s80	These data indicate	[]		p21	Results and discussion	FALSE	result	11909	11928	f4	
+123	s80	that infection with Ad.alpha1DN completely inhibits VEGF-stimulated AMPK activity .	[]		p21	Results and discussion	FALSE	result	11929	12011	f4	
+124	s81	We were unable	[]		p21	Results and discussion	FALSE	result	12012	12026	f4	
+125	s81	"to distinguish whether the band represented ACC1 , ACC2 or both ."	[]		p21	Results and discussion	FALSE	result	12027	12090	f4	
+126	s82	Inhibition of ACC1/ACC2 by phosphorylation at Ser80/Ser221 has been demonstrated	[]		p21	Results and discussion	FALSE	result	12091	12171		
+127	s82	to inhibit fatty acid synthesis in adipose tissue and liver whilst stimulating fatty acid oxidation in heart and skeletal muscle [ 11 ] .	[exLink]		p21	Results and discussion	FALSE	result	12172	12306		
+128	s83	"Activation of AMPK with AICAR has been shown to stimulate fatty acid oxidation in HUVECs [ 23 ] , so"	[exLink]		p21	Results and discussion	FALSE	result	12307	12404		
+129	s83	it remains possible that VEGF transiently stimulates fatty acid oxidation due to AMPK-mediated phosphorylation of ACC .	[]		p21	Results and discussion	FALSE	hypothesis	12405	12523		
+130	s84	"Inhibition of VEGF-stimulated eNOS Ser1177 phosphorylation has previously been reported in HUVECs infected with adenoviruses expressing either dominant negative PKB or dominant negative AMPK under conditions of hypoxia ,"	[]		p22	Results and discussion	FALSE	result	12524	12743		
+131	s84	"while under normoxic conditions , dominant negative AMPK was without any effect [ 15 ] ."	[exLink]		p22	Results and discussion	FALSE	result	12744	12828		
+132	s85	"In contrast , we have demonstrated"	[]		p22	Results and discussion	FALSE	result	12829	12862	f3|f4	
+133	s85	that AMPK contributes to VEGF-stimulated eNOS phosphorylation and NO production under normoxic conditions ( Figs. 3 and 4 ) .	[inLink]	f3|f4	p22	Results and discussion	FALSE	result	12863	12985	f3|f4	
+134	s86	"Given the effects of wortmannin and Ad.alpha1DN , we propose"	[]		p22	Results and discussion	FALSE	hypothesis	12986	13045		
+135	s86	that VEGF stimulates both PKB and AMPK-mediated phosphorylation of eNOS at Ser1177 under normoxic conditions .	[]		p22	Results and discussion	FALSE	hypothesis	13046	13155		
+136	s87	"Similarly , both PKB and AMPK-mediated phosphorylation of eNOS at Ser1177 has previously been suggested"	[]		p22	Results and discussion	FALSE	hypothesis	13156	13258		
+137	s87	to occur in response to adiponectin in HUVECs [ 18 ] .	[exLink]		p22	Results and discussion	FALSE	hypothesis	13259	13310		
+138	s88	As incubation of HAECs with wortmannin does not alter AMPK activity	[]		p22	Results and discussion	FALSE	fact	13311	13378	f2	
+139	s88	AMPK does not act downstream of PI3K in the response to VEGF in HAECs ( Fig. 2 ) .	[inLink]	f2	p22	Results and discussion	FALSE	result	13379	13459		f2
+140	s89	"It remains possible that AMPK could act upstream of PKB in VEGF-stimulated eNOS phosphorylation , but"	[]		p22	Results and discussion	FALSE	hypothesis	13460	13560		
+141	s89	this seems unlikely because we have previously demonstrated that infection with Ad.alpha1DN does not alter PKB phosphorylation in HAECs [ 9 ] .	[exLink]		p22	Results and discussion	FALSE	implication	13561	13701		
+142	s90	"In conclusion , we have demonstrated for the first time"	[]		p23	Results and discussion	FALSE	implication	13702	13756		
+143	s90	that VEGF stimulates the transient activation of AMPK in cultured endothelial cells in a PLC - and CaMKK-dependent manner .	[]		p23	Results and discussion	FALSE	implication	13757	13878		
+144	s91	"AMPK , therefore , represents a novel component of VEGF signalling ."	[]		p23	Results and discussion	FALSE	implication	13879	13944		
+145	s92	"In addition , we propose"	[]		p23	Results and discussion	FALSE	hypothesis	13945	13968		
+146	s92	"that AMPK represents the PI3K-independent kinase that contributes , along with activated PKB to VEGF-stimulated eNOS Ser1177 phosphorylation and subsequent NO production ."	[]		p23	Results and discussion	FALSE	hypothesis	13969	14138		
